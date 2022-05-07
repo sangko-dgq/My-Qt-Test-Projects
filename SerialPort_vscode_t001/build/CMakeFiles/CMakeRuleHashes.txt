@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+8c12b5e6c8c0e30145ae7706ab9bc7a3 CMakeFiles/SerialPort_vscode_t001_autogen

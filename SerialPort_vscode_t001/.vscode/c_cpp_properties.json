@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:/Qt5/5.15.2/mingw81_64/include/QtSerialPort",
+                "D:/Qt5/5.15.2/mingw81_64/include/QtSerialPort",
+                "D:/Qt5/5.15.2/mingw81_64/include/QtSerialPort",
+                "D:/Qt5/5.15.2/mingw81_64/include/QtSerialPort"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "D:\\Qt5\\Tools\\mingw810_64\\bin\\gcc.exe",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "windows-gcc-x64",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}

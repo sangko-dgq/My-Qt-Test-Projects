@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "*.html": "html",
+        "*.c": "c",
+        "new": "cpp",
+        "qmainwindow": "cpp",
+        "qserialport": "cpp",
+        "qserialportinfo": "cpp",
+        "fstream": "cpp",
+        "*.tcc": "cpp"
+    }
+}
