@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ImageViewer</class>
+ <widget class="QMainWindow" name="ImageViewer">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>774</height>
+   </rect>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::DefaultContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>ImageViewer</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <property name="animated">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="imagePanel">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>1521</width>
+      <height>771</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="MainLogo" native="true">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>90</y>
+      <width>441</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="BasicLogo">
+     <item>
+      <widget class="QLabel" name="label_logo_2">
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/iconsA/images/icon_pack001/logo.png);
+background-repeat: no-repeat;
+background-position: center;
+background-color: rgba(0, 0, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_logo_text_2">
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 75 16pt &quot;Segoe Script&quot;;</string>
+       </property>
+       <property name="text">
+        <string>ImageView</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="openExternalLinks">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QTabWidget" name="SettingPanel">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>110</y>
+      <width>381</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Tab 1</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="Tab2">
+     <attribute name="title">
+      <string>Tab 2</string>
+     </attribute>
+     <layout class="QGridLayout" name="gridLayout_3">
+      <item row="0" column="0">
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_logo">
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="autoFillBackground">
+           <bool>false</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-image: url(:/iconsA/images/icon_pack001/logo.png);
+background-repeat: no-repeat;
+background-position: center;
+background-color: rgba(0, 0, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_logo_text">
+          <property name="autoFillBackground">
+           <bool>false</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 75 16pt &quot;Segoe Script&quot;;</string>
+          </property>
+          <property name="text">
+           <string>ImageView</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="openExternalLinks">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="label_version">
+          <property name="styleSheet">
+           <string notr="true">font: 25 9pt &quot;Fira Code Light&quot;;
+color: rgb(107, 107, 107);</string>
+          </property>
+          <property name="text">
+           <string>1.0_dev</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="1" column="0">
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="0" column="0">
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QLabel" name="label_2">
+            <property name="styleSheet">
+             <string notr="true">font: 9pt &quot;Fira Code&quot;;</string>
+            </property>
+            <property name="text">
+             <string>Theme</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="CBox_Theme">
+            <item>
+             <property name="text">
+              <string>Default</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>AquaStyle</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>ElegantDark</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="2" column="0">
+         <widget class="QPushButton" name="Btn_CheckUpdate">
+          <property name="styleSheet">
+           <string notr="true">
+font: 75 10pt &quot;Fira Code&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Check Update</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QLabel" name="label_3">
+            <property name="styleSheet">
+             <string notr="true">font: 9pt &quot;Fira Code&quot;;</string>
+            </property>
+            <property name="text">
+             <string>Language</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="CBox_Language">
+            <item>
+             <property name="text">
+              <string>English</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>简体中文</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="3" column="0">
+         <widget class="QDialogButtonBox" name="BBox_SaveSetting">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="standardButtons">
+           <set>QDialogButtonBox::Cancel|QDialogButtonBox::Save</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1024</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionopen"/>
+    <addaction name="actionclose"/>
+    <addaction name="separator"/>
+    <addaction name="actionedit"/>
+   </widget>
+   <widget class="QMenu" name="menuOperate">
+    <property name="title">
+     <string>Operate</string>
+    </property>
+    <addaction name="actionLast"/>
+    <addaction name="actionNext"/>
+    <addaction name="separator"/>
+    <addaction name="actionLeft"/>
+    <addaction name="actionRight"/>
+    <addaction name="separator"/>
+    <addaction name="actionZoom_In"/>
+    <addaction name="actionZoom_Out"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuOperate"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="acceptDrops">
+    <bool>false</bool>
+   </property>
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>LeftToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionopen"/>
+   <addaction name="actionclose"/>
+   <addaction name="separator"/>
+   <addaction name="actionLast"/>
+   <addaction name="actionNext"/>
+   <addaction name="actionLeft"/>
+   <addaction name="actionRight"/>
+   <addaction name="actionZoom_In"/>
+   <addaction name="actionZoom_Out"/>
+   <addaction name="separator"/>
+   <addaction name="actionAbout"/>
+   <addaction name="actionedit"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionopen">
+   <property name="icon">
+    <iconset resource="icons_basic.qrc">
+     <normaloff>:/iconsA/images/icon_pack001/add.png</normaloff>:/iconsA/images/icon_pack001/add.png</iconset>
+   </property>
+   <property name="text">
+    <string>open</string>
+   </property>
+  </action>
+  <action name="actionclose">
+   <property name="icon">
+    <iconset resource="icons_basic.qrc">
+     <normaloff>:/iconsA/images/icon_pack001/close.png</normaloff>:/iconsA/images/icon_pack001/close.png</iconset>
+   </property>
+   <property name="text">
+    <string>close</string>
+   </property>
+  </action>
+  <action name="actionedit">
+   <property name="icon">
+    <iconset resource="icons_basic.qrc">
+     <normaloff>:/iconsA/images/icon_pack001/exit.png</normaloff>:/iconsA/images/icon_pack001/exit.png</iconset>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionLast">
+   <property name="icon">
+    <iconset resource="icons_basic.qrc">
+     <normaloff>:/iconsA/images/icon_pack001/back.png</normaloff>:/iconsA/images/icon_pack001/back.png</iconset>
+   </property>
+   <property name="text">
+    <string>Last</string>
+   </property>
+  </action>
+  <action name="actionNext">
+   <property name="icon">
+    <iconset resource="icons_basic.qrc">
+     <normaloff>:/iconsA/images/icon_pack001/more.png</normaloff>:/iconsA/images/icon_pack001/more.png</iconset>
+   </property>
+   <property name="text">
+    <string>Next</string>
+   </property>
+  </action>
+  <action name="actionLeft">
+   <property name="icon">
+    <iconset resource="icons_basic.qrc">
+     <normaloff>:/iconsA/images/icon_pack001/TLeft.png</normaloff>:/iconsA/images/icon_pack001/TLeft.png</iconset>
+   </property>
+   <property name="text">
+    <string>Left</string>
+   </property>
+  </action>
+  <action name="actionRight">
+   <property name="icon">
+    <iconset resource="icons_basic.qrc">
+     <normaloff>:/iconsA/images/icon_pack001/TRight.png</normaloff>:/iconsA/images/icon_pack001/TRight.png</iconset>
+   </property>
+   <property name="text">
+    <string>Right</string>
+   </property>
+  </action>
+  <action name="actionZoom_In">
+   <property name="icon">
+    <iconset resource="icons_basic.qrc">
+     <normaloff>:/iconsA/images/icon_pack001/zoom_in.png</normaloff>:/iconsA/images/icon_pack001/zoom_in.png</iconset>
+   </property>
+   <property name="text">
+    <string>Zoom In</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+-</string>
+   </property>
+  </action>
+  <action name="actionZoom_Out">
+   <property name="icon">
+    <iconset resource="icons_basic.qrc">
+     <normaloff>:/iconsA/images/icon_pack001/zoom_out.png</normaloff>:/iconsA/images/icon_pack001/zoom_out.png</iconset>
+   </property>
+   <property name="text">
+    <string>Zoom Out</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+=</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="icon">
+    <iconset resource="icons_basic.qrc">
+     <normaloff>:/iconsA/images/icon_pack001/set.png</normaloff>:/iconsA/images/icon_pack001/set.png</iconset>
+   </property>
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="Btn_CheckUpdate_2">
+   <property name="text">
+    <string>CheckUpdate</string>
+   </property>
+   <property name="toolTip">
+    <string>检查更新</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="icons_basic.qrc"/>
+  <include location="theme/theme.qrc"/>
+ </resources>
+ <connections/>
+</ui>

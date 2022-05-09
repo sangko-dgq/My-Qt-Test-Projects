@@ -1,0 +1,12 @@
+# ninja log v5
+12	3040	6737245415627556	ImageViewer_autogen/timestamp	554b017aedf00467
+12	3040	6737245415627556	ImageViewer_autogen/mocs_compilation.cpp	554b017aedf00467
+12	3040	6737245415627556	C:/Users/22012/Desktop/Qt projects/build-ImageViewer-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/ImageViewer_autogen/timestamp	554b017aedf00467
+2840	2972	6737049212382262	C:/Users/22012/Desktop/Qt projects/build-ImageViewer-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/ImageViewer_autogen/EWIEGA46WW/qrc_icons_basic.cpp	708946f926854220
+3052	12524	6737245518725391	CMakeFiles/ImageViewer.dir/imageviewer.cpp.obj	f994810e1129ae4d
+12	3040	6737245415627556	C:/Users/22012/Desktop/Qt projects/build-ImageViewer-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/ImageViewer_autogen/mocs_compilation.cpp	554b017aedf00467
+3046	11635	6737245509653368	CMakeFiles/ImageViewer.dir/main.cpp.obj	db83e12fdb19b833
+12525	13361	6737245527301696	ImageViewer.exe	cf82823352dec84e
+3041	11647	6737245509957389	CMakeFiles/ImageViewer.dir/ImageViewer_autogen/mocs_compilation.cpp.obj	8ff65956fb2ca5c2
+2840	2972	6737049212382262	ImageViewer_autogen/EWIEGA46WW/qrc_icons_basic.cpp	708946f926854220
+2991	4223	6737049224850356	CMakeFiles/ImageViewer.dir/ImageViewer_autogen/EWIEGA46WW/qrc_icons_basic.cpp.obj	25c9479ed0fdd0

@@ -1,0 +1,3 @@
+D:\Qt5\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\ImageViewer.dir/objects.a
+D:\Qt5\Tools\mingw810_64\bin\ar.exe qc CMakeFiles\ImageViewer.dir/objects.a @CMakeFiles\ImageViewer.dir\objects1.rsp
+D:\Qt5\Tools\mingw810_64\bin\g++.exe -g -mwindows -Wl,--whole-archive CMakeFiles\ImageViewer.dir/objects.a -Wl,--no-whole-archive -o ImageViewer.exe -Wl,--out-implib,libImageViewer.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ImageViewer.dir\linklibs.rsp
