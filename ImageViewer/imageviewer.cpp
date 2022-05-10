@@ -136,7 +136,7 @@ void ImageViewer::mouseMoveEvent(QMouseEvent *event)
         //标签移动到当前鼠标位置,偏移到图像中心来拖移
         label_real_img->move(event->x() - pixmap.width() / 2, event->y() - pixmap.height() / 2);
         label_real_img->raise();
-        TBConnsle("[MousePt]" + QString::number(event->x()) + " * " +  QString::number(event->y()));
+        TBConnsle("[MousePt]" + QString::number(event->x()) + " * " + QString::number(event->y()));
     }
 }
 /*鼠标滚轮事件*/
@@ -505,7 +505,6 @@ void ImageViewer::on_actionZoom_In_triggered()
 {
     if (index == -1)
         return; //如果没打开文件就点击，则直接返回，不执行下面操作
-
     ZoomIn();
 }
 
@@ -514,7 +513,6 @@ void ImageViewer::on_actionZoom_Out_triggered()
 {
     if (index == -1)
         return; //如果没打开文件就点击，则直接返回，不执行下面操作
-
     ZoomOut();
 }
 
@@ -534,7 +532,8 @@ void ImageViewer::on_BBox_SaveSetting_accepted()
     QMessageBox::information(this, tr(""), tr("设置生效"));
     /*隐藏*/
     ui->SettingPanel->hide();
-    ui->MainLogo->show();
+    if (index == -1)
+        ui->MainLogo->show();
 
     /*激活其他操作*/
     ui->menubar->setEnabled(1);
@@ -546,7 +545,9 @@ void ImageViewer::on_BBox_SaveSetting_rejected()
 
     /*隐藏*/
     ui->SettingPanel->hide();
-    ui->MainLogo->show();
+
+    if (index == -1)
+        ui->MainLogo->show();
 
     /*激活其他操作*/
     ui->menubar->setEnabled(1);
