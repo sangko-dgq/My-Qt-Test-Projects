@@ -23,7 +23,6 @@
 /*屏幕*/
 #include <QScreen>
 
-
 QT_BEGIN_NAMESPACE
 namespace Ui
 {
@@ -72,7 +71,7 @@ private slots:
     void on_BBox_SaveSetting_accepted();
     void on_BBox_SaveSetting_rejected();
 
-    void on_pushButton_clicked();
+    void on_Btn_CheckUpdate_clicked();
 
     void on_CBox_Theme_currentIndexChanged(int index);
 
@@ -114,14 +113,14 @@ private:
     QAction *mAction_Reset;
 };
 
-
 //******************************************************** CommonHelper
 #include <QFile>
 #include <QApplication>
 class CommonHelper
 {
 public:
-    static void setStyle(const QString &style) {
+    static void setStyle(const QString &style)
+    {
         QFile qss(style);
         qss.open(QFile::ReadOnly);
         qApp->setStyleSheet(qss.readAll());

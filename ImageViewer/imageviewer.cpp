@@ -87,6 +87,7 @@ void ImageViewer::paintEvent(QPaintEvent *event)
 
     /*未打卡图片文件时候，默认显示的是软件LOGO,始终相对显示在imagePanel对象中心上*/
     ui->MainLogo->move(this->width() / 2 - 250, this->height() / 2 - 100);
+    
 }
 
 /*鼠标右键事件*/
@@ -164,7 +165,7 @@ int ImageViewer::loadImageResource(void)
     if (filename.isEmpty())
         return -1;
 
-    // image flie加载失败
+    // image file加载失败
     if (!image.load(filename))
     {
         //弹出错误消息框
@@ -274,9 +275,10 @@ void ImageViewer::on_actionopen_triggered()
     //基于size变量自适应显示
     label_real_img->resize(size);
     //程序窗口标替换题显示为-图片名字信息
-    setWindowTitle(QFileInfo(filename).fileName() + tr("-imageVivew"));
-    //隐藏主界面Lodo
+    setWindowTitle(QFileInfo(filename).fileName() + tr("-imageViewer"));
+    //隐藏主界面Logo
     ui->MainLogo->hide();
+
 }
 // Close
 void ImageViewer::on_actionclose_triggered()
@@ -289,7 +291,7 @@ void ImageViewer::on_actionclose_triggered()
     filename.clear();
     path.clear();
 
-    //显示主界面Lodo
+    //显示主界面
     ui->MainLogo->show();
 
     // // //读取资源文件中+号图片
@@ -459,6 +461,7 @@ void ImageViewer::on_actionAbout_triggered()
     ui->menubar->setEnabled(false);
     ui->toolBar->setEnabled(false);
 }
+
 void ImageViewer::on_BBox_SaveSetting_accepted()
 {
     QMessageBox::information(this, tr(""), tr("设置生效"));
@@ -483,7 +486,7 @@ void ImageViewer::on_BBox_SaveSetting_rejected()
     ui->toolBar->setEnabled(1);
 }
 
-void ImageViewer::on_pushButton_clicked()
+void ImageViewer::on_Btn_CheckUpdate_clicked()
 {
     QDesktopServices::openUrl(QUrl(QString("https://github.com/sangko-dgq/My-Qt-Test-Projects/releases/")));
 }

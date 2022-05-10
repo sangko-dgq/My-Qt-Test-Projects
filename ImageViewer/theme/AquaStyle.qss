@@ -135,7 +135,7 @@ QLineEdit {
 QLabel {
 	color: #000000;
 	/* background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgba(207, 209, 207, 255), stop:1 rgba(230, 229, 230, 255)); */
-    background-color: rgba(207, 209, 207, 255);
+    /* background-color: rgba(207, 209, 207, 255); */
 }
 
 QLCDNumber {
