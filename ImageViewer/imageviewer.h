@@ -42,8 +42,12 @@ protected:
     /*事件重写*/
     /*paintEvent*/
     void paintEvent(QPaintEvent *event) override;
-    /*鼠标事件*/
+    /*鼠标按下事件*/
     void mousePressEvent(QMouseEvent *event) override;
+    /*鼠标松开事件*/
+    void mouseReleaseEvent(QMouseEvent *) override;
+    /*鼠标移动事件*/
+    void mouseMoveEvent(QMouseEvent *event) override;
     //鼠标滚轮滚动
     void wheelEvent(QWheelEvent *event) override;
 
@@ -90,6 +94,8 @@ private:
 
     int GetScreenSize(int type);
 
+    void TBConnsle(QString Context);
+
     QLabel *label_real_img;
     int index;
     int angle;
@@ -111,6 +117,16 @@ private:
     QAction *mAction_CopyPath;
     QAction *mAction_SetBg;
     QAction *mAction_Reset;
+
+    /*窗口标题*/
+    const char *windowTitle = "imageX";
+    /*Console最大行数*/
+    int maxLine_Console = 100;
+
+    /*是否允许拖动图片*/
+    bool moveImageAvailable = false;
+
+    bool isCursorInObject(QWidget *widget);
 };
 
 //******************************************************** CommonHelper

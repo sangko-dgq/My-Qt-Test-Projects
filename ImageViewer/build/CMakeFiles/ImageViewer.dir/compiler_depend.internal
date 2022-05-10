@@ -728,6 +728,8 @@ CMakeFiles/ImageViewer.dir/imageviewer.cpp.obj
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qcombobox.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QDialogButtonBox
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qdialogbuttonbox.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QDockWidget
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qdockwidget.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QGridLayout
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgridlayout.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qlayout.h
@@ -750,6 +752,14 @@ CMakeFiles/ImageViewer.dir/imageviewer.cpp.obj
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qstatusbar.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QTabWidget
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtabwidget.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QTextBrowser
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtextbrowser.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtextedit.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtextdocument.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtextoption.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtextcursor.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtextformat.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpen.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QToolBar
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtoolbar.h
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QVBoxLayout

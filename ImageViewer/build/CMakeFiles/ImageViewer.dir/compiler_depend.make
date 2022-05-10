@@ -724,6 +724,8 @@ CMakeFiles/ImageViewer.dir/imageviewer.cpp.obj: ../imageviewer.cpp \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qcombobox.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QDialogButtonBox \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qdialogbuttonbox.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QDockWidget \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qdockwidget.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QGridLayout \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgridlayout.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qlayout.h \
@@ -746,6 +748,14 @@ CMakeFiles/ImageViewer.dir/imageviewer.cpp.obj: ../imageviewer.cpp \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qstatusbar.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QTabWidget \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtabwidget.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QTextBrowser \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtextbrowser.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtextedit.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtextdocument.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtextoption.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtextcursor.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtextformat.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpen.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QToolBar \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtoolbar.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QVBoxLayout \
@@ -1116,6 +1126,8 @@ D:/Qt5/Tools/mingw810_64/x86_64-w64-mingw32/include/swprintf.inl:
 
 ImageViewer_autogen/EWIEGA46WW/qrc_icons_basic.cpp:
 
+D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QDockWidget:
+
 D:/Qt5/Tools/mingw810_64/x86_64-w64-mingw32/include/process.h:
 
 D:/Qt5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_ptr.h:
@@ -1137,6 +1149,8 @@ D:/Qt5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic
 D:/Qt5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/memory:
 
 D:/Qt5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h:
+
+D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtextoption.h:
 
 D:/Qt5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_raw_storage_iter.h:
 
@@ -1548,6 +1562,8 @@ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qcolor.h:
 
 D:/Qt5/5.15.2/mingw81_64/include/QtCore/qatomic_cxx11.h:
 
+D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtextdocument.h:
+
 D:/Qt5/5.15.2/mingw81_64/include/QtCore/qgenericatomic.h:
 
 D:/Qt5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/atomic:
@@ -1581,6 +1597,8 @@ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qobject.h:
 D:/Qt5/5.15.2/mingw81_64/include/QtCore/qstring.h:
 
 D:/Qt5/5.15.2/mingw81_64/include/QtCore/qchar.h:
+
+D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtextbrowser.h:
 
 D:/Qt5/5.15.2/mingw81_64/include/QtCore/qbytearray.h:
 
@@ -1836,6 +1854,8 @@ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QComboBox:
 
 D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qcombobox.h:
 
+D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qdockwidget.h:
+
 D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qlayout.h:
 
 D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qboxlayout.h:
@@ -1855,6 +1875,16 @@ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qabstractbutton.h:
 D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QStatusBar:
 
 D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qstatusbar.h:
+
+D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QTextBrowser:
+
+D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtextedit.h:
+
+D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtextcursor.h:
+
+D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtextformat.h:
+
+D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpen.h:
 
 D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QToolBar:
 
