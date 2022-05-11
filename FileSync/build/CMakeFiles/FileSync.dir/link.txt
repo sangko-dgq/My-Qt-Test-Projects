@@ -1,0 +1,3 @@
+D:\Qt5\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\FileSync.dir/objects.a
+D:\Qt5\Tools\mingw810_64\bin\ar.exe qc CMakeFiles\FileSync.dir/objects.a @CMakeFiles\FileSync.dir\objects1.rsp
+D:\Qt5\Tools\mingw810_64\bin\g++.exe -g -mwindows -Wl,--whole-archive CMakeFiles\FileSync.dir/objects.a -Wl,--no-whole-archive -o FileSync.exe -Wl,--out-implib,libFileSync.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\FileSync.dir\linklibs.rsp

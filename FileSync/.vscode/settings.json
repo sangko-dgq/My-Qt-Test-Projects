@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.html": "html",
+        "*.c": "c",
+        "qfilesystemwatcher": "cpp",
+        "qwidget": "cpp"
+    }
+}

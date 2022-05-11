@@ -1,0 +1,4 @@
+C:/Users/22012/Desktop/Qt projects/FileSync/build/CMakeFiles/FileSync.dir
+C:/Users/22012/Desktop/Qt projects/FileSync/build/CMakeFiles/edit_cache.dir
+C:/Users/22012/Desktop/Qt projects/FileSync/build/CMakeFiles/rebuild_cache.dir
+C:/Users/22012/Desktop/Qt projects/FileSync/build/CMakeFiles/FileSync_autogen.dir
