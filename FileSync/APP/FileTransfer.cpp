@@ -39,7 +39,7 @@ void FileTransfer::sendFile(const QString &fileName)
     QDataStream stream(&dataSend, QIODevice::WriteOnly);
     stream << (quint32)0 << MsgTypeFile << dataFileContent;
     stream.device()->seek(0);
-    stream << dataSend.size(); 
+    stream << dataSend.size();
 
     tcpSocket.write(dataSend);
 }
