@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/22012/Desktop/Qt projects/FileSync/APP/FileTransfer.cpp" "CMakeFiles/FileSync.dir/APP/FileTransfer.cpp.obj" "gcc" "CMakeFiles/FileSync.dir/APP/FileTransfer.cpp.obj.d"
   "C:/Users/22012/Desktop/Qt projects/FileSync/APP/FileWatcher.cpp" "CMakeFiles/FileSync.dir/APP/FileWatcher.cpp.obj" "gcc" "CMakeFiles/FileSync.dir/APP/FileWatcher.cpp.obj.d"
   "C:/Users/22012/Desktop/Qt projects/FileSync/build/FileSync_autogen/mocs_compilation.cpp" "CMakeFiles/FileSync.dir/FileSync_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/FileSync.dir/FileSync_autogen/mocs_compilation.cpp.obj.d"
   "C:/Users/22012/Desktop/Qt projects/FileSync/filesync.cpp" "CMakeFiles/FileSync.dir/filesync.cpp.obj" "gcc" "CMakeFiles/FileSync.dir/filesync.cpp.obj.d"

@@ -28,7 +28,7 @@ public:
         FileSync->resize(800, 600);
         TBrwDebug = new QTextBrowser(FileSync);
         TBrwDebug->setObjectName(QString::fromUtf8("TBrwDebug"));
-        TBrwDebug->setGeometry(QRect(30, 40, 571, 501));
+        TBrwDebug->setGeometry(QRect(30, 40, 721, 501));
 
         retranslateUi(FileSync);
 

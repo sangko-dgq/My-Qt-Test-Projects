@@ -28,13 +28,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 47,
+				"line" : 48,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 53,
+				"line" : 54,
 				"parent" : 0
 			}
 		]
@@ -69,14 +69,14 @@
 			"includes" : 
 			[
 				{
-					"path" : "C:/Users/22012/Desktop/Qt projects/FileSync/build"
+					"path" : "C:/Users/22012/Desktop/Qt projects/build-FileSync-Desktop_Qt_5_15_2_MinGW_64_bit-Debug"
 				},
 				{
 					"path" : "C:/Users/22012/Desktop/Qt projects/FileSync"
 				},
 				{
 					"backtrace" : 0,
-					"path" : "C:/Users/22012/Desktop/Qt projects/FileSync/build/FileSync_autogen/include"
+					"path" : "C:/Users/22012/Desktop/Qt projects/build-FileSync-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/FileSync_autogen/include"
 				},
 				{
 					"backtrace" : 2,
@@ -123,7 +123,8 @@
 				0,
 				1,
 				2,
-				6
+				6,
+				8
 			]
 		}
 	],
@@ -132,6 +133,9 @@
 		{
 			"backtrace" : 0,
 			"id" : "FileSync_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "FileSync_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "FileSync::@6890427a1f51a3e7e1df",
@@ -187,7 +191,8 @@
 				0,
 				1,
 				2,
-				6
+				6,
+				8
 			]
 		},
 		{
@@ -196,14 +201,23 @@
 			[
 				3,
 				5,
-				7
+				7,
+				9
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				4
+				4,
+				10
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				11
 			]
 		}
 	],
@@ -213,7 +227,7 @@
 			"backtrace" : 0,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "build/FileSync_autogen/mocs_compilation.cpp",
+			"path" : "C:/Users/22012/Desktop/Qt projects/build-FileSync-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/FileSync_autogen/mocs_compilation.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -250,10 +264,33 @@
 			"sourceGroupIndex" : 0
 		},
 		{
+			"backtrace" : 1,
+			"path" : "APP/FileTransfer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "APP/FileTransfer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/FileSync_autogen/include/ui_filesync.h",
+			"path" : "C:/Users/22012/Desktop/Qt projects/build-FileSync-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/FileSync_autogen/include/ui_filesync.h",
 			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/22012/Desktop/Qt projects/build-FileSync-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/FileSync_autogen/timestamp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/22012/Desktop/Qt projects/build-FileSync-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/FileSync_autogen/timestamp.rule",
+			"sourceGroupIndex" : 3
 		}
 	],
 	"type" : "EXECUTABLE"

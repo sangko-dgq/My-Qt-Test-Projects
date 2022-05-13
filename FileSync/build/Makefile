@@ -141,6 +141,30 @@ FileSync_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileSync_autogen.dir\build.make CMakeFiles/FileSync_autogen.dir/build
 .PHONY : FileSync_autogen/fast
 
+APP/FileTransfer.obj: APP/FileTransfer.cpp.obj
+.PHONY : APP/FileTransfer.obj
+
+# target to build an object file
+APP/FileTransfer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileSync.dir\build.make CMakeFiles/FileSync.dir/APP/FileTransfer.cpp.obj
+.PHONY : APP/FileTransfer.cpp.obj
+
+APP/FileTransfer.i: APP/FileTransfer.cpp.i
+.PHONY : APP/FileTransfer.i
+
+# target to preprocess a source file
+APP/FileTransfer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileSync.dir\build.make CMakeFiles/FileSync.dir/APP/FileTransfer.cpp.i
+.PHONY : APP/FileTransfer.cpp.i
+
+APP/FileTransfer.s: APP/FileTransfer.cpp.s
+.PHONY : APP/FileTransfer.s
+
+# target to generate assembly for a file
+APP/FileTransfer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileSync.dir\build.make CMakeFiles/FileSync.dir/APP/FileTransfer.cpp.s
+.PHONY : APP/FileTransfer.cpp.s
+
 APP/FileWatcher.obj: APP/FileWatcher.cpp.obj
 .PHONY : APP/FileWatcher.obj
 
@@ -247,6 +271,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... FileSync_autogen
 	@echo ... FileSync
+	@echo ... APP/FileTransfer.obj
+	@echo ... APP/FileTransfer.i
+	@echo ... APP/FileTransfer.s
 	@echo ... APP/FileWatcher.obj
 	@echo ... APP/FileWatcher.i
 	@echo ... APP/FileWatcher.s

@@ -1,7 +1,13 @@
 C:/Users/22012/Desktop/Qt\ projects/FileSync/build/FileSync_autogen/EWIEGA46WW/moc_filesync.cpp: C:/Users/22012/Desktop/Qt\ projects/FileSync/filesync.h \
   C:/Users/22012/Desktop/Qt\ projects/FileSync/build/FileSync_autogen/moc_predefs.h \
+  C:/Users/22012/Desktop/Qt\ projects/FileSync/APP/FileTransfer.h \
   C:/Users/22012/Desktop/Qt\ projects/FileSync/APP/FileWatcher.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDataStream \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDebug \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDir \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QFile \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QFileSystemWatcher \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QIODevice \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QObject \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qalgorithms.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qarraydata.h \
@@ -15,7 +21,13 @@ C:/Users/22012/Desktop/Qt\ projects/FileSync/build/FileSync_autogen/EWIEGA46WW/m
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qconfig.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qcontainerfwd.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qcontainertools_impl.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qcontiguouscache.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdatastream.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdebug.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdir.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfile.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfiledevice.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfileinfo.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfilesystemwatcher.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qflags.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qgenericatomic.h \
@@ -27,7 +39,9 @@ C:/Users/22012/Desktop/Qt\ projects/FileSync/build/FileSync_autogen/EWIEGA46WW/m
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qiterator.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qline.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qlist.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qlocale.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qlogging.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qmap.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qmargins.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qmetatype.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qnamespace.h \
@@ -43,6 +57,7 @@ C:/Users/22012/Desktop/Qt\ projects/FileSync/build/FileSync_autogen/EWIEGA46WW/m
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qrefcount.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qregexp.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qscopedpointer.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qset.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qshareddata.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsharedpointer.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsharedpointer_impl.h \
@@ -56,7 +71,9 @@ C:/Users/22012/Desktop/Qt\ projects/FileSync/build/FileSync_autogen/EWIEGA46WW/m
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsysinfo.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsystemdetection.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qtcore-config.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qtextstream.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qtypeinfo.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qvariant.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qvarlengtharray.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qvector.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qversiontagging.h \
@@ -82,6 +99,11 @@ C:/Users/22012/Desktop/Qt\ projects/FileSync/build/FileSync_autogen/EWIEGA46WW/m
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtransform.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qwindowdefs.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qwindowdefs_win.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QTcpSocket \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qabstractsocket.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qtcpsocket.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qtnetwork-config.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qtnetworkglobal.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QWidget \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qsizepolicy.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtwidgets-config.h \

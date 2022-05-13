@@ -1,21 +1,12 @@
 # ninja log v5
-12	4653	6739701808556519	FileSync_autogen/timestamp	4f9b3e0b09e69fed
-12	4653	6739701808556519	FileSync_autogen/mocs_compilation.cpp	4f9b3e0b09e69fed
-12	4653	6739701808556519	C:/Users/22012/Desktop/Qt projects/build-FileSync-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/FileSync_autogen/timestamp	4f9b3e0b09e69fed
-12	4653	6739701808556519	C:/Users/22012/Desktop/Qt projects/build-FileSync-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/FileSync_autogen/mocs_compilation.cpp	4f9b3e0b09e69fed
-4655	12901	6739701892335001	CMakeFiles/FileSync.dir/FileSync_autogen/mocs_compilation.cpp.obj	74701611e3b893dc
-4676	13801	6739701903086619	CMakeFiles/FileSync.dir/main.cpp.obj	5101555c58da0d94
-4714	13806	6739701904531233	CMakeFiles/FileSync.dir/filesync.cpp.obj	191f339237685cd1
-13807	16124	6739701927636729	FileSync.exe	4e747479b66ca352
-4695	12646	6739701891216871	CMakeFiles/FileSync.dir/APP/FileWatcher.cpp.obj	7d481d566c7a5f3
+12	1261	6739955402696117	FileSync_autogen/timestamp	4f9b3e0b09e69fed
+12	1261	6739955402696117	FileSync_autogen/mocs_compilation.cpp	4f9b3e0b09e69fed
+12	1261	6739955402696117	C:/Users/22012/Desktop/Qt projects/build-FileSync-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/FileSync_autogen/timestamp	4f9b3e0b09e69fed
+12	1261	6739955402696117	C:/Users/22012/Desktop/Qt projects/build-FileSync-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/FileSync_autogen/mocs_compilation.cpp	4f9b3e0b09e69fed
+1281	5929	6739955450325616	CMakeFiles/FileSync.dir/FileSync_autogen/mocs_compilation.cpp.obj	74701611e3b893dc
+1262	6073	6739955452963922	CMakeFiles/FileSync.dir/main.cpp.obj	5101555c58da0d94
+1300	6442	6739955456780212	CMakeFiles/FileSync.dir/filesync.cpp.obj	191f339237685cd1
+6443	11243	6739955504710143	FileSync.exe	4e747479b66ca352
+1319	6067	6739955451846613	CMakeFiles/FileSync.dir/APP/FileWatcher.cpp.obj	7d481d566c7a5f3
 1	164	0	CMakeFiles/clean.additional	f279a598c276d379
 165	198	0	clean	19a65460d9e09457
-11	2021	6739707267426276	FileSync_autogen/timestamp	4f9b3e0b09e69fed
-11	2021	6739707267426276	FileSync_autogen/mocs_compilation.cpp	4f9b3e0b09e69fed
-11	2021	6739707267426276	C:/Users/22012/Desktop/Qt projects/build-FileSync-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/FileSync_autogen/timestamp	4f9b3e0b09e69fed
-11	2021	6739707267426276	C:/Users/22012/Desktop/Qt projects/build-FileSync-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/FileSync_autogen/mocs_compilation.cpp	4f9b3e0b09e69fed
-2040	9076	6739707337973172	CMakeFiles/FileSync.dir/FileSync_autogen/mocs_compilation.cpp.obj	74701611e3b893dc
-2061	9829	6739707342733346	CMakeFiles/FileSync.dir/APP/FileWatcher.cpp.obj	7d481d566c7a5f3
-2023	9872	6739707343024000	CMakeFiles/FileSync.dir/main.cpp.obj	5101555c58da0d94
-2079	10005	6739707350346942	CMakeFiles/FileSync.dir/filesync.cpp.obj	191f339237685cd1
-10006	11391	6739707364125477	FileSync.exe	4e747479b66ca352

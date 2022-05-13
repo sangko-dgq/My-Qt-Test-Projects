@@ -3,6 +3,9 @@
         "*.html": "html",
         "*.c": "c",
         "qfilesystemwatcher": "cpp",
-        "qwidget": "cpp"
+        "qwidget": "cpp",
+        "*.tcc": "cpp",
+        "string": "cpp",
+        "qdatastream": "cpp"
     }
 }

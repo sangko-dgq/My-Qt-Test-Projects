@@ -1,5 +1,6 @@
 C:/Users/22012/Desktop/Qt\ projects/FileSync/build/FileSync_autogen/JONLI6S3JH/moc_FileWatcher.cpp: C:/Users/22012/Desktop/Qt\ projects/FileSync/APP/FileWatcher.h \
   C:/Users/22012/Desktop/Qt\ projects/FileSync/build/FileSync_autogen/moc_predefs.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDir \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QFileSystemWatcher \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QObject \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qalgorithms.h \
@@ -14,12 +15,18 @@ C:/Users/22012/Desktop/Qt\ projects/FileSync/build/FileSync_autogen/JONLI6S3JH/m
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qconfig.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qcontainerfwd.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qcontainertools_impl.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdir.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfile.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfiledevice.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfileinfo.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfilesystemwatcher.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qflags.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qgenericatomic.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qglobal.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qglobalstatic.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qhash.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qhashfunctions.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qiodevice.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qiterator.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qlist.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qlogging.h \
@@ -35,6 +42,7 @@ C:/Users/22012/Desktop/Qt\ projects/FileSync/build/FileSync_autogen/JONLI6S3JH/m
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qrefcount.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qregexp.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qscopedpointer.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qshareddata.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qstring.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qstringalgorithms.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qstringlist.h \

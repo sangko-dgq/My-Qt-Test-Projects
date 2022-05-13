@@ -283,14 +283,37 @@ CMakeFiles/FileSync.dir/main.cpp.obj: \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qobject.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QFileSystemWatcher \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfilesystemwatcher.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDir \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdir.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfileinfo.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfile.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfiledevice.h \
+ C:\Users\22012\Desktop\Qt\ projects\FileSync\APP/FileTransfer.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QTcpSocket \
+ D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qtcpsocket.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qtnetworkglobal.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qtnetwork-config.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qabstractsocket.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdebug.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qmap.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qtextstream.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qlocale.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qvariant.h \
+ D:/Qt5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/variant \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qset.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qcontiguouscache.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/QIODevice \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qiodevice.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDataStream \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdatastream.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/QFile \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfile.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDebug \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdebug.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QApplication \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qapplication.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qcoreapplication.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qcoreevent.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qeventloop.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qguiapplication.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtGui/qinputmethod.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtCore/qlocale.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtCore/qvariant.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtCore/qmap.h \
- D:/Qt5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/variant
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qinputmethod.h

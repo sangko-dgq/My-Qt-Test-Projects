@@ -65,13 +65,25 @@
 		"D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake",
 		"D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
 		"D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
-		"D:/Qt5/Tools/CMake_64/share/cmake-3.21/Modules/CMakeParseArguments.cmake"
+		"D:/Qt5/Tools/CMake_64/share/cmake-3.21/Modules/CMakeParseArguments.cmake",
+		"D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5Config.cmake",
+		"D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake",
+		"D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake",
+		"D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "C:/Users/22012/Desktop/Qt projects/FileSync",
 	"DEP_FILE" : "C:/Users/22012/Desktop/Qt projects/build-FileSync-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/FileSync_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "FileSync_autogen/timestamp",
 	"HEADERS" : 
 	[
+		[
+			"C:/Users/22012/Desktop/Qt projects/FileSync/APP/FileTransfer.h",
+			"MU",
+			"JONLI6S3JH/moc_FileTransfer.cpp",
+			null
+		],
 		[
 			"C:/Users/22012/Desktop/Qt projects/FileSync/APP/FileWatcher.h",
 			"MU",
@@ -88,7 +100,7 @@
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "C:/Users/22012/Desktop/Qt projects/build-FileSync-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/FileSync_autogen/include",
 	"MOC_COMPILATION_FILE" : "C:/Users/22012/Desktop/Qt projects/build-FileSync-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/FileSync_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NETWORK_LIB", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -106,6 +118,7 @@
 		"D:/Qt5/5.15.2/mingw81_64/include/QtANGLE",
 		"D:/Qt5/5.15.2/mingw81_64/include/QtCore",
 		"D:/Qt5/5.15.2/mingw81_64/mkspecs/win32-g++",
+		"D:/Qt5/5.15.2/mingw81_64/include/QtNetwork",
 		"D:/Qt5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++",
 		"D:/Qt5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32",
 		"D:/Qt5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward",
@@ -137,6 +150,11 @@
 	"SETTINGS_FILE" : "C:/Users/22012/Desktop/Qt projects/build-FileSync-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/FileSync_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"C:/Users/22012/Desktop/Qt projects/FileSync/APP/FileTransfer.cpp",
+			"MU",
+			null
+		],
 		[
 			"C:/Users/22012/Desktop/Qt projects/FileSync/APP/FileWatcher.cpp",
 			"MU",

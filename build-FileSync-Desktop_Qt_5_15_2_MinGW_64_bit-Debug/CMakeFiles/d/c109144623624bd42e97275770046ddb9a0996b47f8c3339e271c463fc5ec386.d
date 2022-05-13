@@ -9,6 +9,7 @@ FileSync_autogen/timestamp: \
   CMakeFiles/3.21.1/CMakeRCCompiler.cmake \
   CMakeFiles/3.21.1/CMakeSystem.cmake \
   FileSync_autogen/moc_predefs.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDir \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QFileSystemWatcher \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QObject \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qalgorithms.h \
@@ -24,6 +25,10 @@ FileSync_autogen/timestamp: \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qcontainerfwd.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qcontainertools_impl.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdatastream.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdir.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfile.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfiledevice.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfileinfo.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfilesystemwatcher.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qflags.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qgenericatomic.h \

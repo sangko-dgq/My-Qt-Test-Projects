@@ -1,6 +1,6 @@
 /*
  * @FilePath: \FileSync\filesync.h
- * @Description: 
+ * @Description: UI窗口函数
  * @Author: MrDeng
  * @LastEditors: MrDeng
  */
@@ -8,8 +8,8 @@
 #define FILESYNC_H
 
 #include <QWidget>
-
 #include "APP/FileWatcher.h"
+#include "APP/FileTransfer.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui
@@ -28,10 +28,15 @@ public:
 
 private slots:
     void slot_DirectoryChanged(const QString &path);
-    void slot_FileChanged(const QString &path);
+    void slot_FileAdded(const QString &file);                              //增
+    void slot_FileRemoved(const QString &file);                            //文件删除
+    void slot_FileChanged(const QString &path);                            //目录下有改变
+    void slot_FileRenamed(const QString &oldName, const QString &newName); //重命名
 
 private:
     Ui::FileSync *ui;
+
     FileWatcher fileWatcher;
+    FileTransfer fileTransfer;
 };
 #endif // FILESYNC_H

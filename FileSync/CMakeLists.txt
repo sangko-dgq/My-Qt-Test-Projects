@@ -13,6 +13,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
+find_package(Qt5 COMPONENTS Network REQUIRED)
 
 set(PROJECT_SOURCES
         main.cpp
@@ -24,7 +25,8 @@ set(PROJECT_SOURCES
         APP/FileWatcher.h 
         APP/FileWatcher.cpp
 
-        
+        APP/FileTransfer.h 
+        APP/FileTransfer.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
@@ -50,7 +52,9 @@ else()
     endif()
 endif()
 
+
 target_link_libraries(FileSync PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+target_link_libraries(FileSync PRIVATE Qt${QT_VERSION_MAJOR}::Network)
 
 set_target_properties(FileSync PROPERTIES
     MACOSX_BUNDLE_GUI_IDENTIFIER my.example.com
@@ -63,3 +67,6 @@ set_target_properties(FileSync PROPERTIES
 if(QT_VERSION_MAJOR EQUAL 6)
     qt_finalize_executable(FileSync)
 endif()
+
+
+
