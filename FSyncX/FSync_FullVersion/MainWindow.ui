@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>FSyncX</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(170, 170, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="FileSync">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>300</y>
+      <width>191</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 9pt &quot;Fira Code&quot;;</string>
+    </property>
+    <property name="text">
+     <string>I'm FileSync-Client &gt;&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>350</y>
+      <width>191</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 9pt &quot;Fira Code&quot;;</string>
+    </property>
+    <property name="text">
+     <string>I'm FileBase-Server &gt;&gt;</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>140</y>
+      <width>272</width>
+      <height>133</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="LOGO_2">
+     <item row="0" column="0">
+      <widget class="QLabel" name="LOGO_T">
+       <property name="styleSheet">
+        <string notr="true">font: 64pt &quot;Ink Free&quot;;
+</string>
+       </property>
+       <property name="text">
+        <string>FSyncX</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="LOGO_S">
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Gabriola&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Root folder synchronization tool based on TCP</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuSettin">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <addaction name="actionHow_to_use"/>
+    <addaction name="actionAbout_FSyncx"/>
+    <addaction name="actionCheckUpdate"/>
+   </widget>
+   <addaction name="menuSettin"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionHow_to_use">
+   <property name="text">
+    <string>How to use?</string>
+   </property>
+  </action>
+  <action name="actionAbout_FSyncx">
+   <property name="text">
+    <string>About FSyncx?</string>
+   </property>
+  </action>
+  <action name="actionCheckUpdate">
+   <property name="text">
+    <string>CheckUpdate</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
