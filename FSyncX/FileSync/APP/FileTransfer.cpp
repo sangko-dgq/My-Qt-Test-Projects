@@ -18,6 +18,7 @@ FileTransfer::FileTransfer(QObject *parent)
 }
 
 //************************************************************************Meathods
+
 void FileTransfer::sendFile(const QString &fileName)
 {
     //读取文件内容

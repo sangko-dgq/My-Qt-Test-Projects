@@ -37,6 +37,9 @@ public:
     void sendRename(const QString &fileOld, const QString &fileNew);
 
 signals:
+    
+
+
 
 public slots:
 void slot_onReadyRead();
