@@ -1,3 +1,13 @@
+/*** 
+ * @Author: sangko-dgqq 2201225826@qq.com
+ * @Date: 2022-05-14 01:12:47
+ * @LastEditors: sangko-dgqq 2201225826@qq.com
+ * @LastEditTime: 2022-05-15 01:11:03
+ * @FilePath: \FileBase\APP\FileBase.h
+ * @Description:
+ * @
+ * @Copyright (c) 2022 by sangko-dgqq 2201225826@qq.com, All Rights Reserved. 
+ */
 /*
  * @FilePath: \FileBase\APP\FileBase.h
  * @Description:
@@ -47,8 +57,8 @@ private:
     QTcpServer server;
     QList<QTcpSocket *> clients;
 
-    qint64 imageIndex;
-    int sizePackLast;
+    int imageIndex;
+    quint32 sizePackLast;
 };
 
 #endif // FILEBASE_H

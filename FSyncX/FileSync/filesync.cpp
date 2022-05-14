@@ -15,7 +15,7 @@ FileSync::FileSync(QWidget *parent)
 {
     ui->setupUi(this);
 
-    fileWatcher.setWatchPath("C:\\Users\\22012\\Desktop\\Qt projects\\FSyncX\\FileSync\\WatchPath_Test");
+    fileWatcher.setWatchPath("C:\\Users\\22012\\Desktop\\Qt projects\\FSyncX\\FileSync\\SyncPath_Test");
     /*Singal - Slots*/
     connect(&fileWatcher,
             SIGNAL(singal_DirectoryChanged(const QString)),

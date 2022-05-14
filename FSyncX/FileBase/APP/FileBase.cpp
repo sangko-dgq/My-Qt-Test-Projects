@@ -1,5 +1,16 @@
+/*** 
+ * @Author: sangko-dgq 2201225826@qq.com
+ * @Date: 2022-05-14 01:12:47
+ * @LastEditors: sangko-dgqq 2201225826@qq.com
+ * @LastEditTime: 2022-05-15 01:01:49
+ * @FilePath: \FileBase\APP\FileBase.cpp
+ * @Description:  
+ * @
+ * @Copyright (c) 2022 by sangko-dgq 2201225826@qq.com, All Rights Reserved. 
+ */
 #include "FileBase.h"
 #include <QDebug>
+
 
 FileBase::FileBase(QObject *parent)
     : QObject{parent}

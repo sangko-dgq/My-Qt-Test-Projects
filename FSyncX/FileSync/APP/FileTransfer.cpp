@@ -72,6 +72,7 @@ void FileTransfer::sendRename(const QString &fileOld, const QString &fileNew)
 //************************************************************************SLOTS
 void FileTransfer::slot_onReadyRead()
 {
+    
 }
 
 void FileTransfer::slot_onConnected()

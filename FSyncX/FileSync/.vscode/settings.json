@@ -6,6 +6,7 @@
         "qwidget": "cpp",
         "*.tcc": "cpp",
         "string": "cpp",
-        "qdatastream": "cpp"
+        "qdatastream": "cpp",
+        "fstream": "cpp"
     }
 }

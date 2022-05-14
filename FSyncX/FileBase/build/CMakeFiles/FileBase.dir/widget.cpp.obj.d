@@ -301,7 +301,7 @@ CMakeFiles/FileBase.dir/widget.cpp.obj: \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qlist.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDataStream \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdatastream.h \
- C:/Users/22012/Desktop/Qt\ projects/FSyncX/FileBase/build/FileBase_autogen/include/ui_widget.h \
+ C:/Users/22012/Desktop/QTPROJ~1/FSyncX/FileBase/build/FILEBA~1/include/ui_widget.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QVariant \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qvariant.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QApplication \
@@ -325,4 +325,10 @@ CMakeFiles/FileBase.dir/widget.cpp.obj: \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpen.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QWidget \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDebug \
- D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdebug.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdebug.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/QFile \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfile.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfiledevice.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/QFileInfo \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfileinfo.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfile.h

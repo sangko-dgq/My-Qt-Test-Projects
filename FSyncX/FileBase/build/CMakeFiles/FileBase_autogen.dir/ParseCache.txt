@@ -245,6 +245,7 @@ C:/Users/22012/Desktop/Qt projects/FSyncX/FileBase/APP/FileBase.h
  mdp:D:/Qt5/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h
  mdp:D:/Qt5/Tools/mingw810_64/x86_64-w64-mingw32/include/wchar.h
  mdp:D:/Qt5/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h
+C:/Users/22012/Desktop/Qt projects/FSyncX/FileBase/main.cpp
 C:/Users/22012/Desktop/Qt projects/FSyncX/FileBase/widget.h
  mmc:Q_OBJECT
  mdp:C:/Users/22012/Desktop/Qt projects/FSyncX/FileBase/widget.h
@@ -524,7 +525,6 @@ C:/Users/22012/Desktop/Qt projects/FSyncX/FileBase/widget.h
  mdp:D:/Qt5/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h
  mdp:D:/Qt5/Tools/mingw810_64/x86_64-w64-mingw32/include/wchar.h
  mdp:D:/Qt5/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h
-C:/Users/22012/Desktop/Qt projects/FSyncX/FileBase/main.cpp
 C:/Users/22012/Desktop/Qt projects/FSyncX/FileBase/APP/FileBase.cpp
 C:/Users/22012/Desktop/Qt projects/FSyncX/FileBase/widget.cpp
  uic:./ui_widget.h

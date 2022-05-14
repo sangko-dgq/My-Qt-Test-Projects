@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_FileBase_t {
-    QByteArrayData data[17];
-    char stringdata0[226];
+    QByteArrayData data[18];
+    char stringdata0[243];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -42,22 +42,23 @@ QT_MOC_LITERAL(6, 47, 13), // "signal_Rename"
 QT_MOC_LITERAL(7, 61, 7), // "fileOld"
 QT_MOC_LITERAL(8, 69, 7), // "fileNew"
 QT_MOC_LITERAL(9, 77, 19), // "signal_ServerListen"
-QT_MOC_LITERAL(10, 97, 20), // "slot_onNewConnection"
-QT_MOC_LITERAL(11, 118, 16), // "slot_onReadyRead"
-QT_MOC_LITERAL(12, 135, 16), // "slot_onConnected"
-QT_MOC_LITERAL(13, 152, 19), // "slot_onDisconnected"
-QT_MOC_LITERAL(14, 172, 12), // "slot_onError"
-QT_MOC_LITERAL(15, 185, 28), // "QAbstractSocket::SocketError"
-QT_MOC_LITERAL(16, 214, 11) // "socketError"
+QT_MOC_LITERAL(10, 97, 16), // "isServerListenOK"
+QT_MOC_LITERAL(11, 114, 20), // "slot_onNewConnection"
+QT_MOC_LITERAL(12, 135, 16), // "slot_onReadyRead"
+QT_MOC_LITERAL(13, 152, 16), // "slot_onConnected"
+QT_MOC_LITERAL(14, 169, 19), // "slot_onDisconnected"
+QT_MOC_LITERAL(15, 189, 12), // "slot_onError"
+QT_MOC_LITERAL(16, 202, 28), // "QAbstractSocket::SocketError"
+QT_MOC_LITERAL(17, 231, 11) // "socketError"
 
     },
     "FileBase\0signal_File\0\0fileName\0data\0"
     "signal_Del\0signal_Rename\0fileOld\0"
     "fileNew\0signal_ServerListen\0"
-    "slot_onNewConnection\0slot_onReadyRead\0"
-    "slot_onConnected\0slot_onDisconnected\0"
-    "slot_onError\0QAbstractSocket::SocketError\0"
-    "socketError"
+    "isServerListenOK\0slot_onNewConnection\0"
+    "slot_onReadyRead\0slot_onConnected\0"
+    "slot_onDisconnected\0slot_onError\0"
+    "QAbstractSocket::SocketError\0socketError"
 };
 #undef QT_MOC_LITERAL
 
@@ -78,27 +79,27 @@ static const uint qt_meta_data_FileBase[] = {
        1,    2,   59,    2, 0x06 /* Public */,
        5,    1,   64,    2, 0x06 /* Public */,
        6,    2,   67,    2, 0x06 /* Public */,
-       9,    0,   72,    2, 0x06 /* Public */,
+       9,    1,   72,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-      10,    0,   73,    2, 0x0a /* Public */,
-      11,    0,   74,    2, 0x0a /* Public */,
-      12,    0,   75,    2, 0x0a /* Public */,
-      13,    0,   76,    2, 0x0a /* Public */,
-      14,    1,   77,    2, 0x0a /* Public */,
+      11,    0,   75,    2, 0x0a /* Public */,
+      12,    0,   76,    2, 0x0a /* Public */,
+      13,    0,   77,    2, 0x0a /* Public */,
+      14,    0,   78,    2, 0x0a /* Public */,
+      15,    1,   79,    2, 0x0a /* Public */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::QString, QMetaType::QByteArray,    3,    4,
     QMetaType::Void, QMetaType::QString,    3,
     QMetaType::Void, QMetaType::QString, QMetaType::QString,    7,    8,
-    QMetaType::Void,
+    QMetaType::Void, QMetaType::Bool,   10,
 
  // slots: parameters
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void, 0x80000000 | 15,   16,
+    QMetaType::Void, 0x80000000 | 16,   17,
 
        0        // eod
 };
@@ -112,7 +113,7 @@ void FileBase::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, vo
         case 0: _t->signal_File((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QByteArray(*)>(_a[2]))); break;
         case 1: _t->signal_Del((*reinterpret_cast< const QString(*)>(_a[1]))); break;
         case 2: _t->signal_Rename((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
-        case 3: _t->signal_ServerListen(); break;
+        case 3: _t->signal_ServerListen((*reinterpret_cast< bool(*)>(_a[1]))); break;
         case 4: _t->slot_onNewConnection(); break;
         case 5: _t->slot_onReadyRead(); break;
         case 6: _t->slot_onConnected(); break;
@@ -155,7 +156,7 @@ void FileBase::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, vo
             }
         }
         {
-            using _t = void (FileBase::*)();
+            using _t = void (FileBase::*)(bool );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&FileBase::signal_ServerListen)) {
                 *result = 3;
                 return;
@@ -226,9 +227,10 @@ void FileBase::signal_Rename(const QString & _t1, const QString & _t2)
 }
 
 // SIGNAL 3
-void FileBase::signal_ServerListen()
+void FileBase::signal_ServerListen(bool _t1)
 {
-    QMetaObject::activate(this, &staticMetaObject, 3, nullptr);
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 3, _a);
 }
 QT_WARNING_POP
 QT_END_MOC_NAMESPACE
