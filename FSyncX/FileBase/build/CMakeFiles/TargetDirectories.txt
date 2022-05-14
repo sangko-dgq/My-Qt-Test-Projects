@@ -1,0 +1,4 @@
+C:/Users/22012/Desktop/Qt projects/FSyncX/FileBase/build/CMakeFiles/FileBase.dir
+C:/Users/22012/Desktop/Qt projects/FSyncX/FileBase/build/CMakeFiles/edit_cache.dir
+C:/Users/22012/Desktop/Qt projects/FSyncX/FileBase/build/CMakeFiles/rebuild_cache.dir
+C:/Users/22012/Desktop/Qt projects/FSyncX/FileBase/build/CMakeFiles/FileBase_autogen.dir

@@ -1,0 +1,5 @@
+C:/Users/22012/Desktop/Qt projects/FSyncX/build-FileBase-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/FileBase.dir
+C:/Users/22012/Desktop/Qt projects/FSyncX/build-FileBase-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+C:/Users/22012/Desktop/Qt projects/FSyncX/build-FileBase-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/22012/Desktop/Qt projects/FSyncX/build-FileBase-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/FileBase_autogen_timestamp_deps.dir
+C:/Users/22012/Desktop/Qt projects/FSyncX/build-FileBase-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/FileBase_autogen.dir

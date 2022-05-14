@@ -1,0 +1,22 @@
+[
+{
+  "directory": "C:/Users/22012/Desktop/Qt projects/FSyncX/FileBase/build",
+  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FileBase.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FileBase.dir\\FileBase_autogen\\mocs_compilation.cpp.obj -c \"C:\\Users\\22012\\Desktop\\Qt projects\\FSyncX\\FileBase\\build\\FileBase_autogen\\mocs_compilation.cpp\"",
+  "file": "C:/Users/22012/Desktop/Qt projects/FSyncX/FileBase/build/FileBase_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "C:/Users/22012/Desktop/Qt projects/FSyncX/FileBase/build",
+  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FileBase.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FileBase.dir\\main.cpp.obj -c \"C:\\Users\\22012\\Desktop\\Qt projects\\FSyncX\\FileBase\\main.cpp\"",
+  "file": "C:/Users/22012/Desktop/Qt projects/FSyncX/FileBase/main.cpp"
+},
+{
+  "directory": "C:/Users/22012/Desktop/Qt projects/FSyncX/FileBase/build",
+  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FileBase.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FileBase.dir\\widget.cpp.obj -c \"C:\\Users\\22012\\Desktop\\Qt projects\\FSyncX\\FileBase\\widget.cpp\"",
+  "file": "C:/Users/22012/Desktop/Qt projects/FSyncX/FileBase/widget.cpp"
+},
+{
+  "directory": "C:/Users/22012/Desktop/Qt projects/FSyncX/FileBase/build",
+  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FileBase.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FileBase.dir\\APP\\FileBase.cpp.obj -c \"C:\\Users\\22012\\Desktop\\Qt projects\\FSyncX\\FileBase\\APP\\FileBase.cpp\"",
+  "file": "C:/Users/22012/Desktop/Qt projects/FSyncX/FileBase/APP/FileBase.cpp"
+}
+]
