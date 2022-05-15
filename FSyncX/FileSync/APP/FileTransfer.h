@@ -23,8 +23,6 @@ enum MsgType
     MsgTypeRename
 };
 
-
-
 class FileTransfer : public QObject
 {
     Q_OBJECT

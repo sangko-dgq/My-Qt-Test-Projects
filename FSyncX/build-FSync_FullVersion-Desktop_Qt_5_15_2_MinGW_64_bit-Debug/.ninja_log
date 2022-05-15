@@ -1,0 +1,52 @@
+# ninja log v5
+5489	17604	6743207859703775	CMakeFiles/FSync_FullVersion.dir/APP_Sync/FileTransfer.cpp.obj	b194b1746aabde2d
+13	945	6743209466323455	FSync_FullVersion_autogen/timestamp	33a0eb9b5d654901
+13	945	6743209466323455	FSync_FullVersion_autogen/mocs_compilation.cpp	33a0eb9b5d654901
+5471	17701	6743207861504159	CMakeFiles/FSync_FullVersion.dir/APP_Sync/FileWatcher.cpp.obj	799257f41b58db6c
+13	945	6743209466323455	C:/Users/22012/Desktop/Qt projects/FSyncX/build-FSync_FullVersion-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/FSync_FullVersion_autogen/timestamp	33a0eb9b5d654901
+13	945	6743209466323455	C:/Users/22012/Desktop/Qt projects/FSyncX/build-FSync_FullVersion-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/FSync_FullVersion_autogen/mocs_compilation.cpp	33a0eb9b5d654901
+952	4264	6743209499517072	CMakeFiles/FSync_FullVersion.dir/MainWindow.cpp.obj	77a1bad858e101ba
+1783	2003	6743118447563985	FSync_FullVersion_autogen/MNQGAJHFUT/qrc_APPTheme.cpp	86a5ed89e7e165af
+5507	6658	6743207749164594	CMakeFiles/FSync_FullVersion.dir/FSync_FullVersion_autogen/MNQGAJHFUT/qrc_APPTheme.cpp.obj	d5d4779cd7c19de
+1783	2003	6743118447563985	C:/Users/22012/Desktop/Qt projects/FSyncX/build-FSync_FullVersion-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/FSync_FullVersion_autogen/MNQGAJHFUT/qrc_APPTheme.cpp	86a5ed89e7e165af
+5415	17714	6743207861699916	CMakeFiles/FSync_FullVersion.dir/FSync_FullVersion_autogen/mocs_compilation.cpp.obj	e36845fca0cbd831
+5433	17675	6743207860949750	CMakeFiles/FSync_FullVersion.dir/main.cpp.obj	a914d75c3baf72c4
+4265	4770	6743209504475428	FSync_FullVersion.exe	2934266f6268cc9c
+1	136	0	CMakeFiles/clean.additional	f279a598c276d379
+137	174	0	clean	19a65460d9e09457
+11	1556	6743312159278513	FSync_FullVersion_autogen/timestamp	33a0eb9b5d654901
+11	1556	6743312159278513	FSync_FullVersion_autogen/mocs_compilation.cpp	33a0eb9b5d654901
+11	1556	6743312159278513	C:/Users/22012/Desktop/Qt projects/FSyncX/build-FSync_FullVersion-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/FSync_FullVersion_autogen/timestamp	33a0eb9b5d654901
+11	1556	6743312159278513	C:/Users/22012/Desktop/Qt projects/FSyncX/build-FSync_FullVersion-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/FSync_FullVersion_autogen/mocs_compilation.cpp	33a0eb9b5d654901
+1619	9804	6743312236470002	CMakeFiles/FSync_FullVersion.dir/APP_Base/FileBase.cpp.obj	b52d9e2bc2b22366
+1590	10470	6743312247732913	CMakeFiles/FSync_FullVersion.dir/APP_Sync/FileTransfer.cpp.obj	b194b1746aabde2d
+1575	10890	6743312254705105	CMakeFiles/FSync_FullVersion.dir/main.cpp.obj	a914d75c3baf72c4
+1557	11186	6743312257557091	CMakeFiles/FSync_FullVersion.dir/FSync_FullVersion_autogen/mocs_compilation.cpp.obj	e36845fca0cbd831
+13	1497	6743312770385527	FSync_FullVersion_autogen/timestamp	33a0eb9b5d654901
+13	1497	6743312770385527	FSync_FullVersion_autogen/mocs_compilation.cpp	33a0eb9b5d654901
+13	1497	6743312770385527	C:/Users/22012/Desktop/Qt projects/FSyncX/build-FSync_FullVersion-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/FSync_FullVersion_autogen/timestamp	33a0eb9b5d654901
+13	1497	6743312770385527	C:/Users/22012/Desktop/Qt projects/FSyncX/build-FSync_FullVersion-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/FSync_FullVersion_autogen/mocs_compilation.cpp	33a0eb9b5d654901
+1532	8145	6743312838703629	CMakeFiles/FSync_FullVersion.dir/main.cpp.obj	a914d75c3baf72c4
+1498	8477	6743312842693010	CMakeFiles/FSync_FullVersion.dir/FSync_FullVersion_autogen/mocs_compilation.cpp.obj	e36845fca0cbd831
+14	3448	6743313044716130	FSync_FullVersion_autogen/timestamp	33a0eb9b5d654901
+14	3448	6743313044716130	FSync_FullVersion_autogen/mocs_compilation.cpp	33a0eb9b5d654901
+14	3448	6743313044716130	C:/Users/22012/Desktop/Qt projects/FSyncX/build-FSync_FullVersion-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/FSync_FullVersion_autogen/timestamp	33a0eb9b5d654901
+14	3448	6743313044716130	C:/Users/22012/Desktop/Qt projects/FSyncX/build-FSync_FullVersion-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/FSync_FullVersion_autogen/mocs_compilation.cpp	33a0eb9b5d654901
+3468	9585	6743313109801271	CMakeFiles/FSync_FullVersion.dir/main.cpp.obj	a914d75c3baf72c4
+3449	9744	6743313111348503	CMakeFiles/FSync_FullVersion.dir/FSync_FullVersion_autogen/mocs_compilation.cpp.obj	e36845fca0cbd831
+10	410	6743313558949406	FSync_FullVersion_autogen/timestamp	33a0eb9b5d654901
+10	410	6743313558949406	FSync_FullVersion_autogen/mocs_compilation.cpp	33a0eb9b5d654901
+10	410	6743313558949406	C:/Users/22012/Desktop/Qt projects/FSyncX/build-FSync_FullVersion-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/FSync_FullVersion_autogen/timestamp	33a0eb9b5d654901
+10	410	6743313558949406	C:/Users/22012/Desktop/Qt projects/FSyncX/build-FSync_FullVersion-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/FSync_FullVersion_autogen/mocs_compilation.cpp	33a0eb9b5d654901
+23	4479	6743313708692767	FSync_FullVersion_autogen/timestamp	33a0eb9b5d654901
+23	4479	6743313708692767	FSync_FullVersion_autogen/mocs_compilation.cpp	33a0eb9b5d654901
+23	4479	6743313708692767	C:/Users/22012/Desktop/Qt projects/FSyncX/build-FSync_FullVersion-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/FSync_FullVersion_autogen/timestamp	33a0eb9b5d654901
+23	4479	6743313708692767	C:/Users/22012/Desktop/Qt projects/FSyncX/build-FSync_FullVersion-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/FSync_FullVersion_autogen/mocs_compilation.cpp	33a0eb9b5d654901
+4485	8641	6743313751097386	CMakeFiles/FSync_FullVersion.dir/MainWindow.cpp.obj	77a1bad858e101ba
+8642	9311	6743313757695091	FSync_FullVersion.exe	42de7ee091932f61
+10	448	6743316940019745	FSync_FullVersion_autogen/timestamp	33a0eb9b5d654901
+10	448	6743316940019745	FSync_FullVersion_autogen/mocs_compilation.cpp	33a0eb9b5d654901
+10	448	6743316940019745	C:/Users/22012/Desktop/Qt projects/FSyncX/build-FSync_FullVersion-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/FSync_FullVersion_autogen/timestamp	33a0eb9b5d654901
+10	448	6743316940019745	C:/Users/22012/Desktop/Qt projects/FSyncX/build-FSync_FullVersion-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/FSync_FullVersion_autogen/mocs_compilation.cpp	33a0eb9b5d654901
+452	3003	6743316965491833	CMakeFiles/FSync_FullVersion.dir/MainWindow.cpp.obj	77a1bad858e101ba
+3004	3474	6743316970089302	FSync_FullVersion.exe	42de7ee091932f61

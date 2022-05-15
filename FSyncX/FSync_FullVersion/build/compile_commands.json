@@ -1,0 +1,37 @@
+[
+{
+  "directory": "C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/build",
+  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSync_FullVersion.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSync_FullVersion.dir\\FSync_FullVersion_autogen\\mocs_compilation.cpp.obj -c \"C:\\Users\\22012\\Desktop\\Qt projects\\FSyncX\\FSync_FullVersion\\build\\FSync_FullVersion_autogen\\mocs_compilation.cpp\"",
+  "file": "C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/build/FSync_FullVersion_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/build",
+  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSync_FullVersion.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSync_FullVersion.dir\\main.cpp.obj -c \"C:\\Users\\22012\\Desktop\\Qt projects\\FSyncX\\FSync_FullVersion\\main.cpp\"",
+  "file": "C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/main.cpp"
+},
+{
+  "directory": "C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/build",
+  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSync_FullVersion.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSync_FullVersion.dir\\MainWindow.cpp.obj -c \"C:\\Users\\22012\\Desktop\\Qt projects\\FSyncX\\FSync_FullVersion\\MainWindow.cpp\"",
+  "file": "C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/MainWindow.cpp"
+},
+{
+  "directory": "C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/build",
+  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSync_FullVersion.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSync_FullVersion.dir\\APP_Sync\\FileWatcher.cpp.obj -c \"C:\\Users\\22012\\Desktop\\Qt projects\\FSyncX\\FSync_FullVersion\\APP_Sync\\FileWatcher.cpp\"",
+  "file": "C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/APP_Sync/FileWatcher.cpp"
+},
+{
+  "directory": "C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/build",
+  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSync_FullVersion.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSync_FullVersion.dir\\APP_Sync\\FileTransfer.cpp.obj -c \"C:\\Users\\22012\\Desktop\\Qt projects\\FSyncX\\FSync_FullVersion\\APP_Sync\\FileTransfer.cpp\"",
+  "file": "C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/APP_Sync/FileTransfer.cpp"
+},
+{
+  "directory": "C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/build",
+  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSync_FullVersion.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSync_FullVersion.dir\\APP_Base\\FileBase.cpp.obj -c \"C:\\Users\\22012\\Desktop\\Qt projects\\FSyncX\\FSync_FullVersion\\APP_Base\\FileBase.cpp\"",
+  "file": "C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/APP_Base/FileBase.cpp"
+},
+{
+  "directory": "C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/build",
+  "command": "D:\\Qt5\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB @CMakeFiles/FSync_FullVersion.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FSync_FullVersion.dir\\FSync_FullVersion_autogen\\MNQGAJHFUT\\qrc_APPTheme.cpp.obj -c \"C:\\Users\\22012\\Desktop\\Qt projects\\FSyncX\\FSync_FullVersion\\build\\FSync_FullVersion_autogen\\MNQGAJHFUT\\qrc_APPTheme.cpp\"",
+  "file": "C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/build/FSync_FullVersion_autogen/MNQGAJHFUT/qrc_APPTheme.cpp"
+}
+]

@@ -7,6 +7,7 @@
         "*.tcc": "cpp",
         "string": "cpp",
         "qdatastream": "cpp",
-        "fstream": "cpp"
+        "fstream": "cpp",
+        "qobject": "cpp"
     }
 }
