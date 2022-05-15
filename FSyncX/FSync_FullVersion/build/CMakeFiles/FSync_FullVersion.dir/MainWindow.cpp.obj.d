@@ -383,4 +383,7 @@ CMakeFiles/FSync_FullVersion.dir/MainWindow.cpp.obj: \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qstatusbar.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QTextBrowser \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QWidget \
- D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QStackedWidget
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QStackedWidget \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/QDesktopServices \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qdesktopservices.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qstandardpaths.h

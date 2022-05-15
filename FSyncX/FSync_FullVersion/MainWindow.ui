@@ -383,7 +383,7 @@ p, li { white-space: pre-wrap; }
       <property name="title">
        <string>Quick</string>
       </property>
-      <widget class="QPushButton" name="btnOpenPath_2">
+      <widget class="QPushButton" name="BtnOpenBasePath">
        <property name="geometry">
         <rect>
          <x>10</x>

@@ -2,6 +2,7 @@
 #include "./ui_MainWindow.h"
 
 #include <QStackedWidget>
+#include <QDesktopServices>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow)
@@ -26,6 +27,8 @@ void MainWindow::UIInit()
 {
     // Default Page
     ui->APPPage->setCurrentWidget(ui->HomePage);
+
+    /*状态检测*/
 }
 
 void MainWindow::FileWatcherInit()
@@ -143,7 +146,7 @@ void MainWindow::on_BtnChoseSyncPath_clicked()
         fileWatcher.setWatchPath(syncPath);
     }
 }
-
+/*按钮点击-请求连接FBase*/
 void MainWindow::on_BtnConnectToFBase_clicked()
 {
     HostToConnect = CommonHelper::GetLEditContent(ui->LEditIP);
@@ -157,6 +160,35 @@ void MainWindow::on_BtnConnectToFBase_clicked()
                         "PORT: " + PortToConnect);
     //发送到FileTransfer.cpp
     emit signal_ConnectToFBase(HostToConnect, PortToConnect);
+}
+
+/*按钮点击-开启同步*/
+void MainWindow::on_BtnStartSync_clicked()
+{
+    if (!isSyncBaseConnected)
+    {
+        CommonHelper::TBOut(ui->TBrwSyncDebug, "[ONSync] [ERROR] Connection is not built...");
+        return;
+    }
+
+    CommonHelper::TBOut(ui->TBrwSyncDebug, "[ONSync] Congratulate! Syncing...");
+    //打开全局 允许同步开关
+    isONSync = true;
+    //禁用打开同步按钮
+    ui->BtnStartSync->setEnabled(false);
+    ui->PBarSyncConfig->setValue(100);
+}
+/*按钮点击-打开FSync端同步文件夹*/
+void MainWindow::on_BtnOpenSyncPath_clicked()
+{
+    if (!QDesktopServices::openUrl(QUrl::fromLocalFile(syncPath)))
+    {
+        CommonHelper::TBOut(ui->TBrwSyncDebug, "[ERROR] Please Check syncPath!...");
+        return;
+    }
+    
+    CommonHelper::TBOut(ui->TBrwSyncDebug, "[OpenSyncPath] Open SyncPath :");
+    CommonHelper::TBOut(ui->TBrwSyncDebug, syncPath);
 }
 
 //******************************************************FileBase Page
@@ -181,31 +213,61 @@ void MainWindow::on_BtnChoseBasePath_clicked()
     }
 }
 
+/*按钮点击-打开FSync端同步文件夹*/
+void MainWindow::on_BtnOpenBasePath_clicked()
+{
+    if (!QDesktopServices::openUrl(QUrl::fromLocalFile(BasePath)))
+    {
+        CommonHelper::TBOut(ui->TBrwBaseDebug, "[ERROR] Please Check BasePath!...");
+        return;
+    }
+    
+    CommonHelper::TBOut(ui->TBrwBaseDebug, "[OpenSyncPath] Open BasePath :");
+    CommonHelper::TBOut(ui->TBrwBaseDebug, BasePath);
+}
+
+
+
+
+
+
+
+
 //*******************************************************APP_Sync
 void MainWindow::slot_DirectoryChanged(const QString &path)
 {
+    if (!isONSync)
+        return;
     // CommonHelper::TBOut(ui->TBrwSyncDebug, "[DirChanged]" + path);
 }
 
 void MainWindow::slot_FileChanged(const QString &file)
 {
+    if (!isONSync)
+        return;
     CommonHelper::TBOut(ui->TBrwSyncDebug, "[FileChanged]" + file);
     fileTransfer.sendFile(file);
 }
 
 void MainWindow::slot_FileAdded(const QString &file)
 {
+    if (!isONSync)
+        return;
     CommonHelper::TBOut(ui->TBrwSyncDebug, "[FileAdded]" + file);
     fileTransfer.sendFile(file);
 }
 void MainWindow::slot_FileRemoved(const QString &file)
 {
+    if (!isONSync)
+        return;
     CommonHelper::TBOut(ui->TBrwSyncDebug, "[FileRemoved]" + file);
     fileTransfer.sendDel(file);
 }
 
 void MainWindow::slot_FileRenamed(const QString &oldName, const QString &newName)
 {
+    if (!isONSync)
+        return;
     CommonHelper::TBOut(ui->TBrwSyncDebug, "[FileRename]");
     CommonHelper::TBOut(ui->TBrwSyncDebug, oldName);
     CommonHelper::TBOut(ui->TBrwSyncDebug, "=>");
@@ -225,12 +287,18 @@ void MainWindow::slot_FromFileTransfer(QString content)
 
         ui->BtnConnectToFBase->setEnabled(false);
         ui->PBarSyncConfig->setValue(55);
+
+        //置位连接状态
+        isSyncBaseConnected = true;
     }
     if (content == "[Sync/Base] Disconnected")
     {
         CommonHelper::TBOut(ui->TBrwBaseDebug, content);
         ui->BtnConnectToFBase->setEnabled(true);
         ui->PBarSyncConfig->setValue(20);
+
+        //置位连接状态
+        isSyncBaseConnected = false;
     }
 }
 

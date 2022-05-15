@@ -54,6 +54,9 @@ private slots:
     void on_BtnChoseSyncPath_clicked();
     void on_BtnChoseBasePath_clicked();
     void on_BtnConnectToFBase_clicked();
+    void on_BtnStartSync_clicked();
+    void on_BtnOpenSyncPath_clicked();
+    void on_BtnOpenBasePath_clicked();
 
     /*APP_Sync*/
     void slot_DirectoryChanged(const QString &path);
@@ -71,6 +74,8 @@ private slots:
     void slot_Rename(const QString &fileOld, const QString &fileNew);
     void slot_ServerListen(bool isServerListenOK);
     
+
+
 
 private:
     Ui::MainWindow *ui;
@@ -90,7 +95,11 @@ private:
     /*BasePage*/
     FileBase fileBase;
     QString BasePath;
-    
+
+    /*状态记录*/
+    bool isSyncBaseConnected;
+    /*全局开关*/
+    bool isONSync;    
 
 };
 

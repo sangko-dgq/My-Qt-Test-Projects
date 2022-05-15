@@ -64,7 +64,7 @@ public:
     QLabel *PageLOGO_2;
     QWidget *BasePage;
     QGroupBox *Quick_2;
-    QPushButton *btnOpenPath_2;
+    QPushButton *BtnOpenBasePath;
     QGroupBox *ConfigGBox_2;
     QProgressBar *PBarCommon_3;
     QGroupBox *groupBox_4;
@@ -216,9 +216,9 @@ public:
         Quick_2 = new QGroupBox(BasePage);
         Quick_2->setObjectName(QString::fromUtf8("Quick_2"));
         Quick_2->setGeometry(QRect(10, 390, 361, 111));
-        btnOpenPath_2 = new QPushButton(Quick_2);
-        btnOpenPath_2->setObjectName(QString::fromUtf8("btnOpenPath_2"));
-        btnOpenPath_2->setGeometry(QRect(10, 20, 341, 81));
+        BtnOpenBasePath = new QPushButton(Quick_2);
+        BtnOpenBasePath->setObjectName(QString::fromUtf8("BtnOpenBasePath"));
+        BtnOpenBasePath->setGeometry(QRect(10, 20, 341, 81));
         ConfigGBox_2 = new QGroupBox(BasePage);
         ConfigGBox_2->setObjectName(QString::fromUtf8("ConfigGBox_2"));
         ConfigGBox_2->setGeometry(QRect(10, 40, 361, 351));
@@ -342,7 +342,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">NO PATH CHOOSE..</p></body></html>", nullptr));
         PageLOGO_2->setText(QCoreApplication::translate("MainWindow", "FileSync- Client", nullptr));
         Quick_2->setTitle(QCoreApplication::translate("MainWindow", "Quick", nullptr));
-        btnOpenPath_2->setText(QCoreApplication::translate("MainWindow", "Open Base PATH", nullptr));
+        BtnOpenBasePath->setText(QCoreApplication::translate("MainWindow", "Open Base PATH", nullptr));
         ConfigGBox_2->setTitle(QCoreApplication::translate("MainWindow", "Config", nullptr));
         groupBox_4->setTitle(QCoreApplication::translate("MainWindow", "On Sever Listen", nullptr));
         pushButton_4->setText(QCoreApplication::translate("MainWindow", "Start Listen", nullptr));
