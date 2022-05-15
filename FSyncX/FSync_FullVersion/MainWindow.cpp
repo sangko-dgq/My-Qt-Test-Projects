@@ -229,7 +229,6 @@ void MainWindow::slot_FromFileTransfer(QString content)
     if (content == "[Sync/Base] Disconnected")
     {
         CommonHelper::TBOut(ui->TBrwBaseDebug, content);
-        
         ui->BtnConnectToFBase->setEnabled(true);
         ui->PBarSyncConfig->setValue(20);
     }
