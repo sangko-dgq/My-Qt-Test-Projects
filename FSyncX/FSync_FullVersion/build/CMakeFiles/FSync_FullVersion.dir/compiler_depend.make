@@ -1553,7 +1553,9 @@ CMakeFiles/FSync_FullVersion.dir/MainWindow.cpp.obj: ../MainWindow.cpp \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QStackedWidget \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/QDesktopServices \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qdesktopservices.h \
-  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qstandardpaths.h
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qstandardpaths.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QTime \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdatetime.h
 
 CMakeFiles/FSync_FullVersion.dir/main.cpp.obj: ../main.cpp \
   ../MainWindow.h \
@@ -2147,6 +2149,8 @@ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qatomic.h:
 
 D:/Qt5/5.15.2/mingw81_64/include/QtCore/qbasicatomic.h:
 
+D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdatetime.h:
+
 D:/Qt5/5.15.2/mingw81_64/include/QtGui/qcolor.h:
 
 D:/Qt5/5.15.2/mingw81_64/include/QtCore/qatomic_cxx11.h:
@@ -2660,5 +2664,7 @@ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QStatusBar:
 D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qstatusbar.h:
 
 D:/Qt5/5.15.2/mingw81_64/include/QtGui/qdesktopservices.h:
+
+D:/Qt5/5.15.2/mingw81_64/include/QtCore/QTime:
 
 ../main.cpp:

@@ -346,4 +346,10 @@ CMakeFiles/FSync_FullVersion.dir/main.cpp.obj: \
  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qtcpserver.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qhostaddress.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QList \
- D:/Qt5/5.15.2/mingw81_64/include/QtCore/qlist.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qlist.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QHostAddress \
+ D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qhostaddress.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QHostInfo \
+ D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qhostinfo.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QNetworkInterface \
+ D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qnetworkinterface.h

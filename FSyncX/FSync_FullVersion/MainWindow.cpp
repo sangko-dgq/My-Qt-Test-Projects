@@ -166,8 +166,7 @@ void MainWindow::on_BtnChoseSyncPath_clicked()
         isSyncPathValid = false;
         return;
     }
-    else
-    {
+
         isSyncPathValid = true;
 
         CommonHelper::TBOut(ui->TBrwSyncDebug, "[SyncPath]" + syncPath);
@@ -177,7 +176,19 @@ void MainWindow::on_BtnChoseSyncPath_clicked()
 
         /*SetWatchPath-SyncPath*/
         fileWatcher.setWatchPath(syncPath);
+
+
+    /*补充 - 因为允许先建立连接，再选择路径*/
+    //置位连接状态
+    if(isSyncBaseConnected && isSyncPathValid)
+    {
+        ui->PBarSyncConfig->setValue(30);
+        CommonHelper::Delay(100);
+        ui->PBarSyncConfig->setValue(40);
+        CommonHelper::Delay(80);
+        ui->PBarSyncConfig->setValue(55);
     }
+
 }
 /*按钮点击-请求连接FBase*/
 void MainWindow::on_BtnConnectToFBase_clicked()
@@ -240,16 +251,15 @@ void MainWindow::on_BtnChoseBasePath_clicked()
         isBasePathValid = false;
         return;
     }
-    else
-    {
-        isBasePathValid = true;
-        CommonHelper::TBOut(ui->TBrwBaseDebug, "[BasePath]" + BasePath);
 
-        ui->TBrwBasePath->clear();
-        CommonHelper::TBOut(ui->TBrwBasePath, BasePath + "/");
+    isBasePathValid = true;
+    CommonHelper::TBOut(ui->TBrwBaseDebug, "[BasePath]" + BasePath);
+    ui->TBrwBasePath->clear();
+    CommonHelper::TBOut(ui->TBrwBasePath, BasePath + "/");
 
 
-    }
+
+
 }
 
 /*按钮点击-打开FSync端同步文件夹*/

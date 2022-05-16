@@ -353,4 +353,10 @@ CMakeFiles/FSync_FullVersion.dir/FSync_FullVersion_autogen/mocs_compilation.cpp.
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qlineedit.h \
  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/APP_Sync/FileWatcher.h \
  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/APP_Sync/FileTransfer.h \
- C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/APP_Base/FileBase.h
+ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/APP_Base/FileBase.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QHostAddress \
+ D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qhostaddress.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QHostInfo \
+ D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qhostinfo.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QNetworkInterface \
+ D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qnetworkinterface.h

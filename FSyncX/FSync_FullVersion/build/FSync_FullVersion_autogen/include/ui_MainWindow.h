@@ -72,7 +72,7 @@ public:
     QGroupBox *groupBox_5;
     QPushButton *pushButton_7;
     QLineEdit *lineEdit_7;
-    QTextBrowser *TBClientHost;
+    QTextBrowser *TBrwServerHost;
     QPushButton *BtnGetIP;
     QGroupBox *groupBox_6;
     QPushButton *BtnChoseBasePath;
@@ -224,7 +224,7 @@ public:
         PBarBaseConfig->setObjectName(QString::fromUtf8("PBarBaseConfig"));
         PBarBaseConfig->setGeometry(QRect(-30, 40, 411, 321));
         PBarBaseConfig->setFont(font);
-        PBarBaseConfig->setValue(20);
+        PBarBaseConfig->setValue(1);
         PBarBaseConfig->setTextVisible(false);
         PBarBaseConfig->setOrientation(Qt::Vertical);
         PBarBaseConfig->setInvertedAppearance(true);
@@ -243,9 +243,9 @@ public:
         lineEdit_7 = new QLineEdit(groupBox_5);
         lineEdit_7->setObjectName(QString::fromUtf8("lineEdit_7"));
         lineEdit_7->setGeometry(QRect(260, 20, 91, 21));
-        TBClientHost = new QTextBrowser(groupBox_5);
-        TBClientHost->setObjectName(QString::fromUtf8("TBClientHost"));
-        TBClientHost->setGeometry(QRect(10, 20, 241, 21));
+        TBrwServerHost = new QTextBrowser(groupBox_5);
+        TBrwServerHost->setObjectName(QString::fromUtf8("TBrwServerHost"));
+        TBrwServerHost->setGeometry(QRect(10, 20, 241, 21));
         BtnGetIP = new QPushButton(groupBox_5);
         BtnGetIP->setObjectName(QString::fromUtf8("BtnGetIP"));
         BtnGetIP->setGeometry(QRect(10, 50, 231, 31));
@@ -340,7 +340,7 @@ public:
         groupBox_5->setTitle(QCoreApplication::translate("MainWindow", "GetHost", nullptr));
         pushButton_7->setText(QCoreApplication::translate("MainWindow", "Share IP", nullptr));
         lineEdit_7->setText(QCoreApplication::translate("MainWindow", "8888", nullptr));
-        TBClientHost->setHtml(QCoreApplication::translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+        TBrwServerHost->setHtml(QCoreApplication::translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Fira Code'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
