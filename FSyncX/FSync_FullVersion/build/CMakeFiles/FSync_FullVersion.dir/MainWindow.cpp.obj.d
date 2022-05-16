@@ -386,4 +386,6 @@ CMakeFiles/FSync_FullVersion.dir/MainWindow.cpp.obj: \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QStackedWidget \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/QDesktopServices \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qdesktopservices.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtCore/qstandardpaths.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qstandardpaths.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/QTime \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdatetime.h

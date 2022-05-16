@@ -125,10 +125,15 @@ FSync_FullVersion_autogen/timestamp: \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtransform.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qwindowdefs.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qwindowdefs_win.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QHostAddress \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QHostInfo \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QNetworkInterface \
   D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QTcpServer \
   D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QTcpSocket \
   D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qabstractsocket.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qhostaddress.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qhostinfo.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qnetworkinterface.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qtcpserver.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qtcpsocket.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qtnetwork-config.h \

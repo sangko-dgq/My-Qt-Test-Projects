@@ -1,3 +1,4 @@
+void on_BtnStartListen_toggled(bool checked);
 /***
  * @Author: sangko-dgqq 2201225826@qq.com
  * @Date: 2022-05-15 02:40:39
@@ -25,6 +26,10 @@
 #include "APP_Sync/FileWatcher.h"
 #include "APP_Sync/FileTransfer.h"
 #include "APP_Base/FileBase.h"
+
+#include <QHostAddress>
+#include <QHostInfo>
+#include <QNetworkInterface>
 
 QT_BEGIN_NAMESPACE
 namespace Ui
@@ -57,6 +62,8 @@ private slots:
     void on_BtnStartSync_clicked();
     void on_BtnOpenSyncPath_clicked();
     void on_BtnOpenBasePath_clicked();
+    void on_BtnStartListen_clicked();
+    void on_BtnGetIP_clicked();
 
     /*APP_Sync*/
     void slot_DirectoryChanged(const QString &path);
@@ -74,6 +81,7 @@ private slots:
     void slot_Rename(const QString &fileOld, const QString &fileNew);
     void slot_ServerListen(bool isServerListenOK);
     
+
 
 
 
@@ -96,10 +104,18 @@ private:
     FileBase fileBase;
     QString BasePath;
 
+    QString BaseIPAddr;
+
     /*状态记录*/
+    bool isSyncPathValid;
+    bool isBasePathValid;
     bool isSyncBaseConnected;
+
+
     /*全局开关*/
-    bool isONSync;    
+    bool isONSync;
+    bool isONListen;
+
 
 };
 
@@ -113,6 +129,10 @@ public:
     static void TBOut(QTextBrowser *TextBrowser, QString Content);
     /*获取LineEdit的内容*/
     static QString GetLEditContent(QLineEdit *LineEdit);
+    /*使用于单线程非阻塞延时*/
+    static void Delay(int msec);
+    /** 获取本机IPV4 地址，如果有多个，返回第一个有效的IPV4地址*/
+    static QHostAddress getHostIPV4Address();
 };
 
 #endif // MAINWINDOW_H

@@ -64,17 +64,15 @@ public:
     QLabel *PageLOGO_2;
     QWidget *BasePage;
     QGroupBox *Quick_2;
-    QPushButton *btnOpenPath_2;
+    QPushButton *BtnOpenBasePath;
     QGroupBox *ConfigGBox_2;
-    QProgressBar *PBarCommon_3;
+    QProgressBar *PBarBaseConfig;
     QGroupBox *groupBox_4;
-    QPushButton *pushButton_4;
-    QTextBrowser *textBrowser_3;
-    QLabel *label;
+    QPushButton *BtnStartListen;
     QGroupBox *groupBox_5;
     QPushButton *pushButton_7;
     QLineEdit *lineEdit_7;
-    QTextBrowser *TBClientHost;
+    QTextBrowser *TBrwServerHost;
     QPushButton *BtnGetIP;
     QGroupBox *groupBox_6;
     QPushButton *BtnChoseBasePath;
@@ -216,33 +214,26 @@ public:
         Quick_2 = new QGroupBox(BasePage);
         Quick_2->setObjectName(QString::fromUtf8("Quick_2"));
         Quick_2->setGeometry(QRect(10, 390, 361, 111));
-        btnOpenPath_2 = new QPushButton(Quick_2);
-        btnOpenPath_2->setObjectName(QString::fromUtf8("btnOpenPath_2"));
-        btnOpenPath_2->setGeometry(QRect(10, 20, 341, 81));
+        BtnOpenBasePath = new QPushButton(Quick_2);
+        BtnOpenBasePath->setObjectName(QString::fromUtf8("BtnOpenBasePath"));
+        BtnOpenBasePath->setGeometry(QRect(10, 20, 341, 81));
         ConfigGBox_2 = new QGroupBox(BasePage);
         ConfigGBox_2->setObjectName(QString::fromUtf8("ConfigGBox_2"));
         ConfigGBox_2->setGeometry(QRect(10, 40, 361, 351));
-        PBarCommon_3 = new QProgressBar(ConfigGBox_2);
-        PBarCommon_3->setObjectName(QString::fromUtf8("PBarCommon_3"));
-        PBarCommon_3->setGeometry(QRect(-30, 40, 411, 301));
-        PBarCommon_3->setFont(font);
-        PBarCommon_3->setValue(20);
-        PBarCommon_3->setTextVisible(false);
-        PBarCommon_3->setOrientation(Qt::Vertical);
-        PBarCommon_3->setInvertedAppearance(true);
+        PBarBaseConfig = new QProgressBar(ConfigGBox_2);
+        PBarBaseConfig->setObjectName(QString::fromUtf8("PBarBaseConfig"));
+        PBarBaseConfig->setGeometry(QRect(-30, 40, 411, 321));
+        PBarBaseConfig->setFont(font);
+        PBarBaseConfig->setValue(1);
+        PBarBaseConfig->setTextVisible(false);
+        PBarBaseConfig->setOrientation(Qt::Vertical);
+        PBarBaseConfig->setInvertedAppearance(true);
         groupBox_4 = new QGroupBox(ConfigGBox_2);
         groupBox_4->setObjectName(QString::fromUtf8("groupBox_4"));
         groupBox_4->setGeometry(QRect(0, 230, 361, 101));
-        pushButton_4 = new QPushButton(groupBox_4);
-        pushButton_4->setObjectName(QString::fromUtf8("pushButton_4"));
-        pushButton_4->setGeometry(QRect(10, 20, 171, 71));
-        textBrowser_3 = new QTextBrowser(groupBox_4);
-        textBrowser_3->setObjectName(QString::fromUtf8("textBrowser_3"));
-        textBrowser_3->setGeometry(QRect(190, 59, 131, 21));
-        textBrowser_3->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
-        label = new QLabel(groupBox_4);
-        label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(190, 30, 91, 16));
+        BtnStartListen = new QPushButton(groupBox_4);
+        BtnStartListen->setObjectName(QString::fromUtf8("BtnStartListen"));
+        BtnStartListen->setGeometry(QRect(10, 20, 341, 71));
         groupBox_5 = new QGroupBox(ConfigGBox_2);
         groupBox_5->setObjectName(QString::fromUtf8("groupBox_5"));
         groupBox_5->setGeometry(QRect(0, 110, 361, 101));
@@ -252,9 +243,9 @@ public:
         lineEdit_7 = new QLineEdit(groupBox_5);
         lineEdit_7->setObjectName(QString::fromUtf8("lineEdit_7"));
         lineEdit_7->setGeometry(QRect(260, 20, 91, 21));
-        TBClientHost = new QTextBrowser(groupBox_5);
-        TBClientHost->setObjectName(QString::fromUtf8("TBClientHost"));
-        TBClientHost->setGeometry(QRect(10, 20, 241, 21));
+        TBrwServerHost = new QTextBrowser(groupBox_5);
+        TBrwServerHost->setObjectName(QString::fromUtf8("TBrwServerHost"));
+        TBrwServerHost->setGeometry(QRect(10, 20, 241, 21));
         BtnGetIP = new QPushButton(groupBox_5);
         BtnGetIP->setObjectName(QString::fromUtf8("BtnGetIP"));
         BtnGetIP->setGeometry(QRect(10, 50, 231, 31));
@@ -342,20 +333,14 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">NO PATH CHOOSE..</p></body></html>", nullptr));
         PageLOGO_2->setText(QCoreApplication::translate("MainWindow", "FileSync- Client", nullptr));
         Quick_2->setTitle(QCoreApplication::translate("MainWindow", "Quick", nullptr));
-        btnOpenPath_2->setText(QCoreApplication::translate("MainWindow", "Open Base PATH", nullptr));
+        BtnOpenBasePath->setText(QCoreApplication::translate("MainWindow", "Open Base PATH", nullptr));
         ConfigGBox_2->setTitle(QCoreApplication::translate("MainWindow", "Config", nullptr));
         groupBox_4->setTitle(QCoreApplication::translate("MainWindow", "On Sever Listen", nullptr));
-        pushButton_4->setText(QCoreApplication::translate("MainWindow", "Start Listen", nullptr));
-        textBrowser_3->setHtml(QCoreApplication::translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'Fira Code'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:#ff557f;\">False</span></p></body></html>", nullptr));
-        label->setText(QCoreApplication::translate("MainWindow", "Listen Statu", nullptr));
+        BtnStartListen->setText(QCoreApplication::translate("MainWindow", "Start Listen", nullptr));
         groupBox_5->setTitle(QCoreApplication::translate("MainWindow", "GetHost", nullptr));
         pushButton_7->setText(QCoreApplication::translate("MainWindow", "Share IP", nullptr));
         lineEdit_7->setText(QCoreApplication::translate("MainWindow", "8888", nullptr));
-        TBClientHost->setHtml(QCoreApplication::translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+        TBrwServerHost->setHtml(QCoreApplication::translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Fira Code'; font-size:9pt; font-weight:400; font-style:normal;\">\n"

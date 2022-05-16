@@ -3,6 +3,8 @@
 
 #include <QStackedWidget>
 #include <QDesktopServices>
+#include <QTime>
+
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow)
@@ -12,10 +14,18 @@ MainWindow::MainWindow(QWidget *parent)
     //  CommonHelper::setStyle("://BlueSoulDark.qss");
     CommonHelper::setStyle("://Ubuntu.qss");
 
+
+
     // Init
     UIInit();
     FileWatcherInit();
     FileBaseInit();
+
+    isSyncPathValid = false;
+    isSyncBaseConnected = false;
+    isBasePathValid = false;
+    isONSync = false ;
+    isONListen = false;
 }
 
 MainWindow::~MainWindow()
@@ -104,6 +114,26 @@ QString CommonHelper::GetLEditContent(QLineEdit *LineEdit)
     return LineEdit->text();
 }
 
+/*适用于单线程非阻塞延时*/
+void CommonHelper::Delay(int msec)
+{
+    QTime dieTime = QTime::currentTime().addMSecs(msec);
+    while( QTime::currentTime() < dieTime )
+        QCoreApplication::processEvents(QEventLoop::AllEvents);
+}
+/*************************************
+* 获取本机IPV4 地址，如果有多个，返回第一个有效的IPV4地址
+**************************************/
+QHostAddress CommonHelper::getHostIPV4Address()
+{
+    foreach(const QHostAddress& hostAddress,QNetworkInterface::allAddresses())
+        if ( hostAddress != QHostAddress::LocalHost && hostAddress.toIPv4Address() )
+            return hostAddress;
+
+    return QHostAddress::LocalHost;
+}
+
+
 //*************************s************************************** SLOTS
 /*页面管理*/
 /*I'm FileSync-Client >>*/
@@ -128,15 +158,18 @@ void MainWindow::on_BtnChoseSyncPath_clicked()
 {
     //文件夹路径
     syncPath = QFileDialog::getExistingDirectory(
-        this, "choose SyncPath Directory",
-        "/");
+                this, "choose SyncPath Directory",
+                "/");
 
     if (syncPath.isEmpty())
     {
+        isSyncPathValid = false;
         return;
     }
     else
     {
+        isSyncPathValid = true;
+
         CommonHelper::TBOut(ui->TBrwSyncDebug, "[SyncPath]" + syncPath);
 
         ui->TBrwSyncPath->clear();
@@ -165,9 +198,9 @@ void MainWindow::on_BtnConnectToFBase_clicked()
 /*按钮点击-开启同步*/
 void MainWindow::on_BtnStartSync_clicked()
 {
-    if (!isSyncBaseConnected)
+    if (!isSyncPathValid || !isSyncBaseConnected)
     {
-        CommonHelper::TBOut(ui->TBrwSyncDebug, "[ONSync] [ERROR] Connection is not built...");
+        CommonHelper::TBOut(ui->TBrwSyncDebug, "[ONSync] [ERROR] SyncPath/Connection is not built...");
         return;
     }
 
@@ -178,10 +211,11 @@ void MainWindow::on_BtnStartSync_clicked()
     ui->BtnStartSync->setEnabled(false);
     ui->PBarSyncConfig->setValue(100);
 }
+
 /*按钮点击-打开FSync端同步文件夹*/
 void MainWindow::on_BtnOpenSyncPath_clicked()
 {
-    if (!QDesktopServices::openUrl(QUrl::fromLocalFile(syncPath)))
+    if (!isSyncPathValid || !QDesktopServices::openUrl(QUrl::fromLocalFile(syncPath)))
     {
         CommonHelper::TBOut(ui->TBrwSyncDebug, "[ERROR] Please Check syncPath!...");
         return;
@@ -191,25 +225,30 @@ void MainWindow::on_BtnOpenSyncPath_clicked()
     CommonHelper::TBOut(ui->TBrwSyncDebug, syncPath);
 }
 
+
 //******************************************************FileBase Page
 
 void MainWindow::on_BtnChoseBasePath_clicked()
 {
     //文件夹路径
     BasePath = QFileDialog::getExistingDirectory(
-        this, "choose BasePath Directory",
-        "/");
+                this, "choose BasePath Directory",
+                "/");
 
     if (BasePath.isEmpty())
     {
+        isBasePathValid = false;
         return;
     }
     else
     {
+        isBasePathValid = true;
         CommonHelper::TBOut(ui->TBrwBaseDebug, "[BasePath]" + BasePath);
 
         ui->TBrwBasePath->clear();
         CommonHelper::TBOut(ui->TBrwBasePath, BasePath + "/");
+
+
     }
 }
 
@@ -226,14 +265,65 @@ void MainWindow::on_BtnOpenBasePath_clicked()
     CommonHelper::TBOut(ui->TBrwBaseDebug, BasePath);
 }
 
+/*按钮切换-切换监听状态*/
+void MainWindow::on_BtnStartListen_clicked()
+{
+    if(!isBasePathValid) //路径无效
+    {
+        CommonHelper::TBOut(ui->TBrwBaseDebug, "[ONListen] [ERROR] SyncPath is not built..");
+        return;
+    }
+
+    CommonHelper::TBOut(ui->TBrwBaseDebug, "[ONListen] Congratulate! Listening...");
+    //打开全局 允许监听开关
+    isONListen = true;
+    //禁用打开监听按钮
+    ui->BtnStartListen->setEnabled(false);
+
+
+    ui->PBarBaseConfig->setValue(30);
+    CommonHelper::Delay(200);
+    ui->PBarBaseConfig->setValue(40);
+    CommonHelper::Delay(200);
+    ui->PBarBaseConfig->setValue(60);
+    CommonHelper::Delay(200);
+    ui->PBarBaseConfig->setValue(80);
+    CommonHelper::Delay(200);
+    ui->PBarBaseConfig->setValue(100);
+
+}
+
+/*按钮点击-刷新获取IP*/
+void MainWindow::on_BtnGetIP_clicked()
+{
+    //    if(!isBasePathValid || !isSyncBaseConnected) //路径无效或未连接
+    //    {
+    //        CommonHelper::TBOut(ui->TBrwBaseDebug, "[ONListen] [ERROR] SyncPath/Connection is not built..");
+    //        return;
+    //    }
+
+    CommonHelper::TBOut(ui->TBrwBaseDebug, "Refresh IP...");
+
+    /*更新BaseIPAddr*/
+    BaseIPAddr = CommonHelper::getHostIPV4Address().toString();
+
+    /*填入TrwServerHos里面*/
+    ui->TBrwServerHost->clear();
+    CommonHelper::TBOut(ui->TBrwServerHost,BaseIPAddr);
+
+    if(isBasePathValid) ui->PBarBaseConfig->setValue(50);
+
+    /*Debug*/
+    CommonHelper::TBOut(ui->TBrwBaseDebug, "[GOT IP]");
+    CommonHelper::TBOut(ui->TBrwBaseDebug, "BaseIPAddr");
 
 
 
-
-
+}
 
 
 //*******************************************************APP_Sync
+
 void MainWindow::slot_DirectoryChanged(const QString &path)
 {
     if (!isONSync)
@@ -286,7 +376,8 @@ void MainWindow::slot_FromFileTransfer(QString content)
         CommonHelper::TBOut(ui->TBrwBaseDebug, content);
 
         ui->BtnConnectToFBase->setEnabled(false);
-        ui->PBarSyncConfig->setValue(55);
+
+        if(isSyncPathValid) ui->PBarSyncConfig->setValue(55);
 
         //置位连接状态
         isSyncBaseConnected = true;
@@ -383,3 +474,8 @@ void MainWindow::slot_ServerListen(bool isServerListenOK)
         ret = "False";
     CommonHelper::TBOut(ui->TBrwBaseDebug, "[ServerListen] Listen :" + ret);
 }
+
+
+
+
+
