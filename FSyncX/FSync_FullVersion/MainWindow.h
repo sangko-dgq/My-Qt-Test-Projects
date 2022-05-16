@@ -1,4 +1,4 @@
-void on_BtnStartListen_toggled(bool checked);
+
 /***
  * @Author: sangko-dgqq 2201225826@qq.com
  * @Date: 2022-05-15 02:40:39
@@ -54,6 +54,7 @@ signals:
     
     void signal_Reject_or_Break_Connection(QString Host, QString port, QString Type); //Host发起拒绝请求或阻断已连接
     
+    void signal_ONOFF_ServerListen(QString Host, QString port, QString ONOFF);
 
 private slots:
     void on_btnFileSync_clicked();
@@ -101,11 +102,12 @@ private:
 
     /*SyncPage*/
     QString syncPath;
-    QString HostToConnect, PortToConnect;
+    QString Sync_HostToConnect, Sync_PortToConnect;
 
     /*BasePage*/
     FileBase fileBase;
     QString BasePath;
+    QString Base_HostGot, Base_PortSet;
 
     QString BaseIPAddr;
 

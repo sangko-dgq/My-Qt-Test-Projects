@@ -131,6 +131,7 @@ C:/Users/22012/Desktop/Qt\ projects/FSyncX/build-FSync_FullVersion-Desktop_Qt_5_
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QFileDialog \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QLineEdit \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QMainWindow \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QMessageBox \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QTextBrowser \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QWidget \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qabstractscrollarea.h \
@@ -140,6 +141,7 @@ C:/Users/22012/Desktop/Qt\ projects/FSyncX/build-FSync_FullVersion-Desktop_Qt_5_
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qframe.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qlineedit.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qmainwindow.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qmessagebox.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qsizepolicy.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtabwidget.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtextbrowser.h \

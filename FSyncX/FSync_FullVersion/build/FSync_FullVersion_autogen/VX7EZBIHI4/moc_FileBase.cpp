@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_FileBase_t {
-    QByteArrayData data[18];
-    char stringdata0[243];
+    QByteArrayData data[22];
+    char stringdata0[283];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -49,7 +49,11 @@ QT_MOC_LITERAL(13, 152, 16), // "slot_onConnected"
 QT_MOC_LITERAL(14, 169, 19), // "slot_onDisconnected"
 QT_MOC_LITERAL(15, 189, 12), // "slot_onError"
 QT_MOC_LITERAL(16, 202, 28), // "QAbstractSocket::SocketError"
-QT_MOC_LITERAL(17, 231, 11) // "socketError"
+QT_MOC_LITERAL(17, 231, 11), // "socketError"
+QT_MOC_LITERAL(18, 243, 23), // "slot_ONOFF_ServerListen"
+QT_MOC_LITERAL(19, 267, 4), // "Host"
+QT_MOC_LITERAL(20, 272, 4), // "port"
+QT_MOC_LITERAL(21, 277, 5) // "ONOFF"
 
     },
     "FileBase\0signal_File\0\0fileName\0data\0"
@@ -58,7 +62,9 @@ QT_MOC_LITERAL(17, 231, 11) // "socketError"
     "isServerListenOK\0slot_onNewConnection\0"
     "slot_onReadyRead\0slot_onConnected\0"
     "slot_onDisconnected\0slot_onError\0"
-    "QAbstractSocket::SocketError\0socketError"
+    "QAbstractSocket::SocketError\0socketError\0"
+    "slot_ONOFF_ServerListen\0Host\0port\0"
+    "ONOFF"
 };
 #undef QT_MOC_LITERAL
 
@@ -68,7 +74,7 @@ static const uint qt_meta_data_FileBase[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-       9,   14, // methods
+      10,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -76,17 +82,18 @@ static const uint qt_meta_data_FileBase[] = {
        4,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    2,   59,    2, 0x06 /* Public */,
-       5,    1,   64,    2, 0x06 /* Public */,
-       6,    2,   67,    2, 0x06 /* Public */,
-       9,    1,   72,    2, 0x06 /* Public */,
+       1,    2,   64,    2, 0x06 /* Public */,
+       5,    1,   69,    2, 0x06 /* Public */,
+       6,    2,   72,    2, 0x06 /* Public */,
+       9,    1,   77,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-      11,    0,   75,    2, 0x0a /* Public */,
-      12,    0,   76,    2, 0x0a /* Public */,
-      13,    0,   77,    2, 0x0a /* Public */,
-      14,    0,   78,    2, 0x0a /* Public */,
-      15,    1,   79,    2, 0x0a /* Public */,
+      11,    0,   80,    2, 0x0a /* Public */,
+      12,    0,   81,    2, 0x0a /* Public */,
+      13,    0,   82,    2, 0x0a /* Public */,
+      14,    0,   83,    2, 0x0a /* Public */,
+      15,    1,   84,    2, 0x0a /* Public */,
+      18,    3,   87,    2, 0x0a /* Public */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::QString, QMetaType::QByteArray,    3,    4,
@@ -100,6 +107,7 @@ static const uint qt_meta_data_FileBase[] = {
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void, 0x80000000 | 16,   17,
+    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::QString,   19,   20,   21,
 
        0        // eod
 };
@@ -119,6 +127,7 @@ void FileBase::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, vo
         case 6: _t->slot_onConnected(); break;
         case 7: _t->slot_onDisconnected(); break;
         case 8: _t->slot_onError((*reinterpret_cast< QAbstractSocket::SocketError(*)>(_a[1]))); break;
+        case 9: _t->slot_ONOFF_ServerListen((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< QString(*)>(_a[3]))); break;
         default: ;
         }
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
@@ -194,13 +203,13 @@ int FileBase::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 9)
+        if (_id < 10)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 9;
+        _id -= 10;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 9)
+        if (_id < 10)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 9;
+        _id -= 10;
     }
     return _id;
 }

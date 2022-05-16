@@ -71,7 +71,7 @@ public:
     QPushButton *BtnStartListen;
     QGroupBox *groupBox_5;
     QPushButton *pushButton_7;
-    QLineEdit *lineEdit_7;
+    QLineEdit *LEditServerPort;
     QTextBrowser *TBrwServerHost;
     QPushButton *BtnGetIP;
     QGroupBox *groupBox_6;
@@ -240,9 +240,9 @@ public:
         pushButton_7 = new QPushButton(groupBox_5);
         pushButton_7->setObjectName(QString::fromUtf8("pushButton_7"));
         pushButton_7->setGeometry(QRect(250, 50, 101, 31));
-        lineEdit_7 = new QLineEdit(groupBox_5);
-        lineEdit_7->setObjectName(QString::fromUtf8("lineEdit_7"));
-        lineEdit_7->setGeometry(QRect(260, 20, 91, 21));
+        LEditServerPort = new QLineEdit(groupBox_5);
+        LEditServerPort->setObjectName(QString::fromUtf8("LEditServerPort"));
+        LEditServerPort->setGeometry(QRect(260, 20, 91, 21));
         TBrwServerHost = new QTextBrowser(groupBox_5);
         TBrwServerHost->setObjectName(QString::fromUtf8("TBrwServerHost"));
         TBrwServerHost->setGeometry(QRect(10, 20, 241, 21));
@@ -297,7 +297,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        APPPage->setCurrentIndex(1);
+        APPPage->setCurrentIndex(2);
 
 
         QMetaObject::connectSlotsByName(MainWindow);
@@ -339,7 +339,7 @@ public:
         BtnStartListen->setText(QCoreApplication::translate("MainWindow", "Start Listen", nullptr));
         groupBox_5->setTitle(QCoreApplication::translate("MainWindow", "GetHost", nullptr));
         pushButton_7->setText(QCoreApplication::translate("MainWindow", "Share IP", nullptr));
-        lineEdit_7->setText(QCoreApplication::translate("MainWindow", "8888", nullptr));
+        LEditServerPort->setText(QCoreApplication::translate("MainWindow", "8888", nullptr));
         TBrwServerHost->setHtml(QCoreApplication::translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"

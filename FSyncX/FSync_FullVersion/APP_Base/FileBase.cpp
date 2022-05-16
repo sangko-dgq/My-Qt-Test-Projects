@@ -1,26 +1,24 @@
-/*** 
+/***
  * @Author: sangko-dgq 2201225826@qq.com
  * @Date: 2022-05-14 01:12:47
  * @LastEditors: sangko-dgqq 2201225826@qq.com
- * @LastEditTime: 2022-05-15 01:01:49
- * @FilePath: \FileBase\APP\FileBase.cpp
- * @Description:  
+ * @LastEditTime: 2022-05-16 22:31:35
+ * @FilePath: \FSync_FullVersion\APP_Base\FileBase.cpp
+ * @Description:
  * @
- * @Copyright (c) 2022 by sangko-dgq 2201225826@qq.com, All Rights Reserved. 
+ * @Copyright (c) 2022 by sangko-dgq 2201225826@qq.com, All Rights Reserved.
  */
 #include "FileBase.h"
 #include <QDebug>
-
 
 FileBase::FileBase(QObject *parent)
     : QObject{parent}
 {
     connect(&server, SIGNAL(newConnection()), this, SLOT(slot_onNewConnection()));
 
-    bool ok = server.listen(QHostAddress::AnyIPv4, 8888);
-    qDebug() << "listen:" << ok;
-
-    emit signal_ServerListen(ok);
+    // bool ok = server.listen(QHostAddress::AnyIPv4, 8888);
+    // qDebug() << "listen:" << ok;
+    // emit signal_ServerListen(ok);
 
     imageIndex = 0;
     sizePackLast = 0;
@@ -136,4 +134,22 @@ void FileBase::slot_onError(QAbstractSocket::SocketError socketError)
 {
 
     qDebug() << "error" << socketError;
+}
+
+//**************************************** // @tag FileBase ON/OFF Server Listen
+void FileBase::slot_ONOFF_ServerListen(QString Host, QString port, QString ONOFF)
+{
+    bool isServerListenOK;
+    if (ONOFF == "ON")
+    {
+        isServerListenOK = server.listen(QHostAddress::AnyIPv4, port.toInt());
+        qDebug() << "ON Server listen";
+    }
+    else if(ONOFF == "OFF")
+    {
+        server.close(); //关闭Server监听
+        qDebug() << "OFF Server listen";
+    }
+    
+    emit signal_ServerListen(isServerListenOK);
 }

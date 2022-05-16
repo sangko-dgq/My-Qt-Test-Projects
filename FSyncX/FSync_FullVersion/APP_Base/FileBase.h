@@ -2,7 +2,7 @@
  * @Author: sangko-dgqq 2201225826@qq.com
  * @Date: 2022-05-14 01:12:47
  * @LastEditors: sangko-dgqq 2201225826@qq.com
- * @LastEditTime: 2022-05-15 22:50:33
+ * @LastEditTime: 2022-05-16 22:28:51
  * @FilePath: \FSync_FullVersion\APP_Base\FileBase.h
  * @Description:
  * @
@@ -52,6 +52,8 @@ public slots:
     void slot_onConnected();
     void slot_onDisconnected();
     void slot_onError(QAbstractSocket::SocketError socketError);
+
+    void  slot_ONOFF_ServerListen(QString Host, QString port, QString ONOFF);
 
 private:
     QTcpServer server;

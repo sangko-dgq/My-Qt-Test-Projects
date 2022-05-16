@@ -7,5 +7,6 @@
         "optional": "cpp",
         "system_error": "cpp",
         "qapplication": "cpp"
-    }
+    },
+    "todo-tree.tree.showCountsInTree": true
 }

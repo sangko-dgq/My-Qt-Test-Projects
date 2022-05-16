@@ -1,3 +1,13 @@
+/***
+ * @Author: sangko-dgq 2201225826@qq.com
+ * @Date: 2022-05-15 02:40:39
+ * @LastEditors: sangko-dgq 2201225826@qq.com
+ * @LastEditTime: 2022-05-16 22:00:57
+ * @FilePath: \FSync_FullVersion\MainWindow.cpp
+ * @Description: 程序UI主入口
+ * @
+ * @Copyright (c) 2022 by sangko-dgq 2201225826@qq.com, All Rights Reserved.
+ */
 #include "MainWindow.h"
 #include "./ui_MainWindow.h"
 
@@ -29,6 +39,11 @@ MainWindow::MainWindow(QWidget *parent)
     isBasePathValid = false;
     isONSync = false;
     isONListen = false;
+
+    Base_HostGot = CommonHelper::getHostIPV4Address().toString(); 
+    Base_PortSet = ui-> LEditServerPort -> text();
+
+
 }
 
 MainWindow::~MainWindow()
@@ -89,9 +104,14 @@ void MainWindow::FileBaseInit()
     connect(&fileBase, SIGNAL(signal_ServerListen(bool)), this, SLOT(slot_ServerListen(bool)));
 
     // basePath = "C:\\Users\\22012\\Desktop\\Qt projects\\FSyncX\\FileBase\\BasePath_Test";
+
+    connect(this, SIGNAL(signal_ONOFF_ServerListen(QString,QString,QString)), &fileBase, SLOT(slot_ONOFF_ServerListen(QString, QString, QString)));
+    
+
+
 }
 
-//**************************************************************** COMMON HELPER
+//**************************************************************** // @tag Common Helper
 /*设置全局QSS样式*/
 void CommonHelper::setStyle(const QString &style)
 {
@@ -135,7 +155,7 @@ QHostAddress CommonHelper::getHostIPV4Address()
 }
 
 //*************************s***********************************************SLOTS
-//**************************************************页面管理
+//************************************************** //@tag 页面管理
 /*I'm FileSync-Client >>*/
 void MainWindow::on_btnFileSync_clicked()
 {
@@ -166,15 +186,14 @@ void MainWindow::on_actionBackHome_triggered()
         return;
 
     /*同意退回到HomePage*/
-    emit signal_Reject_or_Break_Connection(HostToConnect, PortToConnect, "Break");
+    emit signal_Reject_or_Break_Connection(Sync_HostToConnect, Sync_PortToConnect, "Break");
     ui->APPPage->setCurrentWidget(ui->HomePage);
     isHomePageNow = true;
     isSyncPageNow = false;
     isBasePageNow = false;
 }
 
-//******************************************************FileSync Page
-/*按钮点击-配置同步路径*/
+/****************************************************** //  @tag UI - FileSync Page */
 void MainWindow::on_BtnChoseSyncPath_clicked()
 {
     //文件夹路径
@@ -220,17 +239,17 @@ void MainWindow::on_BtnChoseSyncPath_clicked()
 /*按钮点击-请求连接FBase*/
 void MainWindow::on_BtnConnectToFBase_clicked()
 {
-    HostToConnect = CommonHelper::GetLEditContent(ui->LEditIP);
-    PortToConnect = CommonHelper::GetLEditContent(ui->LEditPort);
+    Sync_HostToConnect = CommonHelper::GetLEditContent(ui->LEditIP);
+    Sync_PortToConnect = CommonHelper::GetLEditContent(ui->LEditPort);
 
     CommonHelper::TBOut(ui->TBrwSyncDebug,
                         "[SYS] Connect to ");
     CommonHelper::TBOut(ui->TBrwSyncDebug,
-                        "HOST: " + HostToConnect);
+                        "HOST: " + Sync_HostToConnect);
     CommonHelper::TBOut(ui->TBrwSyncDebug,
-                        "PORT: " + PortToConnect);
+                        "PORT: " + Sync_PortToConnect);
     //发送到FileTransfer.cpp
-    emit signal_ConnectToFBase(HostToConnect, PortToConnect);
+    emit signal_ConnectToFBase(Sync_HostToConnect, Sync_PortToConnect);
 }
 
 /*按钮点击-开启同步*/
@@ -263,7 +282,7 @@ void MainWindow::on_BtnOpenSyncPath_clicked()
     CommonHelper::TBOut(ui->TBrwSyncDebug, syncPath);
 }
 
-// TODO ******************************************************FileBase Page
+//******************************************************** // @tag UI -  FileBase Page
 
 void MainWindow::on_BtnChoseBasePath_clicked()
 {
@@ -328,9 +347,13 @@ void MainWindow::on_BtnStartListen_clicked()
     CommonHelper::TBOut(ui->TBrwBaseDebug, "[ONListen] Congratulate! Listening...");
     //打开全局 允许监听开关
     isONListen = true;
+    
+    /*向FileBase发送请求 监听*/
+    emit signal_ONOFF_ServerListen(Base_HostGot, Base_PortSet, "ON");
+    
+    
     //禁用打开监听按钮
     ui->BtnStartListen->setEnabled(false);
-
     ui->PBarBaseConfig->setValue(30);
     CommonHelper::Delay(200);
     ui->PBarBaseConfig->setValue(40);
@@ -368,7 +391,7 @@ void MainWindow::on_BtnGetIP_clicked()
     CommonHelper::TBOut(ui->TBrwBaseDebug, "BaseIPAddr");
 }
 
-//*******************************************************APP_Sync
+//******************************************************* //@tag 数据 - APP_Sync
 
 void MainWindow::slot_DirectoryChanged(const QString &path)
 {
@@ -411,6 +434,7 @@ void MainWindow::slot_FileRenamed(const QString &oldName, const QString &newName
     fileTransfer.sendRename(oldName, newName);
 }
 
+//*******************************************//@todo FromFileTransfer
 /*接受FileTransfer的相关信息*/
 void MainWindow::slot_FromFileTransfer(QString content)
 {
@@ -434,7 +458,7 @@ void MainWindow::slot_FromFileTransfer(QString content)
             connect(this, SIGNAL(signal_Reject_or_Break_Connection(QString, QString, QString)),
                     &fileTransfer,
                     SLOT(slot_Reject_or_Break_Connection(QString, QString, QString)));
-            emit signal_Reject_or_Break_Connection(HostToConnect, PortToConnect, "Reject");
+            emit signal_Reject_or_Break_Connection(Sync_HostToConnect, Sync_PortToConnect, "Reject");
 
             return;
         }
@@ -477,7 +501,7 @@ void MainWindow::slot_FromFileTransfer(QString content)
     }
 }
 
-//***************************************************APP_Base
+//*************************************************** //@tag 数据 - APP_Base
 void MainWindow::slot_File(const QString &fileName, const QByteArray &data)
 {
     qDebug() << "File:" << fileName;
@@ -549,7 +573,7 @@ void MainWindow::slot_Rename(const QString &fileOld, const QString &fileNew)
     }
 }
 
-/*来自FileBase的是否开启监听信号*/
+/*来自FileBase的是否 server.listen成功*/
 void MainWindow::slot_ServerListen(bool isServerListenOK)
 {
     QString ret;

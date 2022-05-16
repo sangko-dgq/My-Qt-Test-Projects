@@ -153,7 +153,7 @@ public:
         Debug->setGeometry(QRect(380, 40, 381, 461));
         TBrwSyncDebug = new QTextBrowser(Debug);
         TBrwSyncDebug->setObjectName(QString::fromUtf8("TBrwSyncDebug"));
-        TBrwSyncDebug->setGeometry(QRect(20, 20, 331, 431));
+        TBrwSyncDebug->setGeometry(QRect(20, 20, 351, 431));
         PBarCommon = new QProgressBar(SyncPage);
         PBarCommon->setObjectName(QString::fromUtf8("PBarCommon"));
         PBarCommon->setGeometry(QRect(-10, 530, 791, 20));
@@ -194,7 +194,7 @@ public:
         SyncPath->setGeometry(QRect(0, 20, 361, 81));
         BtnChoseSyncPath = new QPushButton(SyncPath);
         BtnChoseSyncPath->setObjectName(QString::fromUtf8("BtnChoseSyncPath"));
-        BtnChoseSyncPath->setGeometry(QRect(260, 40, 75, 23));
+        BtnChoseSyncPath->setGeometry(QRect(260, 40, 91, 23));
         TBrwSyncPath = new QTextBrowser(SyncPath);
         TBrwSyncPath->setObjectName(QString::fromUtf8("TBrwSyncPath"));
         TBrwSyncPath->setGeometry(QRect(10, 40, 241, 21));
@@ -222,7 +222,7 @@ public:
         ConfigGBox_2->setGeometry(QRect(10, 40, 361, 351));
         PBarBaseConfig = new QProgressBar(ConfigGBox_2);
         PBarBaseConfig->setObjectName(QString::fromUtf8("PBarBaseConfig"));
-        PBarBaseConfig->setGeometry(QRect(-30, 40, 411, 321));
+        PBarBaseConfig->setGeometry(QRect(-30, 40, 411, 301));
         PBarBaseConfig->setFont(font);
         PBarBaseConfig->setValue(1);
         PBarBaseConfig->setTextVisible(false);
@@ -254,7 +254,7 @@ public:
         groupBox_6->setGeometry(QRect(0, 20, 361, 81));
         BtnChoseBasePath = new QPushButton(groupBox_6);
         BtnChoseBasePath->setObjectName(QString::fromUtf8("BtnChoseBasePath"));
-        BtnChoseBasePath->setGeometry(QRect(260, 40, 75, 23));
+        BtnChoseBasePath->setGeometry(QRect(260, 40, 91, 23));
         TBrwBasePath = new QTextBrowser(groupBox_6);
         TBrwBasePath->setObjectName(QString::fromUtf8("TBrwBasePath"));
         TBrwBasePath->setGeometry(QRect(10, 40, 241, 21));
@@ -269,7 +269,7 @@ public:
         Debug_2->setGeometry(QRect(380, 40, 381, 461));
         TBrwBaseDebug = new QTextBrowser(Debug_2);
         TBrwBaseDebug->setObjectName(QString::fromUtf8("TBrwBaseDebug"));
-        TBrwBaseDebug->setGeometry(QRect(20, 20, 331, 411));
+        TBrwBaseDebug->setGeometry(QRect(10, 20, 361, 431));
         PageLOGO = new QLabel(BasePage);
         PageLOGO->setObjectName(QString::fromUtf8("PageLOGO"));
         PageLOGO->setGeometry(QRect(10, -10, 751, 51));

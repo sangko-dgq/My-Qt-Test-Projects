@@ -30,10 +30,12 @@ C:/Users/22012/Desktop/Qt\ projects/FSyncX/build-FSync_FullVersion-Desktop_Qt_5_
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qhashfunctions.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qiodevice.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qiterator.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qline.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qlist.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qlocale.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qlogging.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qmap.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qmargins.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qmetatype.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qnamespace.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qnumeric.h \
@@ -42,7 +44,9 @@ C:/Users/22012/Desktop/Qt\ projects/FSyncX/build-FSync_FullVersion-Desktop_Qt_5_
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qobjectdefs.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qobjectdefs_impl.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qpair.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qpoint.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qprocessordetection.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qrect.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qrefcount.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qregexp.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qscopedpointer.h \
@@ -50,6 +54,7 @@ C:/Users/22012/Desktop/Qt\ projects/FSyncX/build-FSync_FullVersion-Desktop_Qt_5_
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qshareddata.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsharedpointer.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsharedpointer_impl.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsize.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qstring.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qstringalgorithms.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qstringlist.h \
@@ -65,11 +70,40 @@ C:/Users/22012/Desktop/Qt\ projects/FSyncX/build-FSync_FullVersion-Desktop_Qt_5_
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qvarlengtharray.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qvector.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qversiontagging.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qbrush.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qcolor.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qcursor.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qfont.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qfontinfo.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qfontmetrics.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qimage.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qkeysequence.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qmatrix.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpaintdevice.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpalette.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpixelformat.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpixmap.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpolygon.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qregion.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qrgb.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qrgba64.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtgui-config.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtguiglobal.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtransform.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qwindowdefs.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qwindowdefs_win.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QTcpSocket \
   D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qabstractsocket.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qtcpsocket.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qtnetwork-config.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qtnetworkglobal.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QMessageBox \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qdialog.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qmessagebox.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qsizepolicy.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtwidgets-config.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtwidgetsglobal.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qwidget.h \
   D:/Qt5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
   D:/Qt5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
   D:/Qt5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm \
