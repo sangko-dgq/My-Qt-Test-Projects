@@ -31,6 +31,8 @@ void on_BtnStartListen_toggled(bool checked);
 #include <QHostInfo>
 #include <QNetworkInterface>
 
+#include <QMessageBox>
+
 QT_BEGIN_NAMESPACE
 namespace Ui
 {
@@ -50,7 +52,8 @@ public:
 signals:
     void signal_ConnectToFBase(QString Host, QString port);
     
-
+    void signal_Reject_or_Break_Connection(QString Host, QString port, QString Type); //Host发起拒绝请求或阻断已连接
+    
 
 private slots:
     void on_btnFileSync_clicked();
@@ -107,6 +110,10 @@ private:
     QString BaseIPAddr;
 
     /*状态记录*/
+    bool isHomePageNow;
+    bool isSyncPageNow;
+    bool isBasePageNow;
+
     bool isSyncPathValid;
     bool isBasePathValid;
     bool isSyncBaseConnected;

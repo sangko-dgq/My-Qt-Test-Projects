@@ -277,22 +277,13 @@ CMakeFiles/FSync_FullVersion.dir/FSync_FullVersion_autogen/mocs_compilation.cpp.
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfiledevice.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDebug \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdebug.h \
- C:\Users\22012\Desktop\Qt\ projects\FSyncX\FSync_FullVersion\build\FSync_FullVersion_autogen\UME2GOUK7J/moc_FileWatcher.cpp \
- C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/APP_Sync/FileWatcher.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtCore/QFileSystemWatcher \
- D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfilesystemwatcher.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDir \
- D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdir.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfileinfo.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfile.h \
- C:\Users\22012\Desktop\Qt\ projects\FSyncX\FSync_FullVersion\build\FSync_FullVersion_autogen\EWIEGA46WW/moc_MainWindow.cpp \
- C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/MainWindow.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QMainWindow \
- D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qmainwindow.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QMessageBox \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qmessagebox.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtwidgetsglobal.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtguiglobal.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtgui-config.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtwidgets-config.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qdialog.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qwidget.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qwindowdefs.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qwindowdefs_win.h \
@@ -321,6 +312,18 @@ CMakeFiles/FSync_FullVersion.dir/FSync_FullVersion_autogen/mocs_compilation.cpp.
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qsizepolicy.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qcursor.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qkeysequence.h \
+ C:\Users\22012\Desktop\Qt\ projects\FSyncX\FSync_FullVersion\build\FSync_FullVersion_autogen\UME2GOUK7J/moc_FileWatcher.cpp \
+ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/APP_Sync/FileWatcher.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/QFileSystemWatcher \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfilesystemwatcher.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDir \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdir.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfileinfo.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfile.h \
+ C:\Users\22012\Desktop\Qt\ projects\FSyncX\FSync_FullVersion\build\FSync_FullVersion_autogen\EWIEGA46WW/moc_MainWindow.cpp \
+ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/MainWindow.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QMainWindow \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qmainwindow.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtabwidget.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qicon.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QFileInfo \
@@ -348,7 +351,6 @@ CMakeFiles/FSync_FullVersion.dir/FSync_FullVersion_autogen/mocs_compilation.cpp.
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QFileDialog \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qfiledialog.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdir.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qdialog.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QLineEdit \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qlineedit.h \
  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/APP_Sync/FileWatcher.h \

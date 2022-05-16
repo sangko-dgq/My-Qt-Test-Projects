@@ -341,6 +341,8 @@ CMakeFiles/FSync_FullVersion.dir/main.cpp.obj: \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdatastream.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDebug \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdebug.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QMessageBox \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qmessagebox.h \
  C:\Users\22012\Desktop\Qt\ projects\FSyncX\FSync_FullVersion\APP_Base/FileBase.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QTcpServer \
  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qtcpserver.h \

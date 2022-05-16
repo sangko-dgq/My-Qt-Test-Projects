@@ -15,6 +15,8 @@
 #include <QFile>
 #include <QDebug>
 
+#include <QMessageBox>
+
 enum MsgTypeSync
 {
     MsgTypeInvalid = 0,
@@ -50,6 +52,7 @@ void slot_onError(QAbstractSocket::SocketError socketError);
 
 void slot_ConnectToFBase(QString Host, QString port);
 
+void slot_Reject_or_Break_Connection(QString Host, QString port, QString Type);
 private:
     QTcpSocket tcpSocket;
     

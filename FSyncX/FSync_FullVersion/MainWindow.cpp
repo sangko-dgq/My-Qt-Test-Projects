@@ -5,26 +5,29 @@
 #include <QDesktopServices>
 #include <QTime>
 
-
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
     // Theme
-    //  CommonHelper::setStyle("://BlueSoulDark.qss");
-    CommonHelper::setStyle("://Ubuntu.qss");
-
-
+    // CommonHelper::setStyle("://BlueSoulDark.qss");
+    // CommonHelper::setStyle("://Ubuntu.qss");
+    CommonHelper::setStyle("://ConsoleStyle.qss");
 
     // Init
     UIInit();
     FileWatcherInit();
     FileBaseInit();
 
+    //默认处于HomePage
+    isHomePageNow = true;
+    isSyncPageNow = false;
+    isBasePageNow = false;
+
     isSyncPathValid = false;
     isSyncBaseConnected = false;
     isBasePathValid = false;
-    isONSync = false ;
+    isONSync = false;
     isONListen = false;
 }
 
@@ -37,8 +40,6 @@ void MainWindow::UIInit()
 {
     // Default Page
     ui->APPPage->setCurrentWidget(ui->HomePage);
-
-    /*状态检测*/
 }
 
 void MainWindow::FileWatcherInit()
@@ -118,38 +119,58 @@ QString CommonHelper::GetLEditContent(QLineEdit *LineEdit)
 void CommonHelper::Delay(int msec)
 {
     QTime dieTime = QTime::currentTime().addMSecs(msec);
-    while( QTime::currentTime() < dieTime )
+    while (QTime::currentTime() < dieTime)
         QCoreApplication::processEvents(QEventLoop::AllEvents);
 }
 /*************************************
-* 获取本机IPV4 地址，如果有多个，返回第一个有效的IPV4地址
-**************************************/
+ * 获取本机IPV4 地址，如果有多个，返回第一个有效的IPV4地址
+ **************************************/
 QHostAddress CommonHelper::getHostIPV4Address()
 {
-    foreach(const QHostAddress& hostAddress,QNetworkInterface::allAddresses())
-        if ( hostAddress != QHostAddress::LocalHost && hostAddress.toIPv4Address() )
+    foreach (const QHostAddress &hostAddress, QNetworkInterface::allAddresses())
+        if (hostAddress != QHostAddress::LocalHost && hostAddress.toIPv4Address())
             return hostAddress;
 
     return QHostAddress::LocalHost;
 }
 
-
-//*************************s************************************** SLOTS
-/*页面管理*/
+//*************************s***********************************************SLOTS
+//**************************************************页面管理
 /*I'm FileSync-Client >>*/
 void MainWindow::on_btnFileSync_clicked()
 {
     ui->APPPage->setCurrentWidget(ui->SyncPage);
+    isHomePageNow = false;
+    isSyncPageNow = true;
+    isBasePageNow = false;
 }
 /*I'm FileBase-Server >>*/
 void MainWindow::on_btnFileBase_clicked()
 {
     ui->APPPage->setCurrentWidget(ui->BasePage);
+    isHomePageNow = false;
+    isSyncPageNow = false;
+    isBasePageNow = true;
 }
 /*menubar-backhome action*/
 void MainWindow::on_actionBackHome_triggered()
 {
+    if (isHomePageNow)
+        return;
+
+    //弹出警告提示窗口
+    //回到HomePage将中断当前页面属性的相关连接
+    QMessageBox::StandardButton ret = QMessageBox::question(this, "Warning", "BackHomePage will break the Connection, Right?");
+
+    if (ret == QMessageBox::No)
+        return;
+
+    /*同意退回到HomePage*/
+    emit signal_Reject_or_Break_Connection(HostToConnect, PortToConnect, "Break");
     ui->APPPage->setCurrentWidget(ui->HomePage);
+    isHomePageNow = true;
+    isSyncPageNow = false;
+    isBasePageNow = false;
 }
 
 //******************************************************FileSync Page
@@ -158,8 +179,8 @@ void MainWindow::on_BtnChoseSyncPath_clicked()
 {
     //文件夹路径
     syncPath = QFileDialog::getExistingDirectory(
-                this, "choose SyncPath Directory",
-                "/");
+        this, "choose SyncPath Directory",
+        "/");
 
     if (syncPath.isEmpty())
     {
@@ -167,20 +188,27 @@ void MainWindow::on_BtnChoseSyncPath_clicked()
         return;
     }
 
-        isSyncPathValid = true;
+    isSyncPathValid = true;
 
-        CommonHelper::TBOut(ui->TBrwSyncDebug, "[SyncPath]" + syncPath);
+    CommonHelper::TBOut(ui->TBrwSyncDebug, "[SyncPath]" + syncPath);
 
-        ui->TBrwSyncPath->clear();
-        CommonHelper::TBOut(ui->TBrwSyncPath, syncPath + "/");
+    ui->TBrwSyncPath->clear();
+    CommonHelper::TBOut(ui->TBrwSyncPath, syncPath + "/");
 
-        /*SetWatchPath-SyncPath*/
-        fileWatcher.setWatchPath(syncPath);
+    /*SetWatchPath-SyncPath*/
+    fileWatcher.setWatchPath(syncPath);
 
-
+    if (isSyncPathValid)
+    {
+        ui->PBarSyncConfig->setValue(1);
+        CommonHelper::Delay(100);
+        ui->PBarSyncConfig->setValue(10);
+        CommonHelper::Delay(80);
+        ui->PBarSyncConfig->setValue(20);
+    }
     /*补充 - 因为允许先建立连接，再选择路径*/
     //置位连接状态
-    if(isSyncBaseConnected && isSyncPathValid)
+    if (isSyncBaseConnected && isSyncPathValid)
     {
         ui->PBarSyncConfig->setValue(30);
         CommonHelper::Delay(100);
@@ -188,7 +216,6 @@ void MainWindow::on_BtnChoseSyncPath_clicked()
         CommonHelper::Delay(80);
         ui->PBarSyncConfig->setValue(55);
     }
-
 }
 /*按钮点击-请求连接FBase*/
 void MainWindow::on_BtnConnectToFBase_clicked()
@@ -231,20 +258,19 @@ void MainWindow::on_BtnOpenSyncPath_clicked()
         CommonHelper::TBOut(ui->TBrwSyncDebug, "[ERROR] Please Check syncPath!...");
         return;
     }
-    
+
     CommonHelper::TBOut(ui->TBrwSyncDebug, "[OpenSyncPath] Open SyncPath :");
     CommonHelper::TBOut(ui->TBrwSyncDebug, syncPath);
 }
 
-
-//******************************************************FileBase Page
+// TODO ******************************************************FileBase Page
 
 void MainWindow::on_BtnChoseBasePath_clicked()
 {
     //文件夹路径
     BasePath = QFileDialog::getExistingDirectory(
-                this, "choose BasePath Directory",
-                "/");
+        this, "choose BasePath Directory",
+        "/");
 
     if (BasePath.isEmpty())
     {
@@ -257,9 +283,24 @@ void MainWindow::on_BtnChoseBasePath_clicked()
     ui->TBrwBasePath->clear();
     CommonHelper::TBOut(ui->TBrwBasePath, BasePath + "/");
 
-
-
-
+    if (isBasePathValid)
+    {
+        ui->PBarBaseConfig->setValue(1);
+        CommonHelper::Delay(100);
+        ui->PBarBaseConfig->setValue(10);
+        CommonHelper::Delay(80);
+        ui->PBarBaseConfig->setValue(20);
+    }
+    /*补充 - 因为允许先建立连接，再选择路径*/
+    //置位连接状态
+    if (isSyncBaseConnected && isBasePathValid)
+    {
+        ui->PBarBaseConfig->setValue(30);
+        CommonHelper::Delay(100);
+        ui->PBarBaseConfig->setValue(40);
+        CommonHelper::Delay(80);
+        ui->PBarBaseConfig->setValue(55);
+    }
 }
 
 /*按钮点击-打开FSync端同步文件夹*/
@@ -270,7 +311,7 @@ void MainWindow::on_BtnOpenBasePath_clicked()
         CommonHelper::TBOut(ui->TBrwBaseDebug, "[ERROR] Please Check BasePath!...");
         return;
     }
-    
+
     CommonHelper::TBOut(ui->TBrwBaseDebug, "[OpenSyncPath] Open BasePath :");
     CommonHelper::TBOut(ui->TBrwBaseDebug, BasePath);
 }
@@ -278,7 +319,7 @@ void MainWindow::on_BtnOpenBasePath_clicked()
 /*按钮切换-切换监听状态*/
 void MainWindow::on_BtnStartListen_clicked()
 {
-    if(!isBasePathValid) //路径无效
+    if (!isBasePathValid) //路径无效
     {
         CommonHelper::TBOut(ui->TBrwBaseDebug, "[ONListen] [ERROR] SyncPath is not built..");
         return;
@@ -290,7 +331,6 @@ void MainWindow::on_BtnStartListen_clicked()
     //禁用打开监听按钮
     ui->BtnStartListen->setEnabled(false);
 
-
     ui->PBarBaseConfig->setValue(30);
     CommonHelper::Delay(200);
     ui->PBarBaseConfig->setValue(40);
@@ -300,7 +340,6 @@ void MainWindow::on_BtnStartListen_clicked()
     ui->PBarBaseConfig->setValue(80);
     CommonHelper::Delay(200);
     ui->PBarBaseConfig->setValue(100);
-
 }
 
 /*按钮点击-刷新获取IP*/
@@ -319,18 +358,15 @@ void MainWindow::on_BtnGetIP_clicked()
 
     /*填入TrwServerHos里面*/
     ui->TBrwServerHost->clear();
-    CommonHelper::TBOut(ui->TBrwServerHost,BaseIPAddr);
+    CommonHelper::TBOut(ui->TBrwServerHost, BaseIPAddr);
 
-    if(isBasePathValid) ui->PBarBaseConfig->setValue(50);
+    if (isBasePathValid)
+        ui->PBarBaseConfig->setValue(50);
 
     /*Debug*/
     CommonHelper::TBOut(ui->TBrwBaseDebug, "[GOT IP]");
     CommonHelper::TBOut(ui->TBrwBaseDebug, "BaseIPAddr");
-
-
-
 }
-
 
 //*******************************************************APP_Sync
 
@@ -378,16 +414,36 @@ void MainWindow::slot_FileRenamed(const QString &oldName, const QString &newName
 /*接受FileTransfer的相关信息*/
 void MainWindow::slot_FromFileTransfer(QString content)
 {
+    QMessageBox::StandardButton result;
+
     CommonHelper::TBOut(ui->TBrwSyncDebug, content);
 
     /*采用禁用按钮的方式，避免已连接的情况, 再重复点击请求连接(实际上会自动阻塞，不能再连接)*/
     if (content == "[Sync/Base] Connected")
     {
-        CommonHelper::TBOut(ui->TBrwBaseDebug, content);
+        if (isBasePageNow) //限制弹窗只在对应的页面弹出
+        {
+            result = QMessageBox::question(ui->BasePage, "CONNECT", "[From Fsync-Client]Accept Requested Connection?");
+        }
 
+        if (result == QMessageBox::No)
+        {
+            CommonHelper::TBOut(ui->TBrwBaseDebug, "[Wanning] You - Rejected - The Connection!");
+
+            /*回传服务器拒绝信号*/
+            connect(this, SIGNAL(signal_Reject_or_Break_Connection(QString, QString, QString)),
+                    &fileTransfer,
+                    SLOT(slot_Reject_or_Break_Connection(QString, QString, QString)));
+            emit signal_Reject_or_Break_Connection(HostToConnect, PortToConnect, "Reject");
+
+            return;
+        }
+
+        CommonHelper::TBOut(ui->TBrwBaseDebug, content);
         ui->BtnConnectToFBase->setEnabled(false);
 
-        if(isSyncPathValid) ui->PBarSyncConfig->setValue(55);
+        if (isSyncPathValid)
+            ui->PBarSyncConfig->setValue(55);
 
         //置位连接状态
         isSyncBaseConnected = true;
@@ -400,6 +456,24 @@ void MainWindow::slot_FromFileTransfer(QString content)
 
         //置位连接状态
         isSyncBaseConnected = false;
+    }
+
+    /**********UI相关回传控制************/
+    if (content == "[FileTransfer] Reject message received") // Server发起拒绝
+    {
+        if (isSyncPageNow)
+        {
+            QMessageBox::warning(ui->SyncPage, "Warning", "FBase-Server Rejected the Connection!");
+        }
+        CommonHelper::TBOut(ui->TBrwBaseDebug, content);
+        ui->BtnConnectToFBase->setEnabled(true);
+        ui->PBarSyncConfig->setValue(20);
+        isSyncBaseConnected = false;
+    }
+    if (content == "[FileTransfer] Break message received") // Server发起中断
+    {
+
+        QMessageBox::warning(this, "Warning", "Connection Broke!");
     }
 }
 
@@ -475,6 +549,7 @@ void MainWindow::slot_Rename(const QString &fileOld, const QString &fileNew)
     }
 }
 
+/*来自FileBase的是否开启监听信号*/
 void MainWindow::slot_ServerListen(bool isServerListenOK)
 {
     QString ret;
@@ -484,8 +559,3 @@ void MainWindow::slot_ServerListen(bool isServerListenOK)
         ret = "False";
     CommonHelper::TBOut(ui->TBrwBaseDebug, "[ServerListen] Listen :" + ret);
 }
-
-
-
-
-

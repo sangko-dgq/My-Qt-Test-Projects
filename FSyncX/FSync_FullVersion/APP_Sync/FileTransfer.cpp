@@ -106,5 +106,22 @@ void FileTransfer::slot_ConnectToFBase(QString Host, QString port)
 
     emit signal_FromFileTransfer("[Sync/Base] Start To Connect...");
 
+
+
     qDebug() << "connect to host";
+}
+
+/*拒绝或中端网络连接 -- Type: Reject / Break*/
+void FileTransfer::slot_Reject_or_Break_Connection(QString Host, QString port, QString Type)
+{
+    /*根据Type回传不同消息（需要不同窗口）*/
+    if(Type == "Reject")
+    //通知 SyncPage 弹出waring弹窗，恢复发起连接按钮状态
+    emit signal_FromFileTransfer("[FileTransfer] Reject message received");
+    else if(Type == "Break")
+    emit signal_FromFileTransfer("[FileTransfer] Break message received");
+
+    //关闭tcpSocket
+    tcpSocket.close();
+
 }

@@ -38,7 +38,7 @@
      </font>
     </property>
     <property name="currentIndex">
-     <number>2</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="HomePage">
      <widget class="QWidget" name="layoutWidget">
@@ -157,7 +157,7 @@
         <rect>
          <x>20</x>
          <y>20</y>
-         <width>331</width>
+         <width>351</width>
          <height>431</height>
         </rect>
        </property>
@@ -211,7 +211,7 @@
         </font>
        </property>
        <property name="value">
-        <number>20</number>
+        <number>1</number>
        </property>
        <property name="textVisible">
         <bool>false</bool>
@@ -318,7 +318,7 @@
          <rect>
           <x>260</x>
           <y>40</y>
-          <width>75</width>
+          <width>91</width>
           <height>23</height>
          </rect>
         </property>
@@ -415,7 +415,7 @@ p, li { white-space: pre-wrap; }
          <x>-30</x>
          <y>40</y>
          <width>411</width>
-         <height>321</height>
+         <height>301</height>
         </rect>
        </property>
        <property name="font">
@@ -548,7 +548,7 @@ p, li { white-space: pre-wrap; }
          <rect>
           <x>260</x>
           <y>40</y>
-          <width>75</width>
+          <width>91</width>
           <height>23</height>
          </rect>
         </property>
@@ -611,10 +611,10 @@ p, li { white-space: pre-wrap; }
       <widget class="QTextBrowser" name="TBrwBaseDebug">
        <property name="geometry">
         <rect>
-         <x>20</x>
+         <x>10</x>
          <y>20</y>
-         <width>331</width>
-         <height>411</height>
+         <width>361</width>
+         <height>431</height>
         </rect>
        </property>
       </widget>

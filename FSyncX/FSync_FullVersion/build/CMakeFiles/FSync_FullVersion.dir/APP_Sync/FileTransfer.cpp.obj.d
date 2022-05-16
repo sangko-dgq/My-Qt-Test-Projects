@@ -268,4 +268,39 @@ CMakeFiles/FSync_FullVersion.dir/APP_Sync/FileTransfer.cpp.obj: \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfile.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfiledevice.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDebug \
- D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdebug.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdebug.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QMessageBox \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qmessagebox.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtwidgetsglobal.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtguiglobal.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtgui-config.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtwidgets-config.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qdialog.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qwidget.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qwindowdefs.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qwindowdefs_win.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qmargins.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpaintdevice.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qrect.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsize.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qpoint.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpalette.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qcolor.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qrgb.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qrgba64.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qbrush.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qmatrix.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpolygon.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qregion.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdatastream.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qline.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtransform.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qimage.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpixelformat.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpixmap.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qfont.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qfontmetrics.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qfontinfo.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qsizepolicy.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qcursor.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qkeysequence.h

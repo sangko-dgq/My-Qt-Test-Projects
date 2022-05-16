@@ -167,7 +167,7 @@ public:
         PBarSyncConfig->setObjectName(QString::fromUtf8("PBarSyncConfig"));
         PBarSyncConfig->setGeometry(QRect(-30, 40, 411, 301));
         PBarSyncConfig->setFont(font);
-        PBarSyncConfig->setValue(20);
+        PBarSyncConfig->setValue(1);
         PBarSyncConfig->setTextVisible(false);
         PBarSyncConfig->setOrientation(Qt::Vertical);
         PBarSyncConfig->setInvertedAppearance(true);
@@ -297,7 +297,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        APPPage->setCurrentIndex(2);
+        APPPage->setCurrentIndex(1);
 
 
         QMetaObject::connectSlotsByName(MainWindow);

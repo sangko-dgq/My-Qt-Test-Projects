@@ -541,7 +541,42 @@ CMakeFiles/FSync_FullVersion.dir/APP_Sync/FileTransfer.cpp.obj: ../APP_Sync/File
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfile.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfiledevice.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDebug \
-  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdebug.h
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdebug.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QMessageBox \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qmessagebox.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtwidgetsglobal.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtguiglobal.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtgui-config.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtwidgets-config.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qdialog.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qwidget.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qwindowdefs.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qwindowdefs_win.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qmargins.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpaintdevice.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qrect.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsize.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qpoint.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpalette.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qcolor.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qrgb.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qrgba64.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qbrush.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qmatrix.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpolygon.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qregion.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdatastream.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qline.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtransform.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qimage.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpixelformat.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpixmap.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qfont.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qfontmetrics.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qfontinfo.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qsizepolicy.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qcursor.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qkeysequence.h
 
 CMakeFiles/FSync_FullVersion.dir/APP_Sync/FileWatcher.cpp.obj: ../APP_Sync/FileWatcher.cpp \
   ../APP_Sync/FileWatcher.h \
@@ -1088,22 +1123,13 @@ CMakeFiles/FSync_FullVersion.dir/FSync_FullVersion_autogen/mocs_compilation.cpp.
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfiledevice.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDebug \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdebug.h \
-  FSync_FullVersion_autogen/UME2GOUK7J/moc_FileWatcher.cpp \
-  ../APP_Sync/FileWatcher.h \
-  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QFileSystemWatcher \
-  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfilesystemwatcher.h \
-  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDir \
-  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdir.h \
-  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfileinfo.h \
-  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfile.h \
-  FSync_FullVersion_autogen/EWIEGA46WW/moc_MainWindow.cpp \
-  ../MainWindow.h \
-  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QMainWindow \
-  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qmainwindow.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QMessageBox \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qmessagebox.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtwidgetsglobal.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtguiglobal.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtgui-config.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtwidgets-config.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qdialog.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qwidget.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qwindowdefs.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qwindowdefs_win.h \
@@ -1132,6 +1158,18 @@ CMakeFiles/FSync_FullVersion.dir/FSync_FullVersion_autogen/mocs_compilation.cpp.
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qsizepolicy.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qcursor.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qkeysequence.h \
+  FSync_FullVersion_autogen/UME2GOUK7J/moc_FileWatcher.cpp \
+  ../APP_Sync/FileWatcher.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QFileSystemWatcher \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfilesystemwatcher.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDir \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdir.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfileinfo.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfile.h \
+  FSync_FullVersion_autogen/EWIEGA46WW/moc_MainWindow.cpp \
+  ../MainWindow.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QMainWindow \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qmainwindow.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtabwidget.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qicon.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QFileInfo \
@@ -1159,12 +1197,17 @@ CMakeFiles/FSync_FullVersion.dir/FSync_FullVersion_autogen/mocs_compilation.cpp.
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QFileDialog \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qfiledialog.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdir.h \
-  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qdialog.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QLineEdit \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qlineedit.h \
   ../APP_Sync/FileWatcher.h \
   ../APP_Sync/FileTransfer.h \
-  ../APP_Base/FileBase.h
+  ../APP_Base/FileBase.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QHostAddress \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qhostaddress.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QHostInfo \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qhostinfo.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QNetworkInterface \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qnetworkinterface.h
 
 CMakeFiles/FSync_FullVersion.dir/MainWindow.cpp.obj: ../MainWindow.cpp \
   ../MainWindow.h \
@@ -1508,12 +1551,20 @@ CMakeFiles/FSync_FullVersion.dir/MainWindow.cpp.obj: ../MainWindow.cpp \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdatastream.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDebug \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdebug.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QMessageBox \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qmessagebox.h \
   ../APP_Base/FileBase.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QTcpServer \
   D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qtcpserver.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qhostaddress.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QList \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qlist.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QHostAddress \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qhostaddress.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QHostInfo \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qhostinfo.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QNetworkInterface \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qnetworkinterface.h \
   FSync_FullVersion_autogen/include/ui_MainWindow.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QVariant \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qvariant.h \
@@ -1899,12 +1950,20 @@ CMakeFiles/FSync_FullVersion.dir/main.cpp.obj: ../main.cpp \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdatastream.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDebug \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdebug.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QMessageBox \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qmessagebox.h \
   ../APP_Base/FileBase.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QTcpServer \
   D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qtcpserver.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qhostaddress.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QList \
-  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qlist.h
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qlist.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QHostAddress \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qhostaddress.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QHostInfo \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qhostinfo.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QNetworkInterface \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qnetworkinterface.h
 
 
 D:/Qt5/5.15.2/mingw81_64/include/QtCore/qobject.h:
@@ -2054,6 +2113,8 @@ D:/Qt5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_i
 D:/Qt5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hash_bytes.h:
 
 D:/Qt5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/type_traits.h:
+
+D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QNetworkInterface:
 
 D:/Qt5/Tools/mingw810_64/x86_64-w64-mingw32/include/assert.h:
 
@@ -2513,9 +2574,9 @@ D:/Qt5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/variant:
 
 D:/Qt5/5.15.2/mingw81_64/include/QtCore/qset.h:
 
-D:/Qt5/5.15.2/mingw81_64/include/QtGui/qfontinfo.h:
-
 ../APP_Sync/FileWatcher.h:
+
+D:/Qt5/5.15.2/mingw81_64/include/QtGui/qfontinfo.h:
 
 D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsharedpointer_impl.h:
 
@@ -2557,37 +2618,25 @@ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpolygon.h:
 
 D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfiledevice.h:
 
-../APP_Sync/FileWatcher.cpp:
+D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QMessageBox:
 
-D:/Qt5/5.15.2/mingw81_64/include/QtCore/qstandardpaths.h:
-
-D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsize.h:
-
-D:/Qt5/5.15.2/mingw81_64/include/QtCore/QFileSystemWatcher:
-
-D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfilesystemwatcher.h:
-
-D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDir:
-
-D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfileinfo.h:
-
-FSync_FullVersion_autogen/VX7EZBIHI4/moc_FileBase.cpp:
-
-FSync_FullVersion_autogen/UME2GOUK7J/moc_FileWatcher.cpp:
-
-D:/Qt5/5.15.2/mingw81_64/include/QtGui/qicon.h:
-
-FSync_FullVersion_autogen/EWIEGA46WW/moc_MainWindow.cpp:
-
-D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QMainWindow:
+D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qmessagebox.h:
 
 D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtgui-config.h:
 
 D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtwidgets-config.h:
 
+D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qdialog.h:
+
 D:/Qt5/5.15.2/mingw81_64/include/QtGui/qwindowdefs.h:
 
 D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpaintdevice.h:
+
+D:/Qt5/5.15.2/mingw81_64/include/QtCore/qstandardpaths.h:
+
+D:/Qt5/5.15.2/mingw81_64/include/QtCore/QFileSystemWatcher:
+
+D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsize.h:
 
 D:/Qt5/5.15.2/mingw81_64/include/QtCore/qpoint.h:
 
@@ -2606,6 +2655,26 @@ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qcoreapplication.h:
 D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qsizepolicy.h:
 
 D:/Qt5/5.15.2/mingw81_64/include/QtGui/qkeysequence.h:
+
+../APP_Sync/FileWatcher.cpp:
+
+D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfilesystemwatcher.h:
+
+D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDir:
+
+D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfileinfo.h:
+
+FSync_FullVersion_autogen/VX7EZBIHI4/moc_FileBase.cpp:
+
+FSync_FullVersion_autogen/UME2GOUK7J/moc_FileWatcher.cpp:
+
+D:/Qt5/5.15.2/mingw81_64/include/QtGui/qicon.h:
+
+FSync_FullVersion_autogen/EWIEGA46WW/moc_MainWindow.cpp:
+
+D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QHostAddress:
+
+D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QMainWindow:
 
 D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtabwidget.h:
 
@@ -2631,7 +2700,11 @@ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpen.h:
 
 D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QFileDialog:
 
-D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qdialog.h:
+D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QHostInfo:
+
+D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qhostinfo.h:
+
+D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qnetworkinterface.h:
 
 ../MainWindow.cpp:
 
