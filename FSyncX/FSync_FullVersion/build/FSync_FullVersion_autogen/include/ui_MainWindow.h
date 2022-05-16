@@ -112,7 +112,7 @@ public:
         HomePage->setObjectName(QString::fromUtf8("HomePage"));
         layoutWidget = new QWidget(HomePage);
         layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
-        layoutWidget->setGeometry(QRect(240, 100, 272, 133));
+        layoutWidget->setGeometry(QRect(121, 82, 511, 151));
         LOGO_2 = new QGridLayout(layoutWidget);
         LOGO_2->setObjectName(QString::fromUtf8("LOGO_2"));
         LOGO_2->setContentsMargins(0, 0, 0, 0);
@@ -194,10 +194,10 @@ public:
         SyncPath->setGeometry(QRect(0, 20, 361, 81));
         BtnChoseSyncPath = new QPushButton(SyncPath);
         BtnChoseSyncPath->setObjectName(QString::fromUtf8("BtnChoseSyncPath"));
-        BtnChoseSyncPath->setGeometry(QRect(260, 40, 91, 23));
+        BtnChoseSyncPath->setGeometry(QRect(260, 32, 91, 41));
         TBrwSyncPath = new QTextBrowser(SyncPath);
         TBrwSyncPath->setObjectName(QString::fromUtf8("TBrwSyncPath"));
-        TBrwSyncPath->setGeometry(QRect(10, 40, 241, 21));
+        TBrwSyncPath->setGeometry(QRect(10, 30, 241, 41));
         PageLOGO_2 = new QLabel(SyncPage);
         PageLOGO_2->setObjectName(QString::fromUtf8("PageLOGO_2"));
         PageLOGO_2->setGeometry(QRect(10, -10, 751, 51));
@@ -254,10 +254,10 @@ public:
         groupBox_6->setGeometry(QRect(0, 20, 361, 81));
         BtnChoseBasePath = new QPushButton(groupBox_6);
         BtnChoseBasePath->setObjectName(QString::fromUtf8("BtnChoseBasePath"));
-        BtnChoseBasePath->setGeometry(QRect(260, 40, 91, 23));
+        BtnChoseBasePath->setGeometry(QRect(260, 32, 91, 41));
         TBrwBasePath = new QTextBrowser(groupBox_6);
         TBrwBasePath->setObjectName(QString::fromUtf8("TBrwBasePath"));
-        TBrwBasePath->setGeometry(QRect(10, 40, 241, 21));
+        TBrwBasePath->setGeometry(QRect(10, 30, 241, 41));
         PBarCommon_4 = new QProgressBar(BasePage);
         PBarCommon_4->setObjectName(QString::fromUtf8("PBarCommon_4"));
         PBarCommon_4->setGeometry(QRect(-10, 530, 791, 20));
@@ -297,7 +297,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        APPPage->setCurrentIndex(2);
+        APPPage->setCurrentIndex(0);
 
 
         QMetaObject::connectSlotsByName(MainWindow);
@@ -344,7 +344,7 @@ public:
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Fira Code'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">null</p></body></html>", nullptr));
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt; color:#5f5f5f;\">Click [Refresh IP] to get...</span></p></body></html>", nullptr));
         BtnGetIP->setText(QCoreApplication::translate("MainWindow", "Refresh IP", nullptr));
         groupBox_6->setTitle(QCoreApplication::translate("MainWindow", "BasePath", nullptr));
         BtnChoseBasePath->setText(QCoreApplication::translate("MainWindow", "ChosePath", nullptr));
@@ -352,7 +352,7 @@ public:
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Fira Code'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">NO PATH CHOOSE..</p></body></html>", nullptr));
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:#161616;\">NO PATH CHOOSE..</span></p></body></html>", nullptr));
         Debug_2->setTitle(QCoreApplication::translate("MainWindow", "Dubug", nullptr));
         PageLOGO->setText(QCoreApplication::translate("MainWindow", "FileBase- Server", nullptr));
         menuMenu->setTitle(QCoreApplication::translate("MainWindow", "Menu", nullptr));

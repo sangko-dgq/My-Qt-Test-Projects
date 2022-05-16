@@ -40,10 +40,8 @@ MainWindow::MainWindow(QWidget *parent)
     isONSync = false;
     isONListen = false;
 
-    Base_HostGot = CommonHelper::getHostIPV4Address().toString(); 
-    Base_PortSet = ui-> LEditServerPort -> text();
-
-
+    Base_HostGot = CommonHelper::getHostIPV4Address().toString();
+    Base_PortSet = ui->LEditServerPort->text();
 }
 
 MainWindow::~MainWindow()
@@ -105,10 +103,7 @@ void MainWindow::FileBaseInit()
 
     // basePath = "C:\\Users\\22012\\Desktop\\Qt projects\\FSyncX\\FileBase\\BasePath_Test";
 
-    connect(this, SIGNAL(signal_ONOFF_ServerListen(QString,QString,QString)), &fileBase, SLOT(slot_ONOFF_ServerListen(QString, QString, QString)));
-    
-
-
+    connect(this, SIGNAL(signal_ONOFF_ServerListen(QString, QString, QString)), &fileBase, SLOT(slot_ONOFF_ServerListen(QString, QString, QString)));
 }
 
 //**************************************************************** // @tag Common Helper
@@ -186,11 +181,28 @@ void MainWindow::on_actionBackHome_triggered()
         return;
 
     /*同意退回到HomePage*/
-    emit signal_Reject_or_Break_Connection(Sync_HostToConnect, Sync_PortToConnect, "Break");
-    ui->APPPage->setCurrentWidget(ui->HomePage);
-    isHomePageNow = true;
-    isSyncPageNow = false;
-    isBasePageNow = false;
+    if (isSyncPageNow)
+    {
+        emit signal_Reject_or_Break_Connection(Sync_HostToConnect, Sync_PortToConnect, "Break"); //中断连接
+        isONSync = false;                                                                        //关闭同步
+
+        //*页面状态*//
+        ui->APPPage->setCurrentWidget(ui->HomePage);
+        ui->BtnStartSync->setEnabled(true);
+        isHomePageNow = true;
+        isSyncPageNow = false;
+    }
+    if (isBasePageNow)
+    {
+        emit signal_Reject_or_Break_Connection(Base_HostGot, Base_PortSet, "Break"); //中断
+        emit signal_ONOFF_ServerListen(Base_HostGot, Base_PortSet, "OFF");           //向FileBase发送关闭监听信号
+        isONListen = false;
+
+        ui->APPPage->setCurrentWidget(ui->HomePage);
+        ui->BtnStartListen->setEnabled(true);
+        isHomePageNow = true;
+        isBasePageNow = false;
+    }
 }
 
 /****************************************************** //  @tag UI - FileSync Page */
@@ -322,7 +334,7 @@ void MainWindow::on_BtnChoseBasePath_clicked()
     }
 }
 
-/*按钮点击-打开FSync端同步文件夹*/
+/*按钮点击-打开Base端同步文件夹*/
 void MainWindow::on_BtnOpenBasePath_clicked()
 {
     if (!QDesktopServices::openUrl(QUrl::fromLocalFile(BasePath)))
@@ -347,11 +359,10 @@ void MainWindow::on_BtnStartListen_clicked()
     CommonHelper::TBOut(ui->TBrwBaseDebug, "[ONListen] Congratulate! Listening...");
     //打开全局 允许监听开关
     isONListen = true;
-    
+
     /*向FileBase发送请求 监听*/
     emit signal_ONOFF_ServerListen(Base_HostGot, Base_PortSet, "ON");
-    
-    
+
     //禁用打开监听按钮
     ui->BtnStartListen->setEnabled(false);
     ui->PBarBaseConfig->setValue(30);
