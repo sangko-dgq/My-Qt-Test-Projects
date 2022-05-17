@@ -285,6 +285,30 @@ MainWindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/MainWindow.cpp.s
 .PHONY : MainWindow.cpp.s
 
+UI_Modules/CommonHelper.obj: UI_Modules/CommonHelper.cpp.obj
+.PHONY : UI_Modules/CommonHelper.obj
+
+# target to build an object file
+UI_Modules/CommonHelper.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/UI_Modules/CommonHelper.cpp.obj
+.PHONY : UI_Modules/CommonHelper.cpp.obj
+
+UI_Modules/CommonHelper.i: UI_Modules/CommonHelper.cpp.i
+.PHONY : UI_Modules/CommonHelper.i
+
+# target to preprocess a source file
+UI_Modules/CommonHelper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/UI_Modules/CommonHelper.cpp.i
+.PHONY : UI_Modules/CommonHelper.cpp.i
+
+UI_Modules/CommonHelper.s: UI_Modules/CommonHelper.cpp.s
+.PHONY : UI_Modules/CommonHelper.s
+
+# target to generate assembly for a file
+UI_Modules/CommonHelper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/UI_Modules/CommonHelper.cpp.s
+.PHONY : UI_Modules/CommonHelper.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -337,6 +361,9 @@ help:
 	@echo ... MainWindow.obj
 	@echo ... MainWindow.i
 	@echo ... MainWindow.s
+	@echo ... UI_Modules/CommonHelper.obj
+	@echo ... UI_Modules/CommonHelper.i
+	@echo ... UI_Modules/CommonHelper.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

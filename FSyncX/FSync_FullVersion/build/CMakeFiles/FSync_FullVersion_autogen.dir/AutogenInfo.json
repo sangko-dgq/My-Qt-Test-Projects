@@ -101,6 +101,18 @@
 			"MU",
 			"EWIEGA46WW/moc_MainWindow.cpp",
 			null
+		],
+		[
+			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/UI_Modules/CommonHelper.h",
+			"MU",
+			"K375XTTEI5/moc_CommonHelper.cpp",
+			null
+		],
+		[
+			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/UI_Modules/QHeaders.h",
+			"MU",
+			"K375XTTEI5/moc_QHeaders.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -180,6 +192,11 @@
 		],
 		[
 			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/MainWindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/UI_Modules/CommonHelper.cpp",
 			"MU",
 			null
 		],

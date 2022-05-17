@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/build/FSync_FullVersion_autogen/MNQGAJHFUT/qrc_APPTheme.cpp" "CMakeFiles/FSync_FullVersion.dir/FSync_FullVersion_autogen/MNQGAJHFUT/qrc_APPTheme.cpp.obj" "gcc" "CMakeFiles/FSync_FullVersion.dir/FSync_FullVersion_autogen/MNQGAJHFUT/qrc_APPTheme.cpp.obj.d"
   "C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/build/FSync_FullVersion_autogen/mocs_compilation.cpp" "CMakeFiles/FSync_FullVersion.dir/FSync_FullVersion_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/FSync_FullVersion.dir/FSync_FullVersion_autogen/mocs_compilation.cpp.obj.d"
   "C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/MainWindow.cpp" "CMakeFiles/FSync_FullVersion.dir/MainWindow.cpp.obj" "gcc" "CMakeFiles/FSync_FullVersion.dir/MainWindow.cpp.obj.d"
+  "C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/UI_Modules/CommonHelper.cpp" "CMakeFiles/FSync_FullVersion.dir/UI_Modules/CommonHelper.cpp.obj" "gcc" "CMakeFiles/FSync_FullVersion.dir/UI_Modules/CommonHelper.cpp.obj.d"
   "C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/main.cpp" "CMakeFiles/FSync_FullVersion.dir/main.cpp.obj" "gcc" "CMakeFiles/FSync_FullVersion.dir/main.cpp.obj.d"
   )
 

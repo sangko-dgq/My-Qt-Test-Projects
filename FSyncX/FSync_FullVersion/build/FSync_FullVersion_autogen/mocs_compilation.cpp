@@ -3,3 +3,4 @@
 #include "UME2GOUK7J/moc_FileTransfer.cpp"
 #include "UME2GOUK7J/moc_FileWatcher.cpp"
 #include "EWIEGA46WW/moc_MainWindow.cpp"
+#include "K375XTTEI5/moc_CommonHelper.cpp"

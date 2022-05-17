@@ -14,6 +14,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/FSync_FullVersion.dir/FSync_FullVersion_autogen/mocs_compilation.cpp.obj.d"
   "CMakeFiles/FSync_FullVersion.dir/MainWindow.cpp.obj"
   "CMakeFiles/FSync_FullVersion.dir/MainWindow.cpp.obj.d"
+  "CMakeFiles/FSync_FullVersion.dir/UI_Modules/CommonHelper.cpp.obj"
+  "CMakeFiles/FSync_FullVersion.dir/UI_Modules/CommonHelper.cpp.obj.d"
   "CMakeFiles/FSync_FullVersion.dir/main.cpp.obj"
   "CMakeFiles/FSync_FullVersion.dir/main.cpp.obj.d"
   "FSync_FullVersion.exe"

@@ -1,40 +1,14 @@
 
-/***
- * @Author: sangko-dgq 2201225826@qq.com
- * @Date: 2022-05-15 02:40:39
- * @LastEditors: sangko-dgq 2201225826@qq.com
- * @LastEditTime: 2022-05-15 19:31:17
- * @FilePath: \FSync_FullVersion\MainWindow.h
- * @Description:
- * @
- * @Copyright (c) 2022 by sangko-dgq 2201225826@qq.com, All Rights Reserved.
- */
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
 #include <QMainWindow>
 
-#include <QFile>
-#include <QFileInfo>
-#include <QApplication>
-
-#include <QWidget>
-#include <QTextBrowser>
-#include <QFileDialog>
-#include <QLineEdit>
-
 #include "APP_Sync/FileWatcher.h"
 #include "APP_Sync/FileTransfer.h"
 #include "APP_Base/FileBase.h"
 
-#include <QHostAddress>
-#include <QHostInfo>
-#include <QNetworkInterface>
-
-#include <QMessageBox>
-
-#include <QContextMenuEvent>
-#include <QPoint>
+#include "UI_Modules/CommonHelper.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui
@@ -96,6 +70,7 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
+    CommonHelper *commonHelper;
 
     /*APP_Sync*/
     FileWatcher fileWatcher;
@@ -139,20 +114,5 @@ private:
 
 };
 
-//******************************************************** CommonHelper
-class CommonHelper
-{
-public:
-    /*设置全局QSS样式*/
-    static void setStyle(const QString &style);
-    /*TextBrowser对象换行输出*/
-    static void TBOut(QTextBrowser *TextBrowser, QString Content);
-    /*获取LineEdit的内容*/
-    static QString GetLEditContent(QLineEdit *LineEdit);
-    /*使用于单线程非阻塞延时*/
-    static void Delay(int msec);
-    /** 获取本机IPV4 地址，如果有多个，返回第一个有效的IPV4地址*/
-    static QHostAddress getHostIPV4Address();
-};
 
 #endif // MAINWINDOW_H

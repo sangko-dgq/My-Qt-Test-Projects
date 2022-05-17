@@ -326,6 +326,11 @@ CMakeFiles/FSync_FullVersion.dir/FSync_FullVersion_autogen/mocs_compilation.cpp.
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qmainwindow.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtabwidget.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qicon.h \
+ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/APP_Sync/FileWatcher.h \
+ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/APP_Sync/FileTransfer.h \
+ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/APP_Base/FileBase.h \
+ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/UI_Modules/CommonHelper.h \
+ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/UI_Modules/QHeaders.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QFileInfo \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfileinfo.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QApplication \
@@ -353,9 +358,6 @@ CMakeFiles/FSync_FullVersion.dir/FSync_FullVersion_autogen/mocs_compilation.cpp.
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdir.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QLineEdit \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qlineedit.h \
- C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/APP_Sync/FileWatcher.h \
- C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/APP_Sync/FileTransfer.h \
- C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/APP_Base/FileBase.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QHostAddress \
  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qhostaddress.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QHostInfo \
@@ -367,4 +369,8 @@ CMakeFiles/FSync_FullVersion.dir/FSync_FullVersion_autogen/mocs_compilation.cpp.
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qvector2d.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtouchdevice.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QPoint \
- D:/Qt5/5.15.2/mingw81_64/include/QtCore/qpoint.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qpoint.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/QTime \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdatetime.h \
+ C:\Users\22012\Desktop\Qt\ projects\FSyncX\FSync_FullVersion\build\FSync_FullVersion_autogen\K375XTTEI5/moc_CommonHelper.cpp \
+ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/UI_Modules/CommonHelper.h

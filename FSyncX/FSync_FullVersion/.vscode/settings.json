@@ -7,7 +7,10 @@
         "optional": "cpp",
         "system_error": "cpp",
         "qapplication": "cpp",
-        "new": "cpp"
+        "new": "cpp",
+        "qhostaddress": "cpp",
+        "qcontextmenuevent": "cpp",
+        "qfile": "cpp"
     },
     "todo-tree.tree.showCountsInTree": true
 }

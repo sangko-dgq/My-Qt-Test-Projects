@@ -30,8 +30,11 @@ set(PROJECT_SOURCES
 
         APP_Base/FileBase.h
         APP_Base/FileBase.cpp
-        
-        
+
+
+        UI_Modules/QHeaders.h
+        UI_Modules/CommonHelper.cpp
+        UI_Modules/CommonHelper.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
