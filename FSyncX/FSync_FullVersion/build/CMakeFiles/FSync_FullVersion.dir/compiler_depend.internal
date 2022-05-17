@@ -1213,6 +1213,12 @@ CMakeFiles/FSync_FullVersion.dir/FSync_FullVersion_autogen/mocs_compilation.cpp.
  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qhostinfo.h
  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QNetworkInterface
  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qnetworkinterface.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/QContextMenuEvent
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qevent.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qvector2d.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtouchdevice.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/QPoint
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qpoint.h
 
 CMakeFiles/FSync_FullVersion.dir/MainWindow.cpp.obj
  C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/MainWindow.cpp
@@ -1571,6 +1577,12 @@ CMakeFiles/FSync_FullVersion.dir/MainWindow.cpp.obj
  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qhostinfo.h
  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QNetworkInterface
  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qnetworkinterface.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/QContextMenuEvent
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qevent.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qvector2d.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtouchdevice.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/QPoint
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qpoint.h
  C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/build/FSync_FullVersion_autogen/include/ui_MainWindow.h
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QVariant
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qvariant.h
@@ -1971,4 +1983,10 @@ CMakeFiles/FSync_FullVersion.dir/main.cpp.obj
  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qhostinfo.h
  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QNetworkInterface
  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qnetworkinterface.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/QContextMenuEvent
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qevent.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qvector2d.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtouchdevice.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/QPoint
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qpoint.h
 

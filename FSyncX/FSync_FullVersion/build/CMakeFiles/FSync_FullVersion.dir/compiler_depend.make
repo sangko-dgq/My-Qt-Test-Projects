@@ -1207,7 +1207,13 @@ CMakeFiles/FSync_FullVersion.dir/FSync_FullVersion_autogen/mocs_compilation.cpp.
   D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QHostInfo \
   D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qhostinfo.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QNetworkInterface \
-  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qnetworkinterface.h
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qnetworkinterface.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/QContextMenuEvent \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qevent.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qvector2d.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtouchdevice.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QPoint \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qpoint.h
 
 CMakeFiles/FSync_FullVersion.dir/MainWindow.cpp.obj: ../MainWindow.cpp \
   ../MainWindow.h \
@@ -1565,6 +1571,12 @@ CMakeFiles/FSync_FullVersion.dir/MainWindow.cpp.obj: ../MainWindow.cpp \
   D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qhostinfo.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QNetworkInterface \
   D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qnetworkinterface.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/QContextMenuEvent \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qevent.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qvector2d.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtouchdevice.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QPoint \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qpoint.h \
   FSync_FullVersion_autogen/include/ui_MainWindow.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QVariant \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qvariant.h \
@@ -1963,7 +1975,13 @@ CMakeFiles/FSync_FullVersion.dir/main.cpp.obj: ../main.cpp \
   D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QHostInfo \
   D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qhostinfo.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QNetworkInterface \
-  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qnetworkinterface.h
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qnetworkinterface.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/QContextMenuEvent \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qevent.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qvector2d.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtouchdevice.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QPoint \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qpoint.h
 
 
 D:/Qt5/5.15.2/mingw81_64/include/QtCore/qobject.h:
@@ -1977,6 +1995,8 @@ D:/Qt5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo:
 D:/Qt5/Tools/mingw810_64/x86_64-w64-mingw32/include/pthread.h:
 
 ../APP_Base/FileBase.h:
+
+D:/Qt5/5.15.2/mingw81_64/include/QtGui/qvector2d.h:
 
 D:/Qt5/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
 
@@ -2558,6 +2578,8 @@ D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qtnetworkglobal.h:
 
 D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qtnetwork-config.h:
 
+D:/Qt5/5.15.2/mingw81_64/include/QtCore/QPoint:
+
 D:/Qt5/5.15.2/mingw81_64/include/QtCore/qiodevice.h:
 
 D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdebug.h:
@@ -2626,6 +2648,8 @@ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtgui-config.h:
 
 D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtwidgets-config.h:
 
+D:/Qt5/5.15.2/mingw81_64/include/QtGui/QContextMenuEvent:
+
 D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qdialog.h:
 
 D:/Qt5/5.15.2/mingw81_64/include/QtGui/qwindowdefs.h:
@@ -2659,6 +2683,8 @@ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qkeysequence.h:
 ../APP_Sync/FileWatcher.cpp:
 
 D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfilesystemwatcher.h:
+
+D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtouchdevice.h:
 
 D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDir:
 
@@ -2705,6 +2731,8 @@ D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QHostInfo:
 D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qhostinfo.h:
 
 D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qnetworkinterface.h:
+
+D:/Qt5/5.15.2/mingw81_64/include/QtGui/qevent.h:
 
 ../MainWindow.cpp:
 

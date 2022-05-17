@@ -1,13 +1,4 @@
-/***
- * @Author: sangko-dgq 2201225826@qq.com
- * @Date: 2022-05-15 02:40:39
- * @LastEditors: sangko-dgq 2201225826@qq.com
- * @LastEditTime: 2022-05-16 22:00:57
- * @FilePath: \FSync_FullVersion\MainWindow.cpp
- * @Description: 程序UI主入口
- * @
- * @Copyright (c) 2022 by sangko-dgq 2201225826@qq.com, All Rights Reserved.
- */
+
 #include "MainWindow.h"
 #include "./ui_MainWindow.h"
 
@@ -22,12 +13,15 @@ MainWindow::MainWindow(QWidget *parent)
     // Theme
     // CommonHelper::setStyle("://BlueSoulDark.qss");
     // CommonHelper::setStyle("://Ubuntu.qss");
-    CommonHelper::setStyle("://ConsoleStyle.qss");
+    // CommonHelper::setStyle("://ConsoleStyle.qss");
+
+    CommonHelper::setStyle("://MacOS.qss");
 
     // Init
     UIInit();
     FileWatcherInit();
     FileBaseInit();
+    ContextMenuInit();
 
     //默认处于HomePage
     isHomePageNow = true;
@@ -53,6 +47,9 @@ void MainWindow::UIInit()
 {
     // Default Page
     ui->APPPage->setCurrentWidget(ui->HomePage);
+
+
+    
 }
 
 void MainWindow::FileWatcherInit()
@@ -106,6 +103,38 @@ void MainWindow::FileBaseInit()
     connect(this, SIGNAL(signal_ONOFF_ServerListen(QString, QString, QString)), &fileBase, SLOT(slot_ONOFF_ServerListen(QString, QString, QString)));
 }
 
+/*********************************右键菜单****************************/
+
+/*右键菜单-基本元素构造*/
+void MainWindow::ContextMenuInit()
+{
+    //重写Debug窗口自带默认的右键菜单 
+    ui->TBrwSyncDebug->setContextMenuPolicy(Qt::CustomContextMenu);
+    ui->TBrwBaseDebug->setContextMenuPolicy(Qt::CustomContextMenu);
+
+    //TBrwDebug
+    CotextMenu_TBrwDebug =  new QMenu; //object
+    action_cleanDebug = new QAction("Clean up", this); //Action
+    CotextMenu_TBrwDebug -> addAction(action_cleanDebug);
+    //customContextMenuRequested / SLOT_Show
+    connect(ui->TBrwSyncDebug, SIGNAL(customContextMenuRequested(QPoint)),this, SLOT(slot_showContextMenu_TBrwDebug(QPoint)));
+    //QAction Signal/Slot
+    connect(action_cleanDebug, SIGNAL(triggered()), this, SLOT(slotAct_cleanTBrwDebug()));
+
+}
+
+/*//@tag 弹出右键菜单-槽函数 */
+void MainWindow::slot_showContextMenu_TBrwDebug(QPoint pos)
+{
+    CotextMenu_TBrwDebug->exec(QCursor::pos()); //在光标位置弹出TBrwDebug右键菜单 
+}
+
+void MainWindow::slotAct_cleanTBrwDebug()
+{
+    ui->TBrwSyncDebug->clear();
+}
+
+
 //**************************************************************** // @tag Common Helper
 /*设置全局QSS样式*/
 void CommonHelper::setStyle(const QString &style)
@@ -158,6 +187,7 @@ void MainWindow::on_btnFileSync_clicked()
     isHomePageNow = false;
     isSyncPageNow = true;
     isBasePageNow = false;
+
 }
 /*I'm FileBase-Server >>*/
 void MainWindow::on_btnFileBase_clicked()
@@ -188,6 +218,7 @@ void MainWindow::on_actionBackHome_triggered()
 
         //*页面状态*//
         ui->APPPage->setCurrentWidget(ui->HomePage);
+        ui->BtnConnectToFBase->setEnabled(true);
         ui->BtnStartSync->setEnabled(true);
         isHomePageNow = true;
         isSyncPageNow = false;
@@ -398,8 +429,7 @@ void MainWindow::on_BtnGetIP_clicked()
         ui->PBarBaseConfig->setValue(50);
 
     /*Debug*/
-    CommonHelper::TBOut(ui->TBrwBaseDebug, "[GOT IP]");
-    CommonHelper::TBOut(ui->TBrwBaseDebug, "BaseIPAddr");
+    CommonHelper::TBOut(ui->TBrwBaseDebug, "[GOT IP]"  +  BaseIPAddr);
 }
 
 //******************************************************* //@tag 数据 - APP_Sync

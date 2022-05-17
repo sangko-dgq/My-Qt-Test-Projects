@@ -355,6 +355,12 @@ CMakeFiles/FSync_FullVersion.dir/MainWindow.cpp.obj: \
  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qhostinfo.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QNetworkInterface \
  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qnetworkinterface.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/QContextMenuEvent \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qevent.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qvector2d.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtouchdevice.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/QPoint \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qpoint.h \
  C:/Users/22012/Desktop/QTPROJ~1/FSyncX/FSYNC_~1/build/FSYNC_~1/include/ui_MainWindow.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QVariant \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qvariant.h \

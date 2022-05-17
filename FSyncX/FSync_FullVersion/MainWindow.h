@@ -1,13 +1,13 @@
 
 /***
- * @Author: sangko-dgqq 2201225826@qq.com
+ * @Author: sangko-dgq 2201225826@qq.com
  * @Date: 2022-05-15 02:40:39
- * @LastEditors: sangko-dgqq 2201225826@qq.com
+ * @LastEditors: sangko-dgq 2201225826@qq.com
  * @LastEditTime: 2022-05-15 19:31:17
  * @FilePath: \FSync_FullVersion\MainWindow.h
  * @Description:
  * @
- * @Copyright (c) 2022 by sangko-dgqq 2201225826@qq.com, All Rights Reserved.
+ * @Copyright (c) 2022 by sangko-dgq 2201225826@qq.com, All Rights Reserved.
  */
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
@@ -32,6 +32,9 @@
 #include <QNetworkInterface>
 
 #include <QMessageBox>
+
+#include <QContextMenuEvent>
+#include <QPoint>
 
 QT_BEGIN_NAMESPACE
 namespace Ui
@@ -86,7 +89,9 @@ private slots:
     void slot_ServerListen(bool isServerListenOK);
     
 
-
+    /*右键菜单*/
+    void slot_showContextMenu_TBrwDebug(QPoint pos);
+    void slotAct_cleanTBrwDebug();
 
 
 private:
@@ -97,8 +102,14 @@ private:
     FileTransfer fileTransfer;
     void FileWatcherInit();
     void FileBaseInit();
-
     void UIInit();
+
+    /*右键菜单*/
+    void ContextMenuInit();
+    // void contextMenuEvent(QContextMenuEvent *event) override;
+    //TBrwDebug 
+    QMenu *CotextMenu_TBrwDebug;
+    QAction *action_cleanDebug; //清空
 
     /*SyncPage*/
     QString syncPath;

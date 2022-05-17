@@ -88,7 +88,7 @@ FSync_FullVersion_autogen/MNQGAJHFUT/qrc_APPTheme.cpp: ../Theme/QSS_IMG/go-down-
 FSync_FullVersion_autogen/MNQGAJHFUT/qrc_APPTheme.cpp: ../Theme/QSS_IMG/go-up-symbolic.symbolic.png
 FSync_FullVersion_autogen/MNQGAJHFUT/qrc_APPTheme.cpp: D:/Qt5/5.15.2/mingw81_64/bin/rcc.exe
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\22012\Desktop\Qt projects\FSyncX\FSync_FullVersion\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for Theme/APPTheme.qrc"
-	D:\Qt5\Tools\CMake_64\bin\cmake.exe -E cmake_autorcc "C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/build/CMakeFiles/FSync_FullVersion_autogen.dir/AutoRcc_APPTheme_MNQGAJHFUT_Info.json" Debug
+	D:\Qt5\Tools\CMake_64\bin\cmake.exe -E cmake_autorcc "C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/build/CMakeFiles/FSync_FullVersion_autogen.dir/AutoRcc_APPTheme_MNQGAJHFUT_Info.json" Release
 
 CMakeFiles/FSync_FullVersion.dir/FSync_FullVersion_autogen/mocs_compilation.cpp.obj: CMakeFiles/FSync_FullVersion.dir/flags.make
 CMakeFiles/FSync_FullVersion.dir/FSync_FullVersion_autogen/mocs_compilation.cpp.obj: CMakeFiles/FSync_FullVersion.dir/includes_CXX.rsp

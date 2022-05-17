@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_MainWindow_t {
-    QByteArrayData data[40];
-    char stringdata0[638];
+    QByteArrayData data[43];
+    char stringdata0[696];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -71,7 +71,10 @@ QT_MOC_LITERAL(35, 575, 11), // "slot_Rename"
 QT_MOC_LITERAL(36, 587, 7), // "fileOld"
 QT_MOC_LITERAL(37, 595, 7), // "fileNew"
 QT_MOC_LITERAL(38, 603, 17), // "slot_ServerListen"
-QT_MOC_LITERAL(39, 621, 16) // "isServerListenOK"
+QT_MOC_LITERAL(39, 621, 16), // "isServerListenOK"
+QT_MOC_LITERAL(40, 638, 30), // "slot_showContextMenu_TBrwDebug"
+QT_MOC_LITERAL(41, 669, 3), // "pos"
+QT_MOC_LITERAL(42, 673, 22) // "slotAct_cleanTBrwDebug"
 
     },
     "MainWindow\0signal_ConnectToFBase\0\0"
@@ -92,7 +95,8 @@ QT_MOC_LITERAL(39, 621, 16) // "isServerListenOK"
     "slot_FromFileTransfer\0content\0slot_File\0"
     "fileName\0data\0slot_Del\0slot_Rename\0"
     "fileOld\0fileNew\0slot_ServerListen\0"
-    "isServerListenOK"
+    "isServerListenOK\0slot_showContextMenu_TBrwDebug\0"
+    "pos\0slotAct_cleanTBrwDebug"
 };
 #undef QT_MOC_LITERAL
 
@@ -102,7 +106,7 @@ static const uint qt_meta_data_MainWindow[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-      24,   14, // methods
+      26,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -110,32 +114,34 @@ static const uint qt_meta_data_MainWindow[] = {
        3,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    2,  134,    2, 0x06 /* Public */,
-       5,    3,  139,    2, 0x06 /* Public */,
-       7,    3,  146,    2, 0x06 /* Public */,
+       1,    2,  144,    2, 0x06 /* Public */,
+       5,    3,  149,    2, 0x06 /* Public */,
+       7,    3,  156,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       9,    0,  153,    2, 0x08 /* Private */,
-      10,    0,  154,    2, 0x08 /* Private */,
-      11,    0,  155,    2, 0x08 /* Private */,
-      12,    0,  156,    2, 0x08 /* Private */,
-      13,    0,  157,    2, 0x08 /* Private */,
-      14,    0,  158,    2, 0x08 /* Private */,
-      15,    0,  159,    2, 0x08 /* Private */,
-      16,    0,  160,    2, 0x08 /* Private */,
-      17,    0,  161,    2, 0x08 /* Private */,
-      18,    0,  162,    2, 0x08 /* Private */,
-      19,    0,  163,    2, 0x08 /* Private */,
-      20,    1,  164,    2, 0x08 /* Private */,
-      22,    1,  167,    2, 0x08 /* Private */,
-      24,    1,  170,    2, 0x08 /* Private */,
-      25,    1,  173,    2, 0x08 /* Private */,
-      26,    2,  176,    2, 0x08 /* Private */,
-      29,    1,  181,    2, 0x08 /* Private */,
-      31,    2,  184,    2, 0x08 /* Private */,
-      34,    1,  189,    2, 0x08 /* Private */,
-      35,    2,  192,    2, 0x08 /* Private */,
-      38,    1,  197,    2, 0x08 /* Private */,
+       9,    0,  163,    2, 0x08 /* Private */,
+      10,    0,  164,    2, 0x08 /* Private */,
+      11,    0,  165,    2, 0x08 /* Private */,
+      12,    0,  166,    2, 0x08 /* Private */,
+      13,    0,  167,    2, 0x08 /* Private */,
+      14,    0,  168,    2, 0x08 /* Private */,
+      15,    0,  169,    2, 0x08 /* Private */,
+      16,    0,  170,    2, 0x08 /* Private */,
+      17,    0,  171,    2, 0x08 /* Private */,
+      18,    0,  172,    2, 0x08 /* Private */,
+      19,    0,  173,    2, 0x08 /* Private */,
+      20,    1,  174,    2, 0x08 /* Private */,
+      22,    1,  177,    2, 0x08 /* Private */,
+      24,    1,  180,    2, 0x08 /* Private */,
+      25,    1,  183,    2, 0x08 /* Private */,
+      26,    2,  186,    2, 0x08 /* Private */,
+      29,    1,  191,    2, 0x08 /* Private */,
+      31,    2,  194,    2, 0x08 /* Private */,
+      34,    1,  199,    2, 0x08 /* Private */,
+      35,    2,  202,    2, 0x08 /* Private */,
+      38,    1,  207,    2, 0x08 /* Private */,
+      40,    1,  210,    2, 0x08 /* Private */,
+      42,    0,  213,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::QString, QMetaType::QString,    3,    4,
@@ -164,6 +170,8 @@ static const uint qt_meta_data_MainWindow[] = {
     QMetaType::Void, QMetaType::QString,   32,
     QMetaType::Void, QMetaType::QString, QMetaType::QString,   36,   37,
     QMetaType::Void, QMetaType::Bool,   39,
+    QMetaType::Void, QMetaType::QPoint,   41,
+    QMetaType::Void,
 
        0        // eod
 };
@@ -198,6 +206,8 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 21: _t->slot_Del((*reinterpret_cast< const QString(*)>(_a[1]))); break;
         case 22: _t->slot_Rename((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
         case 23: _t->slot_ServerListen((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 24: _t->slot_showContextMenu_TBrwDebug((*reinterpret_cast< QPoint(*)>(_a[1]))); break;
+        case 25: _t->slotAct_cleanTBrwDebug(); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -255,13 +265,13 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 24)
+        if (_id < 26)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 24;
+        _id -= 26;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 24)
+        if (_id < 26)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 24;
+        _id -= 26;
     }
     return _id;
 }

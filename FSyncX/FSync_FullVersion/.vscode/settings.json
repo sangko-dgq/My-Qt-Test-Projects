@@ -6,7 +6,8 @@
         "string": "cpp",
         "optional": "cpp",
         "system_error": "cpp",
-        "qapplication": "cpp"
+        "qapplication": "cpp",
+        "new": "cpp"
     },
     "todo-tree.tree.showCountsInTree": true
 }

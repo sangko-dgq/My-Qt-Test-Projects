@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -20,7 +20,7 @@
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "Release",
 			"projects" : 
 			[
 				{
@@ -41,14 +41,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "FSync_FullVersion::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-FSync_FullVersion-Debug-8bb707be61bca0872cdc.json",
+					"jsonFile" : "target-FSync_FullVersion-Release-bac0669d29ed4b84c33e.json",
 					"name" : "FSync_FullVersion",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "FSync_FullVersion_autogen::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-FSync_FullVersion_autogen-Debug-83debcbe8a0607a2c966.json",
+					"jsonFile" : "target-FSync_FullVersion_autogen-Release-83debcbe8a0607a2c966.json",
 					"name" : "FSync_FullVersion_autogen",
 					"projectIndex" : 0
 				}

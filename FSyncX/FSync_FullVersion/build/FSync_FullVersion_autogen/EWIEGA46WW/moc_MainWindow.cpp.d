@@ -12,6 +12,7 @@ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/build/FSync_FullVer
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QIODevice \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QList \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QObject \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QPoint \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qalgorithms.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qarraydata.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qatomic.h \
@@ -84,9 +85,11 @@ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/build/FSync_FullVer
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qvarlengtharray.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qvector.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qversiontagging.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/QContextMenuEvent \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qbrush.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qcolor.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qcursor.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qevent.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qfont.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qfontinfo.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qfontmetrics.h \
@@ -111,7 +114,9 @@ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/build/FSync_FullVer
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtextoption.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtgui-config.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtguiglobal.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtouchdevice.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtransform.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qvector2d.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qwindowdefs.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qwindowdefs_win.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QHostAddress \
