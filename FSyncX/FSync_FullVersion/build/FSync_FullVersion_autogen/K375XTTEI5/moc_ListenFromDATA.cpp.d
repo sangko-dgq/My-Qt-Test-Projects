@@ -1,5 +1,7 @@
 C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/build/FSync_FullVersion_autogen/K375XTTEI5/moc_ListenFromDATA.cpp: C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/UI_Modules/ListenFromDATA.h \
   C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/build/FSync_FullVersion_autogen/moc_predefs.h \
+  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/CONFIG/ConfigManager.h \
+  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/ChildWindow/SettingWindow.h \
   C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/DATA/DATA_Base/FileBase.h \
   C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/DATA/DATA_Sync/FileTransfer.h \
   C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/DATA/DATA_Sync/FileWatcher.h \
@@ -9,6 +11,7 @@ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/build/FSync_FullVer
   C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/UI_Modules/PageManager.h \
   C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/UI_Modules/QHeaders.h \
   C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/UI_Modules/SyncPage.h \
+  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/UI_Modules/ThemeManager.h \
   C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/mainwindow.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDataStream \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDebug \
@@ -20,6 +23,7 @@ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/build/FSync_FullVer
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QList \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QObject \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QPoint \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QSettings \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QTime \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qalgorithms.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qarraydata.h \
@@ -74,6 +78,7 @@ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/build/FSync_FullVer
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qregexp.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qscopedpointer.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qset.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsettings.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qshareddata.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsharedpointer.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsharedpointer_impl.h \

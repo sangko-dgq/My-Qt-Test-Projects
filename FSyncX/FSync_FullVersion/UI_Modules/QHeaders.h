@@ -26,4 +26,7 @@
 #include <QDesktopServices>
 
 
+#include "../CONFIG/ConfigManager.h"
+#include "CommonHelper.h"
+
 #endif

@@ -12,12 +12,11 @@ class PageManager : public QObject
 
 public:
     explicit PageManager(QObject *parent = nullptr);
+    void LINK_MW(Ui::MainWindow *mw);
+
+    void setCurrentpPage(QWidget *Page);
 
 private:
-
-
-
-    
 };
 
 #endif

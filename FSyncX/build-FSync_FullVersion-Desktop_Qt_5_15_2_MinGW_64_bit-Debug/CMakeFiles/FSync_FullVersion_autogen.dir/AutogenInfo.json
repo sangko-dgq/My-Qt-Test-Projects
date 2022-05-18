@@ -72,7 +72,8 @@
 		"D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake",
 		"D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake",
 		"D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake",
-		"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/Theme/APPTheme.qrc"
+		"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/Theme/APPTheme.qrc",
+		"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/icons/APPicons.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion",
 	"DEP_FILE" : "C:/Users/22012/Desktop/Qt projects/FSyncX/build-FSync_FullVersion-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/FSync_FullVersion_autogen/deps",
@@ -80,27 +81,87 @@
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/APP_Base/FileBase.h",
+			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/CONFIG/ConfigManager.h",
 			"MU",
-			"VX7EZBIHI4/moc_FileBase.cpp",
+			"7JCVFSXUOK/moc_ConfigManager.cpp",
 			null
 		],
 		[
-			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/APP_Sync/FileTransfer.h",
+			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/ChildWindow/SettingWindow.h",
 			"MU",
-			"UME2GOUK7J/moc_FileTransfer.cpp",
+			"NCSWCVWO42/moc_SettingWindow.cpp",
 			null
 		],
 		[
-			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/APP_Sync/FileWatcher.h",
+			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/DATA/DATA_Base/FileBase.h",
 			"MU",
-			"UME2GOUK7J/moc_FileWatcher.cpp",
+			"PHSKFNSKIR/moc_FileBase.cpp",
+			null
+		],
+		[
+			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/DATA/DATA_Sync/FileTransfer.h",
+			"MU",
+			"JOKBKHCW6O/moc_FileTransfer.cpp",
+			null
+		],
+		[
+			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/DATA/DATA_Sync/FileWatcher.h",
+			"MU",
+			"JOKBKHCW6O/moc_FileWatcher.cpp",
 			null
 		],
 		[
 			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/MainWindow.h",
 			"MU",
 			"EWIEGA46WW/moc_MainWindow.cpp",
+			null
+		],
+		[
+			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/UI_Modules/BasePage.h",
+			"MU",
+			"K375XTTEI5/moc_BasePage.cpp",
+			null
+		],
+		[
+			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/UI_Modules/CommonHelper.h",
+			"MU",
+			"K375XTTEI5/moc_CommonHelper.cpp",
+			null
+		],
+		[
+			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/UI_Modules/ContextMenu.h",
+			"MU",
+			"K375XTTEI5/moc_ContextMenu.cpp",
+			null
+		],
+		[
+			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/UI_Modules/ListenFromDATA.h",
+			"MU",
+			"K375XTTEI5/moc_ListenFromDATA.cpp",
+			null
+		],
+		[
+			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/UI_Modules/PageManager.h",
+			"MU",
+			"K375XTTEI5/moc_PageManager.cpp",
+			null
+		],
+		[
+			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/UI_Modules/QHeaders.h",
+			"MU",
+			"K375XTTEI5/moc_QHeaders.cpp",
+			null
+		],
+		[
+			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/UI_Modules/SyncPage.h",
+			"MU",
+			"K375XTTEI5/moc_SyncPage.cpp",
+			null
+		],
+		[
+			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/UI_Modules/ThemeManager.h",
+			"MU",
+			"K375XTTEI5/moc_ThemeManager.cpp",
 			null
 		]
 	],
@@ -158,22 +219,67 @@
 	"SOURCES" : 
 	[
 		[
-			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/APP_Base/FileBase.cpp",
+			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/CONFIG/ConfigManager.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/APP_Sync/FileTransfer.cpp",
+			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/ChildWindow/SettingWindow.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/APP_Sync/FileWatcher.cpp",
+			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/DATA/DATA_Base/FileBase.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/DATA/DATA_Sync/FileTransfer.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/DATA/DATA_Sync/FileWatcher.cpp",
 			"MU",
 			null
 		],
 		[
 			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/MainWindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/UI_Modules/BasePage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/UI_Modules/CommonHelper.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/UI_Modules/ContextMenu.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/UI_Modules/ListenFromDATA.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/UI_Modules/PageManager.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/UI_Modules/SyncPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/UI_Modules/ThemeManager.cpp",
 			"MU",
 			null
 		],

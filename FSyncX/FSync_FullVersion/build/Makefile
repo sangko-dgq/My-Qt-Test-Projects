@@ -141,6 +141,54 @@ FSync_FullVersion_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion_autogen.dir\build.make CMakeFiles/FSync_FullVersion_autogen.dir/build
 .PHONY : FSync_FullVersion_autogen/fast
 
+CONFIG/ConfigManager.obj: CONFIG/ConfigManager.cpp.obj
+.PHONY : CONFIG/ConfigManager.obj
+
+# target to build an object file
+CONFIG/ConfigManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/CONFIG/ConfigManager.cpp.obj
+.PHONY : CONFIG/ConfigManager.cpp.obj
+
+CONFIG/ConfigManager.i: CONFIG/ConfigManager.cpp.i
+.PHONY : CONFIG/ConfigManager.i
+
+# target to preprocess a source file
+CONFIG/ConfigManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/CONFIG/ConfigManager.cpp.i
+.PHONY : CONFIG/ConfigManager.cpp.i
+
+CONFIG/ConfigManager.s: CONFIG/ConfigManager.cpp.s
+.PHONY : CONFIG/ConfigManager.s
+
+# target to generate assembly for a file
+CONFIG/ConfigManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/CONFIG/ConfigManager.cpp.s
+.PHONY : CONFIG/ConfigManager.cpp.s
+
+ChildWindow/SettingWindow.obj: ChildWindow/SettingWindow.cpp.obj
+.PHONY : ChildWindow/SettingWindow.obj
+
+# target to build an object file
+ChildWindow/SettingWindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/ChildWindow/SettingWindow.cpp.obj
+.PHONY : ChildWindow/SettingWindow.cpp.obj
+
+ChildWindow/SettingWindow.i: ChildWindow/SettingWindow.cpp.i
+.PHONY : ChildWindow/SettingWindow.i
+
+# target to preprocess a source file
+ChildWindow/SettingWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/ChildWindow/SettingWindow.cpp.i
+.PHONY : ChildWindow/SettingWindow.cpp.i
+
+ChildWindow/SettingWindow.s: ChildWindow/SettingWindow.cpp.s
+.PHONY : ChildWindow/SettingWindow.s
+
+# target to generate assembly for a file
+ChildWindow/SettingWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/ChildWindow/SettingWindow.cpp.s
+.PHONY : ChildWindow/SettingWindow.cpp.s
+
 DATA/DATA_Base/FileBase.obj: DATA/DATA_Base/FileBase.cpp.obj
 .PHONY : DATA/DATA_Base/FileBase.obj
 
@@ -212,6 +260,30 @@ DATA/DATA_Sync/FileWatcher.s: DATA/DATA_Sync/FileWatcher.cpp.s
 DATA/DATA_Sync/FileWatcher.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/DATA/DATA_Sync/FileWatcher.cpp.s
 .PHONY : DATA/DATA_Sync/FileWatcher.cpp.s
+
+FSync_FullVersion_autogen/2SEMU33LXP/qrc_APPicons.obj: FSync_FullVersion_autogen/2SEMU33LXP/qrc_APPicons.cpp.obj
+.PHONY : FSync_FullVersion_autogen/2SEMU33LXP/qrc_APPicons.obj
+
+# target to build an object file
+FSync_FullVersion_autogen/2SEMU33LXP/qrc_APPicons.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/FSync_FullVersion_autogen/2SEMU33LXP/qrc_APPicons.cpp.obj
+.PHONY : FSync_FullVersion_autogen/2SEMU33LXP/qrc_APPicons.cpp.obj
+
+FSync_FullVersion_autogen/2SEMU33LXP/qrc_APPicons.i: FSync_FullVersion_autogen/2SEMU33LXP/qrc_APPicons.cpp.i
+.PHONY : FSync_FullVersion_autogen/2SEMU33LXP/qrc_APPicons.i
+
+# target to preprocess a source file
+FSync_FullVersion_autogen/2SEMU33LXP/qrc_APPicons.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/FSync_FullVersion_autogen/2SEMU33LXP/qrc_APPicons.cpp.i
+.PHONY : FSync_FullVersion_autogen/2SEMU33LXP/qrc_APPicons.cpp.i
+
+FSync_FullVersion_autogen/2SEMU33LXP/qrc_APPicons.s: FSync_FullVersion_autogen/2SEMU33LXP/qrc_APPicons.cpp.s
+.PHONY : FSync_FullVersion_autogen/2SEMU33LXP/qrc_APPicons.s
+
+# target to generate assembly for a file
+FSync_FullVersion_autogen/2SEMU33LXP/qrc_APPicons.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/FSync_FullVersion_autogen/2SEMU33LXP/qrc_APPicons.cpp.s
+.PHONY : FSync_FullVersion_autogen/2SEMU33LXP/qrc_APPicons.cpp.s
 
 FSync_FullVersion_autogen/MNQGAJHFUT/qrc_APPTheme.obj: FSync_FullVersion_autogen/MNQGAJHFUT/qrc_APPTheme.cpp.obj
 .PHONY : FSync_FullVersion_autogen/MNQGAJHFUT/qrc_APPTheme.obj
@@ -429,6 +501,30 @@ UI_Modules/SyncPage.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/UI_Modules/SyncPage.cpp.s
 .PHONY : UI_Modules/SyncPage.cpp.s
 
+UI_Modules/ThemeManager.obj: UI_Modules/ThemeManager.cpp.obj
+.PHONY : UI_Modules/ThemeManager.obj
+
+# target to build an object file
+UI_Modules/ThemeManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/UI_Modules/ThemeManager.cpp.obj
+.PHONY : UI_Modules/ThemeManager.cpp.obj
+
+UI_Modules/ThemeManager.i: UI_Modules/ThemeManager.cpp.i
+.PHONY : UI_Modules/ThemeManager.i
+
+# target to preprocess a source file
+UI_Modules/ThemeManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/UI_Modules/ThemeManager.cpp.i
+.PHONY : UI_Modules/ThemeManager.cpp.i
+
+UI_Modules/ThemeManager.s: UI_Modules/ThemeManager.cpp.s
+.PHONY : UI_Modules/ThemeManager.s
+
+# target to generate assembly for a file
+UI_Modules/ThemeManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/UI_Modules/ThemeManager.cpp.s
+.PHONY : UI_Modules/ThemeManager.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -463,6 +559,12 @@ help:
 	@echo ... rebuild_cache
 	@echo ... FSync_FullVersion_autogen
 	@echo ... FSync_FullVersion
+	@echo ... CONFIG/ConfigManager.obj
+	@echo ... CONFIG/ConfigManager.i
+	@echo ... CONFIG/ConfigManager.s
+	@echo ... ChildWindow/SettingWindow.obj
+	@echo ... ChildWindow/SettingWindow.i
+	@echo ... ChildWindow/SettingWindow.s
 	@echo ... DATA/DATA_Base/FileBase.obj
 	@echo ... DATA/DATA_Base/FileBase.i
 	@echo ... DATA/DATA_Base/FileBase.s
@@ -472,6 +574,9 @@ help:
 	@echo ... DATA/DATA_Sync/FileWatcher.obj
 	@echo ... DATA/DATA_Sync/FileWatcher.i
 	@echo ... DATA/DATA_Sync/FileWatcher.s
+	@echo ... FSync_FullVersion_autogen/2SEMU33LXP/qrc_APPicons.obj
+	@echo ... FSync_FullVersion_autogen/2SEMU33LXP/qrc_APPicons.i
+	@echo ... FSync_FullVersion_autogen/2SEMU33LXP/qrc_APPicons.s
 	@echo ... FSync_FullVersion_autogen/MNQGAJHFUT/qrc_APPTheme.obj
 	@echo ... FSync_FullVersion_autogen/MNQGAJHFUT/qrc_APPTheme.i
 	@echo ... FSync_FullVersion_autogen/MNQGAJHFUT/qrc_APPTheme.s
@@ -499,6 +604,9 @@ help:
 	@echo ... UI_Modules/SyncPage.obj
 	@echo ... UI_Modules/SyncPage.i
 	@echo ... UI_Modules/SyncPage.s
+	@echo ... UI_Modules/ThemeManager.obj
+	@echo ... UI_Modules/ThemeManager.i
+	@echo ... UI_Modules/ThemeManager.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

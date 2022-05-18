@@ -12,6 +12,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.21.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.21.1/CMakeRCCompiler.cmake"
   "CMakeFiles/3.21.1/CMakeSystem.cmake"
+  "../icons/APPicons.qrc"
   "D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5Config.cmake"
   "D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake"
   "D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake"
@@ -79,6 +80,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/FSync_FullVersion_autogen.dir/AutogenInfo.json"
   "CMakeFiles/FSync_FullVersion_autogen.dir/AutoRcc_APPTheme_MNQGAJHFUT_Info.json"
+  "CMakeFiles/FSync_FullVersion_autogen.dir/AutoRcc_APPicons_2SEMU33LXP_Info.json"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 

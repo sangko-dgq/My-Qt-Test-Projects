@@ -161,6 +161,9 @@
          <height>431</height>
         </rect>
        </property>
+       <property name="cursor" stdset="0">
+        <cursorShape>ArrowCursor</cursorShape>
+       </property>
       </widget>
      </widget>
      <widget class="QProgressBar" name="PBarCommon">
@@ -652,39 +655,70 @@ p, li { white-space: pre-wrap; }
    </property>
    <widget class="QMenu" name="menuMenu">
     <property name="title">
-     <string>Menu</string>
+     <string>View</string>
     </property>
     <addaction name="actionBackHome"/>
     <addaction name="separator"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuSetting">
+    <property name="title">
+     <string>Setting</string>
+    </property>
+    <addaction name="actionSetting"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
     <addaction name="actionHow_to_use"/>
-    <addaction name="actionAbout_FSyncx"/>
-    <addaction name="separator"/>
-    <addaction name="actionCheckUpdate"/>
+    <addaction name="actionAbout"/>
    </widget>
    <addaction name="menuMenu"/>
+   <addaction name="menuSetting"/>
+   <addaction name="menuHelp"/>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
-  <action name="actionHow_to_use">
+  <action name="actionExit">
    <property name="text">
-    <string>How to use?</string>
-   </property>
-  </action>
-  <action name="actionAbout_FSyncx">
-   <property name="text">
-    <string>About FSyncx?</string>
-   </property>
-  </action>
-  <action name="actionCheckUpdate">
-   <property name="text">
-    <string>CheckUpdate</string>
+    <string>Eixt</string>
    </property>
   </action>
   <action name="actionBackHome">
+   <property name="icon">
+    <iconset resource="icons/APPicons.qrc">
+     <normaloff>:/icon_backhome.png</normaloff>:/icon_backhome.png</iconset>
+   </property>
    <property name="text">
     <string>BackHome</string>
    </property>
   </action>
+  <action name="actionSetting">
+   <property name="icon">
+    <iconset resource="icons/APPicons.qrc">
+     <normaloff>:/icon_Setting.png</normaloff>:/icon_Setting.png</iconset>
+   </property>
+   <property name="text">
+    <string>Setting</string>
+   </property>
+  </action>
+  <action name="actionHow_to_use">
+   <property name="icon">
+    <iconset resource="icons/APPicons.qrc">
+     <normaloff>:/icon_HOW.png</normaloff>:/icon_HOW.png</iconset>
+   </property>
+   <property name="text">
+    <string>How to use</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
  </widget>
- <resources/>
+ <resources>
+  <include location="icons/APPicons.qrc"/>
+ </resources>
  <connections/>
 </ui>

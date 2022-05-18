@@ -348,11 +348,14 @@ CMakeFiles/FSync_FullVersion.dir/UI_Modules/ContextMenu.cpp.obj: \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/QDesktopServices \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qdesktopservices.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qstandardpaths.h \
+ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/CONFIG/ConfigManager.h \
+ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/UI_Modules/QHeaders.h \
  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/mainwindow.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QMainWindow \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qmainwindow.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtabwidget.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qicon.h \
+ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/UI_Modules/QHeaders.h \
  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/DATA/DATA_Sync/FileWatcher.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QFileSystemWatcher \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfilesystemwatcher.h \
@@ -411,4 +414,11 @@ CMakeFiles/FSync_FullVersion.dir/UI_Modules/ContextMenu.cpp.obj: \
  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/UI_Modules/PageManager.h \
  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/UI_Modules/SyncPage.h \
  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/UI_Modules/BasePage.h \
- C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/UI_Modules/ContextMenu.h
+ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/UI_Modules/ContextMenu.h \
+ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/UI_Modules/ThemeManager.h \
+ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/CONFIG/ConfigManager.h \
+ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/ChildWindow/SettingWindow.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/QSettings \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsettings.h \
+ C:\Users\22012\Desktop\Qt\ projects\FSyncX\FSync_FullVersion\UI_Modules\CommonHelper.h \
+ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/mainwindow.h

@@ -20,8 +20,13 @@ set(PROJECT_SOURCES
         MainWindow.cpp
         MainWindow.h
         MainWindow.ui
+
+        ChildWindow/SettingWindow.h 
+        ChildWindow/SettingWindow.cpp 
+        ChildWindow/SettingWindow.ui
         
         Theme/APPTheme.qrc
+        icons/APPicons.qrc
 
         DATA/DATA_Sync/FileWatcher.h
         DATA/DATA_Sync/FileWatcher.cpp
@@ -45,6 +50,14 @@ set(PROJECT_SOURCES
         UI_Modules/ContextMenu.h
         UI_Modules/ListenFromDATA.cpp
         UI_Modules/ListenFromDATA.h
+
+        CONFIG/ConfigManager.cpp
+        CONFIG/ConfigManager.h
+
+        UI_Modules/ThemeManager.cpp
+        UI_Modules/ThemeManager.h
+
+
 
         
 )

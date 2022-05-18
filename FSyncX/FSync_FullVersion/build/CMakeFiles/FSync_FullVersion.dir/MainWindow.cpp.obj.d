@@ -281,22 +281,8 @@ CMakeFiles/FSync_FullVersion.dir/MainWindow.cpp.obj: \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qkeysequence.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtabwidget.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qicon.h \
- C:\Users\22012\Desktop\Qt\ projects\FSyncX\FSync_FullVersion\DATA/DATA_Sync/FileWatcher.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtCore/QObject \
- D:/Qt5/5.15.2/mingw81_64/include/QtCore/qobject.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtCore/QFileSystemWatcher \
- D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfilesystemwatcher.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDir \
- D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdir.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfileinfo.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfile.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfiledevice.h \
- C:\Users\22012\Desktop\Qt\ projects\FSyncX\FSync_FullVersion\DATA/DATA_Sync/FileTransfer.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QTcpSocket \
- D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qtcpsocket.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qtnetworkglobal.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qtnetwork-config.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qabstractsocket.h \
+ C:\Users\22012\Desktop\Qt\ projects\FSyncX\FSync_FullVersion\UI_Modules/QHeaders.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDebug \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdebug.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qmap.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qtextstream.h \
@@ -305,27 +291,14 @@ CMakeFiles/FSync_FullVersion.dir/MainWindow.cpp.obj: \
  D:/Qt5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/variant \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qset.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qcontiguouscache.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtCore/QIODevice \
- D:/Qt5/5.15.2/mingw81_64/include/QtCore/qiodevice.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDataStream \
- D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdatastream.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/QObject \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qobject.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QFile \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfile.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDebug \
- D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdebug.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QMessageBox \
- D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qmessagebox.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qdialog.h \
- C:\Users\22012\Desktop\Qt\ projects\FSyncX\FSync_FullVersion\DATA/DATA_Base/FileBase.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QTcpServer \
- D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qtcpserver.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qhostaddress.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtCore/QList \
- D:/Qt5/5.15.2/mingw81_64/include/QtCore/qlist.h \
- C:\Users\22012\Desktop\Qt\ projects\FSyncX\FSync_FullVersion\UI_Modules/CommonHelper.h \
- C:\Users\22012\Desktop\Qt\ projects\FSyncX\FSync_FullVersion\UI_Modules/QHeaders.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfiledevice.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QFileInfo \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfileinfo.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfile.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QApplication \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qapplication.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qcoreapplication.h \
@@ -351,14 +324,23 @@ CMakeFiles/FSync_FullVersion.dir/MainWindow.cpp.obj: \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QFileDialog \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qfiledialog.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdir.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfileinfo.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qdialog.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QLineEdit \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qlineedit.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QHostAddress \
  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qhostaddress.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qtnetworkglobal.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qtnetwork-config.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qabstractsocket.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdebug.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QHostInfo \
  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qhostinfo.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qhostaddress.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QNetworkInterface \
  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qnetworkinterface.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QMessageBox \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qmessagebox.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/QContextMenuEvent \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qevent.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qvector2d.h \
@@ -370,6 +352,8 @@ CMakeFiles/FSync_FullVersion.dir/MainWindow.cpp.obj: \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/QDesktopServices \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qdesktopservices.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qstandardpaths.h \
+ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/CONFIG/ConfigManager.h \
+ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/UI_Modules/QHeaders.h \
  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/mainwindow.h \
  C:/Users/22012/Desktop/QTPROJ~1/FSyncX/FSYNC_~1/build/FSYNC_~1/ui_mainwindow.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QVariant \
@@ -406,8 +390,34 @@ CMakeFiles/FSync_FullVersion.dir/MainWindow.cpp.obj: \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qstatusbar.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QTextBrowser \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QWidget \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/QSettings \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsettings.h \
+ C:\Users\22012\Desktop\Qt\ projects\FSyncX\FSync_FullVersion\UI_Modules/CommonHelper.h \
+ C:\Users\22012\Desktop\Qt\ projects\FSyncX\FSync_FullVersion\UI_Modules/QHeaders.h \
+ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/mainwindow.h \
+ C:\Users\22012\Desktop\Qt\ projects\FSyncX\FSync_FullVersion\DATA/DATA_Sync/FileWatcher.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/QFileSystemWatcher \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfilesystemwatcher.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDir \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdir.h \
+ C:\Users\22012\Desktop\Qt\ projects\FSyncX\FSync_FullVersion\DATA/DATA_Sync/FileTransfer.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QTcpSocket \
+ D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qtcpsocket.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/QIODevice \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qiodevice.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDataStream \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdatastream.h \
+ C:\Users\22012\Desktop\Qt\ projects\FSyncX\FSync_FullVersion\DATA/DATA_Base/FileBase.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QTcpServer \
+ D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qtcpserver.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/QList \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qlist.h \
+ C:\Users\22012\Desktop\Qt\ projects\FSyncX\FSync_FullVersion\UI_Modules/CommonHelper.h \
  C:\Users\22012\Desktop\Qt\ projects\FSyncX\FSync_FullVersion\UI_Modules/PageManager.h \
  C:\Users\22012\Desktop\Qt\ projects\FSyncX\FSync_FullVersion\UI_Modules/SyncPage.h \
  C:\Users\22012\Desktop\Qt\ projects\FSyncX\FSync_FullVersion\UI_Modules/BasePage.h \
  C:\Users\22012\Desktop\Qt\ projects\FSyncX\FSync_FullVersion\UI_Modules/ContextMenu.h \
+ C:\Users\22012\Desktop\Qt\ projects\FSyncX\FSync_FullVersion\UI_Modules/ThemeManager.h \
+ C:\Users\22012\Desktop\Qt\ projects\FSyncX\FSync_FullVersion\CONFIG/ConfigManager.h \
+ C:\Users\22012\Desktop\Qt\ projects\FSyncX\FSync_FullVersion\ChildWindow/SettingWindow.h \
  C:/Users/22012/Desktop/QTPROJ~1/FSyncX/FSYNC_~1/build/FSYNC_~1/include/ui_MainWindow.h

@@ -71,13 +71,26 @@
 		"D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake",
 		"D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake",
 		"D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake",
-		"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/Theme/APPTheme.qrc"
+		"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/Theme/APPTheme.qrc",
+		"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/icons/APPicons.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
+		[
+			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/CONFIG/ConfigManager.h",
+			"MU",
+			"7JCVFSXUOK/moc_ConfigManager.cpp",
+			null
+		],
+		[
+			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/ChildWindow/SettingWindow.h",
+			"MU",
+			"NCSWCVWO42/moc_SettingWindow.cpp",
+			null
+		],
 		[
 			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/DATA/DATA_Base/FileBase.h",
 			"MU",
@@ -143,6 +156,12 @@
 			"MU",
 			"K375XTTEI5/moc_SyncPage.cpp",
 			null
+		],
+		[
+			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/UI_Modules/ThemeManager.h",
+			"MU",
+			"K375XTTEI5/moc_ThemeManager.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -199,6 +218,16 @@
 	"SOURCES" : 
 	[
 		[
+			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/CONFIG/ConfigManager.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/ChildWindow/SettingWindow.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/DATA/DATA_Base/FileBase.cpp",
 			"MU",
 			null
@@ -245,6 +274,11 @@
 		],
 		[
 			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/UI_Modules/SyncPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/UI_Modules/ThemeManager.cpp",
 			"MU",
 			null
 		],

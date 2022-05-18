@@ -31,10 +31,11 @@ QT_BEGIN_NAMESPACE
 class Ui_MainWindow
 {
 public:
-    QAction *actionHow_to_use;
-    QAction *actionAbout_FSyncx;
-    QAction *actionCheckUpdate;
+    QAction *actionExit;
     QAction *actionBackHome;
+    QAction *actionSetting;
+    QAction *actionHow_to_use;
+    QAction *actionAbout;
     QWidget *centralwidget;
     QStackedWidget *APPPage;
     QWidget *HomePage;
@@ -83,6 +84,8 @@ public:
     QLabel *PageLOGO;
     QMenuBar *menubar;
     QMenu *menuMenu;
+    QMenu *menuSetting;
+    QMenu *menuHelp;
     QStatusBar *statusBar;
 
     void setupUi(QMainWindow *MainWindow)
@@ -92,14 +95,25 @@ public:
         MainWindow->resize(800, 600);
         MainWindow->setMinimumSize(QSize(400, 300));
         MainWindow->setStyleSheet(QString::fromUtf8(""));
-        actionHow_to_use = new QAction(MainWindow);
-        actionHow_to_use->setObjectName(QString::fromUtf8("actionHow_to_use"));
-        actionAbout_FSyncx = new QAction(MainWindow);
-        actionAbout_FSyncx->setObjectName(QString::fromUtf8("actionAbout_FSyncx"));
-        actionCheckUpdate = new QAction(MainWindow);
-        actionCheckUpdate->setObjectName(QString::fromUtf8("actionCheckUpdate"));
+        actionExit = new QAction(MainWindow);
+        actionExit->setObjectName(QString::fromUtf8("actionExit"));
         actionBackHome = new QAction(MainWindow);
         actionBackHome->setObjectName(QString::fromUtf8("actionBackHome"));
+        QIcon icon;
+        icon.addFile(QString::fromUtf8(":/icon_backhome.png"), QSize(), QIcon::Normal, QIcon::Off);
+        actionBackHome->setIcon(icon);
+        actionSetting = new QAction(MainWindow);
+        actionSetting->setObjectName(QString::fromUtf8("actionSetting"));
+        QIcon icon1;
+        icon1.addFile(QString::fromUtf8(":/icon_Setting.png"), QSize(), QIcon::Normal, QIcon::Off);
+        actionSetting->setIcon(icon1);
+        actionHow_to_use = new QAction(MainWindow);
+        actionHow_to_use->setObjectName(QString::fromUtf8("actionHow_to_use"));
+        QIcon icon2;
+        icon2.addFile(QString::fromUtf8(":/icon_HOW.png"), QSize(), QIcon::Normal, QIcon::Off);
+        actionHow_to_use->setIcon(icon2);
+        actionAbout = new QAction(MainWindow);
+        actionAbout->setObjectName(QString::fromUtf8("actionAbout"));
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         APPPage = new QStackedWidget(centralwidget);
@@ -154,6 +168,7 @@ public:
         TBrwSyncDebug = new QTextBrowser(Debug);
         TBrwSyncDebug->setObjectName(QString::fromUtf8("TBrwSyncDebug"));
         TBrwSyncDebug->setGeometry(QRect(20, 20, 351, 431));
+        TBrwSyncDebug->viewport()->setProperty("cursor", QVariant(QCursor(Qt::ArrowCursor)));
         PBarCommon = new QProgressBar(SyncPage);
         PBarCommon->setObjectName(QString::fromUtf8("PBarCommon"));
         PBarCommon->setGeometry(QRect(-10, 530, 791, 20));
@@ -282,18 +297,24 @@ public:
         menubar->setGeometry(QRect(0, 0, 800, 22));
         menuMenu = new QMenu(menubar);
         menuMenu->setObjectName(QString::fromUtf8("menuMenu"));
+        menuSetting = new QMenu(menubar);
+        menuSetting->setObjectName(QString::fromUtf8("menuSetting"));
+        menuHelp = new QMenu(menubar);
+        menuHelp->setObjectName(QString::fromUtf8("menuHelp"));
         MainWindow->setMenuBar(menubar);
         statusBar = new QStatusBar(MainWindow);
         statusBar->setObjectName(QString::fromUtf8("statusBar"));
         MainWindow->setStatusBar(statusBar);
 
         menubar->addAction(menuMenu->menuAction());
+        menubar->addAction(menuSetting->menuAction());
+        menubar->addAction(menuHelp->menuAction());
         menuMenu->addAction(actionBackHome);
         menuMenu->addSeparator();
-        menuMenu->addAction(actionHow_to_use);
-        menuMenu->addAction(actionAbout_FSyncx);
-        menuMenu->addSeparator();
-        menuMenu->addAction(actionCheckUpdate);
+        menuMenu->addAction(actionExit);
+        menuSetting->addAction(actionSetting);
+        menuHelp->addAction(actionHow_to_use);
+        menuHelp->addAction(actionAbout);
 
         retranslateUi(MainWindow);
 
@@ -306,10 +327,11 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "FSyncX", nullptr));
-        actionHow_to_use->setText(QCoreApplication::translate("MainWindow", "How to use?", nullptr));
-        actionAbout_FSyncx->setText(QCoreApplication::translate("MainWindow", "About FSyncx?", nullptr));
-        actionCheckUpdate->setText(QCoreApplication::translate("MainWindow", "CheckUpdate", nullptr));
+        actionExit->setText(QCoreApplication::translate("MainWindow", "Eixt", nullptr));
         actionBackHome->setText(QCoreApplication::translate("MainWindow", "BackHome", nullptr));
+        actionSetting->setText(QCoreApplication::translate("MainWindow", "Setting", nullptr));
+        actionHow_to_use->setText(QCoreApplication::translate("MainWindow", "How to use", nullptr));
+        actionAbout->setText(QCoreApplication::translate("MainWindow", "About", nullptr));
         LOGO_T->setText(QCoreApplication::translate("MainWindow", "FSyncX", nullptr));
         LOGO_S->setText(QCoreApplication::translate("MainWindow", "Root folder synchronization tool based on TCP", nullptr));
         btnFileBase->setText(QCoreApplication::translate("MainWindow", "I'm FileBase-Server >>", nullptr));
@@ -355,7 +377,9 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:#161616;\">NO PATH CHOOSE..</span></p></body></html>", nullptr));
         Debug_2->setTitle(QCoreApplication::translate("MainWindow", "Dubug", nullptr));
         PageLOGO->setText(QCoreApplication::translate("MainWindow", "FileBase- Server", nullptr));
-        menuMenu->setTitle(QCoreApplication::translate("MainWindow", "Menu", nullptr));
+        menuMenu->setTitle(QCoreApplication::translate("MainWindow", "View", nullptr));
+        menuSetting->setTitle(QCoreApplication::translate("MainWindow", "Setting", nullptr));
+        menuHelp->setTitle(QCoreApplication::translate("MainWindow", "Help", nullptr));
     } // retranslateUi
 
 };

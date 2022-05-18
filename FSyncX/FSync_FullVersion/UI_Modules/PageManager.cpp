@@ -6,8 +6,19 @@ PageManager::PageManager(QObject *parent)
 {
     
 }
+Ui::MainWindow *ui_PageManager  = nullptr;
+void PageManager::LINK_MW(Ui::MainWindow *mw)
+{
+    ui_PageManager = mw;
+}
 
 // @tag 页面管理
+void PageManager::setCurrentpPage(QWidget *Page)
+{
+    ui_PageManager->APPPage->setCurrentWidget(Page);
+}
+
+
 /*I'm FileSync-Client >>*/
 void MainWindow::on_btnFileSync_clicked()
 {
