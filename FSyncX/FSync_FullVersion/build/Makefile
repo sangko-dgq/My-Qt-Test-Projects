@@ -141,77 +141,77 @@ FSync_FullVersion_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion_autogen.dir\build.make CMakeFiles/FSync_FullVersion_autogen.dir/build
 .PHONY : FSync_FullVersion_autogen/fast
 
-APP_Base/FileBase.obj: APP_Base/FileBase.cpp.obj
-.PHONY : APP_Base/FileBase.obj
+DATA/DATA_Base/FileBase.obj: DATA/DATA_Base/FileBase.cpp.obj
+.PHONY : DATA/DATA_Base/FileBase.obj
 
 # target to build an object file
-APP_Base/FileBase.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/APP_Base/FileBase.cpp.obj
-.PHONY : APP_Base/FileBase.cpp.obj
+DATA/DATA_Base/FileBase.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/DATA/DATA_Base/FileBase.cpp.obj
+.PHONY : DATA/DATA_Base/FileBase.cpp.obj
 
-APP_Base/FileBase.i: APP_Base/FileBase.cpp.i
-.PHONY : APP_Base/FileBase.i
+DATA/DATA_Base/FileBase.i: DATA/DATA_Base/FileBase.cpp.i
+.PHONY : DATA/DATA_Base/FileBase.i
 
 # target to preprocess a source file
-APP_Base/FileBase.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/APP_Base/FileBase.cpp.i
-.PHONY : APP_Base/FileBase.cpp.i
+DATA/DATA_Base/FileBase.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/DATA/DATA_Base/FileBase.cpp.i
+.PHONY : DATA/DATA_Base/FileBase.cpp.i
 
-APP_Base/FileBase.s: APP_Base/FileBase.cpp.s
-.PHONY : APP_Base/FileBase.s
+DATA/DATA_Base/FileBase.s: DATA/DATA_Base/FileBase.cpp.s
+.PHONY : DATA/DATA_Base/FileBase.s
 
 # target to generate assembly for a file
-APP_Base/FileBase.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/APP_Base/FileBase.cpp.s
-.PHONY : APP_Base/FileBase.cpp.s
+DATA/DATA_Base/FileBase.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/DATA/DATA_Base/FileBase.cpp.s
+.PHONY : DATA/DATA_Base/FileBase.cpp.s
 
-APP_Sync/FileTransfer.obj: APP_Sync/FileTransfer.cpp.obj
-.PHONY : APP_Sync/FileTransfer.obj
+DATA/DATA_Sync/FileTransfer.obj: DATA/DATA_Sync/FileTransfer.cpp.obj
+.PHONY : DATA/DATA_Sync/FileTransfer.obj
 
 # target to build an object file
-APP_Sync/FileTransfer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/APP_Sync/FileTransfer.cpp.obj
-.PHONY : APP_Sync/FileTransfer.cpp.obj
+DATA/DATA_Sync/FileTransfer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/DATA/DATA_Sync/FileTransfer.cpp.obj
+.PHONY : DATA/DATA_Sync/FileTransfer.cpp.obj
 
-APP_Sync/FileTransfer.i: APP_Sync/FileTransfer.cpp.i
-.PHONY : APP_Sync/FileTransfer.i
+DATA/DATA_Sync/FileTransfer.i: DATA/DATA_Sync/FileTransfer.cpp.i
+.PHONY : DATA/DATA_Sync/FileTransfer.i
 
 # target to preprocess a source file
-APP_Sync/FileTransfer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/APP_Sync/FileTransfer.cpp.i
-.PHONY : APP_Sync/FileTransfer.cpp.i
+DATA/DATA_Sync/FileTransfer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/DATA/DATA_Sync/FileTransfer.cpp.i
+.PHONY : DATA/DATA_Sync/FileTransfer.cpp.i
 
-APP_Sync/FileTransfer.s: APP_Sync/FileTransfer.cpp.s
-.PHONY : APP_Sync/FileTransfer.s
+DATA/DATA_Sync/FileTransfer.s: DATA/DATA_Sync/FileTransfer.cpp.s
+.PHONY : DATA/DATA_Sync/FileTransfer.s
 
 # target to generate assembly for a file
-APP_Sync/FileTransfer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/APP_Sync/FileTransfer.cpp.s
-.PHONY : APP_Sync/FileTransfer.cpp.s
+DATA/DATA_Sync/FileTransfer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/DATA/DATA_Sync/FileTransfer.cpp.s
+.PHONY : DATA/DATA_Sync/FileTransfer.cpp.s
 
-APP_Sync/FileWatcher.obj: APP_Sync/FileWatcher.cpp.obj
-.PHONY : APP_Sync/FileWatcher.obj
+DATA/DATA_Sync/FileWatcher.obj: DATA/DATA_Sync/FileWatcher.cpp.obj
+.PHONY : DATA/DATA_Sync/FileWatcher.obj
 
 # target to build an object file
-APP_Sync/FileWatcher.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/APP_Sync/FileWatcher.cpp.obj
-.PHONY : APP_Sync/FileWatcher.cpp.obj
+DATA/DATA_Sync/FileWatcher.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/DATA/DATA_Sync/FileWatcher.cpp.obj
+.PHONY : DATA/DATA_Sync/FileWatcher.cpp.obj
 
-APP_Sync/FileWatcher.i: APP_Sync/FileWatcher.cpp.i
-.PHONY : APP_Sync/FileWatcher.i
+DATA/DATA_Sync/FileWatcher.i: DATA/DATA_Sync/FileWatcher.cpp.i
+.PHONY : DATA/DATA_Sync/FileWatcher.i
 
 # target to preprocess a source file
-APP_Sync/FileWatcher.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/APP_Sync/FileWatcher.cpp.i
-.PHONY : APP_Sync/FileWatcher.cpp.i
+DATA/DATA_Sync/FileWatcher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/DATA/DATA_Sync/FileWatcher.cpp.i
+.PHONY : DATA/DATA_Sync/FileWatcher.cpp.i
 
-APP_Sync/FileWatcher.s: APP_Sync/FileWatcher.cpp.s
-.PHONY : APP_Sync/FileWatcher.s
+DATA/DATA_Sync/FileWatcher.s: DATA/DATA_Sync/FileWatcher.cpp.s
+.PHONY : DATA/DATA_Sync/FileWatcher.s
 
 # target to generate assembly for a file
-APP_Sync/FileWatcher.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/APP_Sync/FileWatcher.cpp.s
-.PHONY : APP_Sync/FileWatcher.cpp.s
+DATA/DATA_Sync/FileWatcher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/DATA/DATA_Sync/FileWatcher.cpp.s
+.PHONY : DATA/DATA_Sync/FileWatcher.cpp.s
 
 FSync_FullVersion_autogen/MNQGAJHFUT/qrc_APPTheme.obj: FSync_FullVersion_autogen/MNQGAJHFUT/qrc_APPTheme.cpp.obj
 .PHONY : FSync_FullVersion_autogen/MNQGAJHFUT/qrc_APPTheme.obj
@@ -285,6 +285,30 @@ MainWindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/MainWindow.cpp.s
 .PHONY : MainWindow.cpp.s
 
+UI_Modules/BasePage.obj: UI_Modules/BasePage.cpp.obj
+.PHONY : UI_Modules/BasePage.obj
+
+# target to build an object file
+UI_Modules/BasePage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/UI_Modules/BasePage.cpp.obj
+.PHONY : UI_Modules/BasePage.cpp.obj
+
+UI_Modules/BasePage.i: UI_Modules/BasePage.cpp.i
+.PHONY : UI_Modules/BasePage.i
+
+# target to preprocess a source file
+UI_Modules/BasePage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/UI_Modules/BasePage.cpp.i
+.PHONY : UI_Modules/BasePage.cpp.i
+
+UI_Modules/BasePage.s: UI_Modules/BasePage.cpp.s
+.PHONY : UI_Modules/BasePage.s
+
+# target to generate assembly for a file
+UI_Modules/BasePage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/UI_Modules/BasePage.cpp.s
+.PHONY : UI_Modules/BasePage.cpp.s
+
 UI_Modules/CommonHelper.obj: UI_Modules/CommonHelper.cpp.obj
 .PHONY : UI_Modules/CommonHelper.obj
 
@@ -308,6 +332,102 @@ UI_Modules/CommonHelper.s: UI_Modules/CommonHelper.cpp.s
 UI_Modules/CommonHelper.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/UI_Modules/CommonHelper.cpp.s
 .PHONY : UI_Modules/CommonHelper.cpp.s
+
+UI_Modules/ContextMenu.obj: UI_Modules/ContextMenu.cpp.obj
+.PHONY : UI_Modules/ContextMenu.obj
+
+# target to build an object file
+UI_Modules/ContextMenu.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/UI_Modules/ContextMenu.cpp.obj
+.PHONY : UI_Modules/ContextMenu.cpp.obj
+
+UI_Modules/ContextMenu.i: UI_Modules/ContextMenu.cpp.i
+.PHONY : UI_Modules/ContextMenu.i
+
+# target to preprocess a source file
+UI_Modules/ContextMenu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/UI_Modules/ContextMenu.cpp.i
+.PHONY : UI_Modules/ContextMenu.cpp.i
+
+UI_Modules/ContextMenu.s: UI_Modules/ContextMenu.cpp.s
+.PHONY : UI_Modules/ContextMenu.s
+
+# target to generate assembly for a file
+UI_Modules/ContextMenu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/UI_Modules/ContextMenu.cpp.s
+.PHONY : UI_Modules/ContextMenu.cpp.s
+
+UI_Modules/ListenFromDATA.obj: UI_Modules/ListenFromDATA.cpp.obj
+.PHONY : UI_Modules/ListenFromDATA.obj
+
+# target to build an object file
+UI_Modules/ListenFromDATA.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/UI_Modules/ListenFromDATA.cpp.obj
+.PHONY : UI_Modules/ListenFromDATA.cpp.obj
+
+UI_Modules/ListenFromDATA.i: UI_Modules/ListenFromDATA.cpp.i
+.PHONY : UI_Modules/ListenFromDATA.i
+
+# target to preprocess a source file
+UI_Modules/ListenFromDATA.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/UI_Modules/ListenFromDATA.cpp.i
+.PHONY : UI_Modules/ListenFromDATA.cpp.i
+
+UI_Modules/ListenFromDATA.s: UI_Modules/ListenFromDATA.cpp.s
+.PHONY : UI_Modules/ListenFromDATA.s
+
+# target to generate assembly for a file
+UI_Modules/ListenFromDATA.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/UI_Modules/ListenFromDATA.cpp.s
+.PHONY : UI_Modules/ListenFromDATA.cpp.s
+
+UI_Modules/PageManager.obj: UI_Modules/PageManager.cpp.obj
+.PHONY : UI_Modules/PageManager.obj
+
+# target to build an object file
+UI_Modules/PageManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/UI_Modules/PageManager.cpp.obj
+.PHONY : UI_Modules/PageManager.cpp.obj
+
+UI_Modules/PageManager.i: UI_Modules/PageManager.cpp.i
+.PHONY : UI_Modules/PageManager.i
+
+# target to preprocess a source file
+UI_Modules/PageManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/UI_Modules/PageManager.cpp.i
+.PHONY : UI_Modules/PageManager.cpp.i
+
+UI_Modules/PageManager.s: UI_Modules/PageManager.cpp.s
+.PHONY : UI_Modules/PageManager.s
+
+# target to generate assembly for a file
+UI_Modules/PageManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/UI_Modules/PageManager.cpp.s
+.PHONY : UI_Modules/PageManager.cpp.s
+
+UI_Modules/SyncPage.obj: UI_Modules/SyncPage.cpp.obj
+.PHONY : UI_Modules/SyncPage.obj
+
+# target to build an object file
+UI_Modules/SyncPage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/UI_Modules/SyncPage.cpp.obj
+.PHONY : UI_Modules/SyncPage.cpp.obj
+
+UI_Modules/SyncPage.i: UI_Modules/SyncPage.cpp.i
+.PHONY : UI_Modules/SyncPage.i
+
+# target to preprocess a source file
+UI_Modules/SyncPage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/UI_Modules/SyncPage.cpp.i
+.PHONY : UI_Modules/SyncPage.cpp.i
+
+UI_Modules/SyncPage.s: UI_Modules/SyncPage.cpp.s
+.PHONY : UI_Modules/SyncPage.s
+
+# target to generate assembly for a file
+UI_Modules/SyncPage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSync_FullVersion.dir\build.make CMakeFiles/FSync_FullVersion.dir/UI_Modules/SyncPage.cpp.s
+.PHONY : UI_Modules/SyncPage.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -343,15 +463,15 @@ help:
 	@echo ... rebuild_cache
 	@echo ... FSync_FullVersion_autogen
 	@echo ... FSync_FullVersion
-	@echo ... APP_Base/FileBase.obj
-	@echo ... APP_Base/FileBase.i
-	@echo ... APP_Base/FileBase.s
-	@echo ... APP_Sync/FileTransfer.obj
-	@echo ... APP_Sync/FileTransfer.i
-	@echo ... APP_Sync/FileTransfer.s
-	@echo ... APP_Sync/FileWatcher.obj
-	@echo ... APP_Sync/FileWatcher.i
-	@echo ... APP_Sync/FileWatcher.s
+	@echo ... DATA/DATA_Base/FileBase.obj
+	@echo ... DATA/DATA_Base/FileBase.i
+	@echo ... DATA/DATA_Base/FileBase.s
+	@echo ... DATA/DATA_Sync/FileTransfer.obj
+	@echo ... DATA/DATA_Sync/FileTransfer.i
+	@echo ... DATA/DATA_Sync/FileTransfer.s
+	@echo ... DATA/DATA_Sync/FileWatcher.obj
+	@echo ... DATA/DATA_Sync/FileWatcher.i
+	@echo ... DATA/DATA_Sync/FileWatcher.s
 	@echo ... FSync_FullVersion_autogen/MNQGAJHFUT/qrc_APPTheme.obj
 	@echo ... FSync_FullVersion_autogen/MNQGAJHFUT/qrc_APPTheme.i
 	@echo ... FSync_FullVersion_autogen/MNQGAJHFUT/qrc_APPTheme.s
@@ -361,9 +481,24 @@ help:
 	@echo ... MainWindow.obj
 	@echo ... MainWindow.i
 	@echo ... MainWindow.s
+	@echo ... UI_Modules/BasePage.obj
+	@echo ... UI_Modules/BasePage.i
+	@echo ... UI_Modules/BasePage.s
 	@echo ... UI_Modules/CommonHelper.obj
 	@echo ... UI_Modules/CommonHelper.i
 	@echo ... UI_Modules/CommonHelper.s
+	@echo ... UI_Modules/ContextMenu.obj
+	@echo ... UI_Modules/ContextMenu.i
+	@echo ... UI_Modules/ContextMenu.s
+	@echo ... UI_Modules/ListenFromDATA.obj
+	@echo ... UI_Modules/ListenFromDATA.i
+	@echo ... UI_Modules/ListenFromDATA.s
+	@echo ... UI_Modules/PageManager.obj
+	@echo ... UI_Modules/PageManager.i
+	@echo ... UI_Modules/PageManager.s
+	@echo ... UI_Modules/SyncPage.obj
+	@echo ... UI_Modules/SyncPage.i
+	@echo ... UI_Modules/SyncPage.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

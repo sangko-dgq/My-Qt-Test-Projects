@@ -43,7 +43,7 @@ signals:
     void signal_Del(const QString &fileName);
     void signal_Rename(const QString &fileOld, const QString &fileNew);
 
-    void signal_ServerListen(bool isServerListenOK);
+    void signal_CommonINFO_FromFileBase(QString content);
 
 public slots:
     void slot_onNewConnection();

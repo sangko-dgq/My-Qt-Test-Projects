@@ -4,11 +4,15 @@
 
 #include <QMainWindow>
 
-#include "APP_Sync/FileWatcher.h"
-#include "APP_Sync/FileTransfer.h"
-#include "APP_Base/FileBase.h"
+#include "DATA/DATA_Sync/FileWatcher.h"
+#include "DATA/DATA_Sync/FileTransfer.h"
+#include "DATA/DATA_Base/FileBase.h"
 
 #include "UI_Modules/CommonHelper.h"
+#include "UI_Modules/PageManager.h"
+#include "UI_Modules/SyncPage.h"
+#include "UI_Modules/BasePage.h"
+#include "UI_Modules/ContextMenu.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui
@@ -17,7 +21,14 @@ namespace Ui
 }
 QT_END_NAMESPACE
 
-//******************************************************** MainWindow
+
+/*UI Modules Class前置声明解决，因头文件互相包含且有类引用导致，XX(class) does not name a type问题*/
+class CommonHelper;
+class PageManager; 
+class SyncPage;
+class BasePage;
+class ContextMenu;
+
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
@@ -28,9 +39,7 @@ public:
 
 signals:
     void signal_ConnectToFBase(QString Host, QString port);
-    
     void signal_Reject_or_Break_Connection(QString Host, QString port, QString Type); //Host发起拒绝请求或阻断已连接
-    
     void signal_ONOFF_ServerListen(QString Host, QString port, QString ONOFF);
 
 private slots:
@@ -54,13 +63,14 @@ private slots:
     void slot_FileRenamed(const QString &oldName, const QString &newName); //重命名
 
     /*接受FileTransfer的相关信息*/
-    void slot_FromFileTransfer(QString content);
+    void slot_CommonINFO_FromFileTransfer(QString content);
 
     /*APP_Base*/
     void slot_File(const QString &fileName, const QByteArray &data);
     void slot_Del(const QString &fileName);
     void slot_Rename(const QString &fileOld, const QString &fileNew);
-    void slot_ServerListen(bool isServerListenOK);
+
+    void slot_CommonINFO_FromFileBase(QString content);
     
 
     /*右键菜单*/
@@ -70,7 +80,16 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
+
+    /*UI_Modules Class*/ //@note 在MainWindow引入UI_Modules中的各个模块Class
     CommonHelper *commonHelper;
+    PageManager *pageManager;
+    SyncPage *syncPage;
+    BasePage *basePage;
+    ContextMenu *contextMenu;
+
+
+
 
     /*APP_Sync*/
     FileWatcher fileWatcher;

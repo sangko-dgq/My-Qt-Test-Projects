@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_MainWindow_t {
-    QByteArrayData data[43];
-    char stringdata0[696];
+    QByteArrayData data[42];
+    char stringdata0[701];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -61,20 +61,19 @@ QT_MOC_LITERAL(25, 462, 16), // "slot_FileChanged"
 QT_MOC_LITERAL(26, 479, 16), // "slot_FileRenamed"
 QT_MOC_LITERAL(27, 496, 7), // "oldName"
 QT_MOC_LITERAL(28, 504, 7), // "newName"
-QT_MOC_LITERAL(29, 512, 21), // "slot_FromFileTransfer"
-QT_MOC_LITERAL(30, 534, 7), // "content"
-QT_MOC_LITERAL(31, 542, 9), // "slot_File"
-QT_MOC_LITERAL(32, 552, 8), // "fileName"
-QT_MOC_LITERAL(33, 561, 4), // "data"
-QT_MOC_LITERAL(34, 566, 8), // "slot_Del"
-QT_MOC_LITERAL(35, 575, 11), // "slot_Rename"
-QT_MOC_LITERAL(36, 587, 7), // "fileOld"
-QT_MOC_LITERAL(37, 595, 7), // "fileNew"
-QT_MOC_LITERAL(38, 603, 17), // "slot_ServerListen"
-QT_MOC_LITERAL(39, 621, 16), // "isServerListenOK"
-QT_MOC_LITERAL(40, 638, 30), // "slot_showContextMenu_TBrwDebug"
-QT_MOC_LITERAL(41, 669, 3), // "pos"
-QT_MOC_LITERAL(42, 673, 22) // "slotAct_cleanTBrwDebug"
+QT_MOC_LITERAL(29, 512, 32), // "slot_CommonINFO_FromFileTransfer"
+QT_MOC_LITERAL(30, 545, 7), // "content"
+QT_MOC_LITERAL(31, 553, 9), // "slot_File"
+QT_MOC_LITERAL(32, 563, 8), // "fileName"
+QT_MOC_LITERAL(33, 572, 4), // "data"
+QT_MOC_LITERAL(34, 577, 8), // "slot_Del"
+QT_MOC_LITERAL(35, 586, 11), // "slot_Rename"
+QT_MOC_LITERAL(36, 598, 7), // "fileOld"
+QT_MOC_LITERAL(37, 606, 7), // "fileNew"
+QT_MOC_LITERAL(38, 614, 28), // "slot_CommonINFO_FromFileBase"
+QT_MOC_LITERAL(39, 643, 30), // "slot_showContextMenu_TBrwDebug"
+QT_MOC_LITERAL(40, 674, 3), // "pos"
+QT_MOC_LITERAL(41, 678, 22) // "slotAct_cleanTBrwDebug"
 
     },
     "MainWindow\0signal_ConnectToFBase\0\0"
@@ -92,11 +91,12 @@ QT_MOC_LITERAL(42, 673, 22) // "slotAct_cleanTBrwDebug"
     "slot_DirectoryChanged\0path\0slot_FileAdded\0"
     "file\0slot_FileRemoved\0slot_FileChanged\0"
     "slot_FileRenamed\0oldName\0newName\0"
-    "slot_FromFileTransfer\0content\0slot_File\0"
-    "fileName\0data\0slot_Del\0slot_Rename\0"
-    "fileOld\0fileNew\0slot_ServerListen\0"
-    "isServerListenOK\0slot_showContextMenu_TBrwDebug\0"
-    "pos\0slotAct_cleanTBrwDebug"
+    "slot_CommonINFO_FromFileTransfer\0"
+    "content\0slot_File\0fileName\0data\0"
+    "slot_Del\0slot_Rename\0fileOld\0fileNew\0"
+    "slot_CommonINFO_FromFileBase\0"
+    "slot_showContextMenu_TBrwDebug\0pos\0"
+    "slotAct_cleanTBrwDebug"
 };
 #undef QT_MOC_LITERAL
 
@@ -140,8 +140,8 @@ static const uint qt_meta_data_MainWindow[] = {
       34,    1,  199,    2, 0x08 /* Private */,
       35,    2,  202,    2, 0x08 /* Private */,
       38,    1,  207,    2, 0x08 /* Private */,
-      40,    1,  210,    2, 0x08 /* Private */,
-      42,    0,  213,    2, 0x08 /* Private */,
+      39,    1,  210,    2, 0x08 /* Private */,
+      41,    0,  213,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::QString, QMetaType::QString,    3,    4,
@@ -169,8 +169,8 @@ static const uint qt_meta_data_MainWindow[] = {
     QMetaType::Void, QMetaType::QString, QMetaType::QByteArray,   32,   33,
     QMetaType::Void, QMetaType::QString,   32,
     QMetaType::Void, QMetaType::QString, QMetaType::QString,   36,   37,
-    QMetaType::Void, QMetaType::Bool,   39,
-    QMetaType::Void, QMetaType::QPoint,   41,
+    QMetaType::Void, QMetaType::QString,   30,
+    QMetaType::Void, QMetaType::QPoint,   40,
     QMetaType::Void,
 
        0        // eod
@@ -201,11 +201,11 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 16: _t->slot_FileRemoved((*reinterpret_cast< const QString(*)>(_a[1]))); break;
         case 17: _t->slot_FileChanged((*reinterpret_cast< const QString(*)>(_a[1]))); break;
         case 18: _t->slot_FileRenamed((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
-        case 19: _t->slot_FromFileTransfer((*reinterpret_cast< QString(*)>(_a[1]))); break;
+        case 19: _t->slot_CommonINFO_FromFileTransfer((*reinterpret_cast< QString(*)>(_a[1]))); break;
         case 20: _t->slot_File((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QByteArray(*)>(_a[2]))); break;
         case 21: _t->slot_Del((*reinterpret_cast< const QString(*)>(_a[1]))); break;
         case 22: _t->slot_Rename((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
-        case 23: _t->slot_ServerListen((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 23: _t->slot_CommonINFO_FromFileBase((*reinterpret_cast< QString(*)>(_a[1]))); break;
         case 24: _t->slot_showContextMenu_TBrwDebug((*reinterpret_cast< QPoint(*)>(_a[1]))); break;
         case 25: _t->slotAct_cleanTBrwDebug(); break;
         default: ;

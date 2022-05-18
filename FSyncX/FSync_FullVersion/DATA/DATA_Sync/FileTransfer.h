@@ -39,7 +39,7 @@ public:
     void sendRename(const QString &fileOld, const QString &fileNew);
 
 signals:
-    void signal_FromFileTransfer(QString content);
+    void signal_CommonINFO_FromFileTransfer(QString content);
 
 
 

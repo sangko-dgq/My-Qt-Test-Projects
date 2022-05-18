@@ -281,7 +281,7 @@ CMakeFiles/FSync_FullVersion.dir/main.cpp.obj: \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qkeysequence.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtabwidget.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qicon.h \
- C:\Users\22012\Desktop\Qt\ projects\FSyncX\FSync_FullVersion\APP_Sync/FileWatcher.h \
+ C:\Users\22012\Desktop\Qt\ projects\FSyncX\FSync_FullVersion\DATA/DATA_Sync/FileWatcher.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QObject \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qobject.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QFileSystemWatcher \
@@ -291,7 +291,7 @@ CMakeFiles/FSync_FullVersion.dir/main.cpp.obj: \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfileinfo.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfile.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfiledevice.h \
- C:\Users\22012\Desktop\Qt\ projects\FSyncX\FSync_FullVersion\APP_Sync/FileTransfer.h \
+ C:\Users\22012\Desktop\Qt\ projects\FSyncX\FSync_FullVersion\DATA/DATA_Sync/FileTransfer.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QTcpSocket \
  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qtcpsocket.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qtnetworkglobal.h \
@@ -316,7 +316,7 @@ CMakeFiles/FSync_FullVersion.dir/main.cpp.obj: \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QMessageBox \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qmessagebox.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qdialog.h \
- C:\Users\22012\Desktop\Qt\ projects\FSyncX\FSync_FullVersion\APP_Base/FileBase.h \
+ C:\Users\22012\Desktop\Qt\ projects\FSyncX\FSync_FullVersion\DATA/DATA_Base/FileBase.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QTcpServer \
  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qtcpserver.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qhostaddress.h \
@@ -335,11 +335,13 @@ CMakeFiles/FSync_FullVersion.dir/main.cpp.obj: \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qinputmethod.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QWidget \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qwidget.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QStackedWidget \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qstackedwidget.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qframe.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QTextBrowser \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtextbrowser.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtextedit.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qabstractscrollarea.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qframe.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtextdocument.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qurl.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtextoption.h \
@@ -364,4 +366,47 @@ CMakeFiles/FSync_FullVersion.dir/main.cpp.obj: \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QPoint \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qpoint.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QTime \
- D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdatetime.h
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdatetime.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/QDesktopServices \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qdesktopservices.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qstandardpaths.h \
+ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/mainwindow.h \
+ C:/Users/22012/Desktop/QTPROJ~1/FSyncX/FSYNC_~1/build/FSYNC_~1/ui_mainwindow.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/QVariant \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qvariant.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QAction \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qaction.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qactiongroup.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qaction.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QApplication \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QGridLayout \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgridlayout.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qlayout.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qlayoutitem.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qboxlayout.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgridlayout.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QGroupBox \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgroupbox.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QLabel \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qlabel.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QLineEdit \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QMainWindow \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QMenu \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qmenu.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QMenuBar \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qmenubar.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qmenu.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QProgressBar \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qprogressbar.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QPushButton \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qpushbutton.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qabstractbutton.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QStackedWidget \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QStatusBar \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qstatusbar.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QTextBrowser \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QWidget \
+ C:\Users\22012\Desktop\Qt\ projects\FSyncX\FSync_FullVersion\UI_Modules/PageManager.h \
+ C:\Users\22012\Desktop\Qt\ projects\FSyncX\FSync_FullVersion\UI_Modules/SyncPage.h \
+ C:\Users\22012\Desktop\Qt\ projects\FSyncX\FSync_FullVersion\UI_Modules/BasePage.h \
+ C:\Users\22012\Desktop\Qt\ projects\FSyncX\FSync_FullVersion\UI_Modules/ContextMenu.h

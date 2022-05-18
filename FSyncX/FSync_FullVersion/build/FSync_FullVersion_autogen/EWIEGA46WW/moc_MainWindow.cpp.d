@@ -1,10 +1,15 @@
 C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/build/FSync_FullVersion_autogen/EWIEGA46WW/moc_MainWindow.cpp: C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/MainWindow.h \
   C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/build/FSync_FullVersion_autogen/moc_predefs.h \
-  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/APP_Base/FileBase.h \
-  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/APP_Sync/FileTransfer.h \
-  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/APP_Sync/FileWatcher.h \
+  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/DATA/DATA_Base/FileBase.h \
+  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/DATA/DATA_Sync/FileTransfer.h \
+  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/DATA/DATA_Sync/FileWatcher.h \
+  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/UI_Modules/BasePage.h \
   C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/UI_Modules/CommonHelper.h \
+  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/UI_Modules/ContextMenu.h \
+  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/UI_Modules/PageManager.h \
   C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/UI_Modules/QHeaders.h \
+  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/UI_Modules/SyncPage.h \
+  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/mainwindow.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDataStream \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDebug \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDir \
@@ -73,6 +78,7 @@ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/build/FSync_FullVer
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsharedpointer.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsharedpointer_impl.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsize.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qstandardpaths.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qstring.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qstringalgorithms.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qstringlist.h \
@@ -90,9 +96,11 @@ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/build/FSync_FullVer
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qvector.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qversiontagging.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/QContextMenuEvent \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/QDesktopServices \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qbrush.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qcolor.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qcursor.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qdesktopservices.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qevent.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qfont.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qfontinfo.h \
@@ -141,6 +149,7 @@ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/build/FSync_FullVer
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QLineEdit \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QMainWindow \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QMessageBox \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QStackedWidget \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QTextBrowser \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QWidget \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qabstractscrollarea.h \
@@ -152,6 +161,7 @@ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/build/FSync_FullVer
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qmainwindow.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qmessagebox.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qsizepolicy.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qstackedwidget.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtabwidget.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtextbrowser.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtextedit.h \

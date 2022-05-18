@@ -33,7 +33,7 @@ struct qt_meta_stringdata_FileTransfer_t {
 static const qt_meta_stringdata_FileTransfer_t qt_meta_stringdata_FileTransfer = {
     {
 QT_MOC_LITERAL(0, 0, 12), // "FileTransfer"
-QT_MOC_LITERAL(1, 13, 23), // "signal_FromFileTransfer"
+QT_MOC_LITERAL(1, 13, 23), // "signal_CommonINFO_FromFileTransfer"
 QT_MOC_LITERAL(2, 37, 0), // ""
 QT_MOC_LITERAL(3, 38, 7), // "content"
 QT_MOC_LITERAL(4, 46, 16), // "slot_onReadyRead"
@@ -102,7 +102,7 @@ void FileTransfer::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
         auto *_t = static_cast<FileTransfer *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
-        case 0: _t->signal_FromFileTransfer((*reinterpret_cast< QString(*)>(_a[1]))); break;
+        case 0: _t->signal_CommonINFO_FromFileTransfer((*reinterpret_cast< QString(*)>(_a[1]))); break;
         case 1: _t->slot_onReadyRead(); break;
         case 2: _t->slot_onConnected(); break;
         case 3: _t->slot_onDisconnected(); break;
@@ -126,7 +126,7 @@ void FileTransfer::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
         int *result = reinterpret_cast<int *>(_a[0]);
         {
             using _t = void (FileTransfer::*)(QString );
-            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&FileTransfer::signal_FromFileTransfer)) {
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&FileTransfer::signal_CommonINFO_FromFileTransfer)) {
                 *result = 0;
                 return;
             }
@@ -175,7 +175,7 @@ int FileTransfer::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 
 // SIGNAL 0
-void FileTransfer::signal_FromFileTransfer(QString _t1)
+void FileTransfer::signal_CommonINFO_FromFileTransfer(QString _t1)
 {
     void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
     QMetaObject::activate(this, &staticMetaObject, 0, _a);

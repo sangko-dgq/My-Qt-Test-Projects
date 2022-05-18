@@ -23,18 +23,30 @@ set(PROJECT_SOURCES
         
         Theme/APPTheme.qrc
 
-        APP_Sync/FileWatcher.h
-        APP_Sync/FileWatcher.cpp
-        APP_Sync/FileTransfer.h
-        APP_Sync/FileTransfer.cpp
+        DATA/DATA_Sync/FileWatcher.h
+        DATA/DATA_Sync/FileWatcher.cpp
+        DATA/DATA_Sync/FileTransfer.h
+        DATA/DATA_Sync/FileTransfer.cpp
 
-        APP_Base/FileBase.h
-        APP_Base/FileBase.cpp
+        DATA/DATA_Base/FileBase.h
+        DATA/DATA_Base/FileBase.cpp
 
 
         UI_Modules/QHeaders.h
         UI_Modules/CommonHelper.cpp
         UI_Modules/CommonHelper.h
+        UI_Modules/PageManager.cpp
+        UI_Modules/PageManager.h
+        UI_Modules/SyncPage.cpp
+        UI_Modules/SyncPage.h
+        UI_Modules/BasePage.cpp
+        UI_Modules/BasePage.h
+        UI_Modules/ContextMenu.cpp
+        UI_Modules/ContextMenu.h
+        UI_Modules/ListenFromDATA.cpp
+        UI_Modules/ListenFromDATA.h
+
+        
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

@@ -2,13 +2,14 @@
 #ifndef QHEADERS_H
 #define QHEADERS_H
 
-
+#include <QDebug>
 #include <QObject>
 #include <QFile>
 #include <QFileInfo>
 #include <QApplication>
 
 #include <QWidget>
+#include <QStackedWidget>
 #include <QTextBrowser>
 #include <QFileDialog>
 #include <QLineEdit>
@@ -22,6 +23,7 @@
 #include <QPoint>
 
 #include <QTime>
+#include <QDesktopServices>
 
 
 #endif

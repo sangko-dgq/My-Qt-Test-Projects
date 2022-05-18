@@ -78,7 +78,7 @@ void FileTransfer::slot_onReadyRead()
 void FileTransfer::slot_onConnected()
 {
     qDebug() << "connected";
-    emit signal_FromFileTransfer("[Sync/Base] Connected");
+    emit signal_CommonINFO_FromFileTransfer("[Sync/Base] Connected");
 }
 void FileTransfer::slot_onDisconnected()
 {
@@ -89,13 +89,13 @@ void FileTransfer::slot_onDisconnected()
     if (socket == 0)
         return;
     
-    emit signal_FromFileTransfer("[Sync/Base] Disconnected");
+    emit signal_CommonINFO_FromFileTransfer("[Sync/Base] Disconnected");
 
     socket->close();
 }
 void FileTransfer::slot_onError(QAbstractSocket::SocketError socketError)
 {
-    emit signal_FromFileTransfer("[Sync/Base] ERROR");
+    emit signal_CommonINFO_FromFileTransfer("[Sync/Base] ERROR");
 
     qDebug() << "socket error";
 }
@@ -104,7 +104,7 @@ void FileTransfer::slot_ConnectToFBase(QString Host, QString port)
 {
     tcpSocket.connectToHost(Host, port.toInt());
 
-    emit signal_FromFileTransfer("[Sync/Base] Start To Connect...");
+    emit signal_CommonINFO_FromFileTransfer("[Sync/Base] Start To Connect...");
 
 
 
@@ -117,9 +117,9 @@ void FileTransfer::slot_Reject_or_Break_Connection(QString Host, QString port, Q
     /*根据Type回传不同消息（需要不同窗口）*/
     if(Type == "Reject")
     //通知 SyncPage 弹出waring弹窗，恢复发起连接按钮状态
-    emit signal_FromFileTransfer("[FileTransfer] Reject message received");
+    emit signal_CommonINFO_FromFileTransfer("[FileTransfer] Reject message received");
     else if(Type == "Break")
-    emit signal_FromFileTransfer("[FileTransfer] Break message received");
+    emit signal_CommonINFO_FromFileTransfer("[FileTransfer] Break message received");
 
     //关闭tcpSocket
     tcpSocket.close();

@@ -151,5 +151,5 @@ void FileBase::slot_ONOFF_ServerListen(QString Host, QString port, QString ONOFF
         qDebug() << "OFF Server listen";
     }
     
-    emit signal_ServerListen(isServerListenOK);
+    emit signal_CommonINFO_FromFileBase("ServerListenOK");
 }

@@ -28,19 +28,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 57,
+				"line" : 69,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 63,
+				"line" : 75,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 64,
+				"line" : 76,
 				"parent" : 0
 			}
 		]
@@ -51,7 +51,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-O3 -DNDEBUG"
+					"fragment" : "-g"
 				},
 				{
 					"fragment" : "-std=gnu++17"
@@ -70,10 +70,6 @@
 				{
 					"backtrace" : 3,
 					"define" : "QT_NETWORK_LIB"
-				},
-				{
-					"backtrace" : 2,
-					"define" : "QT_NO_DEBUG"
 				},
 				{
 					"backtrace" : 2,
@@ -146,7 +142,12 @@
 				9,
 				11,
 				13,
-				16
+				15,
+				17,
+				19,
+				21,
+				23,
+				27
 			]
 		}
 	],
@@ -163,7 +164,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-O3 -DNDEBUG",
+				"fragment" : "-g",
 				"role" : "flags"
 			},
 			{
@@ -219,7 +220,12 @@
 				9,
 				11,
 				13,
-				16
+				15,
+				17,
+				19,
+				21,
+				23,
+				27
 			]
 		},
 		{
@@ -232,7 +238,13 @@
 				10,
 				12,
 				14,
-				15
+				16,
+				18,
+				20,
+				22,
+				24,
+				25,
+				26
 			]
 		},
 		{
@@ -247,7 +259,7 @@
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				17
+				28
 			]
 		}
 	],
@@ -289,35 +301,35 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "APP_Sync/FileWatcher.h",
+			"path" : "DATA/DATA_Sync/FileWatcher.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "APP_Sync/FileWatcher.cpp",
+			"path" : "DATA/DATA_Sync/FileWatcher.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "APP_Sync/FileTransfer.h",
+			"path" : "DATA/DATA_Sync/FileTransfer.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "APP_Sync/FileTransfer.cpp",
+			"path" : "DATA/DATA_Sync/FileTransfer.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "APP_Base/FileBase.h",
+			"path" : "DATA/DATA_Base/FileBase.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "APP_Base/FileBase.cpp",
+			"path" : "DATA/DATA_Base/FileBase.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -334,6 +346,67 @@
 		{
 			"backtrace" : 1,
 			"path" : "UI_Modules/CommonHelper.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "UI_Modules/PageManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "UI_Modules/PageManager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "UI_Modules/SyncPage.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "UI_Modules/SyncPage.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "UI_Modules/BasePage.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "UI_Modules/BasePage.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "UI_Modules/ContextMenu.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "UI_Modules/ContextMenu.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "UI_Modules/ListenFromDATA.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "UI_Modules/ListenFromDATA.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/FSync_FullVersion_autogen/ui_mainwindow.h",
 			"sourceGroupIndex" : 1
 		},
 		{

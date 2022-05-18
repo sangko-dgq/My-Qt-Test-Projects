@@ -67,7 +67,7 @@ include CMakeFiles/FSync_FullVersion_autogen.dir/progress.make
 
 CMakeFiles/FSync_FullVersion_autogen:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\22012\Desktop\Qt projects\FSyncX\FSync_FullVersion\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target FSync_FullVersion"
-	D:\Qt5\Tools\CMake_64\bin\cmake.exe -E cmake_autogen "C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/build/CMakeFiles/FSync_FullVersion_autogen.dir/AutogenInfo.json" Release
+	D:\Qt5\Tools\CMake_64\bin\cmake.exe -E cmake_autogen "C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/build/CMakeFiles/FSync_FullVersion_autogen.dir/AutogenInfo.json" Debug
 
 FSync_FullVersion_autogen: CMakeFiles/FSync_FullVersion_autogen
 FSync_FullVersion_autogen: CMakeFiles/FSync_FullVersion_autogen.dir/build.make

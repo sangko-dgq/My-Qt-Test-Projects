@@ -24,6 +24,8 @@ void CommonHelper::TBOut(QTextBrowser *TextBrowser, QString Content)
     // 文本输出结束后自动换行
     TextBrowser->moveCursor(QTextCursor::End);
     TextBrowser->append(QString(""));
+
+    
 }
 
 /*获取LineEdit的内容*/

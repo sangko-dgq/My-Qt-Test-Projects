@@ -1,3 +1,3 @@
 D:\Qt5\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\FSync_FullVersion.dir/objects.a
 D:\Qt5\Tools\mingw810_64\bin\ar.exe qc CMakeFiles\FSync_FullVersion.dir/objects.a @CMakeFiles\FSync_FullVersion.dir\objects1.rsp
-D:\Qt5\Tools\mingw810_64\bin\g++.exe -O3 -DNDEBUG -mwindows -Wl,--whole-archive CMakeFiles\FSync_FullVersion.dir/objects.a -Wl,--no-whole-archive -o FSync_FullVersion.exe -Wl,--out-implib,libFSync_FullVersion.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\FSync_FullVersion.dir\linklibs.rsp
+D:\Qt5\Tools\mingw810_64\bin\g++.exe -g -mwindows -Wl,--whole-archive CMakeFiles\FSync_FullVersion.dir/objects.a -Wl,--no-whole-archive -o FSync_FullVersion.exe -Wl,--out-implib,libFSync_FullVersion.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\FSync_FullVersion.dir\linklibs.rsp
