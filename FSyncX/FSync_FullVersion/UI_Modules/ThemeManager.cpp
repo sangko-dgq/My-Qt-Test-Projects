@@ -14,11 +14,6 @@ void ThemeManager::LINK_MW(Ui::MainWindow *mw)
 {
     ui_ofMainWindow_onThemeManager = mw;
 }
-// void ThemeManager::LINK_SW(Ui::SettingWindow *sw)
-// {
-//     ui_ofSettingWindow_onThemeManager = sw;
-// }
-
 
 /*从配置中读取主题键值*/
 QString ThemeManager::ReadThemeFromConfig()
@@ -27,7 +22,6 @@ QString ThemeManager::ReadThemeFromConfig()
     themeKeyword = configManager->readIni(QString("FSyncX_CONFIG.ini"), QString("SETTING"), QString("THEME"), themeKeyword); //读配置文档
     return themeKeyword;
 }
-
 
 /*程序启动的时候，读取配置，根据读取的配置加载对应主题，并将该主题名同步到Setting窗口的下拉框当前序号*/
 void ThemeManager::ApplyThemeFromConfig()

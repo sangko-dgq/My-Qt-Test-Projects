@@ -22,13 +22,12 @@ void SettingWindow::LINK_MW(Ui::MainWindow *mw)
     ui_SettingWindow = mw;
 }
 
-/*下拉窗口选择主题*/
+/*@tag 下拉窗口选择主题*/
 void SettingWindow::on_CBox_SwitchTheme_currentTextChanged(const QString &arg1)
 {
     if (arg1 == "Default")
     {
         themeManager->SetSaveThemeToConfig("Default");
-        //再次启动的时候，下拉框的当前序号名字也应该加载
     }
     if (arg1 == "MacOS")
     {

@@ -417,11 +417,11 @@ CMakeFiles/FSync_FullVersion.dir/CONFIG/ConfigManager.cpp.obj: ../CONFIG/ConfigM
   ../UI_Modules/BasePage.h \
   ../UI_Modules/ContextMenu.h \
   ../UI_Modules/ThemeManager.h \
+  ../CONFIG/ConfigManager.h \
   ../ChildWindow/SettingWindow.h \
   ../UI_Modules/QHeaders.h \
   ../UI_Modules/ThemeManager.h \
   ../CONFIG/ConfigManager.h \
-  ../ChildWindow/SettingWindow.h \
   ../MainWindow.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QSettings \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsettings.h
@@ -843,13 +843,13 @@ CMakeFiles/FSync_FullVersion.dir/ChildWindow/SettingWindow.cpp.obj: ../ChildWind
   ../UI_Modules/BasePage.h \
   ../UI_Modules/ContextMenu.h \
   ../UI_Modules/ThemeManager.h \
-  ../ChildWindow/SettingWindow.h \
   ../CONFIG/ConfigManager.h \
   ../ChildWindow/SettingWindow.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QSettings \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsettings.h \
   ../UI_Modules/CommonHelper.h \
   ../UI_Modules/ThemeManager.h \
+  ../CONFIG/ConfigManager.h \
   FSync_FullVersion_autogen/include/ui_SettingWindow.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QComboBox \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qcombobox.h \
@@ -2130,11 +2130,11 @@ CMakeFiles/FSync_FullVersion.dir/FSync_FullVersion_autogen/mocs_compilation.cpp.
   ../UI_Modules/BasePage.h \
   ../UI_Modules/ContextMenu.h \
   ../UI_Modules/ThemeManager.h \
+  ../CONFIG/ConfigManager.h \
   ../ChildWindow/SettingWindow.h \
   ../UI_Modules/QHeaders.h \
   ../UI_Modules/ThemeManager.h \
   ../CONFIG/ConfigManager.h \
-  ../ChildWindow/SettingWindow.h \
   ../MainWindow.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QSettings \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsettings.h \
@@ -2582,11 +2582,11 @@ CMakeFiles/FSync_FullVersion.dir/MainWindow.cpp.obj: ../MainWindow.cpp \
   ../UI_Modules/BasePage.h \
   ../UI_Modules/ContextMenu.h \
   ../UI_Modules/ThemeManager.h \
+  ../CONFIG/ConfigManager.h \
   ../ChildWindow/SettingWindow.h \
   ../UI_Modules/QHeaders.h \
   ../UI_Modules/ThemeManager.h \
   ../CONFIG/ConfigManager.h \
-  ../ChildWindow/SettingWindow.h \
   FSync_FullVersion_autogen/include/ui_MainWindow.h
 
 CMakeFiles/FSync_FullVersion.dir/UI_Modules/BasePage.cpp.obj: ../UI_Modules/BasePage.cpp \
@@ -3006,11 +3006,11 @@ CMakeFiles/FSync_FullVersion.dir/UI_Modules/BasePage.cpp.obj: ../UI_Modules/Base
   ../UI_Modules/BasePage.h \
   ../UI_Modules/ContextMenu.h \
   ../UI_Modules/ThemeManager.h \
+  ../CONFIG/ConfigManager.h \
   ../ChildWindow/SettingWindow.h \
   ../UI_Modules/QHeaders.h \
   ../UI_Modules/ThemeManager.h \
   ../CONFIG/ConfigManager.h \
-  ../ChildWindow/SettingWindow.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QSettings \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsettings.h \
   ../UI_Modules/CommonHelper.h \
@@ -3433,11 +3433,11 @@ CMakeFiles/FSync_FullVersion.dir/UI_Modules/CommonHelper.cpp.obj: ../UI_Modules/
   ../UI_Modules/BasePage.h \
   ../UI_Modules/ContextMenu.h \
   ../UI_Modules/ThemeManager.h \
+  ../CONFIG/ConfigManager.h \
   ../ChildWindow/SettingWindow.h \
   ../UI_Modules/QHeaders.h \
   ../UI_Modules/ThemeManager.h \
   ../CONFIG/ConfigManager.h \
-  ../ChildWindow/SettingWindow.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QSettings \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsettings.h \
   ../MainWindow.h
@@ -3859,11 +3859,11 @@ CMakeFiles/FSync_FullVersion.dir/UI_Modules/ContextMenu.cpp.obj: ../UI_Modules/C
   ../UI_Modules/BasePage.h \
   ../UI_Modules/ContextMenu.h \
   ../UI_Modules/ThemeManager.h \
+  ../CONFIG/ConfigManager.h \
   ../ChildWindow/SettingWindow.h \
   ../UI_Modules/QHeaders.h \
   ../UI_Modules/ThemeManager.h \
   ../CONFIG/ConfigManager.h \
-  ../ChildWindow/SettingWindow.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QSettings \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsettings.h \
   ../UI_Modules/CommonHelper.h \
@@ -4286,11 +4286,11 @@ CMakeFiles/FSync_FullVersion.dir/UI_Modules/ListenFromDATA.cpp.obj: ../UI_Module
   ../UI_Modules/BasePage.h \
   ../UI_Modules/ContextMenu.h \
   ../UI_Modules/ThemeManager.h \
+  ../CONFIG/ConfigManager.h \
   ../ChildWindow/SettingWindow.h \
   ../UI_Modules/QHeaders.h \
   ../UI_Modules/ThemeManager.h \
   ../CONFIG/ConfigManager.h \
-  ../ChildWindow/SettingWindow.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QSettings \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsettings.h \
   ../UI_Modules/CommonHelper.h \
@@ -4713,11 +4713,11 @@ CMakeFiles/FSync_FullVersion.dir/UI_Modules/PageManager.cpp.obj: ../UI_Modules/P
   ../UI_Modules/BasePage.h \
   ../UI_Modules/ContextMenu.h \
   ../UI_Modules/ThemeManager.h \
+  ../CONFIG/ConfigManager.h \
   ../ChildWindow/SettingWindow.h \
   ../UI_Modules/QHeaders.h \
   ../UI_Modules/ThemeManager.h \
   ../CONFIG/ConfigManager.h \
-  ../ChildWindow/SettingWindow.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QSettings \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsettings.h \
   ../UI_Modules/CommonHelper.h \
@@ -5140,11 +5140,11 @@ CMakeFiles/FSync_FullVersion.dir/UI_Modules/SyncPage.cpp.obj: ../UI_Modules/Sync
   ../UI_Modules/BasePage.h \
   ../UI_Modules/ContextMenu.h \
   ../UI_Modules/ThemeManager.h \
+  ../CONFIG/ConfigManager.h \
   ../ChildWindow/SettingWindow.h \
   ../UI_Modules/QHeaders.h \
   ../UI_Modules/ThemeManager.h \
   ../CONFIG/ConfigManager.h \
-  ../ChildWindow/SettingWindow.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QSettings \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsettings.h \
   ../UI_Modules/CommonHelper.h \
@@ -5571,11 +5571,11 @@ CMakeFiles/FSync_FullVersion.dir/UI_Modules/ThemeManager.cpp.obj: ../UI_Modules/
   ../ChildWindow/SettingWindow.h \
   ../UI_Modules/QHeaders.h \
   ../UI_Modules/ThemeManager.h \
+  ../CONFIG/ConfigManager.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QSettings \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsettings.h \
   ../UI_Modules/CommonHelper.h \
-  ../MainWindow.h \
-  ../ChildWindow/SettingWindow.h
+  ../MainWindow.h
 
 CMakeFiles/FSync_FullVersion.dir/main.cpp.obj: ../main.cpp \
   ../MainWindow.h \
@@ -5996,11 +5996,11 @@ CMakeFiles/FSync_FullVersion.dir/main.cpp.obj: ../main.cpp \
   ../UI_Modules/BasePage.h \
   ../UI_Modules/ContextMenu.h \
   ../UI_Modules/ThemeManager.h \
+  ../CONFIG/ConfigManager.h \
   ../ChildWindow/SettingWindow.h \
   ../UI_Modules/QHeaders.h \
   ../UI_Modules/ThemeManager.h \
-  ../CONFIG/ConfigManager.h \
-  ../ChildWindow/SettingWindow.h
+  ../CONFIG/ConfigManager.h
 
 
 D:/Qt5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo:
