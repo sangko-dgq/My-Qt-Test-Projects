@@ -1,5 +1,30 @@
 C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/build/FSync_FullVersion_autogen/NCSWCVWO42/moc_SettingWindow.cpp: C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/ChildWindow/SettingWindow.h \
   C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/build/FSync_FullVersion_autogen/moc_predefs.h \
+  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/CONFIG/ConfigManager.h \
+  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/ChildWindow/SettingWindow.h \
+  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/DATA/DATA_Base/FileBase.h \
+  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/DATA/DATA_Sync/FileTransfer.h \
+  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/DATA/DATA_Sync/FileWatcher.h \
+  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/UI_Modules/BasePage.h \
+  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/UI_Modules/CommonHelper.h \
+  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/UI_Modules/ContextMenu.h \
+  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/UI_Modules/PageManager.h \
+  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/UI_Modules/QHeaders.h \
+  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/UI_Modules/SyncPage.h \
+  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/UI_Modules/ThemeManager.h \
+  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/mainwindow.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDataStream \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDebug \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QDir \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QFile \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QFileInfo \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QFileSystemWatcher \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QIODevice \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QList \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QObject \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QPoint \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QSettings \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QTime \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qalgorithms.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qarraydata.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qatomic.h \
@@ -12,7 +37,18 @@ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/build/FSync_FullVer
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qconfig.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qcontainerfwd.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qcontainertools_impl.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qcontiguouscache.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qcoreapplication.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qcoreevent.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdatastream.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdatetime.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdebug.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdir.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qeventloop.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfile.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfiledevice.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfileinfo.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfilesystemwatcher.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qflags.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qgenericatomic.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qglobal.h \
@@ -23,7 +59,9 @@ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/build/FSync_FullVer
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qiterator.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qline.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qlist.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qlocale.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qlogging.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qmap.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qmargins.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qmetatype.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qnamespace.h \
@@ -39,10 +77,13 @@ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/build/FSync_FullVer
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qrefcount.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qregexp.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qscopedpointer.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qset.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsettings.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qshareddata.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsharedpointer.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsharedpointer_impl.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsize.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qstandardpaths.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qstring.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qstringalgorithms.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qstringlist.h \
@@ -52,34 +93,83 @@ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/build/FSync_FullVer
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsysinfo.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsystemdetection.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qtcore-config.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qtextstream.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qtypeinfo.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qurl.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qvariant.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qvarlengtharray.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qvector.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qversiontagging.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/QContextMenuEvent \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/QDesktopServices \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qbrush.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qcolor.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qcursor.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qdesktopservices.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qevent.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qfont.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qfontinfo.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qfontmetrics.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qguiapplication.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qicon.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qimage.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qinputmethod.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qkeysequence.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qmatrix.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpaintdevice.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpalette.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpen.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpixelformat.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpixmap.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpolygon.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qregion.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qrgb.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qrgba64.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtextcursor.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtextdocument.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtextformat.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtextoption.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtgui-config.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtguiglobal.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtouchdevice.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtransform.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qvector2d.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qwindowdefs.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qwindowdefs_win.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QHostAddress \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QHostInfo \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QNetworkInterface \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QTcpServer \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/QTcpSocket \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qabstractsocket.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qhostaddress.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qhostinfo.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qnetworkinterface.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qtcpserver.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qtcpsocket.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qtnetwork-config.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtNetwork/qtnetworkglobal.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QApplication \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QFileDialog \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QLineEdit \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QMainWindow \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QMessageBox \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QStackedWidget \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QTextBrowser \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QWidget \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qabstractscrollarea.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qapplication.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qdialog.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qfiledialog.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qframe.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qlineedit.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qmainwindow.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qmessagebox.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qsizepolicy.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qstackedwidget.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtabwidget.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtextbrowser.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtextedit.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtwidgets-config.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtwidgetsglobal.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qwidget.h \

@@ -6,16 +6,14 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow)
 {
         ui->setupUi(this);
-
+        
         configManager->LINK_MW(ui);
         themeManager->LINK_MW(ui);
         pageManager->LINK_MW(ui);
+        settingWindow -> LINK_MW(ui);
 
         SignalSlotConnectInit_MW_DATA();
-
-        UIInit();
         ContextMenuInit();
-        // configManager->CONFIG_INIT();
 
         //默认处于HomePage
         isHomePageNow = true;
@@ -30,19 +28,20 @@ MainWindow::MainWindow(QWidget *parent)
 
         Base_HostGot = commonHelper->getHostIPV4Address().toString();
         Base_PortSet = ui->LEditServerPort->text();
+
+        pageManager->setCurrentpPage(ui->HomePage);
+        themeManager->ApplyThemeFromConfig();
+
+
+        // QString themeKeyword;
+        // themeKeyword = configManager->readIni(QString("FSyncX_CONFIG.txt"), QString("SETTING"), QString("THEME"), themeKeyword); //读配置文档
+        // qDebug() << themeKeyword;
+        // commonHelper->setStyle("://" + themeKeyword + ".qss");
 }
 
 MainWindow::~MainWindow()
 {
-        configManager->CONFIG_UPDATE(); //更新配置
         delete ui;
-}
-
-void MainWindow::UIInit()
-{
-        pageManager->setCurrentpPage(ui->HomePage);
-        // Theme
-        themeManager->setAPPTheme_FROM_CONFIG();
 }
 
 /*MainWindow 与 DATA_XX 的信号与槽的连接建立*/

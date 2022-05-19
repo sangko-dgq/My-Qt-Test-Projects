@@ -376,7 +376,7 @@ CMakeFiles/FSync_FullVersion.dir/UI_Modules/ContextMenu.cpp.obj: \
  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/UI_Modules/CommonHelper.h \
  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/UI_Modules/QHeaders.h \
  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/mainwindow.h \
- C:/Users/22012/Desktop/QTPROJ~1/FSyncX/FSYNC_~1/build/FSYNC_~1/ui_mainwindow.h \
+ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/build/FSync_FullVersion_autogen/ui_mainwindow.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QVariant \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qvariant.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QAction \
@@ -418,6 +418,9 @@ CMakeFiles/FSync_FullVersion.dir/UI_Modules/ContextMenu.cpp.obj: \
  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/UI_Modules/ThemeManager.h \
  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/CONFIG/ConfigManager.h \
  C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/ChildWindow/SettingWindow.h \
+ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/UI_Modules/QHeaders.h \
+ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/UI_Modules/ThemeManager.h \
+ C:/Users/22012/Desktop/Qt\ projects/FSyncX/FSync_FullVersion/CONFIG/ConfigManager.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QSettings \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsettings.h \
  C:\Users\22012\Desktop\Qt\ projects\FSyncX\FSync_FullVersion\UI_Modules\CommonHelper.h \

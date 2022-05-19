@@ -35,7 +35,7 @@
    <property name="title">
     <string/>
    </property>
-   <widget class="QComboBox" name="comboBox">
+   <widget class="QComboBox" name="CBox_SwitchTheme">
     <property name="geometry">
      <rect>
       <x>50</x>
@@ -78,7 +78,7 @@
      <string>Theme</string>
     </property>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>50</x>
@@ -104,7 +104,7 @@
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>50</x>
@@ -131,7 +131,7 @@
     </layout>
    </widget>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>150</x>

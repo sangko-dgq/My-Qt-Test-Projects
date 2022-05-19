@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_MainWindow_t {
-    QByteArrayData data[40];
-    char stringdata0[638];
+    QByteArrayData data[43];
+    char stringdata0[728];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -52,26 +52,29 @@ QT_MOC_LITERAL(16, 298, 26), // "on_BtnOpenSyncPath_clicked"
 QT_MOC_LITERAL(17, 325, 26), // "on_BtnOpenBasePath_clicked"
 QT_MOC_LITERAL(18, 352, 25), // "on_BtnStartListen_clicked"
 QT_MOC_LITERAL(19, 378, 19), // "on_BtnGetIP_clicked"
-QT_MOC_LITERAL(20, 398, 21), // "slot_DirectoryChanged"
-QT_MOC_LITERAL(21, 420, 4), // "path"
-QT_MOC_LITERAL(22, 425, 14), // "slot_FileAdded"
-QT_MOC_LITERAL(23, 440, 4), // "file"
-QT_MOC_LITERAL(24, 445, 16), // "slot_FileRemoved"
-QT_MOC_LITERAL(25, 462, 16), // "slot_FileChanged"
-QT_MOC_LITERAL(26, 479, 16), // "slot_FileRenamed"
-QT_MOC_LITERAL(27, 496, 7), // "oldName"
-QT_MOC_LITERAL(28, 504, 7), // "newName"
-QT_MOC_LITERAL(29, 512, 21), // "slot_FromFileTransfer"
-QT_MOC_LITERAL(30, 534, 7), // "content"
-QT_MOC_LITERAL(31, 542, 9), // "slot_File"
-QT_MOC_LITERAL(32, 552, 8), // "fileName"
-QT_MOC_LITERAL(33, 561, 4), // "data"
-QT_MOC_LITERAL(34, 566, 8), // "slot_Del"
-QT_MOC_LITERAL(35, 575, 11), // "slot_Rename"
-QT_MOC_LITERAL(36, 587, 7), // "fileOld"
-QT_MOC_LITERAL(37, 595, 7), // "fileNew"
-QT_MOC_LITERAL(38, 603, 17), // "slot_ServerListen"
-QT_MOC_LITERAL(39, 621, 16) // "isServerListenOK"
+QT_MOC_LITERAL(20, 398, 26), // "on_actionSetting_triggered"
+QT_MOC_LITERAL(21, 425, 21), // "slot_DirectoryChanged"
+QT_MOC_LITERAL(22, 447, 4), // "path"
+QT_MOC_LITERAL(23, 452, 14), // "slot_FileAdded"
+QT_MOC_LITERAL(24, 467, 4), // "file"
+QT_MOC_LITERAL(25, 472, 16), // "slot_FileRemoved"
+QT_MOC_LITERAL(26, 489, 16), // "slot_FileChanged"
+QT_MOC_LITERAL(27, 506, 16), // "slot_FileRenamed"
+QT_MOC_LITERAL(28, 523, 7), // "oldName"
+QT_MOC_LITERAL(29, 531, 7), // "newName"
+QT_MOC_LITERAL(30, 539, 32), // "slot_CommonINFO_FromFileTransfer"
+QT_MOC_LITERAL(31, 572, 7), // "content"
+QT_MOC_LITERAL(32, 580, 9), // "slot_File"
+QT_MOC_LITERAL(33, 590, 8), // "fileName"
+QT_MOC_LITERAL(34, 599, 4), // "data"
+QT_MOC_LITERAL(35, 604, 8), // "slot_Del"
+QT_MOC_LITERAL(36, 613, 11), // "slot_Rename"
+QT_MOC_LITERAL(37, 625, 7), // "fileOld"
+QT_MOC_LITERAL(38, 633, 7), // "fileNew"
+QT_MOC_LITERAL(39, 641, 28), // "slot_CommonINFO_FromFileBase"
+QT_MOC_LITERAL(40, 670, 30), // "slot_showContextMenu_TBrwDebug"
+QT_MOC_LITERAL(41, 701, 3), // "pos"
+QT_MOC_LITERAL(42, 705, 22) // "slotAct_cleanTBrwDebug"
 
     },
     "MainWindow\0signal_ConnectToFBase\0\0"
@@ -86,13 +89,16 @@ QT_MOC_LITERAL(39, 621, 16) // "isServerListenOK"
     "on_BtnOpenSyncPath_clicked\0"
     "on_BtnOpenBasePath_clicked\0"
     "on_BtnStartListen_clicked\0on_BtnGetIP_clicked\0"
+    "on_actionSetting_triggered\0"
     "slot_DirectoryChanged\0path\0slot_FileAdded\0"
     "file\0slot_FileRemoved\0slot_FileChanged\0"
     "slot_FileRenamed\0oldName\0newName\0"
-    "slot_FromFileTransfer\0content\0slot_File\0"
-    "fileName\0data\0slot_Del\0slot_Rename\0"
-    "fileOld\0fileNew\0slot_ServerListen\0"
-    "isServerListenOK"
+    "slot_CommonINFO_FromFileTransfer\0"
+    "content\0slot_File\0fileName\0data\0"
+    "slot_Del\0slot_Rename\0fileOld\0fileNew\0"
+    "slot_CommonINFO_FromFileBase\0"
+    "slot_showContextMenu_TBrwDebug\0pos\0"
+    "slotAct_cleanTBrwDebug"
 };
 #undef QT_MOC_LITERAL
 
@@ -102,7 +108,7 @@ static const uint qt_meta_data_MainWindow[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-      24,   14, // methods
+      27,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -110,32 +116,35 @@ static const uint qt_meta_data_MainWindow[] = {
        3,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    2,  134,    2, 0x06 /* Public */,
-       5,    3,  139,    2, 0x06 /* Public */,
-       7,    3,  146,    2, 0x06 /* Public */,
+       1,    2,  149,    2, 0x06 /* Public */,
+       5,    3,  154,    2, 0x06 /* Public */,
+       7,    3,  161,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       9,    0,  153,    2, 0x08 /* Private */,
-      10,    0,  154,    2, 0x08 /* Private */,
-      11,    0,  155,    2, 0x08 /* Private */,
-      12,    0,  156,    2, 0x08 /* Private */,
-      13,    0,  157,    2, 0x08 /* Private */,
-      14,    0,  158,    2, 0x08 /* Private */,
-      15,    0,  159,    2, 0x08 /* Private */,
-      16,    0,  160,    2, 0x08 /* Private */,
-      17,    0,  161,    2, 0x08 /* Private */,
-      18,    0,  162,    2, 0x08 /* Private */,
-      19,    0,  163,    2, 0x08 /* Private */,
-      20,    1,  164,    2, 0x08 /* Private */,
-      22,    1,  167,    2, 0x08 /* Private */,
-      24,    1,  170,    2, 0x08 /* Private */,
-      25,    1,  173,    2, 0x08 /* Private */,
-      26,    2,  176,    2, 0x08 /* Private */,
-      29,    1,  181,    2, 0x08 /* Private */,
-      31,    2,  184,    2, 0x08 /* Private */,
-      34,    1,  189,    2, 0x08 /* Private */,
-      35,    2,  192,    2, 0x08 /* Private */,
-      38,    1,  197,    2, 0x08 /* Private */,
+       9,    0,  168,    2, 0x08 /* Private */,
+      10,    0,  169,    2, 0x08 /* Private */,
+      11,    0,  170,    2, 0x08 /* Private */,
+      12,    0,  171,    2, 0x08 /* Private */,
+      13,    0,  172,    2, 0x08 /* Private */,
+      14,    0,  173,    2, 0x08 /* Private */,
+      15,    0,  174,    2, 0x08 /* Private */,
+      16,    0,  175,    2, 0x08 /* Private */,
+      17,    0,  176,    2, 0x08 /* Private */,
+      18,    0,  177,    2, 0x08 /* Private */,
+      19,    0,  178,    2, 0x08 /* Private */,
+      20,    0,  179,    2, 0x08 /* Private */,
+      21,    1,  180,    2, 0x08 /* Private */,
+      23,    1,  183,    2, 0x08 /* Private */,
+      25,    1,  186,    2, 0x08 /* Private */,
+      26,    1,  189,    2, 0x08 /* Private */,
+      27,    2,  192,    2, 0x08 /* Private */,
+      30,    1,  197,    2, 0x08 /* Private */,
+      32,    2,  200,    2, 0x08 /* Private */,
+      35,    1,  205,    2, 0x08 /* Private */,
+      36,    2,  208,    2, 0x08 /* Private */,
+      39,    1,  213,    2, 0x08 /* Private */,
+      40,    1,  216,    2, 0x08 /* Private */,
+      42,    0,  219,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::QString, QMetaType::QString,    3,    4,
@@ -154,16 +163,19 @@ static const uint qt_meta_data_MainWindow[] = {
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void, QMetaType::QString,   21,
-    QMetaType::Void, QMetaType::QString,   23,
-    QMetaType::Void, QMetaType::QString,   23,
-    QMetaType::Void, QMetaType::QString,   23,
-    QMetaType::Void, QMetaType::QString, QMetaType::QString,   27,   28,
-    QMetaType::Void, QMetaType::QString,   30,
-    QMetaType::Void, QMetaType::QString, QMetaType::QByteArray,   32,   33,
-    QMetaType::Void, QMetaType::QString,   32,
-    QMetaType::Void, QMetaType::QString, QMetaType::QString,   36,   37,
-    QMetaType::Void, QMetaType::Bool,   39,
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::QString,   22,
+    QMetaType::Void, QMetaType::QString,   24,
+    QMetaType::Void, QMetaType::QString,   24,
+    QMetaType::Void, QMetaType::QString,   24,
+    QMetaType::Void, QMetaType::QString, QMetaType::QString,   28,   29,
+    QMetaType::Void, QMetaType::QString,   31,
+    QMetaType::Void, QMetaType::QString, QMetaType::QByteArray,   33,   34,
+    QMetaType::Void, QMetaType::QString,   33,
+    QMetaType::Void, QMetaType::QString, QMetaType::QString,   37,   38,
+    QMetaType::Void, QMetaType::QString,   31,
+    QMetaType::Void, QMetaType::QPoint,   41,
+    QMetaType::Void,
 
        0        // eod
 };
@@ -188,16 +200,19 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 11: _t->on_BtnOpenBasePath_clicked(); break;
         case 12: _t->on_BtnStartListen_clicked(); break;
         case 13: _t->on_BtnGetIP_clicked(); break;
-        case 14: _t->slot_DirectoryChanged((*reinterpret_cast< const QString(*)>(_a[1]))); break;
-        case 15: _t->slot_FileAdded((*reinterpret_cast< const QString(*)>(_a[1]))); break;
-        case 16: _t->slot_FileRemoved((*reinterpret_cast< const QString(*)>(_a[1]))); break;
-        case 17: _t->slot_FileChanged((*reinterpret_cast< const QString(*)>(_a[1]))); break;
-        case 18: _t->slot_FileRenamed((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
-        case 19: _t->slot_FromFileTransfer((*reinterpret_cast< QString(*)>(_a[1]))); break;
-        case 20: _t->slot_File((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QByteArray(*)>(_a[2]))); break;
-        case 21: _t->slot_Del((*reinterpret_cast< const QString(*)>(_a[1]))); break;
-        case 22: _t->slot_Rename((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
-        case 23: _t->slot_ServerListen((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 14: _t->on_actionSetting_triggered(); break;
+        case 15: _t->slot_DirectoryChanged((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 16: _t->slot_FileAdded((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 17: _t->slot_FileRemoved((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 18: _t->slot_FileChanged((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 19: _t->slot_FileRenamed((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 20: _t->slot_CommonINFO_FromFileTransfer((*reinterpret_cast< QString(*)>(_a[1]))); break;
+        case 21: _t->slot_File((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QByteArray(*)>(_a[2]))); break;
+        case 22: _t->slot_Del((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 23: _t->slot_Rename((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 24: _t->slot_CommonINFO_FromFileBase((*reinterpret_cast< QString(*)>(_a[1]))); break;
+        case 25: _t->slot_showContextMenu_TBrwDebug((*reinterpret_cast< QPoint(*)>(_a[1]))); break;
+        case 26: _t->slotAct_cleanTBrwDebug(); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -255,13 +270,13 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 24)
+        if (_id < 27)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 24;
+        _id -= 27;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 24)
+        if (_id < 27)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 24;
+        _id -= 27;
     }
     return _id;
 }

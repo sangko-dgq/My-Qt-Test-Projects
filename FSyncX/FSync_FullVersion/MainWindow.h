@@ -39,6 +39,8 @@ class ContextMenu;
 class ConfigManager;
 class ThemeManager;
 
+class SettingWindow;
+
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
@@ -95,7 +97,10 @@ private:
     Ui::MainWindow *ui;
 
     void SignalSlotConnectInit_MW_DATA();
-    void UIInit();
+
+    /*ChildWindow**/
+    SettingWindow *settingWindow;
+
 
     /*UI_Modules*/ //@note 在MainWindow引入UI_Modules中的各个模块Class
     CommonHelper *commonHelper;

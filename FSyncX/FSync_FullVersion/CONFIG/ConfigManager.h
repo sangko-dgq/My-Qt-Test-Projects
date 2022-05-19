@@ -25,10 +25,10 @@ private:
 
 public:
     
-    // void CONFIG_INIT();
-    void CONFIG_UPDATE();
-    QString GET_CONFIG_VALUE(const QString &key);
-    void SET_CONFIG_VALUE(const QString &key, const QVariant &value);
+    bool static writeIni(QString path, QString section,QString keyword, QString keyvalue,bool clear_flag);
+    bool static writeIni(QString path, QString section,QString keyword, QString keyvalue);
+    QString static readIni(QString path, QString section,QString keyword, QString &keyvalue);
+
 
     
 };
