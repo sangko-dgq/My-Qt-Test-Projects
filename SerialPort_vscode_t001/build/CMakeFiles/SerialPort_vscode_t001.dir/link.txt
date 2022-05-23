@@ -1,3 +1,0 @@
-D:\Qt5\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\SerialPort_vscode_t001.dir/objects.a
-D:\Qt5\Tools\mingw810_64\bin\ar.exe qc CMakeFiles\SerialPort_vscode_t001.dir/objects.a @CMakeFiles\SerialPort_vscode_t001.dir\objects1.rsp
-D:\Qt5\Tools\mingw810_64\bin\g++.exe -g -mwindows -Wl,--whole-archive CMakeFiles\SerialPort_vscode_t001.dir/objects.a -Wl,--no-whole-archive -o SerialPort_vscode_t001.exe -Wl,--out-implib,libSerialPort_vscode_t001.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SerialPort_vscode_t001.dir\linklibs.rsp

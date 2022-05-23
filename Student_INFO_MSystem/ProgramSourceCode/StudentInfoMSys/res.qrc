@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>logo.ico</file>
+        <file>user.png</file>
+        <file>search_white_48px.png</file>
+        <file>add_white_48px.png</file>
+        <file>modify_white_48px.png</file>
+        <file>remove_white_48px.png</file>
+    </qresource>
+</RCC>

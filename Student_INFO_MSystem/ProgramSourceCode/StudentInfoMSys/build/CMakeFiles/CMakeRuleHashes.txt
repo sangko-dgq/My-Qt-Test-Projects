@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+b088eab33abc7ff73654aa84d83e9abc ../StudentInfoMSys_zh_CN.ts
+32a533e46ff57dfb486993a8476ae3b7 CMakeFiles/StudentInfoMSys_autogen
+b1c445a124d78225177710d0cae11a61 StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp

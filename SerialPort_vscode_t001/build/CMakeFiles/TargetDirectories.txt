@@ -1,4 +1,0 @@
-C:/Users/22012/Desktop/Qt projects/SerialPort_vscode_t001/build/CMakeFiles/rebuild_cache.dir
-C:/Users/22012/Desktop/Qt projects/SerialPort_vscode_t001/build/CMakeFiles/SerialPort_vscode_t001.dir
-C:/Users/22012/Desktop/Qt projects/SerialPort_vscode_t001/build/CMakeFiles/edit_cache.dir
-C:/Users/22012/Desktop/Qt projects/SerialPort_vscode_t001/build/CMakeFiles/SerialPort_vscode_t001_autogen.dir
