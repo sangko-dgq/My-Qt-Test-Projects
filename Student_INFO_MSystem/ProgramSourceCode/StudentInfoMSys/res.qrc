@@ -6,5 +6,7 @@
         <file>add_white_48px.png</file>
         <file>modify_white_48px.png</file>
         <file>remove_white_48px.png</file>
+        <file>exit_48px.png</file>
+        <file>QSS/MacOS.qss</file>
     </qresource>
 </RCC>

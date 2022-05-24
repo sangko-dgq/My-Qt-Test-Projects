@@ -1,6 +1,9 @@
 #include "studentsql.h"
 #include <QDebug>
 
+
+StudentSQL *StudentSQL::ptr_studentSQL = nullptr;
+
 StudentSQL::StudentSQL(QObject *parent)
     : QObject{parent}
 {
@@ -24,10 +27,10 @@ StudentSQL::StudentSQL(QObject *parent)
     //    addStudent(s1);
     //    removeStudent(3);
 
-    //    StudentInfo s;
-    //    s.id = 8;
-    //    s.student_name = "HuaWei2022";
-    //    qDebug() << updateStudentInfo(s);
+    //        StudentInfo s;
+    //        s.id = 1;
+    //        s.student_name = "HuaWei2022";
+    //        qDebug() << updateStudentInfo(s);
 
     /*user*/
     //    UserInfo info;
@@ -54,7 +57,12 @@ void StudentSQL::initSQL()
                                     "Please check the documentation how to build the "
                                     "Qt SQL plugins."));
 
-    m_db = QSqlDatabase::addDatabase("QSQLITE");
+    if(QSqlDatabase::contains("qt_sql_default_connection"))
+        m_db = QSqlDatabase::database("qt_sql_default_connection");
+    else
+        m_db = QSqlDatabase::addDatabase("QSQLITE");
+
+
 
     auto exePath = QCoreApplication::applicationDirPath(); //exe所在目录
     auto databasePath = exePath + "\\data.db";
@@ -103,6 +111,7 @@ QList<StudentInfo> StudentSQL::getPageStudent(quint32 pageIndex, quint32 count)
     return l;
 }
 
+/*
 bool StudentSQL::addStudent(StudentInfo info)
 {
     QSqlQuery sql(m_db);
@@ -116,6 +125,30 @@ bool StudentSQL::addStudent(StudentInfo info)
             .arg(info.student_wechat);
     return sql.exec(sql_AddStudent);
 }
+*/
+
+bool StudentSQL::addStudent(QList<StudentInfo> l)
+{
+
+    bool ret;
+    QSqlQuery sql(m_db);
+    m_db.transaction();
+    for(auto info:l)
+    {
+        QString sql_AddStudent = QString("insert into student values(null, '%1', %2, %3, %4, %5, '%6', '%7');")
+                .arg(info.student_name)
+                .arg(info.student_age)
+                .arg(info.student_grade)
+                .arg(info.student_class)
+                .arg(info.student_id)
+                .arg(info.student_phoneNum)
+                .arg(info.student_wechat);
+      ret  = sql.exec(sql_AddStudent);
+    }
+    m_db.commit();
+    return ret;
+}
+
 
 bool StudentSQL::removeStudent(int id)
 {
@@ -128,11 +161,15 @@ bool StudentSQL::clearStudentTable()
 {
     QSqlQuery sql(m_db);
     QString sql_clearStudentTable = QString("delete from student;");
+    sql.exec("delete from sqlite_sequence where name = 'student';"); //清除ID自增
     return sql.exec(sql_clearStudentTable);
 }
 
 bool StudentSQL::updateStudentInfo(StudentInfo info)
 {
+    qDebug() << info.id;
+    qDebug() << info.student_name;
+
     QSqlQuery sql(m_db);
     QString Sql_UpdateStudentInfo = QString("update student set name='%1',age=%2,grade=%3,class=%4,studentid=%5,phone='%6',wechat='%7' where id=%8;")
             .arg(info.student_name)
@@ -141,20 +178,21 @@ bool StudentSQL::updateStudentInfo(StudentInfo info)
             .arg(info.student_class)
             .arg(info.student_id)
             .arg(info.student_phoneNum)
-            .arg(info.student_wechat).arg(info.id);
+            .arg(info.student_wechat)
+            .arg(info.id);
     bool ret = sql.exec(Sql_UpdateStudentInfo);
+
+    qDebug() << Sql_UpdateStudentInfo;
 
     QSqlError e = sql.lastError();
     if(e.isValid()) //sql不可用
     {
         qDebug() << e.text();
     }
-
     return ret;
 }
 
 /*User*/
-
 QList<UserInfo> StudentSQL::getAllUser()
 {
     QSqlQuery sql(m_db);

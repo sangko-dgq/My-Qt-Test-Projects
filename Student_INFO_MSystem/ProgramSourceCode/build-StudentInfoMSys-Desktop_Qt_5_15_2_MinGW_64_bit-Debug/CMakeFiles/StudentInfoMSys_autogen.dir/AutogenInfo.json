@@ -92,6 +92,12 @@
 			null
 		],
 		[
+			"C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/dialog_addstudent.h",
+			"MU",
+			"EWIEGA46WW/moc_dialog_addstudent.cpp",
+			null
+		],
+		[
 			"C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/loginwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_loginwindow.cpp",
@@ -159,6 +165,11 @@
 	[
 		[
 			"C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/SQL/studentsql.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/dialog_addstudent.cpp",
 			"MU",
 			null
 		],

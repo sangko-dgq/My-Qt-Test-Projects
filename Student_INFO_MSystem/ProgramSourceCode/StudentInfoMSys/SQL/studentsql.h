@@ -18,7 +18,7 @@ struct StudentInfo
     quint32 student_id;
     QString student_phoneNum;
     QString student_wechat;
-
+    
 };
 struct UserInfo
 {
@@ -33,22 +33,37 @@ class StudentSQL : public QObject
 public:
     explicit StudentSQL(QObject *parent = nullptr);
 
-    void initSQL();
 
+    //Singalton
+    static StudentSQL *ptr_studentSQL;
+    static StudentSQL *getInstance()
+    {
+        if(nullptr == ptr_studentSQL)
+        {
+            ptr_studentSQL = new StudentSQL;
+        }
+        return ptr_studentSQL;
+    }
+
+    
+    void initSQL();
+    
     //查询所有学生数量
     quint32 getStudentCount();
     //查询第几页学生数据(从第0页开始)
     QList<StudentInfo> getPageStudent(quint32 pageIndex, quint32 count);
-
+    
     //增加学生
-    bool addStudent(StudentInfo info);
+   // bool addStudent(StudentInfo info); //速度慢
+    bool addStudent(QList<StudentInfo> l); //速度快
+
     //删除学生
     bool removeStudent(int id);
     //清空学生表
     bool clearStudentTable();
     //修改学生信息
     bool updateStudentInfo(StudentInfo info);
-
+    
     //////////////////
     //查询所有用户
     QList<UserInfo> getAllUser();
@@ -60,10 +75,10 @@ public:
     bool addUser(UserInfo info);
     //删除单个用户
     bool removeUser(QString  username);
-
+    
 signals:
-
-
+    
+    
 private:
     QSqlDatabase m_db;
 };

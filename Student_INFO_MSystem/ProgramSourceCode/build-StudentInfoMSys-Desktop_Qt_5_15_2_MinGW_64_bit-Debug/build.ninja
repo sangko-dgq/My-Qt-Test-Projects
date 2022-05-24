@@ -101,6 +101,14 @@ build CMakeFiles/StudentInfoMSys.dir/SQL/studentsql.cpp.obj: CXX_COMPILER__Stude
   OBJECT_DIR = CMakeFiles\StudentInfoMSys.dir
   OBJECT_FILE_DIR = CMakeFiles\StudentInfoMSys.dir\SQL
 
+build CMakeFiles/StudentInfoMSys.dir/dialog_addstudent.cpp.obj: CXX_COMPILER__StudentInfoMSys_Debug C$:/Users/22012/Desktop/Qt$ projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/dialog_addstudent.cpp || cmake_object_order_depends_target_StudentInfoMSys
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles\StudentInfoMSys.dir\dialog_addstudent.cpp.obj.d
+  FLAGS = -g -std=gnu++17
+  INCLUDES = -I"C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug" -I"C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys" -I"C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/StudentInfoMSys_autogen/include" -isystem D:/Qt5/5.15.2/mingw81_64/include -isystem D:/Qt5/5.15.2/mingw81_64/include/QtWidgets -isystem D:/Qt5/5.15.2/mingw81_64/include/QtGui -isystem D:/Qt5/5.15.2/mingw81_64/include/QtANGLE -isystem D:/Qt5/5.15.2/mingw81_64/include/QtCore -isystem D:/Qt5/5.15.2/mingw81_64/./mkspecs/win32-g++ -isystem D:/Qt5/5.15.2/mingw81_64/include/QtSql
+  OBJECT_DIR = CMakeFiles\StudentInfoMSys.dir
+  OBJECT_FILE_DIR = CMakeFiles\StudentInfoMSys.dir
+
 build CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp.obj: CXX_COMPILER__StudentInfoMSys_Debug C$:/Users/22012/Desktop/Qt$ projects/Student_INFO_MSystem/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp || cmake_object_order_depends_target_StudentInfoMSys
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles\StudentInfoMSys.dir\StudentInfoMSys_autogen\EWIEGA46WW\qrc_res.cpp.obj.d
@@ -117,7 +125,7 @@ build CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.
 #############################################
 # Link the executable StudentInfoMSys.exe
 
-build StudentInfoMSys.exe: CXX_EXECUTABLE_LINKER__StudentInfoMSys_Debug CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/mocs_compilation.cpp.obj CMakeFiles/StudentInfoMSys.dir/main.cpp.obj CMakeFiles/StudentInfoMSys.dir/mainwindow.cpp.obj CMakeFiles/StudentInfoMSys.dir/loginwindow.cpp.obj CMakeFiles/StudentInfoMSys.dir/SQL/studentsql.cpp.obj CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp.obj | D$:/Qt5/5.15.2/mingw81_64/lib/libQt5Widgets.a D$:/Qt5/5.15.2/mingw81_64/lib/libQt5Sql.a D$:/Qt5/5.15.2/mingw81_64/lib/libQt5Gui.a D$:/Qt5/5.15.2/mingw81_64/lib/libQt5Core.a D$:/Qt5/5.15.2/mingw81_64/lib/libqtmain.a || StudentInfoMSys_autogen StudentInfoMSys_autogen_timestamp_deps
+build StudentInfoMSys.exe: CXX_EXECUTABLE_LINKER__StudentInfoMSys_Debug CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/mocs_compilation.cpp.obj CMakeFiles/StudentInfoMSys.dir/main.cpp.obj CMakeFiles/StudentInfoMSys.dir/mainwindow.cpp.obj CMakeFiles/StudentInfoMSys.dir/loginwindow.cpp.obj CMakeFiles/StudentInfoMSys.dir/SQL/studentsql.cpp.obj CMakeFiles/StudentInfoMSys.dir/dialog_addstudent.cpp.obj CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp.obj | D$:/Qt5/5.15.2/mingw81_64/lib/libQt5Widgets.a D$:/Qt5/5.15.2/mingw81_64/lib/libQt5Sql.a D$:/Qt5/5.15.2/mingw81_64/lib/libQt5Gui.a D$:/Qt5/5.15.2/mingw81_64/lib/libQt5Core.a D$:/Qt5/5.15.2/mingw81_64/lib/libqtmain.a || StudentInfoMSys_autogen StudentInfoMSys_autogen_timestamp_deps
   FLAGS = -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = D:/Qt5/5.15.2/mingw81_64/lib/libQt5Widgets.a  D:/Qt5/5.15.2/mingw81_64/lib/libQt5Sql.a  D:/Qt5/5.15.2/mingw81_64/lib/libQt5Gui.a  D:/Qt5/5.15.2/mingw81_64/lib/libQt5Core.a  D:/Qt5/5.15.2/mingw81_64/lib/libqtmain.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -150,7 +158,7 @@ build StudentInfoMSys_autogen_timestamp_deps: phony CMakeFiles/StudentInfoMSys_a
 #############################################
 # Utility command for StudentInfoMSys_autogen
 
-build StudentInfoMSys_autogen: phony CMakeFiles/StudentInfoMSys_autogen StudentInfoMSys_autogen/include/ui_mainwindow.h StudentInfoMSys_autogen/include/ui_loginwindow.h StudentInfoMSys_autogen/timestamp StudentInfoMSys_autogen/mocs_compilation.cpp StudentInfoMSys_autogen_timestamp_deps
+build StudentInfoMSys_autogen: phony CMakeFiles/StudentInfoMSys_autogen StudentInfoMSys_autogen/include/ui_mainwindow.h StudentInfoMSys_autogen/include/ui_dialog_addstudent.h StudentInfoMSys_autogen/include/ui_loginwindow.h StudentInfoMSys_autogen/timestamp StudentInfoMSys_autogen/mocs_compilation.cpp StudentInfoMSys_autogen_timestamp_deps
 
 
 #############################################
@@ -166,7 +174,7 @@ build StudentInfoMSys_autogen/timestamp StudentInfoMSys_autogen/mocs_compilation
 #############################################
 # Custom command for StudentInfoMSys_autogen\EWIEGA46WW\qrc_res.cpp
 
-build StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp | ${cmake_ninja_workdir}StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp: CUSTOM_COMMAND C$:/Users/22012/Desktop/Qt$ projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/res.qrc CMakeFiles/StudentInfoMSys_autogen.dir/AutoRcc_res_EWIEGA46WW_Info.json C$:/Users/22012/Desktop/Qt$ projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/add_white_48px.png C$:/Users/22012/Desktop/Qt$ projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/logo.ico C$:/Users/22012/Desktop/Qt$ projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/search_white_48px.png C$:/Users/22012/Desktop/Qt$ projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/modify_white_48px.png C$:/Users/22012/Desktop/Qt$ projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/user.png C$:/Users/22012/Desktop/Qt$ projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/remove_white_48px.png D$:/Qt5/5.15.2/mingw81_64/bin/rcc.exe || StudentInfoMSys_autogen StudentInfoMSys_autogen_timestamp_deps
+build StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp | ${cmake_ninja_workdir}StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp: CUSTOM_COMMAND C$:/Users/22012/Desktop/Qt$ projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/res.qrc CMakeFiles/StudentInfoMSys_autogen.dir/AutoRcc_res_EWIEGA46WW_Info.json C$:/Users/22012/Desktop/Qt$ projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/exit_48px.png C$:/Users/22012/Desktop/Qt$ projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/add_white_48px.png C$:/Users/22012/Desktop/Qt$ projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/logo.ico C$:/Users/22012/Desktop/Qt$ projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/search_white_48px.png C$:/Users/22012/Desktop/Qt$ projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/modify_white_48px.png C$:/Users/22012/Desktop/Qt$ projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/user.png C$:/Users/22012/Desktop/Qt$ projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/remove_white_48px.png C$:/Users/22012/Desktop/Qt$ projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/QSS/MacOS.qss D$:/Qt5/5.15.2/mingw81_64/bin/rcc.exe || StudentInfoMSys_autogen StudentInfoMSys_autogen_timestamp_deps
   COMMAND = cmd.exe /C "cd /D "C:\Users\22012\Desktop\Qt projects\Student_INFO_MSystem\ProgramSourceCode\build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug" && D:\Qt5\Tools\CMake_64\bin\cmake.exe -E cmake_autorcc "C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/StudentInfoMSys_autogen.dir/AutoRcc_res_EWIEGA46WW_Info.json" Debug"
   DESC = Automatic RCC for res.qrc
   restat = 1
@@ -175,13 +183,13 @@ build StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp | ${cmake_ninja_workdir}Stu
 #############################################
 # Phony custom command for CMakeFiles\StudentInfoMSys_autogen_timestamp_deps
 
-build CMakeFiles/StudentInfoMSys_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/StudentInfoMSys_autogen_timestamp_deps: phony D$:/Qt5/5.15.2/mingw81_64/bin/Qt5Sql.dll D$:/Qt5/5.15.2/mingw81_64/bin/moc.exe D$:/Qt5/5.15.2/mingw81_64/bin/Qt5Widgets.dll D$:/Qt5/5.15.2/mingw81_64/bin/uic.exe
+build CMakeFiles/StudentInfoMSys_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/StudentInfoMSys_autogen_timestamp_deps: phony D$:/Qt5/5.15.2/mingw81_64/bin/Qt5Sql.dll D$:/Qt5/5.15.2/mingw81_64/bin/Qt5Widgets.dll D$:/Qt5/5.15.2/mingw81_64/bin/uic.exe D$:/Qt5/5.15.2/mingw81_64/bin/moc.exe
 
 
 #############################################
 # Phony custom command for CMakeFiles\StudentInfoMSys_autogen
 
-build CMakeFiles/StudentInfoMSys_autogen StudentInfoMSys_autogen/include/ui_mainwindow.h StudentInfoMSys_autogen/include/ui_loginwindow.h | ${cmake_ninja_workdir}CMakeFiles/StudentInfoMSys_autogen ${cmake_ninja_workdir}StudentInfoMSys_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}StudentInfoMSys_autogen/include/ui_loginwindow.h: phony StudentInfoMSys_autogen/timestamp || StudentInfoMSys_autogen_timestamp_deps
+build CMakeFiles/StudentInfoMSys_autogen StudentInfoMSys_autogen/include/ui_mainwindow.h StudentInfoMSys_autogen/include/ui_dialog_addstudent.h StudentInfoMSys_autogen/include/ui_loginwindow.h | ${cmake_ninja_workdir}CMakeFiles/StudentInfoMSys_autogen ${cmake_ninja_workdir}StudentInfoMSys_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}StudentInfoMSys_autogen/include/ui_dialog_addstudent.h ${cmake_ninja_workdir}StudentInfoMSys_autogen/include/ui_loginwindow.h: phony StudentInfoMSys_autogen/timestamp || StudentInfoMSys_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.

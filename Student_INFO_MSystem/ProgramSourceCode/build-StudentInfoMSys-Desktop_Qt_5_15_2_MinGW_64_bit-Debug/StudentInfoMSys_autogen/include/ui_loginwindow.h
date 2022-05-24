@@ -129,6 +129,9 @@ public:
 
         gridLayout_3->addWidget(widget, 2, 0, 1, 1);
 
+        QWidget::setTabOrder(le_username, le_password);
+        QWidget::setTabOrder(le_password, btn_login);
+        QWidget::setTabOrder(btn_login, btn_exit);
 
         retranslateUi(LoginWindow);
 

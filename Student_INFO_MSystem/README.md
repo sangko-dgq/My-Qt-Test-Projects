@@ -51,3 +51,80 @@ int main()
 变量窗口可显示变量的值
 
 ![image-20220524015024930](https://s2.loli.net/2022/05/24/zrhjQdiLvOU9Ge8.png)
+
+
+
+
+
+Table水平自动扩充铺满
+
+![image-20220524144408776](https://s2.loli.net/2022/05/24/4AWa6DrGpU5sz9c.png)
+
+
+
+
+
+Qt 样式加载
+
+样式内置压缩到exe
+
+外部调用加载（exe更小）
+
+
+
+单例 ： 全局唯一的对象
+
+
+
+
+
+
+
+```cpp
+
+/*静态指针的初始化*/
+// .h
+    Class  StudentSQL
+{
+    public:
+        static StudentSQL *studentSQL; //类内静态指针声明
+}
+
+// .cpp
+         StudentSQL *StudentSQL::studentSQL = nullptr; //类外
+ 
+ 
+```
+
+
+
+
+
+谷歌代码命名规范
+
+指针 p_xx   ptrXX
+
+成员变量 m_xx
+
+成员指针变量 m_ptrXX
+
+空指针判断 ：nullptr == p_xx  不应 p_xx == nullptr
+
+
+
+C/S项目  vs  B/S项目
+
+
+
+Tab切换下个输入 跳转顺序设置
+
+![image-20220524192810760](https://s2.loli.net/2022/05/24/p6cJAwfxhkXQte2.png)
+
+
+
+去掉ID不清空自增
+
+```sqlite
+delete from sqlite_sequence where name = 'tableName';
+```
+

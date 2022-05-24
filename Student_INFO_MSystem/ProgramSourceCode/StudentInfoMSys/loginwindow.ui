@@ -197,6 +197,12 @@
    </item>
   </layout>
  </widget>
+ <tabstops>
+  <tabstop>le_username</tabstop>
+  <tabstop>le_password</tabstop>
+  <tabstop>btn_login</tabstop>
+  <tabstop>btn_exit</tabstop>
+ </tabstops>
  <resources>
   <include location="res.qrc"/>
  </resources>

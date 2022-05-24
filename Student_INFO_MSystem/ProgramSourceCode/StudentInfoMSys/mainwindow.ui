@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>916</width>
+    <width>940</width>
     <height>639</height>
    </rect>
   </property>
@@ -60,8 +60,7 @@
        </size>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: #646FD4;
-color: white;</string>
+       <string notr="true"/>
       </property>
       <attribute name="headerVisible">
        <bool>false</bool>
@@ -91,8 +90,7 @@ color: white;</string>
     <item row="0" column="0" colspan="2">
      <widget class="QWidget" name="TopView" native="true">
       <property name="styleSheet">
-       <string notr="true">background-color: #242F9B;
-color: white;</string>
+       <string notr="true"/>
       </property>
       <layout class="QGridLayout" name="gridLayout_2">
        <property name="leftMargin">
@@ -123,35 +121,6 @@ color: white;</string>
          </property>
         </spacer>
        </item>
-       <item row="0" column="2">
-        <spacer name="horizontalSpacer_2">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>40</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="0" column="1">
-        <widget class="QLabel" name="label">
-         <property name="font">
-          <font>
-           <pointsize>14</pointsize>
-           <bold>true</bold>
-          </font>
-         </property>
-         <property name="text">
-          <string> Student Information Management System</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
-        </widget>
-       </item>
        <item row="0" column="3">
         <widget class="QWidget" name="widget_2" native="true">
          <layout class="QGridLayout" name="gridLayout">
@@ -159,6 +128,10 @@ color: white;</string>
            <widget class="QPushButton" name="btn_exit">
             <property name="text">
              <string>Exit</string>
+            </property>
+            <property name="icon">
+             <iconset resource="res.qrc">
+              <normaloff>:/exit_48px.png</normaloff>:/exit_48px.png</iconset>
             </property>
            </widget>
           </item>
@@ -186,9 +159,10 @@ color: white;</string>
            </spacer>
           </item>
           <item row="0" column="1">
-           <widget class="QLabel" name="label_4">
+           <widget class="QLabel" name="user">
             <property name="font">
              <font>
+              <family>Fira Code</family>
               <bold>true</bold>
              </font>
             </property>
@@ -228,13 +202,10 @@ color: white;</string>
          </layout>
         </widget>
        </item>
-       <item row="0" column="4">
-        <spacer name="horizontalSpacer_3">
+       <item row="0" column="2">
+        <spacer name="horizontalSpacer_2">
          <property name="orientation">
           <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeType">
-          <enum>QSizePolicy::Minimum</enum>
          </property>
          <property name="sizeHint" stdset="0">
           <size>
@@ -244,29 +215,47 @@ color: white;</string>
          </property>
         </spacer>
        </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="label">
+         <property name="font">
+          <font>
+           <family>Fira Code</family>
+           <pointsize>14</pointsize>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string> Student Information Management System</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
       </layout>
      </widget>
     </item>
     <item row="1" column="1">
      <widget class="QStackedWidget" name="stackedWidget">
       <property name="styleSheet">
-       <string notr="true">background-color: #9BA3EB;
-color: white;</string>
+       <string notr="true"/>
       </property>
       <widget class="QWidget" name="page">
        <layout class="QGridLayout" name="gridLayout_4">
-        <item row="0" column="0">
-         <widget class="QCheckBox" name="checkBox">
-          <property name="text">
-           <string>Check All</string>
+        <property name="leftMargin">
+         <number>6</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item row="0" column="6">
+         <widget class="QPushButton" name="btn_serach">
+          <property name="autoFillBackground">
+           <bool>false</bool>
           </property>
-         </widget>
-        </item>
-        <item row="0" column="1">
-         <widget class="QLineEdit" name="lineEdit"/>
-        </item>
-        <item row="0" column="2">
-         <widget class="QPushButton" name="pushButton">
           <property name="text">
            <string/>
           </property>
@@ -280,21 +269,175 @@ color: white;</string>
             <height>18</height>
            </size>
           </property>
+          <property name="autoRepeat">
+           <bool>false</bool>
+          </property>
+          <property name="autoExclusive">
+           <bool>false</bool>
+          </property>
+          <property name="autoDefault">
+           <bool>false</bool>
+          </property>
+          <property name="default">
+           <bool>false</bool>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
          </widget>
         </item>
-        <item row="0" column="3">
-         <widget class="QPushButton" name="pushButton_2">
-          <property name="text">
-           <string>Add</string>
+        <item row="0" column="7">
+         <spacer name="horizontalSpacer_5">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
           </property>
-          <property name="icon">
-           <iconset resource="res.qrc">
-            <normaloff>:/add_white_48px.png</normaloff>:/add_white_48px.png</iconset>
+          <property name="sizeType">
+           <enum>QSizePolicy::Expanding</enum>
           </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="1" column="0" colspan="11">
+         <widget class="QTableWidget" name="tableWidget">
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="lineWidth">
+           <number>1</number>
+          </property>
+          <property name="alternatingRowColors">
+           <bool>false</bool>
+          </property>
+          <property name="gridStyle">
+           <enum>Qt::SolidLine</enum>
+          </property>
+          <property name="sortingEnabled">
+           <bool>false</bool>
+          </property>
+          <property name="cornerButtonEnabled">
+           <bool>true</bool>
+          </property>
+          <attribute name="horizontalHeaderVisible">
+           <bool>true</bool>
+          </attribute>
+          <attribute name="horizontalHeaderCascadingSectionResizes">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="horizontalHeaderStretchLastSection">
+           <bool>true</bool>
+          </attribute>
+          <attribute name="verticalHeaderVisible">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="verticalHeaderCascadingSectionResizes">
+           <bool>true</bool>
+          </attribute>
+          <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+           <bool>true</bool>
+          </attribute>
+          <attribute name="verticalHeaderStretchLastSection">
+           <bool>false</bool>
+          </attribute>
+          <row>
+           <property name="text">
+            <string>1</string>
+           </property>
+          </row>
+          <column>
+           <property name="text">
+            <string>ID</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Name</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Age</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Grade</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Class</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>SID</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Phone</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Wechat</string>
+           </property>
+          </column>
+          <item row="0" column="0">
+           <property name="text">
+            <string>1</string>
+           </property>
+          </item>
+          <item row="0" column="1">
+           <property name="text">
+            <string>Liu</string>
+           </property>
+          </item>
+          <item row="0" column="2">
+           <property name="text">
+            <string>24</string>
+           </property>
+          </item>
+          <item row="0" column="3">
+           <property name="text">
+            <string>5</string>
+           </property>
+          </item>
+          <item row="0" column="4">
+           <property name="text">
+            <string>004</string>
+           </property>
+          </item>
+          <item row="0" column="5">
+           <property name="text">
+            <string>170403122</string>
+           </property>
+          </item>
+          <item row="0" column="6">
+           <property name="text">
+            <string>18848362737</string>
+           </property>
+          </item>
+          <item row="0" column="7">
+           <property name="text">
+            <string>mliu2013</string>
+           </property>
+          </item>
          </widget>
         </item>
-        <item row="0" column="4">
-         <widget class="QPushButton" name="pushButton_3">
+        <item row="0" column="9">
+         <widget class="QPushButton" name="btn_modify">
           <property name="text">
            <string>Modify</string>
           </property>
@@ -304,8 +447,50 @@ color: white;</string>
           </property>
          </widget>
         </item>
-        <item row="0" column="5">
-         <widget class="QPushButton" name="pushButton_4">
+        <item row="0" column="2" colspan="4">
+         <widget class="QLineEdit" name="ld_serach">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="2">
+         <widget class="QLabel" name="label_5">
+          <property name="text">
+           <string>Total :</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QCheckBox" name="cbox_checkAll">
+          <property name="text">
+           <string>Check All</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="8">
+         <widget class="QPushButton" name="btn_add">
+          <property name="text">
+           <string>Add</string>
+          </property>
+          <property name="icon">
+           <iconset resource="res.qrc">
+            <normaloff>:/add_white_48px.png</normaloff>:/add_white_48px.png</iconset>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="3">
+         <widget class="QLabel" name="lb_totalCount">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="10">
+         <widget class="QPushButton" name="btn_remove">
           <property name="text">
            <string>Remove</string>
           </property>
@@ -315,57 +500,18 @@ color: white;</string>
           </property>
          </widget>
         </item>
-        <item row="1" column="0" colspan="6">
-         <widget class="QTableWidget" name="tableWidget">
-          <property name="styleSheet">
-           <string notr="true">color: rgb(0, 0, 0);</string>
+        <item row="2" column="0">
+         <widget class="QPushButton" name="btn_simulation">
+          <property name="text">
+           <string>Sim</string>
           </property>
-          <property name="gridStyle">
-           <enum>Qt::SolidLine</enum>
+         </widget>
+        </item>
+        <item row="2" column="10">
+         <widget class="QPushButton" name="btn_clearUpStudent">
+          <property name="text">
+           <string>ClearUp</string>
           </property>
-          <property name="sortingEnabled">
-           <bool>false</bool>
-          </property>
-          <row>
-           <property name="text">
-            <string>New Row</string>
-           </property>
-          </row>
-          <row>
-           <property name="text">
-            <string>New Row</string>
-           </property>
-          </row>
-          <row>
-           <property name="text">
-            <string>New Row</string>
-           </property>
-          </row>
-          <row>
-           <property name="text">
-            <string>New Row</string>
-           </property>
-          </row>
-          <column>
-           <property name="text">
-            <string>New Column</string>
-           </property>
-          </column>
-          <column>
-           <property name="text">
-            <string>New Column</string>
-           </property>
-          </column>
-          <column>
-           <property name="text">
-            <string>New Column</string>
-           </property>
-          </column>
-          <item row="0" column="0">
-           <property name="text">
-            <string/>
-           </property>
-          </item>
          </widget>
         </item>
        </layout>
@@ -380,7 +526,7 @@ color: white;</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>916</width>
+     <width>940</width>
      <height>20</height>
     </rect>
    </property>
