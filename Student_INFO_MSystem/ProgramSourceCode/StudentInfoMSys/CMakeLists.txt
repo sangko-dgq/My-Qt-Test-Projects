@@ -26,9 +26,11 @@ set(PROJECT_SOURCES
         mainwindow.ui
         # ${TS_FILES}
         loginwindow.h loginwindow.cpp loginwindow.ui
-        res.qrc
+        Resources/res.qrc
         SQL/studentsql.h SQL/studentsql.cpp
         dialog_addstudent.h dialog_addstudent.cpp dialog_addstudent.ui
+
+
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

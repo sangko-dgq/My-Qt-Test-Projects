@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
+  "../Resources/res.qrc"
   "CMakeFiles/3.21.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.21.1/CMakeRCCompiler.cmake"
   "CMakeFiles/3.21.1/CMakeSystem.cmake"
-  "../res.qrc"
   "D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5Config.cmake"
   "D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake"
   "D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake"
@@ -44,6 +44,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfig.cmake"
   "D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfigVersion.cmake"
   "D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsMacros.cmake"
+  "D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5Sql/Qt5SqlConfig.cmake"
+  "D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake"
+  "D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5Sql/Qt5Sql_QODBCDriverPlugin.cmake"
+  "D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5Sql/Qt5Sql_QPSQLDriverPlugin.cmake"
+  "D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5Sql/Qt5Sql_QSQLiteDriverPlugin.cmake"
   "D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake"
   "D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake"
   "D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake"
@@ -78,7 +83,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/StudentInfoMSys_autogen.dir/AutogenInfo.json"
-  "CMakeFiles/StudentInfoMSys_autogen.dir/AutoRcc_res_EWIEGA46WW_Info.json"
+  "CMakeFiles/StudentInfoMSys_autogen.dir/AutoRcc_res_S5YYZ2ZCNV_Info.json"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 

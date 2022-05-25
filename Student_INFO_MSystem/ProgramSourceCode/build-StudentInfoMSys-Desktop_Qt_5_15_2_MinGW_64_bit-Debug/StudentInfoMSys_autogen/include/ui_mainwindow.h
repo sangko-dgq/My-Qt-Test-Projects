@@ -76,7 +76,7 @@ public:
         font.setFamily(QString::fromUtf8("Fira Code"));
         MainWindow->setFont(font);
         QIcon icon;
-        icon.addFile(QString::fromUtf8(":/logo.ico"), QSize(), QIcon::Normal, QIcon::Off);
+        icon.addFile(QString::fromUtf8(":/img/logo.ico"), QSize(), QIcon::Normal, QIcon::Off);
         MainWindow->setWindowIcon(icon);
         Body = new QWidget(MainWindow);
         Body->setObjectName(QString::fromUtf8("Body"));
@@ -114,7 +114,7 @@ public:
         btn_exit = new QPushButton(widget_2);
         btn_exit->setObjectName(QString::fromUtf8("btn_exit"));
         QIcon icon1;
-        icon1.addFile(QString::fromUtf8(":/exit_48px.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon1.addFile(QString::fromUtf8(":/img/exit_48px.png"), QSize(), QIcon::Normal, QIcon::Off);
         btn_exit->setIcon(icon1);
 
         gridLayout->addWidget(btn_exit, 0, 4, 1, 1);
@@ -142,8 +142,9 @@ public:
         label_2->setMinimumSize(QSize(48, 48));
         label_2->setMaximumSize(QSize(48, 48));
         label_2->setStyleSheet(QString::fromUtf8(""));
-        label_2->setPixmap(QPixmap(QString::fromUtf8(":/user.png")));
+        label_2->setPixmap(QPixmap(QString::fromUtf8(":/img/user.png")));
         label_2->setScaledContents(true);
+        label_2->setAlignment(Qt::AlignCenter);
 
         gridLayout->addWidget(label_2, 0, 0, 1, 1);
 
@@ -180,7 +181,7 @@ public:
         btn_serach->setObjectName(QString::fromUtf8("btn_serach"));
         btn_serach->setAutoFillBackground(false);
         QIcon icon2;
-        icon2.addFile(QString::fromUtf8(":/search_white_48px.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon2.addFile(QString::fromUtf8(":/img/search_white_48px.png"), QSize(), QIcon::Normal, QIcon::Off);
         btn_serach->setIcon(icon2);
         btn_serach->setIconSize(QSize(18, 18));
         btn_serach->setAutoRepeat(false);
@@ -255,7 +256,7 @@ public:
         btn_modify = new QPushButton(page);
         btn_modify->setObjectName(QString::fromUtf8("btn_modify"));
         QIcon icon3;
-        icon3.addFile(QString::fromUtf8(":/modify_white_48px.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon3.addFile(QString::fromUtf8(":/img/modify_white_48px.png"), QSize(), QIcon::Normal, QIcon::Off);
         btn_modify->setIcon(icon3);
 
         gridLayout_4->addWidget(btn_modify, 0, 9, 1, 1);
@@ -279,7 +280,7 @@ public:
         btn_add = new QPushButton(page);
         btn_add->setObjectName(QString::fromUtf8("btn_add"));
         QIcon icon4;
-        icon4.addFile(QString::fromUtf8(":/add_white_48px.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon4.addFile(QString::fromUtf8(":/img/add_white_48px.png"), QSize(), QIcon::Normal, QIcon::Off);
         btn_add->setIcon(icon4);
 
         gridLayout_4->addWidget(btn_add, 0, 8, 1, 1);
@@ -292,7 +293,7 @@ public:
         btn_remove = new QPushButton(page);
         btn_remove->setObjectName(QString::fromUtf8("btn_remove"));
         QIcon icon5;
-        icon5.addFile(QString::fromUtf8(":/remove_white_48px.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon5.addFile(QString::fromUtf8(":/img/remove_white_48px.png"), QSize(), QIcon::Normal, QIcon::Off);
         btn_remove->setIcon(icon5);
 
         gridLayout_4->addWidget(btn_remove, 0, 10, 1, 1);

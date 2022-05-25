@@ -24,6 +24,10 @@
   <property name="windowTitle">
    <string>Add Student</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="Resources/res.qrc">
+    <normaloff>:/img/logo.ico</normaloff>:/img/logo.ico</iconset>
+  </property>
   <layout class="QGridLayout" name="gridLayout">
    <item row="0" column="1">
     <spacer name="verticalSpacer_2">
@@ -272,6 +276,8 @@
   <tabstop>btn_saveAdd</tabstop>
   <tabstop>btn_cancelAdd</tabstop>
  </tabstops>
- <resources/>
+ <resources>
+  <include location="Resources/res.qrc"/>
+ </resources>
  <connections/>
 </ui>

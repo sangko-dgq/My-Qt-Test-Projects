@@ -281,29 +281,111 @@ CMakeFiles/StudentInfoMSys.dir/mainwindow.cpp.obj: \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qkeysequence.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtabwidget.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qicon.h \
- C:\Users\22012\Desktop\Qt\ projects\Student_INFO_MSystem\ProgramSourceCode\StudentInfoMSys\loginwindow.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QWidget \
- D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qwidget.h \
- C:/Users/22012/Desktop/QTPROJ~1/STUDEN~1/PROGRA~1/STUDEN~1/build/STUDEN~1/include/ui_mainwindow.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtCore/QVariant \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/QKeyEvent \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qevent.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qcoreevent.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qvariant.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qmap.h \
  D:/Qt5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/variant \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qset.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qurl.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfile.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfiledevice.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qvector2d.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtouchdevice.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/QFile \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfile.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/QCoreApplication \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qcoreapplication.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qeventloop.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/QIODevice \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qiodevice.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QApplication \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qapplication.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qcoreapplication.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtCore/qcoreevent.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtCore/qeventloop.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qguiapplication.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qinputmethod.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qlocale.h \
+ C:\Users\22012\Desktop\Qt\ projects\Student_INFO_MSystem\ProgramSourceCode\StudentInfoMSys\loginwindow.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QWidget \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qwidget.h \
+ C:\Users\22012\Desktop\Qt\ projects\Student_INFO_MSystem\ProgramSourceCode\StudentInfoMSys\dialog_addstudent.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QDialog \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qdialog.h \
+ C:\Users\22012\Desktop\Qt\ projects\Student_INFO_MSystem\ProgramSourceCode\StudentInfoMSys\SQL/studentsql.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/QObject \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qobject.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QMessageBox \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qmessagebox.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qdialog.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtSql/QSqlDatabase \
+ D:/Qt5/5.15.2/mingw81_64/include/QtSql/qsqldatabase.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtSql/qtsqlglobal.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtSql/qtsql-config.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtSql/QSqlQuery \
+ D:/Qt5/5.15.2/mingw81_64/include/QtSql/qsqlquery.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtSql/qsqldatabase.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtSql/QSqlError \
+ D:/Qt5/5.15.2/mingw81_64/include/QtSql/qsqlerror.h \
+ C:/Users/22012/Desktop/QTPROJ~1/STUDEN~1/PROGRA~1/STUDEN~1/build/STUDEN~1/include/ui_mainwindow.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/QVariant \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qvariant.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/QIcon \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qicon.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QApplication \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QCheckBox \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qcheckbox.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qabstractbutton.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QGridLayout \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgridlayout.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qlayout.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qlayoutitem.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qboxlayout.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgridlayout.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QHeaderView \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qheaderview.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qabstractitemview.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qabstractscrollarea.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qframe.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qabstractitemmodel.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qitemselectionmodel.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qabstractitemdelegate.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qstyleoption.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qabstractspinbox.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qvalidator.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qregularexpression.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qslider.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qabstractslider.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qstyle.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtabbar.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qrubberband.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QLabel \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qlabel.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QLineEdit \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qlineedit.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtextcursor.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtextformat.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpen.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtextoption.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QMainWindow \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QMenuBar \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qmenubar.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qmenu.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qaction.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qactiongroup.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QPushButton \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qpushbutton.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QSpacerItem \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qlayoutitem.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QStackedWidget \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qstackedwidget.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QStatusBar \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qstatusbar.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QTableWidget \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtablewidget.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtableview.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QTreeWidget \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtreewidget.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtreeview.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtreewidgetitemiterator.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QWidget

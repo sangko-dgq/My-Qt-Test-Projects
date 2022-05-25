@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/StudentInfoMSys_autogen"
+  "StudentInfoMSys_autogen/include/ui_dialog_addstudent.h"
   "StudentInfoMSys_autogen/include/ui_loginwindow.h"
   "StudentInfoMSys_autogen/include/ui_mainwindow.h"
   "StudentInfoMSys_autogen/mocs_compilation.cpp"

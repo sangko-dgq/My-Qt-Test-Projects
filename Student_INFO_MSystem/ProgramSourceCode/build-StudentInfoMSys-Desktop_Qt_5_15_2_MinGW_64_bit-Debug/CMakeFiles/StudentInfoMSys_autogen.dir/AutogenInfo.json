@@ -78,7 +78,7 @@
 		"D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5Sql/Qt5Sql_QODBCDriverPlugin.cmake",
 		"D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5Sql/Qt5Sql_QPSQLDriverPlugin.cmake",
 		"D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5Sql/Qt5Sql_QSQLiteDriverPlugin.cmake",
-		"C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/res.qrc"
+		"C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/Resources/res.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys",
 	"DEP_FILE" : "C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/StudentInfoMSys_autogen/deps",

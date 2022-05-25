@@ -69,13 +69,33 @@
 		"D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfig.cmake",
 		"D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsMacros.cmake",
 		"D:/Qt5/Tools/CMake_64/share/cmake-3.21/Modules/CMakeParseArguments.cmake",
-		"C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/res.qrc"
+		"D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5Config.cmake",
+		"D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake",
+		"D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5Sql/Qt5SqlConfig.cmake",
+		"D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5Sql/Qt5Sql_QODBCDriverPlugin.cmake",
+		"D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5Sql/Qt5Sql_QPSQLDriverPlugin.cmake",
+		"D:/Qt5/5.15.2/mingw81_64/lib/cmake/Qt5Sql/Qt5Sql_QSQLiteDriverPlugin.cmake",
+		"C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/Resources/res.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
+		[
+			"C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/SQL/studentsql.h",
+			"MU",
+			"JDNR3BAMKV/moc_studentsql.cpp",
+			null
+		],
+		[
+			"C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/dialog_addstudent.h",
+			"MU",
+			"EWIEGA46WW/moc_dialog_addstudent.cpp",
+			null
+		],
 		[
 			"C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/loginwindow.h",
 			"MU",
@@ -92,7 +112,7 @@
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/build/StudentInfoMSys_autogen/include",
 	"MOC_COMPILATION_FILE" : "C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/build/StudentInfoMSys_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_SQL_LIB", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -110,6 +130,7 @@
 		"D:/Qt5/5.15.2/mingw81_64/include/QtANGLE",
 		"D:/Qt5/5.15.2/mingw81_64/include/QtCore",
 		"D:/Qt5/5.15.2/mingw81_64/mkspecs/win32-g++",
+		"D:/Qt5/5.15.2/mingw81_64/include/QtSql",
 		"D:/Qt5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++",
 		"D:/Qt5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32",
 		"D:/Qt5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward",
@@ -141,6 +162,16 @@
 	"SETTINGS_FILE" : "C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/build/CMakeFiles/StudentInfoMSys_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/SQL/studentsql.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/dialog_addstudent.cpp",
+			"MU",
+			null
+		],
 		[
 			"C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/loginwindow.cpp",
 			"MU",

@@ -7,7 +7,14 @@
 	"INCLUDE_DIR" : "C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/build/StudentInfoMSys_autogen/include",
 	"INPUTS" : 
 	[
-		"C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/logo.ico"
+		"C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/exit_48px.png",
+		"C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/add_white_48px.png",
+		"C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/logo.ico",
+		"C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/search_white_48px.png",
+		"C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/modify_white_48px.png",
+		"C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/user.png",
+		"C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/remove_white_48px.png",
+		"C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/QSS/MacOS.qss"
 	],
 	"LOCK_FILE" : "C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/build/CMakeFiles/StudentInfoMSys_autogen.dir/AutoRcc_res_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,

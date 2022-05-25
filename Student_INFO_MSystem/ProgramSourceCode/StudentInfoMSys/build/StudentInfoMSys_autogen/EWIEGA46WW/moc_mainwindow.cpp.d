@@ -1,6 +1,12 @@
 C:/Users/22012/Desktop/Qt\ projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/build/StudentInfoMSys_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/22012/Desktop/Qt\ projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/mainwindow.h \
   C:/Users/22012/Desktop/Qt\ projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/build/StudentInfoMSys_autogen/moc_predefs.h \
+  C:/Users/22012/Desktop/Qt\ projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/SQL/studentsql.h \
+  C:/Users/22012/Desktop/Qt\ projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/dialog_addstudent.h \
   C:/Users/22012/Desktop/Qt\ projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/loginwindow.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QCoreApplication \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QFile \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QIODevice \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QObject \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qalgorithms.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qarraydata.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qatomic.h \
@@ -13,7 +19,12 @@ C:/Users/22012/Desktop/Qt\ projects/Student_INFO_MSystem/ProgramSourceCode/Stude
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qconfig.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qcontainerfwd.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qcontainertools_impl.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qcoreapplication.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qcoreevent.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qdatastream.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qeventloop.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfile.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfiledevice.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qflags.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qgenericatomic.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qglobal.h \
@@ -24,7 +35,9 @@ C:/Users/22012/Desktop/Qt\ projects/Student_INFO_MSystem/ProgramSourceCode/Stude
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qiterator.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qline.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qlist.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qlocale.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qlogging.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qmap.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qmargins.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qmetatype.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qnamespace.h \
@@ -40,6 +53,7 @@ C:/Users/22012/Desktop/Qt\ projects/Student_INFO_MSystem/ProgramSourceCode/Stude
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qrefcount.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qregexp.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qscopedpointer.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qset.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qshareddata.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsharedpointer.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsharedpointer_impl.h \
@@ -54,17 +68,23 @@ C:/Users/22012/Desktop/Qt\ projects/Student_INFO_MSystem/ProgramSourceCode/Stude
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qsystemdetection.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qtcore-config.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qtypeinfo.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qurl.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qvariant.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qvarlengtharray.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qvector.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qversiontagging.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/QKeyEvent \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qbrush.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qcolor.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qcursor.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qevent.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qfont.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qfontinfo.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qfontmetrics.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qguiapplication.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qicon.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qimage.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qinputmethod.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qkeysequence.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qmatrix.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qpaintdevice.h \
@@ -77,12 +97,28 @@ C:/Users/22012/Desktop/Qt\ projects/Student_INFO_MSystem/ProgramSourceCode/Stude
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qrgba64.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtgui-config.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtguiglobal.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtouchdevice.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtransform.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qvector2d.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qwindowdefs.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtGui/qwindowdefs_win.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtSql/QSqlDatabase \
+  D:/Qt5/5.15.2/mingw81_64/include/QtSql/QSqlError \
+  D:/Qt5/5.15.2/mingw81_64/include/QtSql/QSqlQuery \
+  D:/Qt5/5.15.2/mingw81_64/include/QtSql/qsqldatabase.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtSql/qsqlerror.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtSql/qsqlquery.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtSql/qtsql-config.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtSql/qtsqlglobal.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QApplication \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QDialog \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QMainWindow \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QMessageBox \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QWidget \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qapplication.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qdialog.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qmainwindow.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qmessagebox.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qsizepolicy.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtabwidget.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtwidgets-config.h \

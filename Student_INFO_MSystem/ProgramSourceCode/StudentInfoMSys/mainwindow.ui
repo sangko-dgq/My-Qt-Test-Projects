@@ -25,8 +25,8 @@
    <string>StudentInfoManager</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="res.qrc">
-    <normaloff>:/logo.ico</normaloff>:/logo.ico</iconset>
+   <iconset resource="Resources/res.qrc">
+    <normaloff>:/img/logo.ico</normaloff>:/img/logo.ico</iconset>
   </property>
   <property name="toolTip">
    <string> Student Information Management System</string>
@@ -130,8 +130,8 @@
              <string>Exit</string>
             </property>
             <property name="icon">
-             <iconset resource="res.qrc">
-              <normaloff>:/exit_48px.png</normaloff>:/exit_48px.png</iconset>
+             <iconset resource="Resources/res.qrc">
+              <normaloff>:/img/exit_48px.png</normaloff>:/img/exit_48px.png</iconset>
             </property>
            </widget>
           </item>
@@ -192,10 +192,13 @@
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap resource="res.qrc">:/user.png</pixmap>
+             <pixmap resource="Resources/res.qrc">:/img/user.png</pixmap>
             </property>
             <property name="scaledContents">
              <bool>true</bool>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
             </property>
            </widget>
           </item>
@@ -260,8 +263,8 @@
            <string/>
           </property>
           <property name="icon">
-           <iconset resource="res.qrc">
-            <normaloff>:/search_white_48px.png</normaloff>:/search_white_48px.png</iconset>
+           <iconset resource="Resources/res.qrc">
+            <normaloff>:/img/search_white_48px.png</normaloff>:/img/search_white_48px.png</iconset>
           </property>
           <property name="iconSize">
            <size>
@@ -442,8 +445,8 @@
            <string>Modify</string>
           </property>
           <property name="icon">
-           <iconset resource="res.qrc">
-            <normaloff>:/modify_white_48px.png</normaloff>:/modify_white_48px.png</iconset>
+           <iconset resource="Resources/res.qrc">
+            <normaloff>:/img/modify_white_48px.png</normaloff>:/img/modify_white_48px.png</iconset>
           </property>
          </widget>
         </item>
@@ -477,8 +480,8 @@
            <string>Add</string>
           </property>
           <property name="icon">
-           <iconset resource="res.qrc">
-            <normaloff>:/add_white_48px.png</normaloff>:/add_white_48px.png</iconset>
+           <iconset resource="Resources/res.qrc">
+            <normaloff>:/img/add_white_48px.png</normaloff>:/img/add_white_48px.png</iconset>
           </property>
          </widget>
         </item>
@@ -495,8 +498,8 @@
            <string>Remove</string>
           </property>
           <property name="icon">
-           <iconset resource="res.qrc">
-            <normaloff>:/remove_white_48px.png</normaloff>:/remove_white_48px.png</iconset>
+           <iconset resource="Resources/res.qrc">
+            <normaloff>:/img/remove_white_48px.png</normaloff>:/img/remove_white_48px.png</iconset>
           </property>
          </widget>
         </item>
@@ -534,7 +537,7 @@
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
-  <include location="res.qrc"/>
+  <include location="Resources/res.qrc"/>
  </resources>
  <connections/>
 </ui>

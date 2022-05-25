@@ -68,12 +68,19 @@ include CMakeFiles/StudentInfoMSys.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/StudentInfoMSys.dir/flags.make
 
-StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp: ../res.qrc
-StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp: CMakeFiles/StudentInfoMSys_autogen.dir/AutoRcc_res_EWIEGA46WW_Info.json
-StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp: ../logo.ico
-StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp: D:/Qt5/5.15.2/mingw81_64/bin/rcc.exe
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\22012\Desktop\Qt projects\Student_INFO_MSystem\ProgramSourceCode\StudentInfoMSys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for res.qrc"
-	D:\Qt5\Tools\CMake_64\bin\cmake.exe -E cmake_autorcc "C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/build/CMakeFiles/StudentInfoMSys_autogen.dir/AutoRcc_res_EWIEGA46WW_Info.json" Debug
+StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp: ../Resources/res.qrc
+StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp: CMakeFiles/StudentInfoMSys_autogen.dir/AutoRcc_res_S5YYZ2ZCNV_Info.json
+StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp: ../Resources/img/exit_48px.png
+StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp: ../Resources/img/add_white_48px.png
+StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp: ../Resources/img/logo.ico
+StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp: ../Resources/img/search_white_48px.png
+StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp: ../Resources/img/modify_white_48px.png
+StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp: ../Resources/img/user.png
+StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp: ../Resources/img/remove_white_48px.png
+StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp: ../Resources/QSS/MacOS.qss
+StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp: D:/Qt5/5.15.2/mingw81_64/bin/rcc.exe
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\22012\Desktop\Qt projects\Student_INFO_MSystem\ProgramSourceCode\StudentInfoMSys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for Resources/res.qrc"
+	D:\Qt5\Tools\CMake_64\bin\cmake.exe -E cmake_autorcc "C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/build/CMakeFiles/StudentInfoMSys_autogen.dir/AutoRcc_res_S5YYZ2ZCNV_Info.json" Debug
 
 CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/mocs_compilation.cpp.obj: CMakeFiles/StudentInfoMSys.dir/flags.make
 CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/mocs_compilation.cpp.obj: CMakeFiles/StudentInfoMSys.dir/includes_CXX.rsp
@@ -135,20 +142,50 @@ CMakeFiles/StudentInfoMSys.dir/loginwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StudentInfoMSys.dir/loginwindow.cpp.s"
 	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\22012\Desktop\Qt projects\Student_INFO_MSystem\ProgramSourceCode\StudentInfoMSys\loginwindow.cpp" -o CMakeFiles\StudentInfoMSys.dir\loginwindow.cpp.s
 
-CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp.obj: CMakeFiles/StudentInfoMSys.dir/flags.make
-CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp.obj: CMakeFiles/StudentInfoMSys.dir/includes_CXX.rsp
-CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp.obj: StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp
-CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp.obj: CMakeFiles/StudentInfoMSys.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\22012\Desktop\Qt projects\Student_INFO_MSystem\ProgramSourceCode\StudentInfoMSys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp.obj"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp.obj -MF CMakeFiles\StudentInfoMSys.dir\StudentInfoMSys_autogen\EWIEGA46WW\qrc_res.cpp.obj.d -o CMakeFiles\StudentInfoMSys.dir\StudentInfoMSys_autogen\EWIEGA46WW\qrc_res.cpp.obj -c "C:\Users\22012\Desktop\Qt projects\Student_INFO_MSystem\ProgramSourceCode\StudentInfoMSys\build\StudentInfoMSys_autogen\EWIEGA46WW\qrc_res.cpp"
+CMakeFiles/StudentInfoMSys.dir/SQL/studentsql.cpp.obj: CMakeFiles/StudentInfoMSys.dir/flags.make
+CMakeFiles/StudentInfoMSys.dir/SQL/studentsql.cpp.obj: CMakeFiles/StudentInfoMSys.dir/includes_CXX.rsp
+CMakeFiles/StudentInfoMSys.dir/SQL/studentsql.cpp.obj: ../SQL/studentsql.cpp
+CMakeFiles/StudentInfoMSys.dir/SQL/studentsql.cpp.obj: CMakeFiles/StudentInfoMSys.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\22012\Desktop\Qt projects\Student_INFO_MSystem\ProgramSourceCode\StudentInfoMSys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/StudentInfoMSys.dir/SQL/studentsql.cpp.obj"
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentInfoMSys.dir/SQL/studentsql.cpp.obj -MF CMakeFiles\StudentInfoMSys.dir\SQL\studentsql.cpp.obj.d -o CMakeFiles\StudentInfoMSys.dir\SQL\studentsql.cpp.obj -c "C:\Users\22012\Desktop\Qt projects\Student_INFO_MSystem\ProgramSourceCode\StudentInfoMSys\SQL\studentsql.cpp"
 
-CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp.i"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\22012\Desktop\Qt projects\Student_INFO_MSystem\ProgramSourceCode\StudentInfoMSys\build\StudentInfoMSys_autogen\EWIEGA46WW\qrc_res.cpp" > CMakeFiles\StudentInfoMSys.dir\StudentInfoMSys_autogen\EWIEGA46WW\qrc_res.cpp.i
+CMakeFiles/StudentInfoMSys.dir/SQL/studentsql.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/StudentInfoMSys.dir/SQL/studentsql.cpp.i"
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\22012\Desktop\Qt projects\Student_INFO_MSystem\ProgramSourceCode\StudentInfoMSys\SQL\studentsql.cpp" > CMakeFiles\StudentInfoMSys.dir\SQL\studentsql.cpp.i
 
-CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp.s"
-	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\22012\Desktop\Qt projects\Student_INFO_MSystem\ProgramSourceCode\StudentInfoMSys\build\StudentInfoMSys_autogen\EWIEGA46WW\qrc_res.cpp" -o CMakeFiles\StudentInfoMSys.dir\StudentInfoMSys_autogen\EWIEGA46WW\qrc_res.cpp.s
+CMakeFiles/StudentInfoMSys.dir/SQL/studentsql.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StudentInfoMSys.dir/SQL/studentsql.cpp.s"
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\22012\Desktop\Qt projects\Student_INFO_MSystem\ProgramSourceCode\StudentInfoMSys\SQL\studentsql.cpp" -o CMakeFiles\StudentInfoMSys.dir\SQL\studentsql.cpp.s
+
+CMakeFiles/StudentInfoMSys.dir/dialog_addstudent.cpp.obj: CMakeFiles/StudentInfoMSys.dir/flags.make
+CMakeFiles/StudentInfoMSys.dir/dialog_addstudent.cpp.obj: CMakeFiles/StudentInfoMSys.dir/includes_CXX.rsp
+CMakeFiles/StudentInfoMSys.dir/dialog_addstudent.cpp.obj: ../dialog_addstudent.cpp
+CMakeFiles/StudentInfoMSys.dir/dialog_addstudent.cpp.obj: CMakeFiles/StudentInfoMSys.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\22012\Desktop\Qt projects\Student_INFO_MSystem\ProgramSourceCode\StudentInfoMSys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/StudentInfoMSys.dir/dialog_addstudent.cpp.obj"
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentInfoMSys.dir/dialog_addstudent.cpp.obj -MF CMakeFiles\StudentInfoMSys.dir\dialog_addstudent.cpp.obj.d -o CMakeFiles\StudentInfoMSys.dir\dialog_addstudent.cpp.obj -c "C:\Users\22012\Desktop\Qt projects\Student_INFO_MSystem\ProgramSourceCode\StudentInfoMSys\dialog_addstudent.cpp"
+
+CMakeFiles/StudentInfoMSys.dir/dialog_addstudent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/StudentInfoMSys.dir/dialog_addstudent.cpp.i"
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\22012\Desktop\Qt projects\Student_INFO_MSystem\ProgramSourceCode\StudentInfoMSys\dialog_addstudent.cpp" > CMakeFiles\StudentInfoMSys.dir\dialog_addstudent.cpp.i
+
+CMakeFiles/StudentInfoMSys.dir/dialog_addstudent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StudentInfoMSys.dir/dialog_addstudent.cpp.s"
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\22012\Desktop\Qt projects\Student_INFO_MSystem\ProgramSourceCode\StudentInfoMSys\dialog_addstudent.cpp" -o CMakeFiles\StudentInfoMSys.dir\dialog_addstudent.cpp.s
+
+CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp.obj: CMakeFiles/StudentInfoMSys.dir/flags.make
+CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp.obj: CMakeFiles/StudentInfoMSys.dir/includes_CXX.rsp
+CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp.obj: StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp
+CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp.obj: CMakeFiles/StudentInfoMSys.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\22012\Desktop\Qt projects\Student_INFO_MSystem\ProgramSourceCode\StudentInfoMSys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp.obj"
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp.obj -MF CMakeFiles\StudentInfoMSys.dir\StudentInfoMSys_autogen\S5YYZ2ZCNV\qrc_res.cpp.obj.d -o CMakeFiles\StudentInfoMSys.dir\StudentInfoMSys_autogen\S5YYZ2ZCNV\qrc_res.cpp.obj -c "C:\Users\22012\Desktop\Qt projects\Student_INFO_MSystem\ProgramSourceCode\StudentInfoMSys\build\StudentInfoMSys_autogen\S5YYZ2ZCNV\qrc_res.cpp"
+
+CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp.i"
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\22012\Desktop\Qt projects\Student_INFO_MSystem\ProgramSourceCode\StudentInfoMSys\build\StudentInfoMSys_autogen\S5YYZ2ZCNV\qrc_res.cpp" > CMakeFiles\StudentInfoMSys.dir\StudentInfoMSys_autogen\S5YYZ2ZCNV\qrc_res.cpp.i
+
+CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp.s"
+	D:\Qt5\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\22012\Desktop\Qt projects\Student_INFO_MSystem\ProgramSourceCode\StudentInfoMSys\build\StudentInfoMSys_autogen\S5YYZ2ZCNV\qrc_res.cpp" -o CMakeFiles\StudentInfoMSys.dir\StudentInfoMSys_autogen\S5YYZ2ZCNV\qrc_res.cpp.s
 
 # Object files for target StudentInfoMSys
 StudentInfoMSys_OBJECTS = \
@@ -156,7 +193,9 @@ StudentInfoMSys_OBJECTS = \
 "CMakeFiles/StudentInfoMSys.dir/main.cpp.obj" \
 "CMakeFiles/StudentInfoMSys.dir/mainwindow.cpp.obj" \
 "CMakeFiles/StudentInfoMSys.dir/loginwindow.cpp.obj" \
-"CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp.obj"
+"CMakeFiles/StudentInfoMSys.dir/SQL/studentsql.cpp.obj" \
+"CMakeFiles/StudentInfoMSys.dir/dialog_addstudent.cpp.obj" \
+"CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp.obj"
 
 # External object files for target StudentInfoMSys
 StudentInfoMSys_EXTERNAL_OBJECTS =
@@ -165,16 +204,19 @@ StudentInfoMSys.exe: CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/mocs
 StudentInfoMSys.exe: CMakeFiles/StudentInfoMSys.dir/main.cpp.obj
 StudentInfoMSys.exe: CMakeFiles/StudentInfoMSys.dir/mainwindow.cpp.obj
 StudentInfoMSys.exe: CMakeFiles/StudentInfoMSys.dir/loginwindow.cpp.obj
-StudentInfoMSys.exe: CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp.obj
+StudentInfoMSys.exe: CMakeFiles/StudentInfoMSys.dir/SQL/studentsql.cpp.obj
+StudentInfoMSys.exe: CMakeFiles/StudentInfoMSys.dir/dialog_addstudent.cpp.obj
+StudentInfoMSys.exe: CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp.obj
 StudentInfoMSys.exe: CMakeFiles/StudentInfoMSys.dir/build.make
 StudentInfoMSys.exe: D:/Qt5/5.15.2/mingw81_64/lib/libQt5Widgets.a
+StudentInfoMSys.exe: D:/Qt5/5.15.2/mingw81_64/lib/libQt5Sql.a
 StudentInfoMSys.exe: D:/Qt5/5.15.2/mingw81_64/lib/libQt5Gui.a
 StudentInfoMSys.exe: D:/Qt5/5.15.2/mingw81_64/lib/libQt5Core.a
 StudentInfoMSys.exe: D:/Qt5/5.15.2/mingw81_64/lib/libqtmain.a
 StudentInfoMSys.exe: CMakeFiles/StudentInfoMSys.dir/linklibs.rsp
 StudentInfoMSys.exe: CMakeFiles/StudentInfoMSys.dir/objects1.rsp
 StudentInfoMSys.exe: CMakeFiles/StudentInfoMSys.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\22012\Desktop\Qt projects\Student_INFO_MSystem\ProgramSourceCode\StudentInfoMSys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable StudentInfoMSys.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\22012\Desktop\Qt projects\Student_INFO_MSystem\ProgramSourceCode\StudentInfoMSys\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable StudentInfoMSys.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\StudentInfoMSys.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -185,7 +227,7 @@ CMakeFiles/StudentInfoMSys.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles\StudentInfoMSys.dir\cmake_clean.cmake
 .PHONY : CMakeFiles/StudentInfoMSys.dir/clean
 
-CMakeFiles/StudentInfoMSys.dir/depend: StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp
+CMakeFiles/StudentInfoMSys.dir/depend: StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp
 	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\22012\Desktop\Qt projects\Student_INFO_MSystem\ProgramSourceCode\StudentInfoMSys" "C:\Users\22012\Desktop\Qt projects\Student_INFO_MSystem\ProgramSourceCode\StudentInfoMSys" "C:\Users\22012\Desktop\Qt projects\Student_INFO_MSystem\ProgramSourceCode\StudentInfoMSys\build" "C:\Users\22012\Desktop\Qt projects\Student_INFO_MSystem\ProgramSourceCode\StudentInfoMSys\build" "C:\Users\22012\Desktop\Qt projects\Student_INFO_MSystem\ProgramSourceCode\StudentInfoMSys\build\CMakeFiles\StudentInfoMSys.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/StudentInfoMSys.dir/depend
 

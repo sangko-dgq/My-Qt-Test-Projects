@@ -281,20 +281,52 @@ CMakeFiles/StudentInfoMSys.dir/main.cpp.obj: \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qkeysequence.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtabwidget.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtGui/qicon.h \
- C:\Users\22012\Desktop\Qt\ projects\Student_INFO_MSystem\ProgramSourceCode\StudentInfoMSys\loginwindow.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QWidget \
- D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qwidget.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QApplication \
- D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qapplication.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtCore/qcoreapplication.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/QKeyEvent \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qevent.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qcoreevent.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtCore/qeventloop.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtGui/qguiapplication.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtGui/qinputmethod.h \
- D:/Qt5/5.15.2/mingw81_64/include/QtCore/qlocale.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qvariant.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qmap.h \
  D:/Qt5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/variant \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qset.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qurl.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfile.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfiledevice.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qvector2d.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qtouchdevice.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/QFile \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qfile.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/QCoreApplication \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qcoreapplication.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qeventloop.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/QIODevice \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qiodevice.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QApplication \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qapplication.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qcoreapplication.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qguiapplication.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qinputmethod.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qlocale.h \
+ C:\Users\22012\Desktop\Qt\ projects\Student_INFO_MSystem\ProgramSourceCode\StudentInfoMSys\loginwindow.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QWidget \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qwidget.h \
+ C:\Users\22012\Desktop\Qt\ projects\Student_INFO_MSystem\ProgramSourceCode\StudentInfoMSys\dialog_addstudent.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QDialog \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qdialog.h \
+ C:\Users\22012\Desktop\Qt\ projects\Student_INFO_MSystem\ProgramSourceCode\StudentInfoMSys\SQL/studentsql.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/QObject \
+ D:/Qt5/5.15.2/mingw81_64/include/QtCore/qobject.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QMessageBox \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qmessagebox.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qdialog.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtSql/QSqlDatabase \
+ D:/Qt5/5.15.2/mingw81_64/include/QtSql/qsqldatabase.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtSql/qtsqlglobal.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtSql/qtsql-config.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtSql/QSqlQuery \
+ D:/Qt5/5.15.2/mingw81_64/include/QtSql/qsqlquery.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtSql/qsqldatabase.h \
+ D:/Qt5/5.15.2/mingw81_64/include/QtSql/QSqlError \
+ D:/Qt5/5.15.2/mingw81_64/include/QtSql/qsqlerror.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QLocale \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qlocale.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QTranslator \

@@ -48,7 +48,7 @@ public:
         font.setFamily(QString::fromUtf8("Fira Code"));
         LoginWindow->setFont(font);
         QIcon icon;
-        icon.addFile(QString::fromUtf8(":/logo.ico"), QSize(), QIcon::Normal, QIcon::Off);
+        icon.addFile(QString::fromUtf8(":/img/logo.ico"), QSize(), QIcon::Normal, QIcon::Off);
         LoginWindow->setWindowIcon(icon);
         gridLayout_3 = new QGridLayout(LoginWindow);
         gridLayout_3->setObjectName(QString::fromUtf8("gridLayout_3"));

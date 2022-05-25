@@ -25,8 +25,8 @@
    <string>Login</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="res.qrc">
-    <normaloff>:/logo.ico</normaloff>:/logo.ico</iconset>
+   <iconset resource="Resources/res.qrc">
+    <normaloff>:/img/logo.ico</normaloff>:/img/logo.ico</iconset>
   </property>
   <property name="toolTip">
    <string>LoginWindow</string>
@@ -204,7 +204,7 @@
   <tabstop>btn_exit</tabstop>
  </tabstops>
  <resources>
-  <include location="res.qrc"/>
+  <include location="Resources/res.qrc"/>
  </resources>
  <connections/>
 </ui>

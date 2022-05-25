@@ -7,6 +7,8 @@
 #include <QCoreApplication>
 #include <QIODevice>
 #include <QApplication>
+#include <QRandomGenerator>
+
 #include "loginwindow.h"
 #include "dialog_addstudent.h"
 
@@ -46,9 +48,11 @@ private:
 
 private:
     Ui::MainWindow *ui;
-    LoginWindow loginWindow;
+    LoginWindow m_loginWindow;
     Dialog_AddStudent m_dialog_AddStudent;
 
     StudentSQL *m_ptrStudentSQL;
+
+    QStringList m_lNames;
 };
 #endif // MAINWINDOW_H

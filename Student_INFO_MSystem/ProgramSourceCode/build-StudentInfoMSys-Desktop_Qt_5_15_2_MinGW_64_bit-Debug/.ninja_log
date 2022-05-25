@@ -1,102 +1,42 @@
 # ninja log v5
-11	414	6751171231989383	StudentInfoMSys_autogen/timestamp	4046d389ee5b6c0d
+570	895	6751650731564780	StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp	9dc366af2918231a
+14	565	6751650728842620	StudentInfoMSys_autogen/timestamp	4046d389ee5b6c0d
 3699	4958	6749943362198223	C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/StudentInfoMSys_zh_CN.ts	c23ec66f20a1c037
-11	414	6751171231989383	StudentInfoMSys_autogen/mocs_compilation.cpp	4046d389ee5b6c0d
-11	414	6751171231989383	C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/StudentInfoMSys_autogen/timestamp	4046d389ee5b6c0d
+14	565	6751650728842620	StudentInfoMSys_autogen/mocs_compilation.cpp	4046d389ee5b6c0d
+14	565	6751650728842620	C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/StudentInfoMSys_autogen/timestamp	4046d389ee5b6c0d
+1478	1901	6751186638928160	StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp	1e55a0c97d6a77a
 0	101	0	CMakeFiles/clean.additional	f279a598c276d379
-431	3869	6751171266468953	CMakeFiles/StudentInfoMSys.dir/loginwindow.cpp.obj	d7eb4afe56367d4c
-2884	3403	6750919618719328	StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp	1e55a0c97d6a77a
-11	414	6751171231989383	C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/StudentInfoMSys_autogen/mocs_compilation.cpp	4046d389ee5b6c0d
-2884	3403	6750919618719328	C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp	1e55a0c97d6a77a
+896	5860	6751650781809954	CMakeFiles/StudentInfoMSys.dir/loginwindow.cpp.obj	d7eb4afe56367d4c
+14	565	6751650728842620	C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/StudentInfoMSys_autogen/mocs_compilation.cpp	4046d389ee5b6c0d
+1478	1901	6751186638928160	C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp	1e55a0c97d6a77a
 3699	4958	6749943362198223	CMakeFiles/StudentInfoMSys_zh_CN.ts_lst_file	c23ec66f20a1c037
 3699	4958	6749943362198223	C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/StudentInfoMSys_zh_CN.ts_lst_file	c23ec66f20a1c037
-447	4057	6751171268380843	CMakeFiles/StudentInfoMSys.dir/dialog_addstudent.cpp.obj	d2497810969456cb
-10742	12136	6750919705879962	CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp.obj	42d038cdfbb4ca55
-7299	13930	6751161112767494	CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/mocs_compilation.cpp.obj	ebb75ed70366a8b3
-7360	13835	6751161110579386	CMakeFiles/StudentInfoMSys.dir/main.cpp.obj	14cc217b24688d32
-418	4836	6751171276155964	CMakeFiles/StudentInfoMSys.dir/mainwindow.cpp.obj	b04e5b94f599dae
-4837	5609	6751171283763270	StudentInfoMSys.exe	40ad277b2c006360
-102	124	0	clean	19a65460d9e09457
-473	5173	6751125568564543	CMakeFiles/StudentInfoMSys.dir/SQL/studentsql.cpp.obj	84f5dcec3df8fa91
-2	2119	6751186615145600	build.ninja	bbd1b9caf95a0b8
-58	1471	6751186634831799	StudentInfoMSys_autogen/timestamp	4046d389ee5b6c0d
-58	1471	6751186634831799	StudentInfoMSys_autogen/mocs_compilation.cpp	4046d389ee5b6c0d
-58	1471	6751186634831799	C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/StudentInfoMSys_autogen/timestamp	4046d389ee5b6c0d
-58	1471	6751186634831799	C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/StudentInfoMSys_autogen/mocs_compilation.cpp	4046d389ee5b6c0d
-1478	1901	6751186638928160	StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp	1e55a0c97d6a77a
-1478	1901	6751186638928160	C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp	1e55a0c97d6a77a
+937	6243	6751650785592795	CMakeFiles/StudentInfoMSys.dir/dialog_addstudent.cpp.obj	d2497810969456cb
 1901	12369	6751186678101283	CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp.obj	42d038cdfbb4ca55
-1937	18759	6751186807010445	CMakeFiles/StudentInfoMSys.dir/loginwindow.cpp.obj	d7eb4afe56367d4c
-1961	18837	6751186808077312	CMakeFiles/StudentInfoMSys.dir/dialog_addstudent.cpp.obj	d2497810969456cb
-1919	20346	6751186823025052	CMakeFiles/StudentInfoMSys.dir/mainwindow.cpp.obj	b04e5b94f599dae
-20346	24460	6751186856211985	StudentInfoMSys.exe	40ad277b2c006360
-29	3328	6751187219415795	CMakeFiles/StudentInfoMSys.dir/loginwindow.cpp.obj	d7eb4afe56367d4c
-13	3842	6751187224567101	CMakeFiles/StudentInfoMSys.dir/mainwindow.cpp.obj	b04e5b94f599dae
-3843	6873	6751187254895520	CMakeFiles/StudentInfoMSys.dir/dialog_addstudent.cpp.obj	d2497810969456cb
-6874	7375	6751187259629079	StudentInfoMSys.exe	40ad277b2c006360
-14	8913	6751190893009962	StudentInfoMSys_autogen/timestamp	4046d389ee5b6c0d
-14	8913	6751190893009962	StudentInfoMSys_autogen/mocs_compilation.cpp	4046d389ee5b6c0d
-14	8913	6751190893009962	C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/StudentInfoMSys_autogen/timestamp	4046d389ee5b6c0d
-14	8913	6751190893009962	C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/StudentInfoMSys_autogen/mocs_compilation.cpp	4046d389ee5b6c0d
-9221	21399	6751191022618425	CMakeFiles/StudentInfoMSys.dir/main.cpp.obj	14cc217b24688d32
-8914	21412	6751191022832517	CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/mocs_compilation.cpp.obj	ebb75ed70366a8b3
-9241	21454	6751191023310316	CMakeFiles/StudentInfoMSys.dir/loginwindow.cpp.obj	d7eb4afe56367d4c
-9261	21585	6751191024722743	CMakeFiles/StudentInfoMSys.dir/dialog_addstudent.cpp.obj	d2497810969456cb
-9198	22301	6751191029880339	CMakeFiles/StudentInfoMSys.dir/mainwindow.cpp.obj	b04e5b94f599dae
-22302	25554	6751191064256383	StudentInfoMSys.exe	40ad277b2c006360
-74	872	6751192232528001	StudentInfoMSys_autogen/timestamp	4046d389ee5b6c0d
-74	872	6751192232528001	StudentInfoMSys_autogen/mocs_compilation.cpp	4046d389ee5b6c0d
-74	872	6751192232528001	C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/StudentInfoMSys_autogen/timestamp	4046d389ee5b6c0d
-74	872	6751192232528001	C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/StudentInfoMSys_autogen/mocs_compilation.cpp	4046d389ee5b6c0d
-877	4563	6751192269381404	CMakeFiles/StudentInfoMSys.dir/loginwindow.cpp.obj	d7eb4afe56367d4c
-904	4827	6751192272033639	CMakeFiles/StudentInfoMSys.dir/dialog_addstudent.cpp.obj	d2497810969456cb
-890	5377	6751192277511341	CMakeFiles/StudentInfoMSys.dir/mainwindow.cpp.obj	b04e5b94f599dae
-5378	5947	6751192283087405	StudentInfoMSys.exe	40ad277b2c006360
-9	420	6751193928173321	StudentInfoMSys_autogen/timestamp	4046d389ee5b6c0d
-9	420	6751193928173321	StudentInfoMSys_autogen/mocs_compilation.cpp	4046d389ee5b6c0d
-9	420	6751193928173321	C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/StudentInfoMSys_autogen/timestamp	4046d389ee5b6c0d
-9	420	6751193928173321	C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/StudentInfoMSys_autogen/mocs_compilation.cpp	4046d389ee5b6c0d
-425	4426	6751193968211071	CMakeFiles/StudentInfoMSys.dir/loginwindow.cpp.obj	d7eb4afe56367d4c
-454	4703	6751193970971332	CMakeFiles/StudentInfoMSys.dir/dialog_addstudent.cpp.obj	d2497810969456cb
-439	5571	6751193979638681	CMakeFiles/StudentInfoMSys.dir/mainwindow.cpp.obj	b04e5b94f599dae
-5571	6093	6751193984683057	StudentInfoMSys.exe	40ad277b2c006360
-16	6864	6751195910955736	StudentInfoMSys_autogen/timestamp	4046d389ee5b6c0d
-16	6864	6751195910955736	StudentInfoMSys_autogen/mocs_compilation.cpp	4046d389ee5b6c0d
-16	6864	6751195910955736	C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/StudentInfoMSys_autogen/timestamp	4046d389ee5b6c0d
-16	6864	6751195910955736	C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/StudentInfoMSys_autogen/mocs_compilation.cpp	4046d389ee5b6c0d
-6870	11448	6751195956421668	CMakeFiles/StudentInfoMSys.dir/loginwindow.cpp.obj	d7eb4afe56367d4c
-6906	11767	6751195959899135	CMakeFiles/StudentInfoMSys.dir/dialog_addstudent.cpp.obj	d2497810969456cb
-6887	12908	6751195971378386	CMakeFiles/StudentInfoMSys.dir/mainwindow.cpp.obj	b04e5b94f599dae
-12909	16847	6751196010635572	StudentInfoMSys.exe	40ad277b2c006360
-35	2473	6751216159584835	StudentInfoMSys_autogen/timestamp	4046d389ee5b6c0d
-35	2473	6751216159584835	StudentInfoMSys_autogen/mocs_compilation.cpp	4046d389ee5b6c0d
-35	2473	6751216159584835	C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/StudentInfoMSys_autogen/timestamp	4046d389ee5b6c0d
-35	2473	6751216159584835	C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/StudentInfoMSys_autogen/mocs_compilation.cpp	4046d389ee5b6c0d
-2507	10500	6751216242228536	CMakeFiles/StudentInfoMSys.dir/main.cpp.obj	14cc217b24688d32
 2474	11309	6751216250388486	CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/mocs_compilation.cpp.obj	ebb75ed70366a8b3
-2493	11772	6751216250525489	CMakeFiles/StudentInfoMSys.dir/loginwindow.cpp.obj	d7eb4afe56367d4c
-2520	11794	6751216251035866	CMakeFiles/StudentInfoMSys.dir/mainwindow.cpp.obj	b04e5b94f599dae
-14	5781	6751217016475218	StudentInfoMSys_autogen/timestamp	4046d389ee5b6c0d
-14	5781	6751217016475218	StudentInfoMSys_autogen/mocs_compilation.cpp	4046d389ee5b6c0d
-14	5781	6751217016475218	C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/StudentInfoMSys_autogen/timestamp	4046d389ee5b6c0d
-14	5781	6751217016475218	C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/StudentInfoMSys_autogen/mocs_compilation.cpp	4046d389ee5b6c0d
-5805	14694	6751217106325108	CMakeFiles/StudentInfoMSys.dir/loginwindow.cpp.obj	d7eb4afe56367d4c
-6180	15033	6751217110265961	CMakeFiles/StudentInfoMSys.dir/SQL/studentsql.cpp.obj	84f5dcec3df8fa91
-5787	16058	6751217120560341	CMakeFiles/StudentInfoMSys.dir/mainwindow.cpp.obj	b04e5b94f599dae
-19	526	6751220509370218	StudentInfoMSys_autogen/timestamp	4046d389ee5b6c0d
-19	526	6751220509370218	StudentInfoMSys_autogen/mocs_compilation.cpp	4046d389ee5b6c0d
-19	526	6751220509370218	C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/StudentInfoMSys_autogen/timestamp	4046d389ee5b6c0d
-19	526	6751220509370218	C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/StudentInfoMSys_autogen/mocs_compilation.cpp	4046d389ee5b6c0d
-554	4241	6751220546445048	CMakeFiles/StudentInfoMSys.dir/loginwindow.cpp.obj	d7eb4afe56367d4c
-570	4571	6751220549815391	CMakeFiles/StudentInfoMSys.dir/dialog_addstudent.cpp.obj	d2497810969456cb
-531	5071	6751220554728752	CMakeFiles/StudentInfoMSys.dir/mainwindow.cpp.obj	b04e5b94f599dae
-5071	5700	6751220560974820	StudentInfoMSys.exe	40ad277b2c006360
-19	520	6751229436819960	StudentInfoMSys_autogen/timestamp	4046d389ee5b6c0d
-19	520	6751229436819960	StudentInfoMSys_autogen/mocs_compilation.cpp	4046d389ee5b6c0d
-19	520	6751229436819960	C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/StudentInfoMSys_autogen/timestamp	4046d389ee5b6c0d
-19	520	6751229436819960	C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/StudentInfoMSys_autogen/mocs_compilation.cpp	4046d389ee5b6c0d
-547	4985	6751229480947332	CMakeFiles/StudentInfoMSys.dir/loginwindow.cpp.obj	d7eb4afe56367d4c
+2507	10500	6751216242228536	CMakeFiles/StudentInfoMSys.dir/main.cpp.obj	14cc217b24688d32
+915	6974	6751650792986187	CMakeFiles/StudentInfoMSys.dir/mainwindow.cpp.obj	b04e5b94f599dae
+6975	8171	6751650804843879	StudentInfoMSys.exe	bb77b6f2641daf8b
+102	124	0	clean	19a65460d9e09457
 562	5136	6751229482965084	CMakeFiles/StudentInfoMSys.dir/SQL/studentsql.cpp.obj	84f5dcec3df8fa91
-613	5232	6751229483910414	CMakeFiles/StudentInfoMSys.dir/dialog_addstudent.cpp.obj	d2497810969456cb
-526	5760	6751229489203459	CMakeFiles/StudentInfoMSys.dir/mainwindow.cpp.obj	b04e5b94f599dae
-5761	7728	6751229508694980	StudentInfoMSys.exe	40ad277b2c006360
+2	2119	6751651715640263	build.ninja	bbd1b9caf95a0b8
+570	895	6751650731564780	C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp	9dc366af2918231a
+955	1813	6751650740546451	CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp.obj	6af019cfbe34cb55
+12	730	6751656385186384	StudentInfoMSys_autogen/timestamp	4046d389ee5b6c0d
+12	730	6751656385186384	StudentInfoMSys_autogen/mocs_compilation.cpp	4046d389ee5b6c0d
+12	730	6751656385186384	C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/StudentInfoMSys_autogen/timestamp	4046d389ee5b6c0d
+12	730	6751656385186384	C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/StudentInfoMSys_autogen/mocs_compilation.cpp	4046d389ee5b6c0d
+756	5532	6751656432144316	CMakeFiles/StudentInfoMSys.dir/loginwindow.cpp.obj	d7eb4afe56367d4c
+774	5900	6751656436843857	CMakeFiles/StudentInfoMSys.dir/dialog_addstudent.cpp.obj	d2497810969456cb
+734	7026	6751656447643648	CMakeFiles/StudentInfoMSys.dir/mainwindow.cpp.obj	b04e5b94f599dae
+7027	7888	6751656456580330	StudentInfoMSys.exe	bb77b6f2641daf8b
+33	3189	6751680687210827	StudentInfoMSys_autogen/timestamp	4046d389ee5b6c0d
+33	3189	6751680687210827	StudentInfoMSys_autogen/mocs_compilation.cpp	4046d389ee5b6c0d
+33	3189	6751680687210827	C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/StudentInfoMSys_autogen/timestamp	4046d389ee5b6c0d
+33	3189	6751680687210827	C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/StudentInfoMSys_autogen/mocs_compilation.cpp	4046d389ee5b6c0d
+3276	23092	6751680887480219	CMakeFiles/StudentInfoMSys.dir/dialog_addstudent.cpp.obj	d2497810969456cb
+3237	23533	6751680889221471	CMakeFiles/StudentInfoMSys.dir/loginwindow.cpp.obj	d7eb4afe56367d4c
+3256	23811	6751680896069082	CMakeFiles/StudentInfoMSys.dir/main.cpp.obj	14cc217b24688d32
+3191	23820	6751680897518709	CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/mocs_compilation.cpp.obj	ebb75ed70366a8b3
+3216	28379	6751680943695297	CMakeFiles/StudentInfoMSys.dir/mainwindow.cpp.obj	b04e5b94f599dae
+28463	34202	6751681004044944	StudentInfoMSys.exe	bb77b6f2641daf8b

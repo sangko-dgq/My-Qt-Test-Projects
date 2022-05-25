@@ -141,29 +141,53 @@ StudentInfoMSys_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentInfoMSys_autogen.dir\build.make CMakeFiles/StudentInfoMSys_autogen.dir/build
 .PHONY : StudentInfoMSys_autogen/fast
 
-StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.obj: StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp.obj
-.PHONY : StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.obj
+SQL/studentsql.obj: SQL/studentsql.cpp.obj
+.PHONY : SQL/studentsql.obj
 
 # target to build an object file
-StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentInfoMSys.dir\build.make CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp.obj
-.PHONY : StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp.obj
+SQL/studentsql.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentInfoMSys.dir\build.make CMakeFiles/StudentInfoMSys.dir/SQL/studentsql.cpp.obj
+.PHONY : SQL/studentsql.cpp.obj
 
-StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.i: StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp.i
-.PHONY : StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.i
+SQL/studentsql.i: SQL/studentsql.cpp.i
+.PHONY : SQL/studentsql.i
 
 # target to preprocess a source file
-StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentInfoMSys.dir\build.make CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp.i
-.PHONY : StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp.i
+SQL/studentsql.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentInfoMSys.dir\build.make CMakeFiles/StudentInfoMSys.dir/SQL/studentsql.cpp.i
+.PHONY : SQL/studentsql.cpp.i
 
-StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.s: StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp.s
-.PHONY : StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.s
+SQL/studentsql.s: SQL/studentsql.cpp.s
+.PHONY : SQL/studentsql.s
 
 # target to generate assembly for a file
-StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentInfoMSys.dir\build.make CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp.s
-.PHONY : StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.cpp.s
+SQL/studentsql.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentInfoMSys.dir\build.make CMakeFiles/StudentInfoMSys.dir/SQL/studentsql.cpp.s
+.PHONY : SQL/studentsql.cpp.s
+
+StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.obj: StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp.obj
+.PHONY : StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.obj
+
+# target to build an object file
+StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentInfoMSys.dir\build.make CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp.obj
+.PHONY : StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp.obj
+
+StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.i: StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp.i
+.PHONY : StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.i
+
+# target to preprocess a source file
+StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentInfoMSys.dir\build.make CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp.i
+.PHONY : StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp.i
+
+StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.s: StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp.s
+.PHONY : StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.s
+
+# target to generate assembly for a file
+StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentInfoMSys.dir\build.make CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp.s
+.PHONY : StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.cpp.s
 
 StudentInfoMSys_autogen/mocs_compilation.obj: StudentInfoMSys_autogen/mocs_compilation.cpp.obj
 .PHONY : StudentInfoMSys_autogen/mocs_compilation.obj
@@ -188,6 +212,30 @@ StudentInfoMSys_autogen/mocs_compilation.s: StudentInfoMSys_autogen/mocs_compila
 StudentInfoMSys_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentInfoMSys.dir\build.make CMakeFiles/StudentInfoMSys.dir/StudentInfoMSys_autogen/mocs_compilation.cpp.s
 .PHONY : StudentInfoMSys_autogen/mocs_compilation.cpp.s
+
+dialog_addstudent.obj: dialog_addstudent.cpp.obj
+.PHONY : dialog_addstudent.obj
+
+# target to build an object file
+dialog_addstudent.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentInfoMSys.dir\build.make CMakeFiles/StudentInfoMSys.dir/dialog_addstudent.cpp.obj
+.PHONY : dialog_addstudent.cpp.obj
+
+dialog_addstudent.i: dialog_addstudent.cpp.i
+.PHONY : dialog_addstudent.i
+
+# target to preprocess a source file
+dialog_addstudent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentInfoMSys.dir\build.make CMakeFiles/StudentInfoMSys.dir/dialog_addstudent.cpp.i
+.PHONY : dialog_addstudent.cpp.i
+
+dialog_addstudent.s: dialog_addstudent.cpp.s
+.PHONY : dialog_addstudent.s
+
+# target to generate assembly for a file
+dialog_addstudent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentInfoMSys.dir\build.make CMakeFiles/StudentInfoMSys.dir/dialog_addstudent.cpp.s
+.PHONY : dialog_addstudent.cpp.s
 
 loginwindow.obj: loginwindow.cpp.obj
 .PHONY : loginwindow.obj
@@ -271,12 +319,18 @@ help:
 	@echo ... rebuild_cache
 	@echo ... StudentInfoMSys_autogen
 	@echo ... StudentInfoMSys
-	@echo ... StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.obj
-	@echo ... StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.i
-	@echo ... StudentInfoMSys_autogen/EWIEGA46WW/qrc_res.s
+	@echo ... SQL/studentsql.obj
+	@echo ... SQL/studentsql.i
+	@echo ... SQL/studentsql.s
+	@echo ... StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.obj
+	@echo ... StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.i
+	@echo ... StudentInfoMSys_autogen/S5YYZ2ZCNV/qrc_res.s
 	@echo ... StudentInfoMSys_autogen/mocs_compilation.obj
 	@echo ... StudentInfoMSys_autogen/mocs_compilation.i
 	@echo ... StudentInfoMSys_autogen/mocs_compilation.s
+	@echo ... dialog_addstudent.obj
+	@echo ... dialog_addstudent.i
+	@echo ... dialog_addstudent.s
 	@echo ... loginwindow.obj
 	@echo ... loginwindow.i
 	@echo ... loginwindow.s

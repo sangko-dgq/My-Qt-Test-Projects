@@ -129,6 +129,9 @@ public:
 
         gridLayout_3->addWidget(widget, 2, 0, 1, 1);
 
+        QWidget::setTabOrder(le_username, le_password);
+        QWidget::setTabOrder(le_password, btn_login);
+        QWidget::setTabOrder(btn_login, btn_exit);
 
         retranslateUi(LoginWindow);
 
@@ -144,8 +147,8 @@ public:
         label_3->setText(QCoreApplication::translate("LoginWindow", "StudentInfoManager", nullptr));
         label->setText(QCoreApplication::translate("LoginWindow", "username", nullptr));
         label_2->setText(QCoreApplication::translate("LoginWindow", "password", nullptr));
-        le_password->setPlaceholderText(QCoreApplication::translate("LoginWindow", "Please enter the password...", nullptr));
-        le_username->setPlaceholderText(QCoreApplication::translate("LoginWindow", "Please enter the usename...", nullptr));
+        le_password->setPlaceholderText(QCoreApplication::translate("LoginWindow", "password...", nullptr));
+        le_username->setPlaceholderText(QCoreApplication::translate("LoginWindow", "usename...", nullptr));
         btn_login->setText(QCoreApplication::translate("LoginWindow", "Login", nullptr));
         btn_exit->setText(QCoreApplication::translate("LoginWindow", "Exit", nullptr));
     } // retranslateUi
