@@ -10,6 +10,7 @@
 #define UI_DIALOG_ADDSTUDENT_H
 
 #include <QtCore/QVariant>
+#include <QtGui/QIcon>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QGridLayout>
@@ -57,6 +58,9 @@ public:
         QFont font;
         font.setFamily(QString::fromUtf8("Fira Code"));
         Dialog_AddStudent->setFont(font);
+        QIcon icon;
+        icon.addFile(QString::fromUtf8(":/img/logo.ico"), QSize(), QIcon::Normal, QIcon::Off);
+        Dialog_AddStudent->setWindowIcon(icon);
         gridLayout = new QGridLayout(Dialog_AddStudent);
         gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
         verticalSpacer_2 = new QSpacerItem(20, 10, QSizePolicy::Minimum, QSizePolicy::Fixed);

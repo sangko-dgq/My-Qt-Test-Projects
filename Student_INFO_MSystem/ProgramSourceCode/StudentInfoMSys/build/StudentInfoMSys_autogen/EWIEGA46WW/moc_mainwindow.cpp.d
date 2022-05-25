@@ -7,6 +7,7 @@ C:/Users/22012/Desktop/Qt\ projects/Student_INFO_MSystem/ProgramSourceCode/Stude
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QFile \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QIODevice \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/QObject \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/QRandomGenerator \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qalgorithms.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qarraydata.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qatomic.h \
@@ -49,6 +50,7 @@ C:/Users/22012/Desktop/Qt\ projects/Student_INFO_MSystem/ProgramSourceCode/Stude
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qpair.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qpoint.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qprocessordetection.h \
+  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qrandom.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qrect.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qrefcount.h \
   D:/Qt5/5.15.2/mingw81_64/include/QtCore/qregexp.h \
@@ -240,6 +242,7 @@ C:/Users/22012/Desktop/Qt\ projects/Student_INFO_MSystem/ProgramSourceCode/Stude
   D:/Qt5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/numeric \
   D:/Qt5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/optional \
   D:/Qt5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream \
+  D:/Qt5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/random \
   D:/Qt5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdexcept \
   D:/Qt5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdlib.h \
   D:/Qt5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/streambuf \

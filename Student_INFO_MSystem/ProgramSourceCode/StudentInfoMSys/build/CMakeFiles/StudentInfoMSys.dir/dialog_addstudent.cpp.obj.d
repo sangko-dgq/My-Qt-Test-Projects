@@ -303,6 +303,8 @@ CMakeFiles/StudentInfoMSys.dir/dialog_addstudent.cpp.obj: \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qvariant.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qmap.h \
  D:/Qt5/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/variant \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/QIcon \
+ D:/Qt5/5.15.2/mingw81_64/include/QtGui/qicon.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/QApplication \
  D:/Qt5/5.15.2/mingw81_64/include/QtWidgets/qapplication.h \
  D:/Qt5/5.15.2/mingw81_64/include/QtCore/qcoreapplication.h \

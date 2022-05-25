@@ -479,10 +479,10 @@ void MainWindow::updateTable()
 
 void MainWindow::on_btn_remove_clicked()
 {
-    int seletedRowIndex = ui->tableWidget->currentRow();
-    if(seletedRowIndex>=0) //当前选择的行有效（有选择）
+    int selectedRowIndex = ui->tableWidget->currentRow();
+    if(selectedRowIndex>=0) //当前选择的行有效（有选择）
     {
-        int id = ui->tableWidget->item(seletedRowIndex,1)->text().toUInt();
+        int id = ui->tableWidget->item(selectedRowIndex,1)->text().toUInt();
         bool ret = m_ptrStudentSQL->removeStudent(id);
         updateTable();
         if(ret)
@@ -503,17 +503,17 @@ void MainWindow::on_btn_modify_clicked()
 
 
     StudentInfo info;
-    int seletedRowIndex = ui->tableWidget->currentRow();
-    if(seletedRowIndex>=0) //当前选择的行有效（有选择）
+    int selectedRowIndex = ui->tableWidget->currentRow();
+    if(selectedRowIndex>=0) //当前选择的行有效（有选择）
     {
-        info.id = ui->tableWidget->item(seletedRowIndex,1)->text().toUInt();
-        info.student_name = ui->tableWidget->item(seletedRowIndex,2)->text();
-        info.student_age = ui->tableWidget->item(seletedRowIndex,3)->text().toUInt();
-        info.student_grade= ui->tableWidget->item(seletedRowIndex,4)->text().toUInt();
-        info.student_class = ui->tableWidget->item(seletedRowIndex,5)->text().toUInt();
-        info.student_id= ui->tableWidget->item(seletedRowIndex,6)->text().toLong();
-        info.student_phoneNum = ui->tableWidget->item(seletedRowIndex,7)->text();
-        info.student_wechat = ui->tableWidget->item(seletedRowIndex,8)->text();
+        info.id = ui->tableWidget->item(selectedRowIndex,1)->text().toUInt();
+        info.student_name = ui->tableWidget->item(selectedRowIndex,2)->text();
+        info.student_age = ui->tableWidget->item(selectedRowIndex,3)->text().toUInt();
+        info.student_grade= ui->tableWidget->item(selectedRowIndex,4)->text().toUInt();
+        info.student_class = ui->tableWidget->item(selectedRowIndex,5)->text().toUInt();
+        info.student_id= ui->tableWidget->item(selectedRowIndex,6)->text().toLong();
+        info.student_phoneNum = ui->tableWidget->item(selectedRowIndex,7)->text();
+        info.student_wechat = ui->tableWidget->item(selectedRowIndex,8)->text();
 
         m_dialog_AddStudent.setType(false, info);//not Add mode
         m_dialog_AddStudent.exec();//模态对话框阻塞弹出
