@@ -1,7 +1,0 @@
-<RCC>
-    <qresource prefix="/">
-        <file>AquaStyle.qss</file>
-        <file>Default.qss</file>
-        <file>ElegantDark.qss</file>
-    </qresource>
-</RCC>

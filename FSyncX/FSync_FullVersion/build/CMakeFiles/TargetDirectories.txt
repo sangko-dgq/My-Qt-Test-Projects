@@ -1,4 +1,0 @@
-C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/build/CMakeFiles/FSync_FullVersion.dir
-C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/build/CMakeFiles/edit_cache.dir
-C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/build/CMakeFiles/rebuild_cache.dir
-C:/Users/22012/Desktop/Qt projects/FSyncX/FSync_FullVersion/build/CMakeFiles/FSync_FullVersion_autogen.dir

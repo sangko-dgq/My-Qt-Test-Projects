@@ -1,4 +1,0 @@
-C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/build/CMakeFiles/edit_cache.dir
-C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/build/CMakeFiles/StudentInfoMSys.dir
-C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/build/CMakeFiles/rebuild_cache.dir
-C:/Users/22012/Desktop/Qt projects/Student_INFO_MSystem/ProgramSourceCode/StudentInfoMSys/build/CMakeFiles/StudentInfoMSys_autogen.dir

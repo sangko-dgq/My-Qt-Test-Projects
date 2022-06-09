@@ -1,3 +1,0 @@
-D:\Qt5\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\FileBase.dir/objects.a
-D:\Qt5\Tools\mingw810_64\bin\ar.exe qc CMakeFiles\FileBase.dir/objects.a @CMakeFiles\FileBase.dir\objects1.rsp
-D:\Qt5\Tools\mingw810_64\bin\g++.exe -g -mwindows -Wl,--whole-archive CMakeFiles\FileBase.dir/objects.a -Wl,--no-whole-archive -o FileBase.exe -Wl,--out-implib,libFileBase.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\FileBase.dir\linklibs.rsp
