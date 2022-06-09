@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "EcParts",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "EcParts::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EcParts-Debug-a8aca53693322e5a00ba.json",
+					"name" : "EcParts",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "EcParts_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EcParts_autogen-Debug-de02119b3a4b6528209d.json",
+					"name" : "EcParts_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "EcParts_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EcParts_autogen_timestamp_deps-Debug-c0fd21464778e1061ee5.json",
+					"name" : "EcParts_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/22012/Desktop/ElectronicComponentsManagerPaltform/SourceCode/build-EcParts-Desktop_Qt_5_15_2_MinGW_64_bit-Debug",
+		"source" : "C:/Users/22012/Desktop/ElectronicComponentsManagerPaltform/SourceCode/EcParts"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,5 @@
+C:/Users/22012/Desktop/My-Qt-Test-Projects/My-Qt-Test-Projects/EcPartsManager/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+C:/Users/22012/Desktop/My-Qt-Test-Projects/My-Qt-Test-Projects/EcPartsManager/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/StudentInfoMSys.dir
+C:/Users/22012/Desktop/My-Qt-Test-Projects/My-Qt-Test-Projects/EcPartsManager/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/22012/Desktop/My-Qt-Test-Projects/My-Qt-Test-Projects/EcPartsManager/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/StudentInfoMSys_autogen_timestamp_deps.dir
+C:/Users/22012/Desktop/My-Qt-Test-Projects/My-Qt-Test-Projects/EcPartsManager/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/StudentInfoMSys_autogen.dir

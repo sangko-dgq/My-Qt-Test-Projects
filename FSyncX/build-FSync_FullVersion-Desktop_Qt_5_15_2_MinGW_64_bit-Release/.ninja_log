@@ -1,0 +1,15 @@
+# ninja log v5
+5	2800	6743954941279171	FSync_FullVersion_autogen/timestamp	9bdded93d0a512c8
+5	2800	6743954941279171	FSync_FullVersion_autogen/mocs_compilation.cpp	9bdded93d0a512c8
+5	2800	6743954941279171	C:/Users/22012/Desktop/Qt projects/FSyncX/build-FSync_FullVersion-Desktop_Qt_5_15_2_MinGW_64_bit-Release/FSync_FullVersion_autogen/timestamp	9bdded93d0a512c8
+5	2800	6743954941279171	C:/Users/22012/Desktop/Qt projects/FSyncX/build-FSync_FullVersion-Desktop_Qt_5_15_2_MinGW_64_bit-Release/FSync_FullVersion_autogen/mocs_compilation.cpp	9bdded93d0a512c8
+2802	3476	6743954947671621	FSync_FullVersion_autogen/MNQGAJHFUT/qrc_APPTheme.cpp	f04b909bdeb2cce9
+2802	3476	6743954947671621	C:/Users/22012/Desktop/Qt projects/FSyncX/build-FSync_FullVersion-Desktop_Qt_5_15_2_MinGW_64_bit-Release/FSync_FullVersion_autogen/MNQGAJHFUT/qrc_APPTheme.cpp	f04b909bdeb2cce9
+3494	4846	6743954964442007	CMakeFiles/FSync_FullVersion.dir/FSync_FullVersion_autogen/MNQGAJHFUT/qrc_APPTheme.cpp.obj	c2fb9a1862814a61
+3574	10933	6743955025480783	CMakeFiles/FSync_FullVersion.dir/APP_Base/FileBase.cpp.obj	4f44a421028cf119
+3556	11161	6743955028541356	CMakeFiles/FSync_FullVersion.dir/APP_Sync/FileWatcher.cpp.obj	ae0e0c75ba84c306
+3517	11184	6743955028541356	CMakeFiles/FSync_FullVersion.dir/main.cpp.obj	fb133df2f6270d08
+3477	11665	6743955033722740	CMakeFiles/FSync_FullVersion.dir/FSync_FullVersion_autogen/mocs_compilation.cpp.obj	131140a221caa58b
+4848	12379	6743955040898163	CMakeFiles/FSync_FullVersion.dir/APP_Sync/FileTransfer.cpp.obj	cc62ee2950f0e877
+3536	13118	6743955048266421	CMakeFiles/FSync_FullVersion.dir/MainWindow.cpp.obj	63899f3cd86bbd69
+13119	13547	6743955052480138	FSync_FullVersion.exe	9bfc2ba5db915fda

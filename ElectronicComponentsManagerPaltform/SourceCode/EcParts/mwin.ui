@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MWin</class>
+ <widget class="QMainWindow" name="MWin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MWin</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>651</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="1" column="0">
+      <widget class="QTreeWidget" name="treeWidget">
+       <property name="maximumSize">
+        <size>
+         <width>120</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <column>
+        <property name="text">
+         <string>仓库</string>
+        </property>
+       </column>
+       <item>
+        <property name="text">
+         <string>仓库</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>元器件仓库</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>项目元器件套件</string>
+         </property>
+        </item>
+       </item>
+       <item>
+        <property name="text">
+         <string>账户</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>普通用户</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>高级用户</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>管理员</string>
+         </property>
+        </item>
+       </item>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QStackedWidget" name="stackedWidget">
+       <widget class="QWidget" name="page">
+        <widget class="QTableWidget" name="tableWidget">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>531</width>
+           <height>251</height>
+          </rect>
+         </property>
+         <row>
+          <property name="text">
+           <string>1</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>序号</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>名称</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>封装</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>类型</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>库存</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>描述</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>购买源</string>
+          </property>
+         </column>
+         <item row="0" column="0">
+          <property name="text">
+           <string>1</string>
+          </property>
+         </item>
+         <item row="0" column="1">
+          <property name="text">
+           <string>10K_R0603</string>
+          </property>
+         </item>
+         <item row="0" column="2">
+          <property name="text">
+           <string>0603</string>
+          </property>
+         </item>
+         <item row="0" column="3">
+          <property name="text">
+           <string>贴片电阻</string>
+          </property>
+         </item>
+         <item row="0" column="4">
+          <property name="text">
+           <string>50</string>
+          </property>
+         </item>
+         <item row="0" column="5">
+          <property name="text">
+           <string>10K贴片电阻</string>
+          </property>
+         </item>
+         <item row="0" column="6">
+          <property name="text">
+           <string>淘宝_优信电子</string>
+          </property>
+         </item>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="page_2"/>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QWidget" name="widget" native="true">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>20</height>
+        </size>
+       </property>
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>101</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial Black</family>
+          <pointsize>14</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>EcParts</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>17</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

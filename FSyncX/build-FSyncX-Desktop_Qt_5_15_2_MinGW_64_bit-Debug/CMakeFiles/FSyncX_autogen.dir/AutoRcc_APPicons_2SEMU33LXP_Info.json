@@ -1,0 +1,26 @@
+{
+	"BUILD_DIR" : "C:/Users/22012/Desktop/Qt projects/FSyncX/build-FSyncX-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/FSyncX_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/22012/Desktop/Qt projects/FSyncX/build-FSyncX-Desktop_Qt_5_15_2_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/22012/Desktop/Qt projects/FSyncX/build-FSyncX-Desktop_Qt_5_15_2_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/22012/Desktop/FSyncX/FSyncX",
+	"CMAKE_SOURCE_DIR" : "C:/Users/22012/Desktop/FSyncX/FSyncX",
+	"INCLUDE_DIR" : "C:/Users/22012/Desktop/Qt projects/FSyncX/build-FSyncX-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/FSyncX_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Users/22012/Desktop/FSyncX/FSyncX/icons/icon_backhome.png",
+		"C:/Users/22012/Desktop/FSyncX/FSyncX/icons/icon_Exit.png",
+		"C:/Users/22012/Desktop/FSyncX/FSyncX/icons/icon_Setting.png",
+		"C:/Users/22012/Desktop/FSyncX/FSyncX/icons/app_logo.ico",
+		"C:/Users/22012/Desktop/FSyncX/FSyncX/icons/icon_HOW.png"
+	],
+	"LOCK_FILE" : "C:/Users/22012/Desktop/Qt projects/FSyncX/build-FSyncX-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/FSyncX_autogen.dir/AutoRcc_APPicons_2SEMU33LXP_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "APPicons" ],
+	"OUTPUT_CHECKSUM" : "2SEMU33LXP",
+	"OUTPUT_NAME" : "qrc_APPicons.cpp",
+	"RCC_EXECUTABLE" : "D:/Qt5/5.15.2/mingw81_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/22012/Desktop/Qt projects/FSyncX/build-FSyncX-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/FSyncX_autogen.dir/AutoRcc_APPicons_2SEMU33LXP_Used.txt",
+	"SOURCE" : "C:/Users/22012/Desktop/FSyncX/FSyncX/icons/APPicons.qrc",
+	"VERBOSITY" : 0
+}

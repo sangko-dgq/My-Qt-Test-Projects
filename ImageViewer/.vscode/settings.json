@@ -1,0 +1,24 @@
+{
+    "files.associations": {
+        "*.html": "html",
+        "*.c": "c",
+        "qmainwindow": "cpp",
+        "qfiledialog": "cpp",
+        "*.tcc": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp",
+        "system_error": "cpp",
+        "new": "cpp",
+        "chrono": "cpp",
+        "array": "cpp",
+        "string_view": "cpp",
+        "initializer_list": "cpp",
+        "utility": "cpp",
+        "qapplication": "cpp",
+        "qguiapplication": "cpp",
+        "qscreen": "cpp"
+    }
+}

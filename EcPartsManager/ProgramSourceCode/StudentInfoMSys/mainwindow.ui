@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>940</width>
+    <height>639</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>480</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>Fira Code</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>StudentInfoManager</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Resources/res.qrc">
+    <normaloff>:/img/logo.ico</normaloff>:/img/logo.ico</iconset>
+  </property>
+  <property name="toolTip">
+   <string> Student Information Management System</string>
+  </property>
+  <widget class="QWidget" name="Body">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_3">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <item row="0" column="0" colspan="2">
+     <widget class="QWidget" name="TopView" native="true">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item row="0" column="0">
+        <widget class="QWidget" name="widget_2" native="true">
+         <layout class="QGridLayout" name="gridLayout"/>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QWidget" name="widget" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>200</width>
+        <height>200</height>
+       </size>
+      </property>
+      <widget class="QTreeWidget" name="tree_leftTreePanel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>0</y>
+         <width>180</width>
+         <height>100</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>180</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <attribute name="headerVisible">
+        <bool>false</bool>
+       </attribute>
+       <column>
+        <property name="text">
+         <string>Page</string>
+        </property>
+       </column>
+       <item>
+        <property name="text">
+         <string>New Item</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>New Subitem</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>New Subitem</string>
+         </property>
+        </item>
+       </item>
+      </widget>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <widget class="QWidget" name="page">
+       <layout class="QGridLayout" name="gridLayout_4">
+        <property name="leftMargin">
+         <number>6</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item row="0" column="12">
+         <widget class="QPushButton" name="btn_serach">
+          <property name="autoFillBackground">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset resource="Resources/res.qrc">
+            <normaloff>:/img/search_white_48px.png</normaloff>:/img/search_white_48px.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>18</width>
+            <height>18</height>
+           </size>
+          </property>
+          <property name="autoRepeat">
+           <bool>false</bool>
+          </property>
+          <property name="autoExclusive">
+           <bool>false</bool>
+          </property>
+          <property name="autoDefault">
+           <bool>false</bool>
+          </property>
+          <property name="default">
+           <bool>false</bool>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="18">
+         <widget class="QPushButton" name="btn_simulation">
+          <property name="text">
+           <string>Sim</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="17">
+         <widget class="QCheckBox" name="cbox_checkAll">
+          <property name="text">
+           <string>Check All</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="18">
+         <widget class="QPushButton" name="btn_modify">
+          <property name="text">
+           <string>Modify</string>
+          </property>
+          <property name="icon">
+           <iconset resource="Resources/res.qrc">
+            <normaloff>:/img/modify_white_48px.png</normaloff>:/img/modify_white_48px.png</iconset>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="21">
+         <widget class="QPushButton" name="btn_remove">
+          <property name="text">
+           <string>Remove</string>
+          </property>
+          <property name="icon">
+           <iconset resource="Resources/res.qrc">
+            <normaloff>:/img/remove_white_48px.png</normaloff>:/img/remove_white_48px.png</iconset>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="10">
+         <widget class="QLineEdit" name="ld_serach">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QLabel" name="label_5">
+          <property name="minimumSize">
+           <size>
+            <width>10</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Total :</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="17">
+         <widget class="QPushButton" name="btn_add">
+          <property name="text">
+           <string>Add</string>
+          </property>
+          <property name="icon">
+           <iconset resource="Resources/res.qrc">
+            <normaloff>:/img/add_white_48px.png</normaloff>:/img/add_white_48px.png</iconset>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QComboBox" name="comboBox">
+          <item>
+           <property name="text">
+            <string>Type</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Res</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Cap</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>二极管</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>三极管</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>线性稳压管</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>电源管理</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="2" column="1" colspan="21">
+         <widget class="QTableWidget" name="tableWidget">
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="lineWidth">
+           <number>1</number>
+          </property>
+          <property name="alternatingRowColors">
+           <bool>false</bool>
+          </property>
+          <property name="gridStyle">
+           <enum>Qt::SolidLine</enum>
+          </property>
+          <property name="sortingEnabled">
+           <bool>false</bool>
+          </property>
+          <property name="cornerButtonEnabled">
+           <bool>true</bool>
+          </property>
+          <attribute name="horizontalHeaderVisible">
+           <bool>true</bool>
+          </attribute>
+          <attribute name="horizontalHeaderCascadingSectionResizes">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="horizontalHeaderStretchLastSection">
+           <bool>true</bool>
+          </attribute>
+          <attribute name="verticalHeaderVisible">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="verticalHeaderCascadingSectionResizes">
+           <bool>true</bool>
+          </attribute>
+          <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+           <bool>true</bool>
+          </attribute>
+          <attribute name="verticalHeaderStretchLastSection">
+           <bool>false</bool>
+          </attribute>
+          <row>
+           <property name="text">
+            <string>1</string>
+           </property>
+          </row>
+          <column>
+           <property name="text">
+            <string>ID</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Name</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Age</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Grade</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Class</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>SID</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Phone</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Wechat</string>
+           </property>
+          </column>
+          <item row="0" column="0">
+           <property name="text">
+            <string>1</string>
+           </property>
+          </item>
+          <item row="0" column="1">
+           <property name="text">
+            <string>Liu</string>
+           </property>
+          </item>
+          <item row="0" column="2">
+           <property name="text">
+            <string>24</string>
+           </property>
+          </item>
+          <item row="0" column="3">
+           <property name="text">
+            <string>5</string>
+           </property>
+          </item>
+          <item row="0" column="4">
+           <property name="text">
+            <string>004</string>
+           </property>
+          </item>
+          <item row="0" column="5">
+           <property name="text">
+            <string>170403122</string>
+           </property>
+          </item>
+          <item row="0" column="6">
+           <property name="text">
+            <string>18848362737</string>
+           </property>
+          </item>
+          <item row="0" column="7">
+           <property name="text">
+            <string>mliu2013</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="3" column="21">
+         <widget class="QPushButton" name="btn_clearUpStudent">
+          <property name="text">
+           <string>ClearUp</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="2">
+         <widget class="QLabel" name="lb_totalCount">
+          <property name="minimumSize">
+           <size>
+            <width>50</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>0</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="QComboBox" name="comboBox_2">
+          <item>
+           <property name="text">
+            <string>Footprint</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>0402</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>0603</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>0805</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>SOP-23</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_2"/>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>940</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <widget class="QMenu" name="menuExport">
+     <property name="title">
+      <string>Export</string>
+     </property>
+     <addaction name="actionexport_as_a_excel"/>
+    </widget>
+    <addaction name="menuExport"/>
+   </widget>
+   <widget class="QMenu" name="menuOption">
+    <property name="title">
+     <string>Option</string>
+    </property>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuUser">
+    <property name="title">
+     <string>User</string>
+    </property>
+    <addaction name="actionCurrent_User"/>
+   </widget>
+   <addaction name="menuOption"/>
+   <addaction name="menuFile"/>
+   <addaction name="menuUser"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionexport_as_a_excel">
+   <property name="text">
+    <string>export as a excel</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionCurrent_User">
+   <property name="text">
+    <string>Current User</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="Resources/res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

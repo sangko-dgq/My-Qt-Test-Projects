@@ -1,0 +1,29 @@
+{
+	"BUILD_DIR" : "C:/Users/22012/Desktop/My-Qt-Test-Projects/My-Qt-Test-Projects/EcPartsManager/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/StudentInfoMSys_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/22012/Desktop/My-Qt-Test-Projects/My-Qt-Test-Projects/EcPartsManager/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/22012/Desktop/My-Qt-Test-Projects/My-Qt-Test-Projects/EcPartsManager/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/22012/Desktop/My-Qt-Test-Projects/My-Qt-Test-Projects/EcPartsManager/ProgramSourceCode/StudentInfoMSys",
+	"CMAKE_SOURCE_DIR" : "C:/Users/22012/Desktop/My-Qt-Test-Projects/My-Qt-Test-Projects/EcPartsManager/ProgramSourceCode/StudentInfoMSys",
+	"INCLUDE_DIR" : "C:/Users/22012/Desktop/My-Qt-Test-Projects/My-Qt-Test-Projects/EcPartsManager/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/StudentInfoMSys_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Users/22012/Desktop/My-Qt-Test-Projects/My-Qt-Test-Projects/EcPartsManager/ProgramSourceCode/StudentInfoMSys/Resources/img/exit_48px.png",
+		"C:/Users/22012/Desktop/My-Qt-Test-Projects/My-Qt-Test-Projects/EcPartsManager/ProgramSourceCode/StudentInfoMSys/Resources/img/add_white_48px.png",
+		"C:/Users/22012/Desktop/My-Qt-Test-Projects/My-Qt-Test-Projects/EcPartsManager/ProgramSourceCode/StudentInfoMSys/Resources/img/logo.ico",
+		"C:/Users/22012/Desktop/My-Qt-Test-Projects/My-Qt-Test-Projects/EcPartsManager/ProgramSourceCode/StudentInfoMSys/Resources/img/search_white_48px.png",
+		"C:/Users/22012/Desktop/My-Qt-Test-Projects/My-Qt-Test-Projects/EcPartsManager/ProgramSourceCode/StudentInfoMSys/Resources/img/modify_white_48px.png",
+		"C:/Users/22012/Desktop/My-Qt-Test-Projects/My-Qt-Test-Projects/EcPartsManager/ProgramSourceCode/StudentInfoMSys/Resources/img/user.png",
+		"C:/Users/22012/Desktop/My-Qt-Test-Projects/My-Qt-Test-Projects/EcPartsManager/ProgramSourceCode/StudentInfoMSys/Resources/img/remove_white_48px.png",
+		"C:/Users/22012/Desktop/My-Qt-Test-Projects/My-Qt-Test-Projects/EcPartsManager/ProgramSourceCode/StudentInfoMSys/Resources/QSS/MacOS.qss"
+	],
+	"LOCK_FILE" : "C:/Users/22012/Desktop/My-Qt-Test-Projects/My-Qt-Test-Projects/EcPartsManager/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/StudentInfoMSys_autogen.dir/AutoRcc_res_S5YYZ2ZCNV_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "res" ],
+	"OUTPUT_CHECKSUM" : "S5YYZ2ZCNV",
+	"OUTPUT_NAME" : "qrc_res.cpp",
+	"RCC_EXECUTABLE" : "D:/Application/Qt/5.15.2/mingw81_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/22012/Desktop/My-Qt-Test-Projects/My-Qt-Test-Projects/EcPartsManager/ProgramSourceCode/build-StudentInfoMSys-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/StudentInfoMSys_autogen.dir/AutoRcc_res_S5YYZ2ZCNV_Used.txt",
+	"SOURCE" : "C:/Users/22012/Desktop/My-Qt-Test-Projects/My-Qt-Test-Projects/EcPartsManager/ProgramSourceCode/StudentInfoMSys/Resources/res.qrc",
+	"VERBOSITY" : 0
+}

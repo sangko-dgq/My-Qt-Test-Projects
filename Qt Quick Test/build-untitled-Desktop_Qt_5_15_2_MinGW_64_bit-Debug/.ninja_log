@@ -1,0 +1,19 @@
+# ninja log v5
+2	378	6760686402072103	untitled_autogen/timestamp	521f8569e04ca299
+2	378	6760686402072103	untitled_autogen/mocs_compilation.cpp	521f8569e04ca299
+2	378	6760686402072103	C:/Users/22012/Desktop/My-Qt-Test-Projects/My-Qt-Test-Projects/Qt Quick Test/build-untitled-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/untitled_autogen/timestamp	521f8569e04ca299
+2	378	6760686402072103	C:/Users/22012/Desktop/My-Qt-Test-Projects/My-Qt-Test-Projects/Qt Quick Test/build-untitled-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/untitled_autogen/mocs_compilation.cpp	521f8569e04ca299
+380	508	6760686404371647	untitled_autogen/EWIEGA46WW/qrc_qml.cpp	cc156653a009a165
+380	508	6760686404371647	C:/Users/22012/Desktop/My-Qt-Test-Projects/My-Qt-Test-Projects/Qt Quick Test/build-untitled-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/untitled_autogen/EWIEGA46WW/qrc_qml.cpp	cc156653a009a165
+509	675	6760686406068011	CMakeFiles/untitled.dir/untitled_autogen/mocs_compilation.cpp.obj	3c3af8a1abd0b986
+523	701	6760686406338182	CMakeFiles/untitled.dir/untitled_autogen/EWIEGA46WW/qrc_qml.cpp.obj	4a0743b2deedf9b3
+537	2814	6760686427463735	CMakeFiles/untitled.dir/main.cpp.obj	8c0959b9c847bec3
+2817	3112	6760686430344316	untitled.exe	2b977c04cc0c7d94
+25	146	6760687010703643	untitled_autogen/EWIEGA46WW/qrc_qml.cpp	cc156653a009a165
+25	146	6760687010703643	C:/Users/22012/Desktop/My-Qt-Test-Projects/My-Qt-Test-Projects/Qt Quick Test/build-untitled-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/untitled_autogen/EWIEGA46WW/qrc_qml.cpp	cc156653a009a165
+147	274	6760687012009471	CMakeFiles/untitled.dir/untitled_autogen/EWIEGA46WW/qrc_qml.cpp.obj	4a0743b2deedf9b3
+275	530	6760687014458916	untitled.exe	2b977c04cc0c7d94
+10	153	6760710205677460	untitled_autogen/EWIEGA46WW/qrc_qml.cpp	cc156653a009a165
+10	153	6760710205677460	C:/Users/22012/Desktop/My-Qt-Test-Projects/My-Qt-Test-Projects/Qt Quick Test/build-untitled-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/untitled_autogen/EWIEGA46WW/qrc_qml.cpp	cc156653a009a165
+154	417	6760710208347036	CMakeFiles/untitled.dir/untitled_autogen/EWIEGA46WW/qrc_qml.cpp.obj	4a0743b2deedf9b3
+418	739	6760710211508778	untitled.exe	2b977c04cc0c7d94

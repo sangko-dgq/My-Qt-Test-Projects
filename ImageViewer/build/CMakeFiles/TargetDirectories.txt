@@ -1,0 +1,4 @@
+C:/Users/22012/Desktop/Qt projects/ImageViewer/build/CMakeFiles/edit_cache.dir
+C:/Users/22012/Desktop/Qt projects/ImageViewer/build/CMakeFiles/ImageViewer.dir
+C:/Users/22012/Desktop/Qt projects/ImageViewer/build/CMakeFiles/rebuild_cache.dir
+C:/Users/22012/Desktop/Qt projects/ImageViewer/build/CMakeFiles/ImageViewer_autogen.dir
